@@ -103,7 +103,7 @@ export class Hints {
   show(touch: boolean, seconds = 3) {
     this.root.innerHTML = touch
       ? 'Left thumb to walk · right thumb to look · tap a door to enter'
-      : '<kbd>WASD</kbd> / arrows to walk · drag to look · <kbd>E</kbd> to enter';
+      : '<kbd>WASD</kbd> / arrows to walk · drag to look · <kbd>E</kbd> to enter · <kbd>Esc</kbd> settings';
     requestAnimationFrame(() => this.root.classList.remove('is-out'));
     setTimeout(() => this.root.classList.add('is-out'), seconds * 1000);
   }

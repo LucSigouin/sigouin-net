@@ -4,10 +4,10 @@ Same wallpaper and avatar as login_plate.py, minus the now-playing strip, so a b
 Enter button owns the screen. ENTER must match the tap ring in vybe/render-only.css.
 """
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from ls_mark import avatar
 
 W, H = 1274, 1040
 WALL = '/Users/ls/Claude-Workspace/personal/vybe-workstation/revisions/realism-v2/source/textures/mountains.jpg'
-FACE = '/Users/ls/Claude-Workspace/personal/sigouin-net/Sigouin-Hub/art/character/front.png'
 FONT = '/Users/ls/Claude-Workspace/personal/sigouin-net/site/vybe/assets/inter-400.ttf'
 OUT = '/Users/ls/Claude-Workspace/personal/sigouin-net/dev-render-only-src/login-rack.png'
 ORANGE = (255, 122, 20)  # hotter than the desk plate: the render desaturates it
@@ -24,12 +24,8 @@ def layer(fn, blur=0):
     img.alpha_composite(over.filter(ImageFilter.GaussianBlur(blur)) if blur else over)
 
 D, cx, cy = 210, W // 2, 205
-face = Image.open(FACE).convert('RGB').crop((282, 8, 452, 178)).resize((D, D), Image.LANCZOS)
-mask = Image.new('L', (D * 4, D * 4), 0)
-ImageDraw.Draw(mask).ellipse((0, 0, D * 4 - 1, D * 4 - 1), fill=255)
-mask = mask.resize((D, D), Image.LANCZOS)
 layer(lambda d: d.ellipse((cx - D // 2 - 7, cy - D // 2 - 7, cx + D // 2 + 7, cy + D // 2 + 7), fill=(255, 255, 255, 70)))
-img.paste(face, (cx - D // 2, cy - D // 2), mask)
+img.alpha_composite(avatar(D), (cx - D // 2, cy - D // 2))
 ImageDraw.Draw(img).text((cx, 395), 'Luc Sigouin', font=ImageFont.truetype(FONT, 72), fill=(245, 245, 247), anchor='mm')
 
 # Enter: amber halo, then the pill, then heavy dark text and arrow.

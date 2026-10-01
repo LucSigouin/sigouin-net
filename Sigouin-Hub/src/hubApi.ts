@@ -8,6 +8,7 @@ export interface HubApi {
   dive(): number | null;
   diveHold(k: number | null): void;
   nearest(): string | null;
+  pos(): [number, number];
   teleport(id: string): boolean;
   pauseDay(phase?: number): void;
   interactables(): { id: string; kind: string; label: string }[];

@@ -101,6 +101,7 @@ export class App {
       toggleMute: () => { this.audio.unlock(); this.audio.toggleMute(); },
       skip: () => this.showLinks(),
       travel: (id) => void this.travel(id),
+      paused: (open) => { if (this.state === 'play') this.input.enabled = !open; },
     });
     this.hud.setMuted(this.audio.muted);
     this.audio.onChange = () => this.hud.setMuted(this.audio.muted);
@@ -293,11 +294,13 @@ export class App {
     if (inp.consume('escape')) {
       if (this.card.isOpen) this.card.close();
       else if (!this.hud.mapPanel.hidden) this.hud.mapPanel.hidden = true;
+      else if (this.hud.settingsOpen) this.hud.setSettings(false);
+      else if (this.state === 'play') this.hud.setSettings(true);
     }
     if (inp.consume('e') || inp.consume('enter') || inp.consume('f')) {
-      if (this.state === 'play' && !this.card.isOpen && this.nearest) this.nearest.action();
+      if (this.state === 'play' && !this.card.isOpen && !this.hud.settingsOpen && this.nearest) this.nearest.action();
     }
-    if (inp.consume('m') && this.state === 'play') this.hud.mapPanel.hidden = !this.hud.mapPanel.hidden;
+    if (inp.consume('m') && this.state === 'play') { this.hud.setSettings(false); this.hud.mapPanel.hidden = !this.hud.mapPanel.hidden; }
     inp.clearPresses();
   }
 
@@ -533,6 +536,7 @@ export class App {
         return true;
       },
       nearest: () => this.nearest?.id ?? null,
+      pos: (): [number, number] => [this.player.pos.x, this.player.pos.z],
       debug: () => {
         const info = this.renderer.info;
         const out: Record<string, unknown> = { calls: info.render.calls, triangles: info.render.triangles, programs: info.programs?.length, textures: info.memory.textures, post: !!this.post, player: this.player.character.root.getObjectByName('player-model') ? 'model' : 'primitive' };

@@ -1,4 +1,5 @@
-// Top-right HUD (map, sound, fullscreen, graphics quality, skip to links) and the courtyard map.
+// Top-right gear and the settings panel it opens (also Esc): map, sound, full screen, graphics
+// quality, skip to links. Plus the courtyard map.
 import { el } from './overlays';
 import { BUILDINGS, SEGMENTS, FOUNTAIN, toWorld } from '../world/layout';
 import { NAMES } from '../buildings/buildings';
@@ -10,6 +11,8 @@ const ICON = {
   sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
   mute: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="m16 9.5 5 5M21 9.5l-5 5"/></svg>',
   full: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
+  quality: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg>',
+  gear: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>',
   exitFull: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>',
 };
 
@@ -18,10 +21,14 @@ export interface HudHandlers {
   toggleMute(): void;
   skip(): void;
   travel(id: BuildingId): void;
+  /** Settings opened or closed: the game pauses walking while it is open. */
+  paused(open: boolean): void;
 }
 
 export class Hud {
   root = el('div', 'hud');
+  settings = el('div', 'settings') as HTMLDivElement;
+  private gear: HTMLButtonElement;
   private mute: HTMLButtonElement;
   private full: HTMLButtonElement;
   mapPanel: HTMLDivElement;
@@ -29,34 +36,57 @@ export class Hud {
   private facing!: SVGPathElement;
 
   constructor(parent: HTMLElement, private h: HudHandlers) {
-    const btn = (label: string, html: string, cls = 'hud-btn') => {
+    const btn = (into: HTMLElement, label: string, html: string, cls: string) => {
       const b = el('button', cls, html) as HTMLButtonElement;
       b.type = 'button';
       b.setAttribute('aria-label', label);
-      b.title = label;
-      this.root.append(b);
+      into.append(b);
       return b;
     };
-    const map = btn('Map of the courtyard', ICON.map);
-    map.addEventListener('click', () => h.toggleMap());
-    this.mute = btn('Mute sound', ICON.sound);
+    this.gear = btn(this.root, 'Settings (Esc)', ICON.gear, 'hud-btn');
+    this.gear.title = 'Settings (Esc)';
+    this.gear.addEventListener('click', () => this.setSettings(true));
+
+    this.settings.hidden = true;
+    this.settings.innerHTML = '<div class="settings-card" role="dialog" aria-modal="true" aria-labelledby="settings-title"><h2 id="settings-title">Settings</h2><div class="settings-list"></div><p class="settings-foot"><kbd>Esc</kbd> to close</p></div>';
+    this.settings.addEventListener('click', (e) => { if (e.target === this.settings) this.setSettings(false); });
+    const list = this.settings.querySelector('.settings-list') as HTMLElement;
+    const row = (label: string, icon: string, value = '') => btn(list, label, `${icon}<span class="row-label">${label}</span><span class="row-value">${value}</span>`, 'settings-row');
+    const map = row('Map of the courtyard', ICON.map, '<kbd>M</kbd>');
+    map.addEventListener('click', () => { this.setSettings(false); h.toggleMap(); });
+    this.mute = row('Sound', ICON.sound, 'On');
     this.mute.addEventListener('click', () => h.toggleMute());
-    this.full = btn('Full screen', ICON.full);
+    this.full = row('Full screen', ICON.full, 'Off');
     this.full.addEventListener('click', () => this.toggleFullscreen());
     if (!document.fullscreenEnabled) this.full.hidden = true;
     document.addEventListener('fullscreenchange', () => {
       const on = !!document.fullscreenElement;
-      this.full.innerHTML = on ? ICON.exitFull : ICON.full;
-      this.full.setAttribute('aria-label', on ? 'Exit full screen' : 'Full screen');
+      this.full.querySelector('svg')!.outerHTML = on ? ICON.exitFull : ICON.full;
+      this.full.querySelector('.row-value')!.textContent = on ? 'On' : 'Off';
     });
     const tier = pickTier();
     const next = tier === 'high' ? 'medium' : 'high';
-    const quality = btn(`Graphics quality: ${tier}. Click for ${next} (reloads the page)`, tier === 'high' ? 'High' : tier === 'medium' ? 'Medium' : 'Low', 'hud-btn hud-quality');
+    const name = (t: string) => t[0].toUpperCase() + t.slice(1);
+    const quality = row('Graphics quality', ICON.quality, name(tier));
+    quality.setAttribute('aria-label', `Graphics quality: ${tier}. Switch to ${next} (reloads the page)`);
+    quality.title = `Switch to ${next} (reloads the page)`;
     quality.addEventListener('click', () => switchTier(next));
-    const skip = btn('Skip to links', '<span>Skip</span><span class="long">&nbsp;to links</span>', 'hud-btn hud-skip');
-    skip.addEventListener('click', () => h.skip());
-    parent.append(this.root);
+    const skip = btn(list, 'Skip to links', 'Skip to links', 'settings-skip');
+    skip.addEventListener('click', () => { this.setSettings(false); h.skip(); });
+    parent.append(this.root, this.settings);
     this.mapPanel = this.buildMap(parent);
+  }
+
+  get settingsOpen() { return !this.settings.hidden; }
+
+  setSettings(open: boolean) {
+    if (open === this.settingsOpen) return;
+    this.settings.hidden = !open;
+    if (open) {
+      this.mapPanel.hidden = true;
+      this.settings.querySelector<HTMLButtonElement>('.settings-row')?.focus({ preventScroll: true });
+    } else if (this.settings.contains(document.activeElement)) this.gear.focus({ preventScroll: true });
+    this.h.paused(open);
   }
 
   private toggleFullscreen() {
@@ -65,9 +95,9 @@ export class Hud {
   }
 
   setMuted(m: boolean) {
-    this.mute.innerHTML = m ? ICON.mute : ICON.sound;
-    this.mute.setAttribute('aria-label', m ? 'Turn sound on' : 'Mute sound');
-    this.mute.title = m ? 'Sound off' : 'Sound on';
+    this.mute.querySelector('svg')!.outerHTML = m ? ICON.mute : ICON.sound;
+    this.mute.querySelector('.row-value')!.textContent = m ? 'Off' : 'On';
+    this.mute.setAttribute('aria-label', m ? 'Sound: off. Turn sound on' : 'Sound: on. Mute sound');
   }
 
   private buildMap(parent: HTMLElement) {

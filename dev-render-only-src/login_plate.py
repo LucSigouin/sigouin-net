@@ -1,14 +1,14 @@
 """Renders the monitor's login screen (1920x1040) for the render-only homepage.
 
-Wallpaper: the workstation's own mountains.jpg, blurred like a lock screen. Avatar: the face
-from Luc's character sheet. Layout constants must match ENTER and PLAYER in vybe/signal.js.
+Wallpaper: the workstation's own mountains.jpg, blurred like a lock screen. Avatar: the LS
+monogram from ls_mark.py (was the character-sheet face until 2026-10-01). Layout constants must match ENTER and PLAYER in vybe/signal.js.
 """
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from ls_mark import avatar
 
 W, H = 1920, 1040
 WALL = '/Users/ls/Claude-Workspace/personal/vybe-workstation/revisions/realism-v2/source/textures/mountains.jpg'
-FACE = '/Users/ls/Claude-Workspace/personal/sigouin-net/Sigouin-Hub/art/character/front.png'
-OLD = '/Users/ls/Claude-Workspace/personal/sigouin-net/site/vybe/assets/player-background.webp'
+OLD = '/Users/ls/Claude-Workspace/personal/sigouin-net/retired/site-unused-20260925/vybe/assets/player-background.webp'
 FONT = '/Users/ls/Claude-Workspace/personal/sigouin-net/site/vybe/assets/inter-400.ttf'
 OUT = '/Users/ls/Claude-Workspace/personal/sigouin-net/dev-render-only/vybe/assets/login-background.webp'
 ORANGE = (255, 163, 78)
@@ -25,15 +25,11 @@ def overlay(draw_fn):
     draw_fn(ImageDraw.Draw(layer))
     img.alpha_composite(layer)
 
-# Avatar: the character's face in a ringed circle.
+# Avatar: the LS monogram in a ringed circle.
 D = 230
-face = Image.open(FACE).convert('RGB').crop((282, 8, 452, 178)).resize((D, D), Image.LANCZOS)
-mask = Image.new('L', (D * 4, D * 4), 0)
-ImageDraw.Draw(mask).ellipse((0, 0, D * 4 - 1, D * 4 - 1), fill=255)
-mask = mask.resize((D, D), Image.LANCZOS)
 cx, cy = 960, 330
 overlay(lambda d: d.ellipse((cx - D // 2 - 7, cy - D // 2 - 7, cx + D // 2 + 7, cy + D // 2 + 7), fill=(255, 255, 255, 70)))
-img.paste(face, (cx - D // 2, cy - D // 2), mask)
+img.alpha_composite(avatar(D), (cx - D // 2, cy - D // 2))
 
 name_font = ImageFont.truetype(FONT, 60)
 btn_font = ImageFont.truetype(FONT, 40)

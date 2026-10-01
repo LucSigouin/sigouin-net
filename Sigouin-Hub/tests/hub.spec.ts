@@ -16,8 +16,8 @@ function collectErrors(page: Page) {
 
 async function boot(page: Page) {
   await page.goto('/');
-  // The bar is tied to real loading steps and must reach 100 before the reveal.
-  await expect(page.locator('.boot-bar')).toHaveAttribute('aria-valuenow', '100', { timeout: 180_000 });
+  // The courtyard drawing is tied to real loading steps and must reach 100 before the reveal.
+  await expect(page.getByRole('progressbar', { name: 'Loading the courtyard' })).toHaveAttribute('aria-valuenow', '100', { timeout: 180_000 });
   await page.waitForFunction(() => window.__hub?.state?.() === 'play', null, { timeout: 180_000 });
   await page.evaluate(() => window.__hub.pauseDay(0));
   await expect(page.locator('#boot')).toBeHidden();
@@ -157,6 +157,7 @@ test('static links version lists every project and link @desktop', async ({ page
 test('skip to links opens the list and returns to the courtyard @desktop', async ({ page }) => {
   const errors = collectErrors(page);
   await boot(page);
+  await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Skip to links' }).click();
   await expect(page.locator('#links.is-open')).toBeVisible();
   await page.getByRole('button', { name: 'Back to the courtyard' }).click();
@@ -210,17 +211,32 @@ test('on a phone, the project card buttons take taps over the thumbsticks @mobil
   expect(errors).toEqual([]);
 });
 
-test('Space and Enter on a focused HUD button work like a click @desktop', async ({ page }) => {
+test('Esc and the gear open settings; Space and Enter on its buttons work like a click @desktop', async ({ page }) => {
   const errors = collectErrors(page);
   await boot(page);
-  const map = page.getByRole('button', { name: 'Map of the courtyard' });
+  const settings = page.locator('.settings');
   const panel = page.locator('.map-panel');
-  await expect(panel).toBeHidden();
-  await map.focus();
+  await expect(settings).toBeHidden();
+  await page.keyboard.press('Escape');
+  await expect(settings).toBeVisible();
+  // Walking is paused while settings is open: holding W goes nowhere.
+  const before = await page.evaluate(() => window.__hub.pos());
+  await page.keyboard.down('w');
+  await page.waitForTimeout(700);
+  await page.keyboard.up('w');
+  expect(await page.evaluate(() => window.__hub.pos())).toEqual(before);
+  await page.keyboard.press('Escape');
+  await expect(settings).toBeHidden();
+  const gear = page.getByRole('button', { name: 'Settings (Esc)' });
+  await gear.focus();
   await page.keyboard.press(' ');
-  await expect(panel).toBeVisible();
-  await map.focus();
+  await expect(settings).toBeVisible();
+  await page.getByRole('button', { name: 'Map of the courtyard' }).focus();
   await page.keyboard.press('Enter');
+  await expect(settings).toBeHidden();
+  await expect(panel).toBeVisible();
+  await page.keyboard.press('Escape');
   await expect(panel).toBeHidden();
+  await expect(settings).toBeHidden();
   expect(errors).toEqual([]);
 });
