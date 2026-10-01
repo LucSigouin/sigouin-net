@@ -6,7 +6,7 @@ export const PLAYER={x:740/1920,y:870/1040,width:700/1920,height:89/1040};
 export const TILES=[];
 export const ENTER={x:810/1920,y:610/1040,width:300/1920,height:84/1040};
 export async function createSignal({renderer,screen,environment,signal}){
-  const [buffer,plateBuffer,servicesBuffer]=await Promise.all(['sigz-signal.glb','login-background.webp','services-background.webp'].map(name=>fetch('/vybe/assets/'+name,{signal}).then(r=>{if(!r.ok)throw Error('Player art unavailable');return name.endsWith('.glb')?r.arrayBuffer():r.blob()})));
+  const [buffer,plateBuffer,servicesBuffer]=await Promise.all(['sigz-signal.glb','login-background.webp','services-background.webp'].map(name=>fetch('/vybe/assets/'+name+'?v=ls-20261001',{signal}).then(r=>{if(!r.ok)throw Error('Player art unavailable');return name.endsWith('.glb')?r.arrayBuffer():r.blob()})));
   const gltf=await new GLTFLoader().parseAsync(buffer,new URL('/vybe/assets/',location.href).href);
   const resources=new Set();gltf.scene.traverse(o=>{if(o.geometry)resources.add(o.geometry);if(o.material)resources.add(o.material)});
   const url=URL.createObjectURL(plateBuffer);let plate;

@@ -28,7 +28,6 @@
         animation: bootGrain .9s steps(6) infinite; }
       @keyframes bootGrain { 0% { transform: translate3d(0,0,0); } 20% { transform: translate3d(-31px,17px,0); } 40% { transform: translate3d(23px,-29px,0); } 60% { transform: translate3d(-13px,-41px,0); } 80% { transform: translate3d(37px,11px,0); } 100% { transform: translate3d(-7px,29px,0); } }
       .boot-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(22px, 4.5vh, 40px); }
-      .boot-mark { width: clamp(38px, 5vmin, 52px); height: auto; opacity: 0; transform: translateY(6px) scale(.985); animation: bootIn 1s cubic-bezier(.2,.7,.2,1) .15s forwards; filter: drop-shadow(0 6px 24px rgba(20,10,60,.35)); }
       .boot-yard { width: min(88vw, 640px); height: auto; overflow: visible; opacity: 0; animation: bootIn .9s ease .35s forwards; }
       .boot-yard use { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
       .yard-ghost use { opacity: .16; }
@@ -44,7 +43,7 @@
       #flash { position: fixed; inset: 0; z-index: 60; background: #fff; opacity: 0; pointer-events: none; }
       @media (prefers-reduced-motion: reduce) {
         .boot-blob, .boot-grain { animation: none; }
-        .boot-mark, .boot-yard, .boot-status { animation-duration: .01s; animation-delay: 0s; }
+        .boot-yard, .boot-status { animation-duration: .01s; animation-delay: 0s; }
         .yard-glow path { transition: none; }
         .boot { transition-duration: .3s; }
       }
@@ -58,12 +57,6 @@
       <div class="boot-blob b1"></div>
       <div class="boot-grain"></div>
       <div class="boot-center">
-        <svg class="boot-mark" viewBox="0 0 120 120" role="img" aria-label="LS">
-          <g fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M31 30 V86 H55" />
-            <path d="M88 41 C85 34 78 31 72 31 C64 31 58 36 58 44 C58 52 65 55 73 57.5 C82 60 89 64 89 73 C89 82 82 88 72.5 88 C65 88 59.5 84.5 57 79" />
-          </g>
-        </svg>
         <!-- The courtyard as seen from the gate, inked in as it loads: paths first, then one
              building per stretch of real progress. Each building lights its windows when done. -->
         <svg class="boot-yard" viewBox="0 0 600 192" role="progressbar" aria-label="Loading the courtyard" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
