@@ -1,0 +1,5 @@
+{
+  "requested": "gpt-6-astra",
+  "effective": "gpt-6-astra",
+  "evidence": "model field in turn_context metadata for this exact Codex session"
+}

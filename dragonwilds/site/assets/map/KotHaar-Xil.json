@@ -1,0 +1,702 @@
+[
+	{
+		"x": 205586.33,
+		"y": 228120.64,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 206602.44,
+		"y": 226862.2,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 210411.48,
+		"y": 214873.8,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 210612.4,
+		"y": 215286.89,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 213722.53,
+		"y": 236446.42,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214922.14,
+		"y": 235077.16,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218825,
+		"y": 244568.12,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220481.4,
+		"y": 209414.05,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220633.3,
+		"y": 210944.45,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221957.23,
+		"y": 211867.77,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 222526.1,
+		"y": 243571.38,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 228292.08,
+		"y": 205584.14,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 229310.28,
+		"y": 207180.58,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 241218.31,
+		"y": 218396.34,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 241928.94,
+		"y": 218112.88,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245386.45,
+		"y": 231339.06,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 273322.06,
+		"y": 190383.44,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 285845.1,
+		"y": 192809.33,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 286327.88,
+		"y": 210216.67,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 286532.62,
+		"y": 192856.11,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289795.1,
+		"y": 184959.33,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 290848.5,
+		"y": 208016.81,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 294434.8,
+		"y": 209241.72,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 295991.94,
+		"y": 210128.72,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 296494.53,
+		"y": 77488.98,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 296911.5,
+		"y": 208569.22,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298286.16,
+		"y": 176817.6,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302575.16,
+		"y": 99208.63,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306093.8,
+		"y": 179735.78,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 309399.1,
+		"y": 183701.83,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310156.34,
+		"y": 184666.44,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311549.47,
+		"y": 123309.06,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313259.47,
+		"y": 226059.03,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314282.66,
+		"y": 206806.47,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314787.53,
+		"y": 126291.875,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315085.5,
+		"y": 211593.97,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315163.03,
+		"y": 226046.25,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316557.66,
+		"y": 210702.33,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316635.6,
+		"y": 202161.45,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 320597,
+		"y": 149598.3,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 321219.3,
+		"y": 146285.1,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 323164.9,
+		"y": 65632.8,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 323660.94,
+		"y": 201234.97,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 324366.84,
+		"y": 131798.7,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 328089.75,
+		"y": 75398.43,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329412.4,
+		"y": 111161.055,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330632.5,
+		"y": 103940.12,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332243.16,
+		"y": 128253.69,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332742.1,
+		"y": 200658.44,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333315.47,
+		"y": 201483.34,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 334760.94,
+		"y": 206084.97,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 335049.12,
+		"y": 129781.484,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 353085.88,
+		"y": 50101.555,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356875.38,
+		"y": 88269.73,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 357836.25,
+		"y": 91734.75,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 357868.66,
+		"y": 44219.953,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361225.25,
+		"y": 93577.945,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361515.28,
+		"y": 95111.37,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361561.22,
+		"y": 93944.35,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 362629.72,
+		"y": 61730.76,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363599.94,
+		"y": 179816.9,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364450.53,
+		"y": 182472.81,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365577.5,
+		"y": 82044.15,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 367778.8,
+		"y": 52939.5,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 368350.88,
+		"y": 183981.62,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371177.62,
+		"y": 97258.914,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371965.38,
+		"y": 184535.36,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 372436.44,
+		"y": 96611.11,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374161.03,
+		"y": 174151.33,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 377679.62,
+		"y": 176900.17,
+		"name": "KotHaar-Xil",
+		"icon": "KotHaar-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

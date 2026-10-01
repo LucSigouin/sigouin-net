@@ -1,0 +1,43 @@
+[
+	{
+		"x": 210295,
+		"y": 34222,
+		"name": "Vannaka"
+	},
+	{
+		"x": 198589,
+		"y": 64779,
+		"name": "Rat Master",
+		"description": "Walthar Skrexis. Found in the menagerie, south-west of Vannaka."
+	},
+	{
+		"x": 198588,
+		"y": 64736,
+		"name": "Rat Master's Journal",
+		"description": "On a rock directly behind the Rat Master."
+	},
+	{
+		"x": 231642,
+		"y": 27148,
+		"name": "Hound Master",
+		"description": "Philius Rexiton. Found in the garrison dungeons, lower floors."
+	},
+	{
+		"x": 229925,
+		"y": 26075,
+		"name": "Hound Master's Journal",
+		"description": "Located in the middle cell behind the Hound Master in the garrison dungeons."
+	},
+	{
+		"x": 216840,
+		"y": 50601,
+		"name": "Summoner",
+		"description": "Lester Flament. Found in the crypts south of Vannaka, below the temple."
+	},
+	{
+		"x": 214487,
+		"y": 51970,
+		"name": "Summoner's Journal",
+		"description": "Located near the Summoner in the crypts, at the back wall."
+	}
+]

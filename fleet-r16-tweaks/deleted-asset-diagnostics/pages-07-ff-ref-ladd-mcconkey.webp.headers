@@ -1,0 +1,17 @@
+HTTP/2 200 
+date: Thu, 17 Sep 2026 15:39:55 GMT
+content-type: text/html; charset=utf-8
+content-length: 2510
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+etag: "319197c7e2d11c44d43925a594eb2564"
+content-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-robots-tag: noindex
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HUPgeM6aHCj213jDDNKFKjWuwa9hHu69h9UKe8IDStcd2WhP%2FKEUrIKZ7ShJHJxvSQC6UJgQEsIYkjHBow93bgTPJap%2BNFSKUx6sBU2VCugV5n2cr%2FKeoc28JKA8GRJYZaoKKJQ1fTpiJi%2F6PrXH2jI%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a3c934d94cc77115-YYZ
+alt-svc: h3=":443"; ma=86400
+

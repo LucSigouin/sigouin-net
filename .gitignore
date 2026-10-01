@@ -1,0 +1,60 @@
+# deps / build output
+node_modules/
+dist/
+test-results/
+playwright-report/
+__pycache__/
+*.pyc
+.DS_Store
+
+# secrets + wrangler state (caches hold the Cloudflare account id)
+.env*
+.wrangler/
+wrangler-*/
+wrangler-state*/
+
+# third-party clone with its own git history (github.com/cth9191/blender-to-web)
+blender-to-web/
+
+# generated screenshots (1.6 GB) - regenerable by the probe/test scripts
+Sigouin-Hub/probe/shots/
+Sigouin-Hub/probe/baseline/
+Sigouin-Hub/tests/screenshots/
+
+# release snapshots: full copies of the deployed site (1.7 GB). Notes + scripts stay;
+# git history is the rollback for source from here on. Snapshots remain on local disk.
+releases/*/site/
+releases/*/site-before/
+releases/*/before-site/
+.gallery-cache/
+
+# dragonwilds wiki images + map tiles (168 MB, scraped/generated, still on local disk)
+dragonwilds/site/assets/img/
+dragonwilds/site/assets/tiles/
+
+# experiment folders (closed fleet rounds, mockups, retired copies): keep reports/code, drop media
+/fleet-r*/**/*.png
+/fleet-r*/**/*.jpg
+/fleet-r*/**/*.jpeg
+/fleet-r*/**/*.webp
+/fleet-r*/**/*.avif
+/fleet-r*/**/*.gif
+/fleet-r*/**/*.mp4
+/fleet-r*/**/*.webm
+/fleet-r*/**/*.mov
+/fleet-r*/**/*.glb
+/fleet-r*/**/*.gltf
+/fleet-r*/**/*.bin
+/fleet-r*/**/*.hdr
+/fleet-r*/**/*.ktx2
+/fleet-r*/**/*.wav
+/fleet-r*/**/*.mp3
+/fleet-r*/**/*.woff2
+/retired/
+/dev-render-only/
+/dev-render-only-src/renders/
+/dev-render-only-shot.png
+/motion/**/*.mp4
+/redesign-2026/**/*.png
+/redesign-2026/**/*.jpg
+/redesign-2026/**/*.mp4

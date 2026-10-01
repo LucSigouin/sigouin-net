@@ -1,0 +1,33 @@
+/* Render-only homepage: the workstation fills one screen; no visible text, no scrolling. */
+html,body{height:100%;overflow:hidden!important;overscroll-behavior:none}
+.skip-link,.site-header,.hero-copy,.hero-shade,.world-links,.hero-foot,.mobile-explore,.content,.page-footer{display:none!important}
+.hero{position:fixed!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;max-width:none!important;margin:0!important;padding:0!important}
+.scene{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;aspect-ratio:auto!important;border:0!important;border-radius:0!important}
+.scene-poster{filter:none!important}
+body{background:#060809}
+.hero{transition:opacity .6s ease,filter .6s ease}
+.leaving .hero{opacity:0;filter:brightness(1.6) blur(6px)}
+@keyframes hub-return{from{opacity:0;filter:brightness(1.6) blur(6px);transform:scale(1.04)}to{opacity:1;filter:none;transform:none}}
+.returning .hero{animation:hub-return 1.1s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion:reduce){.returning .hero{animation-duration:.2s}}
+/* Phones held upright: the rack fills the screen and its top monitor is the way in. */
+.rack-view{display:none}
+@media (max-width:759px) and (orientation:portrait){
+  .scene{display:none!important}
+  .rack-view{display:block;position:absolute;inset:0;overflow:hidden;background:#060809}
+  .rack-frame{position:absolute;left:50%;top:0;translate:-50% 0;aspect-ratio:780/1688;width:max(100%,calc(100vh*780/1688));width:max(100%,calc(100dvh*780/1688))}
+  .rack-frame img{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .rack-open{opacity:0;transition:opacity .5s ease}
+  .rack-view.open .rack-open{opacity:1}
+  .rack-enter,.rack-door{position:absolute;padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .rack-enter{left:21.2%;top:8.3%;width:55.8%;height:21.9%;border-radius:3%}
+  .rack-door{left:20%;top:33%;width:60%;height:60%}
+  .rack-enter:focus-visible,.rack-door:focus-visible{outline:3px solid #ffa34e;outline-offset:4px}
+  .rack-ring{position:absolute;left:34.1%;top:20.4%;width:31.7%;height:3.9%;border-radius:99px;pointer-events:none;animation:rack-ping 1.8s ease-out infinite}
+}
+@keyframes rack-ping{0%{box-shadow:0 0 0 0 #ffa34ecc}70%,100%{box-shadow:0 0 0 14px #ffa34e00}}
+@media (prefers-reduced-motion:reduce){.rack-ring{animation:none;box-shadow:0 0 0 3px #ffa34e99}}
+/* The one keyboard and screen-reader way in: hidden until focused, then a visible pill. */
+.enter-hub{position:fixed;z-index:50;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));translate:-50% 0;padding:12px 22px;border-radius:999px;background:#f6f0e5;color:#0b0e10;font:600 15px/1 system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 24px rgba(0,0,0,.45)}
+.enter-hub:not(:focus){clip-path:inset(50%);width:1px;height:1px;padding:0;overflow:hidden;white-space:nowrap}
+.enter-hub:focus-visible{outline:3px solid #ffa34e;outline-offset:3px}

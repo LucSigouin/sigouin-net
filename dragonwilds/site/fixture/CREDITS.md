@@ -1,0 +1,1 @@
+RuneScape: Dragonwilds and game imagery © Jagex Ltd. Wiki text and map data © RuneScape: Dragonwilds Wiki contributors, CC BY-NC-SA 3.0. Unofficial, non-commercial fan guide.

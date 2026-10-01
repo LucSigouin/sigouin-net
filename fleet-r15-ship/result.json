@@ -1,0 +1,14 @@
+{
+  "state": "done",
+  "model": {
+    "requested": "gpt-6-astra",
+    "effective": "gpt-6-astra"
+  },
+  "functions_local_200": true,
+  "csp": "default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'",
+  "unverified": [
+    "Production deployment, custom-domain responses, and the production verify-live.sh run are reserved for the next lane after Luc gives the deploy go.",
+    "Production edge cache TTL and project compatibility settings were not tested. Local Wrangler 4.133.0 used its default compatibility date 2026-09-16.",
+    "Physical-phone and Safari behavior, full video playback, and interactive Undergrowth gameplay were not tested. Browser checks used the existing Playwright Chromium headless shell at 1440 and 390 pixels with reduced motion."
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "verified": "2026-09-17T14:03:13.100Z",
+  "images": [
+    {
+      "filename": "bbc-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-1440-scroll100-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-1440-scroll100-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-1440-scroll50-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-1440-scroll50-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll100-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll100-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll50-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "bbc-390-scroll50-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll100-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll100-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll50-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-1440-scroll50-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll100-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll100-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll50-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "livetvcan-390-scroll50-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll-20260917-poster.webp",
+      "width": 1152,
+      "height": 720,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll100-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll100-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll50-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-1440-scroll50-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll100-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll100-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll50-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigouin-390-scroll50-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll-20260917-poster.webp",
+      "width": 1152,
+      "height": 720,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll100-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll100-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll50-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-1440-scroll50-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll100-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll100-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll50-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "sigz-music-390-scroll50-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll-20260917-poster.webp",
+      "width": 1152,
+      "height": 720,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll0-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll0-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll100-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll100-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll50-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-1440-scroll50-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll0-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll0-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll100-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll100-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll50-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "teetimes-390-scroll50-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-play-20260917-poster.webp",
+      "width": 1152,
+      "height": 720,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-built-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-built-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play15s-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play15s-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play3s-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play3s-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play8s-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-play8s-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-ready-20260917.png",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-1440-scroll0-ready-20260917.webp",
+      "width": 1440,
+      "height": 900,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-built-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-built-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play15s-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play15s-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play3s-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play3s-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play8s-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-play8s-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-ready-20260917.png",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    },
+    {
+      "filename": "undergrowth-390-scroll0-ready-20260917.webp",
+      "width": 390,
+      "height": 844,
+      "complete": true
+    }
+  ],
+  "clips": [
+    {
+      "filename": "sigouin-1440-scroll-20260917.mp4",
+      "duration": 7,
+      "width": 1152,
+      "height": 720,
+      "muted": true,
+      "playbackAdvanced": true,
+      "currentTimeAtPause": 1.141011,
+      "seekedTo": 6,
+      "error": null
+    },
+    {
+      "filename": "sigz-music-1440-scroll-20260917.mp4",
+      "duration": 7,
+      "width": 1152,
+      "height": 720,
+      "muted": true,
+      "playbackAdvanced": true,
+      "currentTimeAtPause": 1.149726,
+      "seekedTo": 6,
+      "error": null
+    },
+    {
+      "filename": "teetimes-1440-scroll-20260917.mp4",
+      "duration": 7,
+      "width": 1152,
+      "height": 720,
+      "muted": true,
+      "playbackAdvanced": true,
+      "currentTimeAtPause": 1.194618,
+      "seekedTo": 6,
+      "error": null
+    },
+    {
+      "filename": "undergrowth-1440-play-20260917.mp4",
+      "duration": 7,
+      "width": 1152,
+      "height": 720,
+      "muted": true,
+      "playbackAdvanced": true,
+      "currentTimeAtPause": 1.188777,
+      "seekedTo": 6,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "allImagesDecoded": true,
+  "allClipsPlayed": true
+}

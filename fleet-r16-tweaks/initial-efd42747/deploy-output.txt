@@ -1,0 +1,15 @@
+
+ ⛅️ wrangler 4.133.0
+────────────────────
+✨ Compiled Worker successfully
+Uploading... (67/72)
+Uploading... (68/72)
+Uploading... (70/72)
+Uploading... (72/72)
+✨ Success! Uploaded 5 files (67 already uploaded) (1.61 sec)
+
+✨ Uploading _headers
+✨ Uploading Functions bundle
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://efd42747.sigouin-net.pages.dev
+Deployment URL: https://efd42747.sigouin-net.pages.dev

@@ -1,0 +1,16 @@
+{
+  "name": "tee-teetimes",
+  "url": "https://teetime.sigouin.net/api/teetimes",
+  "method": "GET",
+  "requestHeaders": {
+    "Origin": "https://sigouin.net"
+  },
+  "responseDate": "Thu, 17 Sep 2026 13:32:58 GMT",
+  "status": 200,
+  "access-control-allow-origin": "*",
+  "cache-control": "public, max-age=60",
+  "content-type": "application/json; charset=utf-8",
+  "bytes": 68328,
+  "sample": "samples/tee-teetimes-2026-09-17.json",
+  "sha256": "b3c1ce32c575a046bbfc44e117507b49c007ab3bb95b553f760f6a24f0d80523"
+}

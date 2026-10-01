@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vybe phone preview</title>
+<style>
+:root{--bg:#060809;--text:#e9e4dc;--dim:#8d948f;--amber:#ffa34e}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.4 system-ui,sans-serif;padding:clamp(1rem,3vw,2rem) clamp(1rem,4vw,3rem)}
+h1{margin:0 0 .3rem;font-size:1.4rem} p{margin:0 0 1.5rem;color:var(--dim)}
+.row{display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start}
+figure{margin:0;display:flex;flex-direction:column;gap:.5rem}
+figcaption{color:var(--dim);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.box{overflow:hidden;border-radius:18px;box-shadow:0 0 0 2px #22282c}
+iframe{border:0;display:block;transform-origin:0 0}
+</style></head>
+<body>
+<h1>The real page, at phone sizes</h1>
+<p>Each frame loads the local build (127.0.0.1:5201). Tap Enter in a frame to go into the hub. Tap the lower rack to open the door.</p>
+<div class="row">
+  <figure><figcaption>iPhone 15 · 390×844</figcaption><div class="box" style="width:293px;height:633px"><iframe src="http://127.0.0.1:5201/" width="390" height="844" style="scale:.75"></iframe></div></figure>
+  <figure><figcaption>iPhone SE · 375×667</figcaption><div class="box" style="width:281px;height:500px"><iframe src="http://127.0.0.1:5201/" width="375" height="667" style="scale:.75"></iframe></div></figure>
+  <figure><figcaption>Pixel / Pro Max · 430×932</figcaption><div class="box" style="width:323px;height:699px"><iframe src="http://127.0.0.1:5201/" width="430" height="932" style="scale:.75"></iframe></div></figure>
+  <figure><figcaption>Desktop · 1280×720 (should be unchanged)</figcaption><div class="box" style="width:640px;height:360px"><iframe src="http://127.0.0.1:5201/" width="1280" height="720" style="scale:.5"></iframe></div></figure>
+</div>
+</body></html>

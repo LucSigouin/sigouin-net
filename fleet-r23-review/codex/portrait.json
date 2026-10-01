@@ -1,0 +1,186 @@
+{
+  "state": {
+    "vybe": {
+      "mode": "still",
+      "stats": null
+    },
+    "hub": null,
+    "visibleControls": [
+      {
+        "tag": "BUTTON",
+        "id": "rack-enter",
+        "text": "",
+        "label": "Enter the hub",
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "rack-door",
+        "text": "",
+        "label": "Open the rack",
+        "href": null
+      }
+    ],
+    "videos": [],
+    "resources": [
+      {
+        "url": "https://sigouin.net/cdn-cgi/speculation",
+        "transfer": 451,
+        "encoded": 151,
+        "decoded": 151,
+        "duration": 13.199999988079071
+      },
+      {
+        "url": "https://sigouin.net/vybe/style.css",
+        "transfer": 4243,
+        "encoded": 3943,
+        "decoded": 12261,
+        "duration": 23.19999998807907
+      },
+      {
+        "url": "https://sigouin.net/vybe/signal.css?v=mobile-zoom-20260918",
+        "transfer": 2255,
+        "encoded": 1955,
+        "decoded": 5731,
+        "duration": 25.899999976158142
+      },
+      {
+        "url": "https://sigouin.net/vybe/render-only.css",
+        "transfer": 1265,
+        "encoded": 965,
+        "decoded": 2478,
+        "duration": 23.400000005960464
+      },
+      {
+        "url": "https://sigouin.net/vybe/app.js?v=perf-20260923",
+        "transfer": 3136,
+        "encoded": 2836,
+        "decoded": 7989,
+        "duration": 27
+      },
+      {
+        "url": "https://sigouin.net/vybe/render-only.js",
+        "transfer": 978,
+        "encoded": 678,
+        "decoded": 1570,
+        "duration": 27.69999998807907
+      },
+      {
+        "url": "https://sigouin.net/vybe/assets/rack-open.webp",
+        "transfer": 65050,
+        "encoded": 64750,
+        "decoded": 64750,
+        "duration": 43.099999994039536
+      },
+      {
+        "url": "https://sigouin.net/vybe/assets/rack-closed.webp",
+        "transfer": 68116,
+        "encoded": 67816,
+        "decoded": 67816,
+        "duration": 52
+      },
+      {
+        "url": "https://sigouin.net/vybe/assets/inter-400.ttf",
+        "transfer": 150812,
+        "encoded": 150512,
+        "decoded": 324820,
+        "duration": 41.400000005960464
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "start": 120
+      },
+      {
+        "name": "first-contentful-paint",
+        "start": 156
+      }
+    ],
+    "images": [
+      {
+        "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "complete": true,
+        "width": 1
+      },
+      {
+        "src": "https://sigouin.net/vybe/assets/rack-closed.webp",
+        "complete": true,
+        "width": 780
+      },
+      {
+        "src": "https://sigouin.net/vybe/assets/rack-open.webp",
+        "complete": true,
+        "width": 780
+      }
+    ],
+    "scroll": {
+      "w": 390,
+      "h": 844,
+      "iw": 390,
+      "ih": 844
+    },
+    "rackOpen": "true",
+    "enteredHub": true
+  },
+  "errors": [],
+  "responses": [
+    {
+      "url": "https://sigouin.net/",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/cdn-cgi/speculation",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/render-only.css",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/signal.css?v=mobile-zoom-20260918",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/app.js?v=perf-20260923",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/render-only.js",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/assets/rack-open.webp",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/assets/rack-closed.webp",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/assets/inter-400.ttf",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/hub/",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/cdn-cgi/speculation",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/hub/assets/index-ORes5jla.css",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/hub/assets/index-DacjnP62.js",
+      "status": 200
+    }
+  ],
+  "failures": []
+}

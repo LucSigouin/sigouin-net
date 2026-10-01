@@ -1,0 +1,227 @@
+[
+	{
+		"x": 113848,
+		"y": 133471,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 118511,
+		"y": 137407,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 114995,
+		"y": 135516,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 117844,
+		"y": 146129,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 116732,
+		"y": 145669,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 116188,
+		"y": 136926,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 116519,
+		"y": 136958,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 115523,
+		"y": 139721,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 140985,
+		"y": 148272,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 129247,
+		"y": 138328,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 134566,
+		"y": 152783,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 134760,
+		"y": 153274,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 120400,
+		"y": 151217,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 127538,
+		"y": 154746,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 127571,
+		"y": 160614,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 115360,
+		"y": 163784,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 116142,
+		"y": 170624,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 110710,
+		"y": 158250,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 113214,
+		"y": 158391,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 121262,
+		"y": 160774,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218285.15625,
+		"y": 38193.75,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218777.34375,
+		"y": 38046.09375,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218826.5625,
+		"y": 38439.84375,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218629.6875,
+		"y": 38735.15625,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218186.71875,
+		"y": 38538.28125,
+		"icon": "Gold_Ore.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

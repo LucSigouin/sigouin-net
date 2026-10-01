@@ -1,0 +1,49 @@
+{
+  "state": "done",
+  "taskId": null,
+  "model": {
+    "requested": "claude-opus-5",
+    "effective": "claude-opus-5",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/index.html",
+  "changes": [
+    "Removed exhibits Kingdom Idle and Cooking The Lads, renumbered the remaining ten 01 to 10, updated every twelve count on both pages, deleted four orphaned asset files",
+    "Removed the left rail image slivers: the SLIVERS map, the insert, and the .rail__sliver CSS. Uneven row rhythm kept",
+    "Stage media is object-fit:contain on black, the object-position crop is gone, .stage__pair images contain too. model-viewer and iframe rules unchanged"
+  ],
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/index.html",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/process/index.html",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/js/exhibits.js",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/js/hub.js",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/site/css/hub.css",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shoot.mjs",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/manifest.json",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/index-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/index-390.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/process-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/process-390.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/exhibit01-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/exhibit02-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/shots/exhibit04-390.png"
+  ],
+  "deleted": [
+    "site/assets/proc/kingdom-idle-current-state-2026-09-17.webp",
+    "site/assets/still/05-ff-crest-cooking-the-lads.webp",
+    "site/assets/still/06-ff-ref-james-cook.webp",
+    "site/assets/still/07-ff-ref-ladd-mcconkey.webp",
+    "site/.wrangler/ (empty build cache that rode along in the copy)"
+  ],
+  "verify": {
+    "cmd": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r14-build/check-hub.py /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks",
+    "exit": 0
+  },
+  "preview": "http://127.0.0.1:5193/ (python3 -m http.server left running in the Zuma terminal node)",
+  "unverified": [
+    "The rendered pages by human eye. Only my own PNG captures were reviewed.",
+    "Live API numbers: http.server does not run Cloudflare Functions, so /api/live/sigz/tracks 404s and the labelled sample fixture shows instead.",
+    "Video decode on real phone hardware. The 390 shots are desktop mobile emulation."
+  ]
+}

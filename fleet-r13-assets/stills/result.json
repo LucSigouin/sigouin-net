@@ -1,0 +1,30 @@
+{
+  "state": "done",
+  "taskId": null,
+  "model": {
+    "requested": "claude-opus-5",
+    "effective": "claude-opus-5",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/manifest.json",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/01-livetvcan-hero.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/02-gardens-homelab.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/03-sigz-waveform.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/04-teetimes-map.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/05-ff-crest-cooking-the-lads.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/06-ff-ref-james-cook.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/07-ff-ref-ladd-mcconkey.webp",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/costs.jsonl"
+  ],
+  "verify": {
+    "cmd": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/check-assets.py /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills",
+    "exit": 0
+  },
+  "unverified": [
+    "Two OpenAI calls were billed but their responses were truncated in transit, so real spend is about $0.25 not the $0.16738 in costs.jsonl. Account balance not readable.",
+    "The lime in 03-sigz-waveform.webp was judged by eye, not sampled against #C6F53C.",
+    "The gallery page render was not seen. CNVS reported the loop and browser node opened; browser screenshots are unreliable here.",
+    "Step 5 skipped: scripts/kie.mjs wants KIE_AI_API_KEY, the personal .env has KIE_API. No kie image, no TeeTimes screenshot."
+  ]
+}

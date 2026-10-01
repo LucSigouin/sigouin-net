@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "base": "https://sigouin.net/",
+  "checks": [
+    "webkit: zoom buttons, paused zoom, fit reset",
+    "webkit: exit disposes view and re-entry starts fitted",
+    "chromium: zoom buttons, paused zoom, fit reset",
+    "two-finger pinch anchors to fingers; two-finger pan; no page zoom/scroll or accidental interactions",
+    "limits, resize retains zoom, waveform/rack remain interactive, desk fixed",
+    "single-finger native scroll after pinch",
+    "chromium: exit disposes view and re-entry starts fitted"
+  ],
+  "errors": []
+}

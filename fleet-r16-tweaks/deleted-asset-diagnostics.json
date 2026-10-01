@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://sigouin.net/assets/proc/kingdom-idle-current-state-2026-09-17.webp",
+    "utc": "2026-09-17T15:39:55.755200+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 262206,
+    "sha256": "9c9902b573b9e864b754ed6b582a504577022ab01515975e526099026656a979",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: image/webp\ncontent-length: 262206\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rLnnOAMqLaTqAAoJZ6IMmQ7ZunaXzVbW2qwX3RZE0gSbXlxMIrNTS%2FnYbZ32HUWwpMFoqNdtGrfUOxchBIpFxF2UxeEbb4vmPbpDDkzScXVFVzhzAYV9sRCc0jscbQ%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\naccess-control-allow-origin: *\ncache-control: public, max-age=14400, must-revalidate\netag: \"f629d552cabe3d611096d84c7c3beb87\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nspeculation-rules: \"/cdn-cgi/speculation\"\nserver: cloudflare\naccept-ranges: bytes\ncf-cache-status: REVALIDATED\ncf-ray: a3c934d9191c1804-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://sigouin.net/assets/still/05-ff-crest-cooking-the-lads.webp",
+    "utc": "2026-09-17T15:39:55.755237+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 117776,
+    "sha256": "6b1509b65be4e35927811a7889ea3638560a37dfe8a8f0eac67f6ba4f27683af",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: image/webp\ncontent-length: 117776\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bb5NgtaKFQLHJOL%2FBXbe2swOUA%2FrDwG9FsaizReTmKNVux5L3UkmBPA4koinfpx9LCRFrmOcbRiyObkTYFpmJcKo886%2F7X5%2BkiS7LQv1i97TC3ajlCl0rh09KQ2dWA%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\naccess-control-allow-origin: *\ncache-control: public, max-age=14400, must-revalidate\netag: \"cdb1f68e78e4eadcc33079503760058c\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nspeculation-rules: \"/cdn-cgi/speculation\"\nserver: cloudflare\naccept-ranges: bytes\ncf-cache-status: REVALIDATED\ncf-ray: a3c934d90d2bdf5a-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://sigouin.net/assets/still/06-ff-ref-james-cook.webp",
+    "utc": "2026-09-17T15:39:55.772941+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 13780,
+    "sha256": "5ec9ba404bdec0b2af7cb76539dd3db7a4430b8c8fa362f9e17c534123278c94",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: image/webp\ncontent-length: 13780\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gHiqtCGdNLOyU9UyU9XqZEHgOPBtJlgfa%2BVyV2QfNP3CPRPe3uzFB7lKv8p7Z%2F2W8VskQkiziBJI5%2FVf1lUvbImhtv088UnLz3iiWstY6Pdv8vgh7OyG%2FUsX1rHYtg%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\naccess-control-allow-origin: *\ncache-control: public, max-age=14400, must-revalidate\netag: \"3ef02113bc13135cc018a4e2f1f11bf1\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nspeculation-rules: \"/cdn-cgi/speculation\"\nserver: cloudflare\naccept-ranges: bytes\ncf-cache-status: REVALIDATED\ncf-ray: a3c934d91b02ab82-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://sigouin.net/assets/still/07-ff-ref-ladd-mcconkey.webp",
+    "utc": "2026-09-17T15:39:55.749985+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 28404,
+    "sha256": "95d2472677b4631a073e0c3d4aac8a49fd57cfbd354475de48da4696af4ba7a4",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: image/webp\ncontent-length: 28404\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Kq%2FMHDNuHkuL2wPSfCOFIq8DDDV2MgGySosLDK9Trxuxm5RlYrwOqTkH6V6m1Pr%2F8AfvQ4ald5gEf2d5fSW1MsGyZBbl3tD9KRtLfSDsYLmSbqleg66fFfkgZGO1hA%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\naccess-control-allow-origin: *\ncache-control: public, max-age=14400, must-revalidate\netag: \"22d8596757b4c3f8880676200c06ac5a\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nspeculation-rules: \"/cdn-cgi/speculation\"\nserver: cloudflare\naccept-ranges: bytes\ncf-cache-status: REVALIDATED\ncf-ray: a3c934d91d45df5a-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://efd42747.sigouin-net.pages.dev/assets/proc/kingdom-idle-current-state-2026-09-17.webp",
+    "utc": "2026-09-17T15:39:55.870242+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 2510,
+    "sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: text/html; charset=utf-8\ncontent-length: 2510\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\netag: \"319197c7e2d11c44d43925a594eb2564\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nx-robots-tag: noindex\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J3H%2BhwJUQsOu4LC71lauI5wskmxmC38Ka4aVjov1kbUK2oGVebURaOuZ%2FkUnVt6HPnIklDfHso2a6xFRqeuZ0CoaY630WPxaFcZ3sS0Suld3qIANk2gfElH8kP5tlkjWLEdmxCcrIFG1cf3I8lMR7kI%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a3c934d92ecf8130-YUL\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://efd42747.sigouin-net.pages.dev/assets/still/05-ff-crest-cooking-the-lads.webp",
+    "utc": "2026-09-17T15:39:55.871750+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 2510,
+    "sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: text/html; charset=utf-8\ncontent-length: 2510\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\netag: \"319197c7e2d11c44d43925a594eb2564\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nx-robots-tag: noindex\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ffXHvaYzrx080n3a9QJqRZv7Shm8%2BH6UOYAKhIkMoGRNhqdy4wCoHUGNX2BCFwuTFXGXLXieuMgHptr4AhDGZ3UxravDWtJF7NeUKHgQ3Q%2FSq2JbcH37csOnfzvC8U6u%2BOs7ruSTpdlOOzgyUyvKwZk%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a3c934d92bfc31ac-YUL\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://efd42747.sigouin-net.pages.dev/assets/still/06-ff-ref-james-cook.webp",
+    "utc": "2026-09-17T15:39:55.821954+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 2510,
+    "sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: text/html; charset=utf-8\ncontent-length: 2510\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\netag: \"319197c7e2d11c44d43925a594eb2564\"\nlink: <https://fonts.googleapis.com>; rel=\"preconnect\", <assets/still/03-sigz-waveform.webp>; rel=\"preload\"; as=image\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nx-robots-tag: noindex\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Vr%2BSiIpxxxACV2XA3dsUaprRChUrlZfNg387uYfUptGN3MXArabR9kwyHp5Al7X51L21nz8qmmTMCteSAVDgyHIUFd6d8gX60zXrsJl5S5FEjb%2FVjp3ZwNi7Jd4sRvH3Jta0dG%2Fvlgc%2FHvM3UeRkKNo%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a3c934d9499736ac-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  },
+  {
+    "url": "https://efd42747.sigouin-net.pages.dev/assets/still/07-ff-ref-ladd-mcconkey.webp",
+    "utc": "2026-09-17T15:39:55.774345+00:00",
+    "status": "200",
+    "exit_code": 0,
+    "bytes": 2510,
+    "sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+    "headers": "HTTP/2 200 \ndate: Thu, 17 Sep 2026 15:39:55 GMT\ncontent-type: text/html; charset=utf-8\ncontent-length: 2510\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\netag: \"319197c7e2d11c44d43925a594eb2564\"\ncontent-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nx-robots-tag: noindex\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HUPgeM6aHCj213jDDNKFKjWuwa9hHu69h9UKe8IDStcd2WhP%2FKEUrIKZ7ShJHJxvSQC6UJgQEsIYkjHBow93bgTPJap%2BNFSKUx6sBU2VCugV5n2cr%2FKeoc28JKA8GRJYZaoKKJQ1fTpiJi%2F6PrXH2jI%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a3c934d94cc77115-YYZ\nalt-svc: h3=\":443\"; ma=86400\n\n"
+  }
+]

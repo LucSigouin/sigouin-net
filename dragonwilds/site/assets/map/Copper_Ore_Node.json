@@ -1,0 +1,617 @@
+[
+	{
+		"x": 26110.42,
+		"y": 86264.836,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 39609.34,
+		"y": 73983.4,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 23166.314,
+		"y": 72311.29,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 89575.875,
+		"y": 116086.266,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 135293.56,
+		"y": 111249,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 141215.53,
+		"y": 79030.46,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 222081.27,
+		"y": 48864.254,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 223161.38,
+		"y": 48691.473,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 44177.324,
+		"y": 95981.61,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 39916.21,
+		"y": 73550.26,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 144364,
+		"y": 106603.24,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 143291.38,
+		"y": 71566.586,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 66986.84,
+		"y": 123202.7,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 73208.26,
+		"y": 117744.12,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 89178.02,
+		"y": 126026.086,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 60440.625,
+		"y": 88825.27,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80123.15,
+		"y": 131589.94,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 118039.04,
+		"y": 64208.914,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 124595.31,
+		"y": 79064.48,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 72055.8,
+		"y": 117453.21,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 108465.12,
+		"y": 85130.11,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 118146.31,
+		"y": 86249.95,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 126180.414,
+		"y": 79277.34,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 126243.266,
+		"y": 78258.99,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 125202.12,
+		"y": 103873.17,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 139875.66,
+		"y": 112461.6,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 127281.06,
+		"y": 105079.89,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 143203.4,
+		"y": 90552.62,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 67196.73,
+		"y": 120130.87,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74323.97,
+		"y": 115509.945,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 61602.89,
+		"y": 80292.59,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 66856.27,
+		"y": 79192.266,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 37811.9,
+		"y": 90457.734,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 31868.787,
+		"y": 86873.07,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 21875.9,
+		"y": 90233.36,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 21200.857,
+		"y": 93576.47,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 60424.17,
+		"y": 72437.44,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49077.72,
+		"y": 106285.83,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80010.305,
+		"y": 117629.055,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 89447.88,
+		"y": 125376.16,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 91173.54,
+		"y": 121429.93,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 22928.727,
+		"y": 105924.445,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 18433.416,
+		"y": 99709.16,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49077.32,
+		"y": 106143.62,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 128899.99,
+		"y": 67740.43,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80774.49,
+		"y": 90160.4,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 110022.414,
+		"y": 102666.805,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 132490.94,
+		"y": 128597.86,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 145617.52,
+		"y": 112381.05,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 141212.39,
+		"y": 76945.766,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 141915.98,
+		"y": 78695.24,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 90156.9,
+		"y": 116925.97,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 98299.41,
+		"y": 134289.61,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 62848.875,
+		"y": 110732.22,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80183.13,
+		"y": 126004.75,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 65432.94,
+		"y": 94607.69,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 59517.918,
+		"y": 71998.33,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 124748.54,
+		"y": 92376.46,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 70784.164,
+		"y": 103145.734,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74814.28,
+		"y": 92569.85,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 221849.06,
+		"y": 49332.51,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74800.984,
+		"y": 114754.5,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 98523.7,
+		"y": 133089.73,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80485.73,
+		"y": 125467.75,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 73719.3,
+		"y": 88141.94,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 75266.23,
+		"y": 82421.65,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 222525.22,
+		"y": 49188.19,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 222556.67,
+		"y": 48608.824,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49468.664,
+		"y": 82236.23,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 84967.41,
+		"y": 89415.875,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 138875.17,
+		"y": 89832.4,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 141462.38,
+		"y": 107242.75,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 129309.29,
+		"y": 88190.12,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 132883.69,
+		"y": 92124.39,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 81287.22,
+		"y": 112518.19,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 86879.78,
+		"y": 122560.38,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74915.164,
+		"y": 91064.54,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 19594.816,
+		"y": 104825.92,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80520.16,
+		"y": 130838.42,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49725.316,
+		"y": 96110.445,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 136243.94,
+		"y": 111973.94,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 69526.516,
+		"y": 103196.4,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 71104.73,
+		"y": 115529.09,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74880.81,
+		"y": 117443.12,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 87867.34,
+		"y": 123162.14,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 101947.09,
+		"y": 133763.23,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 79754.22,
+		"y": 114617.02,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 22230.305,
+		"y": 84926.08,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49170.516,
+		"y": 91411.695,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 142470.48,
+		"y": 109055.16,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 130118.875,
+		"y": 102651.945,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 96469.9,
+		"y": 135880.34,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 78277.445,
+		"y": 114072.97,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 46832.1,
+		"y": 96506.93,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 18774.479,
+		"y": 96270.77,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 80088.32,
+		"y": 132069.62,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 48848.42,
+		"y": 92195.86,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 72759.66,
+		"y": 122176.92,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 74760.19,
+		"y": 120785.09,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 54460.496,
+		"y": 93516.75,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 50522.824,
+		"y": 93001.35,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 123224.31,
+		"y": 80522.23,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 109637.85,
+		"y": 104470.84,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 75439.39,
+		"y": 113274.27,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 79249.38,
+		"y": 119710.46,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 89122.32,
+		"y": 122193.27,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 78412.08,
+		"y": 113811.47,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 41627.37,
+		"y": 83060.78,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 120461.54,
+		"y": 85571.46,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 126443.69,
+		"y": 117745.38,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 82196.836,
+		"y": 129888.8,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 222239.62,
+		"y": 49407.668,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 60089.02,
+		"y": 71988.04,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 48177.14,
+		"y": 92847.91,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 49943.113,
+		"y": 104187.016,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 119329.164,
+		"y": 63576.277,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 96190.69,
+		"y": 132793.3,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 23243.697,
+		"y": 72032.77,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 50068.832,
+		"y": 102897.28,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 100676.664,
+		"y": 85791.96,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 109938.96,
+		"y": 108631.01,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 144623.25,
+		"y": 104338.81,
+		"name": "Copper Ore Node"
+	},
+	{
+		"x": 63720.24,
+		"y": 77879.16,
+		"name": "Copper Ore Node"
+	}
+]

@@ -1,0 +1,12 @@
+
+ ⛅️ wrangler 4.133.0
+────────────────────
+✨ Compiled Worker successfully
+Uploading... (76/76)
+✨ Success! Uploaded 0 files (76 already uploaded) (0.32 sec)
+
+✨ Uploading _headers
+✨ Uploading Functions bundle
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://9d9c5bd0.sigouin-net.pages.dev
+Deployment URL: https://9d9c5bd0.sigouin-net.pages.dev

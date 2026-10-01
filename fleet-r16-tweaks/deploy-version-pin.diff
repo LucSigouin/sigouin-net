@@ -1,0 +1,16 @@
+--- /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r16-tweaks/deploy-before-version-pin.sh	2026-09-17 11:19:04
++++ /Users/ls/Claude-Workspace/personal/sigouin-net/deploy/deploy.sh	2026-09-17 11:42:29
+@@ -18,10 +18,11 @@
+ source "$ENV_FILE"
+ set +a
+ 
+-COMMAND=(npx --yes --cache "$NPM_CACHE" wrangler pages deploy . --project-name sigouin-net --branch main)
++# Pin the version verified by the previous deploy; the registry latest tag can race publication.
++COMMAND=(npx --yes --cache "$NPM_CACHE" wrangler@4.133.0 pages deploy . --project-name sigouin-net --branch main)
+ if [ "${CONFIRM_DEPLOY:-0}" != "1" ]; then
+   printf 'Deployment not confirmed. Set CONFIRM_DEPLOY=1 to run:\n'
+-  printf 'cd "%s" && npx --yes --cache "%s" wrangler pages deploy . --project-name sigouin-net --branch main\n' "$SITE" "$NPM_CACHE"
++  printf 'cd "%s" && npx --yes --cache "%s" wrangler@4.133.0 pages deploy . --project-name sigouin-net --branch main\n' "$SITE" "$NPM_CACHE"
+   exit 1
+ fi
+ 

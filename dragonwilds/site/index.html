@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#121a18"><meta name="description" content="An independent field guide to RuneScape: Dragonwilds. Find items, follow crafting recipes, and explore resource locations across Ashenfall.">
+<title>Dragonwilds — The Field Guide</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23121a18'/%3E%3Cpath d='M32 5 52 32 32 59 12 32Z' fill='none' stroke='%23c6a66a' stroke-width='4'/%3E%3Cpath d='M32 17 40 37 32 33 24 37Z' fill='%23c6a66a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/fonts.css">
+<link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css">
+<script defer src="vendor/leaflet.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#search">Skip to item search</a>
+<header class="masthead">
+<a class="brand" href="#items" aria-label="Dragonwilds field guide home"><svg viewBox="0 0 48 58" aria-hidden="true"><path d="M24 2 45 29 24 56 3 29Z M24 11 37 29 24 47 11 29Z"/><path d="m24 17 8 21-8-5-8 5Z"/></svg><span><small>RUNESCAPE</small><strong>DRAGONWILDS</strong><em>THE FIELD GUIDE</em></span></a>
+<nav aria-label="Main navigation"><a href="#items" id="items-tab" class="active"><span>▦</span> Item compendium</a><a href="#map" id="map-tab"><span>♧</span> World map</a></nav>
+<div class="edition"><span class="live-dot"></span> ASHENFALL ARCHIVE <small>Made for the journey.</small></div>
+</header>
+<div class="workspace" id="workspace">
+<aside class="rail" id="filters" aria-label="Item filters">
+<div class="rail-title"><span>REFINE YOUR SEARCH</span><button id="reset" class="text-button">Reset</button></div>
+<div class="filter-heading">Item category <small>Select one or more</small></div><div id="categories" class="categories"></div>
+<div class="select-filter"><label for="facility">CRAFTING STATION</label><select id="facility"><option value="">All stations</option></select><label for="skill">SKILL</label><select id="skill"><option value="">All skills</option></select></div>
+<a class="map-promo" href="#map?layer=Lodestone"><span class="compass">✧</span><strong>Know the wilds.</strong><span>Find resources, vaults and your next way home.</span><b>Explore Ashenfall ↗</b></a>
+</aside>
+<main class="catalogue" id="catalogue">
+<div class="catalogue-heading"><div class="eyebrow">THE EXPLORER’S COMPANION <span> / 01</span></div><h1>A little knowledge.<br><i>A world of possibility.</i></h1><p>Find what you need. Learn how to craft it. Know where to go.</p></div>
+<div class="search-row"><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Search items, materials, equipment…" autocomplete="off" aria-label="Search all items" aria-describedby="search-help"><kbd>/</kbd></div><button id="filter-toggle" class="outline" aria-expanded="false" aria-controls="filters">Filters</button></div>
+<div class="results-meta"><div><strong id="result-count" aria-live="polite">Loading the archive…</strong><span id="search-help"> ↑ ↓ to explore · Enter to inspect</span></div><label class="sort-label">Sort <select id="sort" aria-label="Sort items"><option value="relevance">Recommended</option><option value="az">Name A–Z</option><option value="za">Name Z–A</option><option value="category">Category</option></select></label></div>
+<div id="grid" class="item-grid" aria-label="Items"></div><button id="load-more" class="outline load-more" hidden>Show more items</button>
+<div class="archive-note"><span>◇</span> The best journeys begin with a well-stocked pack.</div>
+</main>
+<aside id="detail" class="detail" aria-label="Item details"><div class="detail-empty"><span>◇</span><h2>Your next discovery</h2><p>Select an item to see recipes, materials and places to explore.</p></div></aside>
+<section class="map-view" id="map-view" hidden aria-label="Ashenfall world map">
+<aside class="map-rail"><div class="eyebrow">THE EXPLORER’S ATLAS / 02</div><h1>Ashenfall</h1><p>Leave no stone unturned.</p><label class="layer-search"><span class="sr-only">Search map layers</span><input type="search" id="layer-search" placeholder="Find a resource or place…"></label><div class="map-actions"><button id="clear-layers" class="text-button">Clear layers</button><button id="fit-map" class="text-button">View whole world ↗</button></div><div id="map-layers"></div></aside>
+<div class="map-stage"><div id="world-map"></div><div class="map-caption"><span class="live-dot"></span><span id="map-status">Preparing the atlas…</span></div><div id="map-error" class="map-error" hidden></div></div>
+</section>
+</div>
+<footer><span class="footer-mark">◇ &nbsp; AN UNOFFICIAL FIELD GUIDE</span><span id="credits">Game imagery © Jagex Ltd. Wiki text and map data: CC BY-NC-SA 3.0.</span><a href="https://dragonwilds.runescape.wiki/" target="_blank" rel="noopener">Built with the community wiki ↗</a></footer>
+<div id="toast" class="toast" role="status" hidden></div>
+</body></html>

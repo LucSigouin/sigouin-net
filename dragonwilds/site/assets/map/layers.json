@@ -1,0 +1,3712 @@
+[
+ {
+  "name": "A_Corroded_Serrated_Blade",
+  "file": "map/A_Corroded_Serrated_Blade.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "a_corroded_serrated_blade"
+  ]
+ },
+ {
+  "name": "A_Simple_Broken_Bow",
+  "file": "map/A_Simple_Broken_Bow.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "a_simple_broken_bow"
+  ]
+ },
+ {
+  "name": "Abraxus_The_Eternal",
+  "file": "map/Abraxus_The_Eternal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Abyssal_Demon",
+  "file": "map/Abyssal_Demon.json",
+  "count": 2,
+  "icon": null,
+  "items": [
+   "abyssal_ashes",
+   "abyssal_remains",
+   "abyssal_spine",
+   "ascension_shard",
+   "hard_leather",
+   "monstrous_fang"
+  ]
+ },
+ {
+  "name": "Adamantite_Ore_Node",
+  "file": "map/Adamantite_Ore_Node.json",
+  "count": 105,
+  "icon": "img/Adamant_Ore.png",
+  "items": [
+   "adamantite_ore",
+   "dragonstone"
+  ]
+ },
+ {
+  "name": "Adventurer's_Guild",
+  "file": "map/Adventurer's_Guild.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Aetheric_Fundamentals_a_Primordial_Primer",
+  "file": "map/Aetheric_Fundamentals_a_Primordial_Primer.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "aetheric_fundamentals_a_primordial_primer"
+  ]
+ },
+ {
+  "name": "Agility_Course",
+  "file": "map/Agility_Course.json",
+  "count": 6,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Air_Anima_Vent",
+  "file": "map/Air_Anima_Vent.json",
+  "count": 37,
+  "icon": "img/Air_Rune.png",
+  "items": []
+ },
+ {
+  "name": "An_Educational_Blade",
+  "file": "map/An_Educational_Blade.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "an_educational_blade"
+  ]
+ },
+ {
+  "name": "Ancient_Journal_Page",
+  "file": "map/Ancient_Journal_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ancient_Text",
+  "file": "map/Ancient_Text.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ancient_Tomes",
+  "file": "map/Ancient_Tomes.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Anima-Infused_Bark",
+  "file": "map/Anima-Infused_Bark.json",
+  "count": 394,
+  "icon": null,
+  "items": [
+   "anima_infused_bark"
+  ]
+ },
+ {
+  "name": "Anima_Tree",
+  "file": "map/Anima_Tree.json",
+  "count": 13,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Anima_Vent",
+  "file": "map/Anima_Vent.json",
+  "count": 112,
+  "icon": null,
+  "items": [
+   "wild_anima"
+  ]
+ },
+ {
+  "name": "Animal_Bone",
+  "file": "map/Animal_Bone.json",
+  "count": 7,
+  "icon": null,
+  "items": [
+   "animal_bone"
+  ]
+ },
+ {
+  "name": "Artifact_Salvage",
+  "file": "map/Artifact_Salvage.json",
+  "count": 70,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "clay_decoration",
+   "clay_vessel",
+   "garou_artifact",
+   "garou_chit",
+   "molten_glass"
+  ]
+ },
+ {
+  "name": "Ash_Tree",
+  "file": "map/Ash_Tree.json",
+  "count": 1938,
+  "icon": null,
+  "items": [
+   "ash_logs",
+   "ash_tree_seed",
+   "bird_nest"
+  ]
+ },
+ {
+  "name": "Ashien's_Watch",
+  "file": "map/Ashien's_Watch.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Astral_Anima_Vent",
+  "file": "map/Astral_Anima_Vent.json",
+  "count": 21,
+  "icon": "img/Astral_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Avisk's_Experiment_Log",
+  "file": "map/Avisk's_Experiment_Log.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Azure_Metal_Contraption",
+  "file": "map/Azure_Metal_Contraption.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "azure_metal_contraption"
+  ]
+ },
+ {
+  "name": "Badly_Scrawled_Note",
+  "file": "map/Badly_Scrawled_Note.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Barrel_Cactus",
+  "file": "map/Barrel_Cactus.json",
+  "count": 106,
+  "icon": "img/Barrel_Cactus.png",
+  "items": [
+   "barrel_cactus_seed",
+   "cactus_water"
+  ]
+ },
+ {
+  "name": "Battered_Diary",
+  "file": "map/Battered_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Beartach_-_The_Merchant",
+  "file": "map/Beartach_-_The_Merchant.json",
+  "count": 1,
+  "icon": "img/Beartach_-_The_Merchant.png",
+  "items": []
+ },
+ {
+  "name": "Bedraggled_Spellbook",
+  "file": "map/Bedraggled_Spellbook.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "bedraggled_spellbook"
+  ]
+ },
+ {
+  "name": "Bilegut",
+  "file": "map/Bilegut.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bittercap_Mushroom",
+  "file": "map/Bittercap_Mushroom.json",
+  "count": 160,
+  "icon": "img/Bittercap_Mushroom_(Map_Icon).png",
+  "items": [
+   "bittercap_mushroom"
+  ]
+ },
+ {
+  "name": "Black-plated_Tome",
+  "file": "map/Black-plated_Tome.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Black_Dragon",
+  "file": "map/Black_Dragon.json",
+  "count": 0,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Black_Knight_Guardian",
+  "file": "map/Black_Knight_Guardian.json",
+  "count": 16,
+  "icon": null,
+  "items": [
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Black_Knight_Sniper",
+  "file": "map/Black_Knight_Sniper.json",
+  "count": 16,
+  "icon": null,
+  "items": [
+   "steel_arrow",
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Black_Knight_Warrior",
+  "file": "map/Black_Knight_Warrior.json",
+  "count": 37,
+  "icon": null,
+  "items": [
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Blightscale",
+  "file": "map/Blightscale.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "a_cracked_bronze_vanity_mirror",
+   "carved_bone_animal_lure",
+   "dragon_blood",
+   "dragon_tooth",
+   "green_dragon_hide",
+   "soul_fragment"
+  ]
+ },
+ {
+  "name": "Blightwood_Root",
+  "file": "map/Blightwood_Root.json",
+  "count": 21,
+  "icon": null,
+  "items": [
+   "blightwood"
+  ]
+ },
+ {
+  "name": "Bloodblight_Cape",
+  "file": "map/Bloodblight_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "bloodblight_cape",
+   "pattern_bloodblight_cape"
+  ]
+ },
+ {
+  "name": "Bloodblight_Castle",
+  "file": "map/Bloodblight_Castle.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bloodstained_Journal",
+  "file": "map/Bloodstained_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bloodstained_Page",
+  "file": "map/Bloodstained_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bloodwood_Sap",
+  "file": "map/Bloodwood_Sap.json",
+  "count": 6,
+  "icon": null,
+  "items": [
+   "bloodwood_sap"
+  ]
+ },
+ {
+  "name": "Bloodwood_Tree",
+  "file": "map/Bloodwood_Tree.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "bloodwood_sap"
+  ]
+ },
+ {
+  "name": "Blue_Dragon",
+  "file": "map/Blue_Dragon.json",
+  "count": 3,
+  "icon": null,
+  "items": [
+   "ascension_shard",
+   "blue_dragon_scale",
+   "blue_dragonhide",
+   "dragon_blood",
+   "dragon_tooth",
+   "infernal_fragment",
+   "mount_eclipseborn_sharpbeak",
+   "mount_summerbellied_wagtail",
+   "mount_sunkissed_clawfoot"
+  ]
+ },
+ {
+  "name": "Boggs",
+  "file": "map/Boggs.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Bramblemead_Cape",
+  "file": "map/Bramblemead_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "bramblemead_cape",
+   "pattern_bramblemead_cape"
+  ]
+ },
+ {
+  "name": "Bramblemead_Locations",
+  "file": "map/Bramblemead_Locations.json",
+  "count": 6,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bug_Catcher's_Diary",
+  "file": "map/Bug_Catcher's_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Bunny_Cactus",
+  "file": "map/Bunny_Cactus.json",
+  "count": 61,
+  "icon": "img/Bunny_Cactus.png",
+  "items": [
+   "bunny_cactus_seed",
+   "cactus_steak"
+  ]
+ },
+ {
+  "name": "Buried_Treasure",
+  "file": "map/Buried_Treasure.json",
+  "count": 21,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Buried_Treasure_(Brynmoor)",
+  "file": "map/Buried_Treasure_(Brynmoor).json",
+  "count": 8,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Buried_Treasure_(Dowdun_Reach)",
+  "file": "map/Buried_Treasure_(Dowdun_Reach).json",
+  "count": 24,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Buried_Treasure_(Fellhollow)",
+  "file": "map/Buried_Treasure_(Fellhollow).json",
+  "count": 21,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Buried_Treasure_(Ghornfell)",
+  "file": "map/Buried_Treasure_(Ghornfell).json",
+  "count": 17,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Buried_Treasure_(Umbral_Sands)",
+  "file": "map/Buried_Treasure_(Umbral_Sands).json",
+  "count": 28,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Cabbage",
+  "file": "map/Cabbage.json",
+  "count": 230,
+  "icon": null,
+  "items": [
+   "cabbage"
+  ]
+ },
+ {
+  "name": "Cadavaberry_Bush",
+  "file": "map/Cadavaberry_Bush.json",
+  "count": 58,
+  "icon": null,
+  "items": [
+   "cadavaberries",
+   "cadavaberry_seeds"
+  ]
+ },
+ {
+  "name": "Captain_Rainer's_Journal",
+  "file": "map/Captain_Rainer's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Caratacus",
+  "file": "map/Caratacus.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Carnivorous_Chinchompa",
+  "file": "map/Carnivorous_Chinchompa.json",
+  "count": 20,
+  "icon": null,
+  "items": [
+   "burnt_flank",
+   "soft_animal_fur"
+  ]
+ },
+ {
+  "name": "Cathan's_Journal",
+  "file": "map/Cathan's_Journal.json",
+  "count": 2,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Cathan's_Note",
+  "file": "map/Cathan's_Note.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Chaktan_Kara",
+  "file": "map/Chaktan_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Chasm_Dash",
+  "file": "map/Chasm_Dash.json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Chef's_Journal",
+  "file": "map/Chef's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Chewed_Doodle-Covered_Journal",
+  "file": "map/Chewed_Doodle-Covered_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Chicken",
+  "file": "map/Chicken.json",
+  "count": 70,
+  "icon": null,
+  "items": [
+   "egg",
+   "feathers",
+   "raw_bird_meat"
+  ]
+ },
+ {
+  "name": "Child\u2019s_Storybook",
+  "file": "map/Child\u2019s_Storybook.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Chinchompa",
+  "file": "map/Chinchompa.json",
+  "count": 26,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "raw_rat_meat",
+   "soft_animal_fur"
+  ]
+ },
+ {
+  "name": "Clay_Node",
+  "file": "map/Clay_Node.json",
+  "count": 63,
+  "icon": null,
+  "items": [
+   "clay"
+  ]
+ },
+ {
+  "name": "Coal_Node",
+  "file": "map/Coal_Node.json",
+  "count": 342,
+  "icon": "img/Coal.png",
+  "items": [
+   "coal",
+   "diamond"
+  ]
+ },
+ {
+  "name": "Coclear_Malificarum",
+  "file": "map/Coclear_Malificarum.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "coclear_malificarum"
+  ]
+ },
+ {
+  "name": "Contact!",
+  "file": "map/Contact!.json",
+  "count": 9,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Copper_Ore_Node",
+  "file": "map/Copper_Ore_Node.json",
+  "count": 123,
+  "icon": null,
+  "items": [
+   "copper_ore",
+   "opal"
+  ]
+ },
+ {
+  "name": "Corpse_Cotton_Plant",
+  "file": "map/Corpse_Cotton_Plant.json",
+  "count": 62,
+  "icon": null,
+  "items": [
+   "corpse_cotton",
+   "corpse_cotton_seeds"
+  ]
+ },
+ {
+  "name": "Corrupted_Raven",
+  "file": "map/Corrupted_Raven.json",
+  "count": 10,
+  "icon": null,
+  "items": [
+   "corrupted_essence_sample",
+   "feathers"
+  ]
+ },
+ {
+  "name": "Cow",
+  "file": "map/Cow.json",
+  "count": 18,
+  "icon": null,
+  "items": [
+   "animal_bone",
+   "animal_hide",
+   "raw_farm_meat",
+   "weeds"
+  ]
+ },
+ {
+  "name": "Cow_(Cook's_Assistant)",
+  "file": "map/Cow_(Cook's_Assistant).json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Crasorak_Kara",
+  "file": "map/Crasorak_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Crumbling_Well",
+  "file": "map/Crumbling_Well.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "ghostspeak_amulet"
+  ]
+ },
+ {
+  "name": "Crystal_Tree",
+  "file": "map/Crystal_Tree.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Curly",
+  "file": "map/Curly.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Death",
+  "file": "map/Death.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Deer",
+  "file": "map/Deer.json",
+  "count": 95,
+  "icon": null,
+  "items": [
+   "animal_bone",
+   "animal_hide",
+   "antler",
+   "raw_game_meat"
+  ]
+ },
+ {
+  "name": "Delrom",
+  "file": "map/Delrom.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "ash_pile"
+  ]
+ },
+ {
+  "name": "Desert_Devil_Kebbit",
+  "file": "map/Desert_Devil_Kebbit.json",
+  "count": 99,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Desert_Weed",
+  "file": "map/Desert_Weed.json",
+  "count": 106,
+  "icon": "img/Desert_Weed_(plant).png",
+  "items": [
+   "desert_weed"
+  ]
+ },
+ {
+  "name": "Dire_Wolf",
+  "file": "map/Dire_Wolf.json",
+  "count": 10,
+  "icon": null,
+  "items": [
+   "animal_hide",
+   "dire_wolf_hide",
+   "raw_bestial_meat",
+   "small_animal_fang",
+   "soft_animal_fur"
+  ]
+ },
+ {
+  "name": "Doctor_Fenkenstrain",
+  "file": "map/Doctor_Fenkenstrain.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dog_Days",
+  "file": "map/Dog_Days.json",
+  "count": 4,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Domri_-_The_Merchant",
+  "file": "map/Domri_-_The_Merchant.json",
+  "count": 1,
+  "icon": "img/Domri_-_The_Merchant.png",
+  "items": []
+ },
+ {
+  "name": "Dragon-embossed_Journal",
+  "file": "map/Dragon-embossed_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragon_Shrine",
+  "file": "map/Dragon_Shrine.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragon_Slayer",
+  "file": "map/Dragon_Slayer.json",
+  "count": 16,
+  "icon": "img/Inventory_Interface_-_Primary_quest_item.png",
+  "items": []
+ },
+ {
+  "name": "Dragon_Tooth",
+  "file": "map/Dragon_Tooth.json",
+  "count": 6,
+  "icon": null,
+  "items": [
+   "dragon_tooth"
+  ]
+ },
+ {
+  "name": "Dragon_Wolf",
+  "file": "map/Dragon_Wolf.json",
+  "count": 33,
+  "icon": null,
+  "items": [
+   "dragon_blood",
+   "dragonwolf_hide",
+   "naphtha"
+  ]
+ },
+ {
+  "name": "Dragonkin_Diary_Page",
+  "file": "map/Dragonkin_Diary_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragonkin_Journal",
+  "file": "map/Dragonkin_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragonkin_Journal_Page",
+  "file": "map/Dragonkin_Journal_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragonkin_Notebook_Page",
+  "file": "map/Dragonkin_Notebook_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dragonscorched_Ledger",
+  "file": "map/Dragonscorched_Ledger.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Druid's_Memoirs",
+  "file": "map/Druid's_Memoirs.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Duke's_Diary",
+  "file": "map/Duke's_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dust-Covered_Diary",
+  "file": "map/Dust-Covered_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dusty_Tome",
+  "file": "map/Dusty_Tome.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Dwellberry_Bush",
+  "file": "map/Dwellberry_Bush.json",
+  "count": 1716,
+  "icon": null,
+  "items": [
+   "dwellberries",
+   "dwellberry_seeds"
+  ]
+ },
+ {
+  "name": "Earth_Anima_Vent",
+  "file": "map/Earth_Anima_Vent.json",
+  "count": 39,
+  "icon": "img/Earth_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Edna",
+  "file": "map/Edna.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Elder's_Storybook_Page",
+  "file": "map/Elder's_Storybook_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Eleanor_Scathe's_Diary",
+  "file": "map/Eleanor_Scathe's_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Elite_Black_Knight",
+  "file": "map/Elite_Black_Knight.json",
+  "count": 11,
+  "icon": null,
+  "items": [
+   "mount_eclipseborn_sharpbeak",
+   "mount_summerbellied_wagtail",
+   "mount_sunkissed_clawfoot",
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Entomologist\u2019s_Journal",
+  "file": "map/Entomologist\u2019s_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Eventide_-_A_New_Spawn",
+  "file": "map/Eventide_-_A_New_Spawn.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "eventide_a_new_spawn"
+  ]
+ },
+ {
+  "name": "Everburning_Book",
+  "file": "map/Everburning_Book.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Experiment_Log",
+  "file": "map/Experiment_Log.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Exploding_Plant_Trap",
+  "file": "map/Exploding_Plant_Trap.json",
+  "count": 59,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Farmer_Fred's_Journal",
+  "file": "map/Farmer_Fred's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Fell_Cape",
+  "file": "map/Fell_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "pattern_fell_cape"
+  ]
+ },
+ {
+  "name": "Fibrous_Pipe_Cactus",
+  "file": "map/Fibrous_Pipe_Cactus.json",
+  "count": 57,
+  "icon": "img/Fibrous_Pipe_Cactus_(plant).png",
+  "items": [
+   "fibrous_pipe_cactus"
+  ]
+ },
+ {
+  "name": "Fido",
+  "file": "map/Fido.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Fight_Cave",
+  "file": "map/Fight_Cave.json",
+  "count": 1,
+  "icon": "img/Fight_Cave_Icon.png",
+  "items": []
+ },
+ {
+  "name": "Fire_Anima_Vent",
+  "file": "map/Fire_Anima_Vent.json",
+  "count": 30,
+  "icon": "img/Fire_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Flax",
+  "file": "map/Flax.json",
+  "count": 30,
+  "icon": null,
+  "items": [
+   "flax"
+  ]
+ },
+ {
+  "name": "Food_&_Drink_Salvage",
+  "file": "map/Food_&_Drink_Salvage.json",
+  "count": 22,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "arcane_infusion",
+   "cadavaberry_infusion",
+   "cheeky_fryup",
+   "dwellberry_infusion",
+   "evasive_infusion",
+   "ferocious_infusion",
+   "fleet_footed_infusion",
+   "food_drink_salvage",
+   "forager_s_sandwich",
+   "fruit_pie",
+   "glazed_pumpkin_sandwich",
+   "maple_infusion",
+   "maple_toastie",
+   "meat_sandwich",
+   "meat_twist_sandwich",
+   "mixed_grill",
+   "pumpkin_spice_infusion",
+   "pungent_omelette",
+   "redberry_infusion",
+   "relentless_infusion",
+   "roast_dinner",
+   "steak_n_eggs",
+   "steak_sandwich",
+   "sweet_veg_ball",
+   "vegan_fryup"
+  ]
+ },
+ {
+  "name": "Forgotten_Diary",
+  "file": "map/Forgotten_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Fractured_Cape",
+  "file": "map/Fractured_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "fractured_cape",
+   "pattern_fractured_cape"
+  ]
+ },
+ {
+  "name": "Fractured_Ruins",
+  "file": "map/Fractured_Ruins.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Fractured_Ruins_(Agility_Course)",
+  "file": "map/Fractured_Ruins_(Agility_Course).json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Garou_Arms",
+  "file": "map/Garou_Arms.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "garou_arms"
+  ]
+ },
+ {
+  "name": "Garou_Berserker",
+  "file": "map/Garou_Berserker.json",
+  "count": 115,
+  "icon": null,
+  "items": [
+   "garou_pack",
+   "remnants_of_a_shattered_skull"
+  ]
+ },
+ {
+  "name": "Garou_Druid",
+  "file": "map/Garou_Druid.json",
+  "count": 25,
+  "icon": null,
+  "items": [
+   "a_mysterious_crescent_carving",
+   "druid_s_bandosian_amulet",
+   "garou_pack"
+  ]
+ },
+ {
+  "name": "Garou_Hunter",
+  "file": "map/Garou_Hunter.json",
+  "count": 52,
+  "icon": null,
+  "items": [
+   "a_string_of_sinew",
+   "garou_pack",
+   "shrapnel"
+  ]
+ },
+ {
+  "name": "Garou_King",
+  "file": "map/Garou_King.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "a_brutal_bladehead",
+   "garou_pack",
+   "tainted_king_s_token"
+  ]
+ },
+ {
+  "name": "Garou_Lightning_Berserker",
+  "file": "map/Garou_Lightning_Berserker.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Garou_Thane",
+  "file": "map/Garou_Thane.json",
+  "count": 18,
+  "icon": null,
+  "items": [
+   "a_brutal_bladehead",
+   "garou_pack"
+  ]
+ },
+ {
+  "name": "Garou_Writings",
+  "file": "map/Garou_Writings.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Getting_Started",
+  "file": "map/Getting_Started.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Giant_Rat",
+  "file": "map/Giant_Rat.json",
+  "count": 55,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "coarse_animal_fur",
+   "raw_rat_meat",
+   "small_animal_fang"
+  ]
+ },
+ {
+  "name": "Glass_Owl",
+  "file": "map/Glass_Owl.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "glass_owl"
+  ]
+ },
+ {
+  "name": "Gnasher",
+  "file": "map/Gnasher.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Goat",
+  "file": "map/Goat.json",
+  "count": 86,
+  "icon": "img/Goat.png",
+  "items": [
+   "animal_hide",
+   "fleece",
+   "ram_horn",
+   "raw_farm_meat"
+  ]
+ },
+ {
+  "name": "Goblin_Archer",
+  "file": "map/Goblin_Archer.json",
+  "count": 49,
+  "icon": null,
+  "items": [
+   "goblin_pack"
+  ]
+ },
+ {
+  "name": "Goblin_Bruiser",
+  "file": "map/Goblin_Bruiser.json",
+  "count": 10,
+  "icon": null,
+  "items": [
+   "a_cruel_goblin_blade",
+   "goblin_pack"
+  ]
+ },
+ {
+  "name": "Goblin_Diplomacy",
+  "file": "map/Goblin_Diplomacy.json",
+  "count": 6,
+  "icon": "img/Secondary_quest_marker_icon.png",
+  "items": []
+ },
+ {
+  "name": "Goblin_Legs",
+  "file": "map/Goblin_Legs.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "goblin_legs"
+  ]
+ },
+ {
+  "name": "Goblin_Runt",
+  "file": "map/Goblin_Runt.json",
+  "count": 10,
+  "icon": null,
+  "items": [
+   "goblin_pack"
+  ]
+ },
+ {
+  "name": "Goblin_Warrior",
+  "file": "map/Goblin_Warrior.json",
+  "count": 47,
+  "icon": null,
+  "items": [
+   "a_cruel_goblin_blade",
+   "goblin_pack"
+  ]
+ },
+ {
+  "name": "Goblins_of_da_Reach_Unite!",
+  "file": "map/Goblins_of_da_Reach_Unite!.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Gold-plated_Tome",
+  "file": "map/Gold-plated_Tome.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Gold_Ore_Node",
+  "file": "map/Gold_Ore_Node.json",
+  "count": 25,
+  "icon": "img/Gold_Ore.png",
+  "items": [
+   "gold_ore",
+   "sapphire"
+  ]
+ },
+ {
+  "name": "Granite_Deposit",
+  "file": "map/Granite_Deposit.json",
+  "count": 495,
+  "icon": null,
+  "items": [
+   "granite"
+  ]
+ },
+ {
+  "name": "Granite_Mauled",
+  "file": "map/Granite_Mauled.json",
+  "count": 6,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Grave_Run",
+  "file": "map/Grave_Run.json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Green_Dragon",
+  "file": "map/Green_Dragon.json",
+  "count": 5,
+  "icon": null,
+  "items": [
+   "a_cracked_bronze_vanity_mirror",
+   "ascension_shard",
+   "carved_bone_animal_lure",
+   "dragon_blood",
+   "dragon_tooth",
+   "green_dragon_hide",
+   "mount_grassfoot_screecher",
+   "mount_leafwood_strider",
+   "mount_springdown_runner",
+   "soul_fragment"
+  ]
+ },
+ {
+  "name": "Grimy_Parchment",
+  "file": "map/Grimy_Parchment.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Grubby_Note",
+  "file": "map/Grubby_Note.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Gypsum_Node",
+  "file": "map/Gypsum_Node.json",
+  "count": 354,
+  "icon": "img/Gypsum_Node.png",
+  "items": [
+   "gypsum"
+  ]
+ },
+ {
+  "name": "Gyrfalcon",
+  "file": "map/Gyrfalcon.json",
+  "count": 52,
+  "icon": null,
+  "items": [
+   "feathers"
+  ]
+ },
+ {
+  "name": "Harralander",
+  "file": "map/Harralander.json",
+  "count": 59,
+  "icon": "img/Harralander_(plant).png",
+  "items": [
+   "harralander"
+  ]
+ },
+ {
+  "name": "Hastily_Scrawled_Note",
+  "file": "map/Hastily_Scrawled_Note.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "HealingPotionTest",
+  "file": "map/HealingPotionTest.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Hedric_-_The_Hunter",
+  "file": "map/Hedric_-_The_Hunter.json",
+  "count": 1,
+  "icon": "img/Hedric_-_The_Hunter.png",
+  "items": []
+ },
+ {
+  "name": "Hellhound",
+  "file": "map/Hellhound.json",
+  "count": 27,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Hellrat",
+  "file": "map/Hellrat.json",
+  "count": 62,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Highlands_Castle",
+  "file": "map/Highlands_Castle.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Highlighting_the_Problem",
+  "file": "map/Highlighting_the_Problem.json",
+  "count": 4,
+  "icon": "img/Secondary_quest_NPC_icon.png",
+  "items": []
+ },
+ {
+  "name": "Houndmaster_Rexiton",
+  "file": "map/Houndmaster_Rexiton.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Human_Torso",
+  "file": "map/Human_Torso.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "human_torso"
+  ]
+ },
+ {
+  "name": "Iasadair_-_The_Merchant",
+  "file": "map/Iasadair_-_The_Merchant.json",
+  "count": 1,
+  "icon": "img/Iasadair_-_The_Merchant.png",
+  "items": []
+ },
+ {
+  "name": "Icthlarin",
+  "file": "map/Icthlarin.json",
+  "count": 1,
+  "icon": "img/Icthlarin.png",
+  "items": []
+ },
+ {
+  "name": "Imaru",
+  "file": "map/Imaru.json",
+  "count": 0,
+  "icon": null,
+  "items": [
+   "ascension_shard",
+   "imaru_s_head",
+   "serrated_claw"
+  ]
+ },
+ {
+  "name": "Infused_Journal",
+  "file": "map/Infused_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Iron_Ore_Node",
+  "file": "map/Iron_Ore_Node.json",
+  "count": 199,
+  "icon": null,
+  "items": [
+   "iron_ore",
+   "jade"
+  ]
+ },
+ {
+  "name": "Jade_Emblem",
+  "file": "map/Jade_Emblem.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "jade_emblem"
+  ]
+ },
+ {
+  "name": "Jewellery_Box",
+  "file": "map/Jewellery_Box.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Kalistrakthen_Kara",
+  "file": "map/Kalistrakthen_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Kalphite_Guardian",
+  "file": "map/Kalphite_Guardian.json",
+  "count": 15,
+  "icon": "img/Kalphite_Guardian.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "greater_kalphite_wing",
+   "kalphite_ichor",
+   "kalphite_shell",
+   "kalphite_shell_fragments",
+   "mount_applefeather_mosstail",
+   "mount_crimson_crybaby",
+   "mount_scorchsummer_ashbeak"
+  ]
+ },
+ {
+  "name": "Kalphite_Queen",
+  "file": "map/Kalphite_Queen.json",
+  "count": 2,
+  "icon": "img/Kalphite_Queen.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "greater_kalphite_wing",
+   "kalphite_ichor",
+   "kalphite_shell",
+   "mount_moonsilk_weave",
+   "ornate_golden_scarab",
+   "poison_ichor"
+  ]
+ },
+ {
+  "name": "Kalphite_Queen_Egg",
+  "file": "map/Kalphite_Queen_Egg.json",
+  "count": 201,
+  "icon": "img/Kalphite_Egg.png",
+  "items": []
+ },
+ {
+  "name": "Kalphite_Soldier",
+  "file": "map/Kalphite_Soldier.json",
+  "count": 98,
+  "icon": "img/Kalphite_Soldier.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "kalphite_ichor",
+   "kalphite_shell",
+   "kalphite_shell_fragments",
+   "kalphite_wing"
+  ]
+ },
+ {
+  "name": "Kalphite_Worker",
+  "file": "map/Kalphite_Worker.json",
+  "count": 189,
+  "icon": "img/Kalphite_Worker.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "kalphite_ichor",
+   "kalphite_shell_fragments",
+   "stunted_kalphite_wing"
+  ]
+ },
+ {
+  "name": "Kebbit",
+  "file": "map/Kebbit.json",
+  "count": 102,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "coarse_animal_fur"
+  ]
+ },
+ {
+  "name": "Kebbit_Burrow_(Brynmoor)",
+  "file": "map/Kebbit_Burrow_(Brynmoor).json",
+  "count": 4,
+  "icon": "img/Kebbit_Burrow_icon.png",
+  "items": []
+ },
+ {
+  "name": "Kebbit_Burrow_(Dowdun_Reach)",
+  "file": "map/Kebbit_Burrow_(Dowdun_Reach).json",
+  "count": 2,
+  "icon": "img/Kebbit_Burrow_icon.png",
+  "items": []
+ },
+ {
+  "name": "Kebbit_Burrow_(Fellhollow)",
+  "file": "map/Kebbit_Burrow_(Fellhollow).json",
+  "count": 4,
+  "icon": "img/Kebbit_Burrow_icon.png",
+  "items": []
+ },
+ {
+  "name": "Kebbit_Burrow_(Ghornfell)",
+  "file": "map/Kebbit_Burrow_(Ghornfell).json",
+  "count": 5,
+  "icon": "img/Kebbit_Burrow_icon.png",
+  "items": []
+ },
+ {
+  "name": "Kebbit_Burrow_(Umbral_Sands)",
+  "file": "map/Kebbit_Burrow_(Umbral_Sands).json",
+  "count": 4,
+  "icon": "img/Kebbit_Burrow_icon.png",
+  "items": []
+ },
+ {
+  "name": "Keep_of_Blue_Flames",
+  "file": "map/Keep_of_Blue_Flames.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Kletterbuja_Kara",
+  "file": "map/Kletterbuja_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "KotHaar-Hur",
+  "file": "map/KotHaar-Hur.json",
+  "count": 82,
+  "icon": "img/KotHaar-Hur.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "elongated_obsidian_construct",
+   "kot_pack"
+  ]
+ },
+ {
+  "name": "KotHaar-Kal",
+  "file": "map/KotHaar-Kal.json",
+  "count": 34,
+  "icon": "img/KotHaar-Kal.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "kot_pack",
+   "mount_applefeather_mosstail",
+   "mount_crimson_crybaby",
+   "mount_scorchsummer_ashbeak",
+   "shattered_black_blade_umbral_sands"
+  ]
+ },
+ {
+  "name": "KotHaar-Ket",
+  "file": "map/KotHaar-Ket.json",
+  "count": 88,
+  "icon": "img/KotHaar-Ket.png",
+  "items": [
+   "bludgeoning_obsidian_construct",
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "kot_pack"
+  ]
+ },
+ {
+  "name": "KotHaar-Xil",
+  "file": "map/KotHaar-Xil.json",
+  "count": 70,
+  "icon": "img/KotHaar-Xil.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "elongated_obsidian_construct",
+   "kot_pack"
+  ]
+ },
+ {
+  "name": "Laboratory_Note",
+  "file": "map/Laboratory_Note.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Lacrussa's_Journal",
+  "file": "map/Lacrussa's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Lava_Fields",
+  "file": "map/Lava_Fields.json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Law_Anima_Vent",
+  "file": "map/Law_Anima_Vent.json",
+  "count": 7,
+  "icon": "img/Law_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Lazilly-penned_Diary",
+  "file": "map/Lazilly-penned_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Leaf-Scented_Page",
+  "file": "map/Leaf-Scented_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Leather_Salvage",
+  "file": "map/Leather_Salvage.json",
+  "count": 25,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "draconic_leather",
+   "draconic_leather_scraps",
+   "hard_leather",
+   "hard_leather_scraps",
+   "leather"
+  ]
+ },
+ {
+  "name": "Leathery_Parchment",
+  "file": "map/Leathery_Parchment.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Leonard_the_Bound",
+  "file": "map/Leonard_the_Bound.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "leonard_the_bound"
+  ]
+ },
+ {
+  "name": "Lesser_Demon",
+  "file": "map/Lesser_Demon.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "ash_pile",
+   "mount_eclipseborn_sharpbeak",
+   "mount_summerbellied_wagtail",
+   "mount_sunkissed_clawfoot"
+  ]
+ },
+ {
+  "name": "Limestone_Rock",
+  "file": "map/Limestone_Rock.json",
+  "count": 23,
+  "icon": null,
+  "items": [
+   "limestone"
+  ]
+ },
+ {
+  "name": "Lodestone",
+  "file": "map/Lodestone.json",
+  "count": 3,
+  "icon": null,
+  "items": [
+   "lodestone"
+  ]
+ },
+ {
+  "name": "Lore_Scraps",
+  "file": "map/Lore_Scraps.json",
+  "count": 97,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Lougrim's_Shrine",
+  "file": "map/Lougrim's_Shrine.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Lurch",
+  "file": "map/Lurch.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Mage_of_Zamorak",
+  "file": "map/Mage_of_Zamorak.json",
+  "count": 10,
+  "icon": null,
+  "items": [
+   "zamorakian_mage_pack"
+  ]
+ },
+ {
+  "name": "Magical_Raven",
+  "file": "map/Magical_Raven.json",
+  "count": 10,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Magpie",
+  "file": "map/Magpie.json",
+  "count": 300,
+  "icon": null,
+  "items": [
+   "feathers"
+  ]
+ },
+ {
+  "name": "Makeshift_Table",
+  "file": "map/Makeshift_Table.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Manktongue",
+  "file": "map/Manktongue.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Maple_Tree",
+  "file": "map/Maple_Tree.json",
+  "count": 96,
+  "icon": null,
+  "items": [
+   "bird_nest",
+   "maple_logs",
+   "maple_sap",
+   "maple_tree_seed"
+  ]
+ },
+ {
+  "name": "Mapping_The_Sands_I",
+  "file": "map/Mapping_The_Sands_I.json",
+  "count": 4,
+  "icon": "img/Secondary_quest_marker_icon.png",
+  "items": []
+ },
+ {
+  "name": "Mapping_The_Sands_II",
+  "file": "map/Mapping_The_Sands_II.json",
+  "count": 9,
+  "icon": "img/Secondary_quest_marker_icon.png",
+  "items": []
+ },
+ {
+  "name": "Mark_Day",
+  "file": "map/Mark_Day.json",
+  "count": 3,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Marrentil",
+  "file": "map/Marrentil.json",
+  "count": 208,
+  "icon": null,
+  "items": [
+   "marrentil"
+  ]
+ },
+ {
+  "name": "Metal_Salvage",
+  "file": "map/Metal_Salvage.json",
+  "count": 33,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "black_metal_bar",
+   "black_salvage_pile",
+   "bronze_bar",
+   "bronze_salvage_pile",
+   "gold_bar",
+   "gold_ore",
+   "gold_salvage_pile",
+   "iron_bar",
+   "iron_ore",
+   "iron_salvage_pile",
+   "mithril_bar",
+   "mithril_ore",
+   "mithril_salvage_pile",
+   "silver_bar",
+   "silver_ore",
+   "silver_salvage_pile",
+   "steel_bar",
+   "steel_salvage_pile"
+  ]
+ },
+ {
+  "name": "Mirror_Mirror",
+  "file": "map/Mirror_Mirror.json",
+  "count": 8,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Misc._Salvage",
+  "file": "map/Misc._Salvage.json",
+  "count": 32,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "adhesive",
+   "coal",
+   "dragon_blood",
+   "ectoplasm",
+   "fuel_pellet",
+   "tome_of_attack_vol_2",
+   "tome_of_construction_vol_2",
+   "tome_of_cooking_vol_2",
+   "tome_of_farming_vol_2",
+   "tome_of_fishing_vol_2",
+   "tome_of_magic_vol_2",
+   "tome_of_mining_vol_2",
+   "tome_of_ranged_vol_2",
+   "tome_of_runecrafting_vol_2",
+   "tome_of_the_artisan_vol_2",
+   "tome_of_woodcutting_vol_2",
+   "vault_core",
+   "vault_shard",
+   "wild_anima"
+  ]
+ },
+ {
+  "name": "Mithril_Ore_Node",
+  "file": "map/Mithril_Ore_Node.json",
+  "count": 26,
+  "icon": "img/Mithril_Ore.png",
+  "items": [
+   "mithril_ore",
+   "ruby"
+  ]
+ },
+ {
+  "name": "Moonstone",
+  "file": "map/Moonstone.json",
+  "count": 3,
+  "icon": null,
+  "items": [
+   "moonstone"
+  ]
+ },
+ {
+  "name": "Mould-covered_Journal",
+  "file": "map/Mould-covered_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Muddy_Scrawl",
+  "file": "map/Muddy_Scrawl.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Nature_Anima_Vent",
+  "file": "map/Nature_Anima_Vent.json",
+  "count": 17,
+  "icon": "img/Nature_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Nature_Spirit",
+  "file": "map/Nature_Spirit.json",
+  "count": 5,
+  "icon": null,
+  "items": [
+   "ectoplasm",
+   "primordial_heart"
+  ]
+ },
+ {
+  "name": "Net_Fishing_Spot_(Brynmoor)",
+  "file": "map/Net_Fishing_Spot_(Brynmoor).json",
+  "count": 23,
+  "icon": "img/Raw_Shrimp.png",
+  "items": [
+   "raw_shrimp"
+  ]
+ },
+ {
+  "name": "Net_Fishing_Spot_(Dowdun_Reach)",
+  "file": "map/Net_Fishing_Spot_(Dowdun_Reach).json",
+  "count": 10,
+  "icon": "img/Raw_Giant_Krill.png",
+  "items": [
+   "raw_giant_krill"
+  ]
+ },
+ {
+  "name": "Net_Fishing_Spot_(Fellhollow)",
+  "file": "map/Net_Fishing_Spot_(Fellhollow).json",
+  "count": 38,
+  "icon": "img/Raw_Lobster.png",
+  "items": [
+   "raw_lobster"
+  ]
+ },
+ {
+  "name": "Net_Fishing_Spot_(Ghornfell)",
+  "file": "map/Net_Fishing_Spot_(Ghornfell).json",
+  "count": 23,
+  "icon": "img/Raw_Anchovies.png",
+  "items": [
+   "raw_anchovies"
+  ]
+ },
+ {
+  "name": "Net_Fishing_Spot_(Umbral_Sands)",
+  "file": "map/Net_Fishing_Spot_(Umbral_Sands).json",
+  "count": 10,
+  "icon": "img/Raw_Monkfish.png",
+  "items": []
+ },
+ {
+  "name": "Nightmare_Crucible_of_Betrayal",
+  "file": "map/Nightmare_Crucible_of_Betrayal.json",
+  "count": 1,
+  "icon": "img/Nightmare_Crucible_Gateway.png",
+  "items": []
+ },
+ {
+  "name": "Nightmare_Crucible_of_Helplessness",
+  "file": "map/Nightmare_Crucible_of_Helplessness.json",
+  "count": 1,
+  "icon": "img/Nightmare_Crucible_Gateway.png",
+  "items": []
+ },
+ {
+  "name": "Nightmare_Crucible_of_Humiliation",
+  "file": "map/Nightmare_Crucible_of_Humiliation.json",
+  "count": 1,
+  "icon": "img/Nightmare_Crucible_Gateway.png",
+  "items": []
+ },
+ {
+  "name": "Nightmare_Crucible_of_the_Hounded",
+  "file": "map/Nightmare_Crucible_of_the_Hounded.json",
+  "count": 1,
+  "icon": "img/Nightmare_Crucible_Gateway.png",
+  "items": []
+ },
+ {
+  "name": "Nodestone",
+  "file": "map/Nodestone.json",
+  "count": 18,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Nolan_Scathe's_Journal",
+  "file": "map/Nolan_Scathe's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Nosey",
+  "file": "map/Nosey.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Oak_Tree",
+  "file": "map/Oak_Tree.json",
+  "count": 269,
+  "icon": null,
+  "items": [
+   "bird_nest",
+   "oak_logs",
+   "oak_tree_seed"
+  ]
+ },
+ {
+  "name": "Obsidian-carved_Book",
+  "file": "map/Obsidian-carved_Book.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "OffalFoot",
+  "file": "map/OffalFoot.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ominous_Door",
+  "file": "map/Ominous_Door.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Onion",
+  "file": "map/Onion.json",
+  "count": 497,
+  "icon": null,
+  "items": [
+   "onion"
+  ]
+ },
+ {
+  "name": "Opal_Emblem",
+  "file": "map/Opal_Emblem.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "opal_emblem"
+  ]
+ },
+ {
+  "name": "Orb_Stand",
+  "file": "map/Orb_Stand.json",
+  "count": 3,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Outlook_Ruins",
+  "file": "map/Outlook_Ruins.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Partially-melted_Journal",
+  "file": "map/Partially-melted_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Parts_of_a_Sinister-Looking_Staff",
+  "file": "map/Parts_of_a_Sinister-Looking_Staff.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "parts_of_a_sinister_looking_staff"
+  ]
+ },
+ {
+  "name": "Patch_(Hellrat)",
+  "file": "map/Patch_(Hellrat).json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Pip",
+  "file": "map/Pip.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Plague_King",
+  "file": "map/Plague_King.json",
+  "count": 3,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "poison_ichor",
+   "raw_rat_meat",
+   "small_animal_fang",
+   "swamp_tar"
+  ]
+ },
+ {
+  "name": "Plant_Salvage",
+  "file": "map/Plant_Salvage.json",
+  "count": 23,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "flax",
+   "harralander",
+   "irit",
+   "marrentil",
+   "snapdragon",
+   "toadflax"
+  ]
+ },
+ {
+  "name": "Postbox",
+  "file": "map/Postbox.json",
+  "count": 7,
+  "icon": "img/Secondary_quest_marker_icon.png",
+  "items": [
+   "postbox"
+  ]
+ },
+ {
+  "name": "Postbox_Delivery",
+  "file": "map/Postbox_Delivery.json",
+  "count": 11,
+  "icon": "img/Postbox.png",
+  "items": []
+ },
+ {
+  "name": "Postie_Pete",
+  "file": "map/Postie_Pete.json",
+  "count": 2,
+  "icon": null,
+  "items": [
+   "letter"
+  ]
+ },
+ {
+  "name": "Potato",
+  "file": "map/Potato.json",
+  "count": 253,
+  "icon": null,
+  "items": [
+   "potato"
+  ]
+ },
+ {
+  "name": "Potion_Salvage",
+  "file": "map/Potion_Salvage.json",
+  "count": 11,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "antifire_potion",
+   "focused_artisan_potion",
+   "focused_attack_potion",
+   "focused_construction_potion",
+   "focused_cooking_potion",
+   "focused_farming_potion",
+   "focused_mining_potion",
+   "focused_runecrafting_potion",
+   "focused_woodcutting_potion",
+   "lesser_antipoison_potion",
+   "lesser_focused_artisan_potion",
+   "lesser_focused_attack_potion",
+   "lesser_focused_construction_potion",
+   "lesser_focused_cooking_potion",
+   "lesser_focused_farming_potion",
+   "lesser_focused_mining_potion",
+   "lesser_focused_runecrafting_potion",
+   "lesser_focused_woodcutting_potion",
+   "lesser_lumberjack_potion",
+   "lesser_quarrymaster_potion",
+   "lumberjack_potion",
+   "quarrymaster_potion"
+  ]
+ },
+ {
+  "name": "Preserved_Diary",
+  "file": "map/Preserved_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Priest's_Journal",
+  "file": "map/Priest's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Priestly_Journal",
+  "file": "map/Priestly_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Pulpknuckle",
+  "file": "map/Pulpknuckle.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Pumpkin",
+  "file": "map/Pumpkin.json",
+  "count": 75,
+  "icon": "img/Pumpkin_(plant).png",
+  "items": [
+   "pumpkin"
+  ]
+ },
+ {
+  "name": "Pungent_Scribble",
+  "file": "map/Pungent_Scribble.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Putrid_Rat",
+  "file": "map/Putrid_Rat.json",
+  "count": 33,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "poison_ichor",
+   "raw_rat_meat",
+   "small_animal_fang",
+   "swamp_tar"
+  ]
+ },
+ {
+  "name": "Putrilius",
+  "file": "map/Putrilius.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Quartermaster's_Journal",
+  "file": "map/Quartermaster's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ram",
+  "file": "map/Ram.json",
+  "count": 35,
+  "icon": null,
+  "items": [
+   "animal_hide",
+   "fleece",
+   "ram_horn",
+   "raw_farm_meat"
+  ]
+ },
+ {
+  "name": "Rat_King",
+  "file": "map/Rat_King.json",
+  "count": 2,
+  "icon": null,
+  "items": [
+   "animal_hide_scraps",
+   "coarse_animal_fur",
+   "raw_rat_meat",
+   "small_animal_fang"
+  ]
+ },
+ {
+  "name": "Rat_Master_Skrexis",
+  "file": "map/Rat_Master_Skrexis.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "zamorakian_mage_pack"
+  ]
+ },
+ {
+  "name": "Ratcatcher",
+  "file": "map/Ratcatcher.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Fifth_Journal",
+  "file": "map/Ravanna's_Fifth_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_First_Journal",
+  "file": "map/Ravanna's_First_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Fourth_Journal",
+  "file": "map/Ravanna's_Fourth_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Second_Journal",
+  "file": "map/Ravanna's_Second_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Seventh_Journal",
+  "file": "map/Ravanna's_Seventh_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Sixth_Journal",
+  "file": "map/Ravanna's_Sixth_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ravanna's_Third_Journal",
+  "file": "map/Ravanna's_Third_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Razlem_the_Deranged",
+  "file": "map/Razlem_the_Deranged.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Recipe:_Forager's_Sandwich",
+  "file": "map/Recipe:_Forager's_Sandwich.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "forager_s_sandwich"
+  ]
+ },
+ {
+  "name": "Recipe:_Glazed_Pumpkin_Sandwich",
+  "file": "map/Recipe:_Glazed_Pumpkin_Sandwich.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "glazed_pumpkin_sandwich"
+  ]
+ },
+ {
+  "name": "Recipe:_Meat_Sandwich",
+  "file": "map/Recipe:_Meat_Sandwich.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "meat_sandwich"
+  ]
+ },
+ {
+  "name": "Recipe:_Meat_Twist_Sandwich",
+  "file": "map/Recipe:_Meat_Twist_Sandwich.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "meat_twist_sandwich"
+  ]
+ },
+ {
+  "name": "Recipe:_Steak_Sandwich",
+  "file": "map/Recipe:_Steak_Sandwich.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "steak_sandwich"
+  ]
+ },
+ {
+  "name": "Recipe_Books",
+  "file": "map/Recipe_Books.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Red-stained_Diary",
+  "file": "map/Red-stained_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Red_Dragon",
+  "file": "map/Red_Dragon.json",
+  "count": 6,
+  "icon": "img/Red_Dragon.png",
+  "items": [
+   "commemorative_coin",
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "dragon_blood",
+   "dragon_tooth",
+   "inspiring_insignia",
+   "mount_applefeather_mosstail",
+   "mount_crimson_crybaby",
+   "mount_scorchsummer_ashbeak",
+   "red_dragon_hide",
+   "the_radiant_s_heart"
+  ]
+ },
+ {
+  "name": "Redberry_Bush",
+  "file": "map/Redberry_Bush.json",
+  "count": 216,
+  "icon": null,
+  "items": [
+   "redberries",
+   "redberry_seeds"
+  ]
+ },
+ {
+  "name": "Reek",
+  "file": "map/Reek.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Reliquary",
+  "file": "map/Reliquary.json",
+  "count": 2,
+  "icon": null,
+  "items": [
+   "bandosian_amulet"
+  ]
+ },
+ {
+  "name": "Rememberance_Shrine",
+  "file": "map/Rememberance_Shrine.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Restless_Ghosts",
+  "file": "map/Restless_Ghosts.json",
+  "count": 6,
+  "icon": "img/Secondary_quest_marker_icon.png",
+  "items": [
+   "ghostspeak_amulet"
+  ]
+ },
+ {
+  "name": "Ritual_of_Purification",
+  "file": "map/Ritual_of_Purification.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Rod_Fishing_Spot_(Brynmoor)",
+  "file": "map/Rod_Fishing_Spot_(Brynmoor).json",
+  "count": 13,
+  "icon": "img/Sardine_Trout_Map_Icon.png",
+  "items": [
+   "raw_sardine",
+   "raw_trout"
+  ]
+ },
+ {
+  "name": "Rod_Fishing_Spot_(Dowdun_Reach)",
+  "file": "map/Rod_Fishing_Spot_(Dowdun_Reach).json",
+  "count": 7,
+  "icon": "img/Armoured_Catfish_Infernal_Eel_Map_Icon.png",
+  "items": [
+   "raw_armoured_catfish",
+   "raw_infernal_eel"
+  ]
+ },
+ {
+  "name": "Rod_Fishing_Spot_(Fellhollow)",
+  "file": "map/Rod_Fishing_Spot_(Fellhollow).json",
+  "count": 19,
+  "icon": "img/Undead_Bass_Undead_Eel_Map_Icon.png",
+  "items": [
+   "raw_undead_bass",
+   "raw_undead_eel"
+  ]
+ },
+ {
+  "name": "Rod_Fishing_Spot_(Ghornfell)",
+  "file": "map/Rod_Fishing_Spot_(Ghornfell).json",
+  "count": 10,
+  "icon": "img/Salmon_Herring_Map_Icon.png",
+  "items": [
+   "raw_herring",
+   "raw_salmon"
+  ]
+ },
+ {
+  "name": "Rod_Fishing_Spot_(Umbral_Sands)",
+  "file": "map/Rod_Fishing_Spot_(Umbral_Sands).json",
+  "count": 8,
+  "icon": "img/Desert_Sole_Beltfish_Map_Icon.png",
+  "items": [
+   "raw_beltfish",
+   "raw_desert_sole"
+  ]
+ },
+ {
+  "name": "Rotridden_Rat",
+  "file": "map/Rotridden_Rat.json",
+  "count": 13,
+  "icon": null,
+  "items": [
+   "coarse_animal_fur",
+   "small_animal_fang",
+   "undead_meat",
+   "withered_heart"
+  ]
+ },
+ {
+  "name": "Rotsworn_Marauder",
+  "file": "map/Rotsworn_Marauder.json",
+  "count": 11,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "tattered_time_lost_cloth",
+   "undead_bone",
+   "withered_heart"
+  ]
+ },
+ {
+  "name": "Rotsworn_Necromancer",
+  "file": "map/Rotsworn_Necromancer.json",
+  "count": 3,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "undead_bone",
+   "withered_heart"
+  ]
+ },
+ {
+  "name": "Rotsworn_Warrior",
+  "file": "map/Rotsworn_Warrior.json",
+  "count": 14,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "undead_bone",
+   "withered_heart"
+  ]
+ },
+ {
+  "name": "Rotsworn_Zombie",
+  "file": "map/Rotsworn_Zombie.json",
+  "count": 38,
+  "icon": null,
+  "items": [
+   "withered_heart",
+   "zombie_pack"
+  ]
+ },
+ {
+  "name": "Rufus",
+  "file": "map/Rufus.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Rune_Essence_Geyser",
+  "file": "map/Rune_Essence_Geyser.json",
+  "count": 498,
+  "icon": null,
+  "items": [
+   "rune_essence"
+  ]
+ },
+ {
+  "name": "Runecrafting_Guild",
+  "file": "map/Runecrafting_Guild.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Saga_of_the_Adventurer",
+  "file": "map/Saga_of_the_Adventurer.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Samuel_Malcifer's_Journal",
+  "file": "map/Samuel_Malcifer's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Sand-scoured_Diary",
+  "file": "map/Sand-scoured_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Sand-worn_Leather_Tome",
+  "file": "map/Sand-worn_Leather_Tome.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Sandstone_Rock",
+  "file": "map/Sandstone_Rock.json",
+  "count": 753,
+  "icon": "img/Sandstone.png",
+  "items": [
+   "sandstone"
+  ]
+ },
+ {
+  "name": "Sanguine_Urn",
+  "file": "map/Sanguine_Urn.json",
+  "count": 18,
+  "icon": "img/Sanguine_Urn_Icon.png",
+  "items": []
+ },
+ {
+  "name": "Sapphire_Emblem",
+  "file": "map/Sapphire_Emblem.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "sapphire_emblem"
+  ]
+ },
+ {
+  "name": "Saradomin_Symbol",
+  "file": "map/Saradomin_Symbol.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "saradomin_symbol"
+  ]
+ },
+ {
+  "name": "Scaling_Difficulties",
+  "file": "map/Scaling_Difficulties.json",
+  "count": 4,
+  "icon": "img/Red_Dragon.png",
+  "items": []
+ },
+ {
+  "name": "Scarecrow_Scavenging",
+  "file": "map/Scarecrow_Scavenging.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Scorched_Journal",
+  "file": "map/Scorched_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Scrawled_Diary_Page",
+  "file": "map/Scrawled_Diary_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Sergeant_Blister",
+  "file": "map/Sergeant_Blister.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "zamorakian_warrior_pack"
+  ]
+ },
+ {
+  "name": "Servant's_Secret_Diary",
+  "file": "map/Servant's_Secret_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Shard_of_the_Dreaming_Stone",
+  "file": "map/Shard_of_the_Dreaming_Stone.json",
+  "count": 9,
+  "icon": null,
+  "items": [
+   "shard_of_the_dreaming_stone"
+  ]
+ },
+ {
+  "name": "Shardbound_Lesser_Demon",
+  "file": "map/Shardbound_Lesser_Demon.json",
+  "count": 4,
+  "icon": null,
+  "items": [
+   "ash_pile",
+   "mount_eclipseborn_sharpbeak",
+   "mount_summerbellied_wagtail",
+   "mount_sunkissed_clawfoot"
+  ]
+ },
+ {
+  "name": "Sheep",
+  "file": "map/Sheep.json",
+  "count": 79,
+  "icon": null,
+  "items": [
+   "animal_bone",
+   "fleece",
+   "raw_farm_meat"
+  ]
+ },
+ {
+  "name": "Silver_Ore_Node",
+  "file": "map/Silver_Ore_Node.json",
+  "count": 25,
+  "icon": null,
+  "items": [
+   "red_topaz",
+   "silver_ore"
+  ]
+ },
+ {
+  "name": "Skeklac_Kara",
+  "file": "map/Skeklac_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Skekven_Kara",
+  "file": "map/Skekven_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Skeletal_Archer",
+  "file": "map/Skeletal_Archer.json",
+  "count": 19,
+  "icon": null,
+  "items": [
+   "bronze_arrow",
+   "cloying_damp_cowl",
+   "skeleton_pack",
+   "soul_fragment",
+   "undead_bone"
+  ]
+ },
+ {
+  "name": "Skeletal_Hoplite",
+  "file": "map/Skeletal_Hoplite.json",
+  "count": 5,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "sundering_spiked_slab",
+   "undead_bone"
+  ]
+ },
+ {
+  "name": "Skeletal_Marauder",
+  "file": "map/Skeletal_Marauder.json",
+  "count": 7,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "tattered_time_lost_cloth",
+   "undead_bone"
+  ]
+ },
+ {
+  "name": "Skeletal_Marauder_(Dowdun_Reach)",
+  "file": "map/Skeletal_Marauder_(Dowdun_Reach).json",
+  "count": 10,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Skeletal_Necromancer",
+  "file": "map/Skeletal_Necromancer.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "undead_bone"
+  ]
+ },
+ {
+  "name": "Skeletal_Warrior",
+  "file": "map/Skeletal_Warrior.json",
+  "count": 16,
+  "icon": null,
+  "items": [
+   "skeleton_pack",
+   "soul_fragment",
+   "undead_bone"
+  ]
+ },
+ {
+  "name": "Skeletal_Warrior_(Dowdun_Reach)",
+  "file": "map/Skeletal_Warrior_(Dowdun_Reach).json",
+  "count": 19,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Slopfinger",
+  "file": "map/Slopfinger.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Snapdragon",
+  "file": "map/Snapdragon.json",
+  "count": 85,
+  "icon": null,
+  "items": [
+   "snapdragon"
+  ]
+ },
+ {
+  "name": "Snotpit",
+  "file": "map/Snotpit.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Soot-Stained_Diary",
+  "file": "map/Soot-Stained_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Soot-stained_Journal",
+  "file": "map/Soot-stained_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Soot-stained_Ledger",
+  "file": "map/Soot-stained_Ledger.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Spectral_Chest",
+  "file": "map/Spectral_Chest.json",
+  "count": 6,
+  "icon": null,
+  "items": [
+   "mount_grassfoot_screecher",
+   "mount_leafwood_strider",
+   "mount_springdown_runner",
+   "plan_grave_1",
+   "plan_grave_2",
+   "plan_grave_3",
+   "plan_grave_4",
+   "plan_headstone_01",
+   "plan_headstone_02",
+   "soul_fragment",
+   "tome_of_attack_vol_2",
+   "tome_of_construction_vol_2",
+   "tome_of_cooking_vol_2",
+   "tome_of_farming_vol_2",
+   "tome_of_fishing_vol_2",
+   "tome_of_magic_vol_2",
+   "tome_of_mining_vol_2",
+   "tome_of_ranged_vol_2",
+   "tome_of_runecrafting_vol_2",
+   "tome_of_the_artisan_vol_2",
+   "tome_of_woodcutting_vol_2"
+  ]
+ },
+ {
+  "name": "Spectral_Chinchompa",
+  "file": "map/Spectral_Chinchompa.json",
+  "count": 26,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Spectral_Door",
+  "file": "map/Spectral_Door.json",
+  "count": 11,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Spittletoe",
+  "file": "map/Spittletoe.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Statues_of_Saradomin",
+  "file": "map/Statues_of_Saradomin.json",
+  "count": 4,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Stormpact_Demon",
+  "file": "map/Stormpact_Demon.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "ash_pile",
+   "cursed_essence",
+   "mount_sunkissed_clawfoot"
+  ]
+ },
+ {
+  "name": "Stormtouched_Cape",
+  "file": "map/Stormtouched_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "pattern_stormtouched_cape",
+   "stormtouched_cape"
+  ]
+ },
+ {
+  "name": "Summoner_Flament",
+  "file": "map/Summoner_Flament.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "zamorakian_mage_pack"
+  ]
+ },
+ {
+  "name": "Sun-scorched_Recipe_Book",
+  "file": "map/Sun-scorched_Recipe_Book.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Suspiciously_Light_Tattered_Boots",
+  "file": "map/Suspiciously_Light_Tattered_Boots.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "suspiciously_light_tattered_boots"
+  ]
+ },
+ {
+  "name": "Swamp_Tar",
+  "file": "map/Swamp_Tar.json",
+  "count": 152,
+  "icon": null,
+  "items": [
+   "swamp_tar"
+  ]
+ },
+ {
+  "name": "Swamp_Weed",
+  "file": "map/Swamp_Weed.json",
+  "count": 58,
+  "icon": null,
+  "items": [
+   "swamp_weed"
+  ]
+ },
+ {
+  "name": "Takla_Kara",
+  "file": "map/Takla_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Tear-Stained_Journal",
+  "file": "map/Tear-Stained_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Temple_of_Saradomin",
+  "file": "map/Temple_of_Saradomin.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Terrorbird",
+  "file": "map/Terrorbird.json",
+  "count": 40,
+  "icon": null,
+  "items": [
+   "egg",
+   "feathers",
+   "raw_bird_meat",
+   "shrapnel"
+  ]
+ },
+ {
+  "name": "Textile_Salvage",
+  "file": "map/Textile_Salvage.json",
+  "count": 21,
+  "icon": "img/Salvage_Glint.png",
+  "items": [
+   "fine_cloth",
+   "fine_thread",
+   "mystic_cloth",
+   "mystic_fibres",
+   "mystic_thread",
+   "padded_cloth"
+  ]
+ },
+ {
+  "name": "The_Binding_of_Ib",
+  "file": "map/The_Binding_of_Ib.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "the_binding_of_ib"
+  ]
+ },
+ {
+  "name": "The_Dig_Site",
+  "file": "map/The_Dig_Site.json",
+  "count": 4,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "The_Importance_of_Chaos",
+  "file": "map/The_Importance_of_Chaos.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "the_importance_of_chaos"
+  ]
+ },
+ {
+  "name": "The_Pride_of_the_Avernic",
+  "file": "map/The_Pride_of_the_Avernic.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "the_pride_of_the_avernic"
+  ]
+ },
+ {
+  "name": "The_Secret_Scrolls",
+  "file": "map/The_Secret_Scrolls.json",
+  "count": 3,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "The_Tale_of_the_Ghost_Wolves",
+  "file": "map/The_Tale_of_the_Ghost_Wolves.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "The_Wolf_and_the_Goddess",
+  "file": "map/The_Wolf_and_the_Goddess.json",
+  "count": 2,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "The_Wrath_of_Baba_Potterington",
+  "file": "map/The_Wrath_of_Baba_Potterington.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "the_wrath_of_baba_potterington"
+  ]
+ },
+ {
+  "name": "Thishepen_Kara",
+  "file": "map/Thishepen_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Thorny_Irit_Root",
+  "file": "map/Thorny_Irit_Root.json",
+  "count": 68,
+  "icon": null,
+  "items": [
+   "irit"
+  ]
+ },
+ {
+  "name": "Thorny_Vine",
+  "file": "map/Thorny_Vine.json",
+  "count": 17,
+  "icon": null,
+  "items": [
+   "ash_logs"
+  ]
+ },
+ {
+  "name": "Threadbare_Grain_Sack",
+  "file": "map/Threadbare_Grain_Sack.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "a_threadbare_grain_sack"
+  ]
+ },
+ {
+  "name": "Thunder_Assault",
+  "file": "map/Thunder_Assault.json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Tin_Ore_Node",
+  "file": "map/Tin_Ore_Node.json",
+  "count": 118,
+  "icon": null,
+  "items": [
+   "opal",
+   "tin_ore"
+  ]
+ },
+ {
+  "name": "Tiny",
+  "file": "map/Tiny.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "small_ash_pile"
+  ]
+ },
+ {
+  "name": "Toadflax",
+  "file": "map/Toadflax.json",
+  "count": 81,
+  "icon": null,
+  "items": [
+   "toadflax"
+  ]
+ },
+ {
+  "name": "Tok-Xil",
+  "file": "map/Tok-Xil.json",
+  "count": 5,
+  "icon": "img/Tok-Xil.png",
+  "items": [
+   "crucible_engram_of_betrayal",
+   "crucible_engram_of_helplessness",
+   "crucible_engram_of_humiliation",
+   "crucible_engram_of_the_hounded",
+   "kot_pack",
+   "mount_uzzerian_umber",
+   "unyielding_obsidian_construct"
+  ]
+ },
+ {
+  "name": "Torn_Journal_Page",
+  "file": "map/Torn_Journal_Page.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Torn_Tapestry",
+  "file": "map/Torn_Tapestry.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "torn_tapestry"
+  ]
+ },
+ {
+  "name": "Tower_Climb",
+  "file": "map/Tower_Climb.json",
+  "count": 1,
+  "icon": "img/Agility_Course.png",
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Brynmoor)",
+  "file": "map/Treasure_Chest_(Brynmoor).json",
+  "count": 33,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Dowdun_Reach)",
+  "file": "map/Treasure_Chest_(Dowdun_Reach).json",
+  "count": 70,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Fellhollow)",
+  "file": "map/Treasure_Chest_(Fellhollow).json",
+  "count": 44,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Ghornfell)",
+  "file": "map/Treasure_Chest_(Ghornfell).json",
+  "count": 34,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Umbral_Sands)",
+  "file": "map/Treasure_Chest_(Umbral_Sands).json",
+  "count": 56,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Treasure_Chest_(Umbral_Sands_Cape)",
+  "file": "map/Treasure_Chest_(Umbral_Sands_Cape).json",
+  "count": 1,
+  "icon": "img/Umbral_Sands_Cape.png",
+  "items": [
+   "shred_of_sunbleached_weave"
+  ]
+ },
+ {
+  "name": "Treasure_Chest_(Vestige_Chance)_(Dowdun_Reach)",
+  "file": "map/Treasure_Chest_(Vestige_Chance)_(Dowdun_Reach).json",
+  "count": 24,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ulgo's_Diary",
+  "file": "map/Ulgo's_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Ulgo_the_Zogre",
+  "file": "map/Ulgo_the_Zogre.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "ascension_shard",
+   "corpse_cotton",
+   "hard_leather",
+   "mount_grassfoot_screecher",
+   "mount_leafwood_strider",
+   "mount_springdown_runner",
+   "shard_of_smoky_glass",
+   "soul_fragment",
+   "undead_bone",
+   "zogre_pack"
+  ]
+ },
+ {
+  "name": "Undead_Chicken",
+  "file": "map/Undead_Chicken.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "undead_chicken"
+  ]
+ },
+ {
+  "name": "Vannaka",
+  "file": "map/Vannaka.json",
+  "count": 3,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Vault_Hunter's_Journal",
+  "file": "map/Vault_Hunter's_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Vaults",
+  "file": "map/Vaults.json",
+  "count": 12,
+  "icon": "img/Dungeon_entrance_icon.png",
+  "items": []
+ },
+ {
+  "name": "Vekchenven_Kara",
+  "file": "map/Vekchenven_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Velgar's_Rise",
+  "file": "map/Velgar's_Rise.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Vertentis_Kara",
+  "file": "map/Vertentis_Kara.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Wanted!",
+  "file": "map/Wanted!.json",
+  "count": 7,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Water_Anima_Vent",
+  "file": "map/Water_Anima_Vent.json",
+  "count": 21,
+  "icon": "img/Water_Rune.png",
+  "items": []
+ },
+ {
+  "name": "Weathered_Diary_(Bramblemead_Valley)",
+  "file": "map/Weathered_Diary_(Bramblemead_Valley).json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Weathered_Diary_(Fellhollow)",
+  "file": "map/Weathered_Diary_(Fellhollow).json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Weathered_Journal",
+  "file": "map/Weathered_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "What's_Theirs_is_Mine!",
+  "file": "map/What's_Theirs_is_Mine!.json",
+  "count": 4,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Whispering_Cape",
+  "file": "map/Whispering_Cape.json",
+  "count": 1,
+  "icon": null,
+  "items": [
+   "pattern_whispering_cape",
+   "whispering_cape"
+  ]
+ },
+ {
+  "name": "Wild_Jade_Vine",
+  "file": "map/Wild_Jade_Vine.json",
+  "count": 25,
+  "icon": null,
+  "items": [
+   "ash_logs",
+   "poison_ichor"
+  ]
+ },
+ {
+  "name": "Wild_Lapulis_Vine",
+  "file": "map/Wild_Lapulis_Vine.json",
+  "count": 45,
+  "icon": null,
+  "items": [
+   "ash_logs",
+   "shocking_plant_bulb"
+  ]
+ },
+ {
+  "name": "Willow_Tree",
+  "file": "map/Willow_Tree.json",
+  "count": 43,
+  "icon": null,
+  "items": [
+   "bird_nest",
+   "willow_logs",
+   "willow_tree_seed"
+  ]
+ },
+ {
+  "name": "Windmill",
+  "file": "map/Windmill.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Winston_Henning's_Diary",
+  "file": "map/Winston_Henning's_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Wise_Old_Man",
+  "file": "map/Wise_Old_Man.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Withered_Diary",
+  "file": "map/Withered_Diary.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Withered_Journal",
+  "file": "map/Withered_Journal.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Wolf",
+  "file": "map/Wolf.json",
+  "count": 55,
+  "icon": null,
+  "items": [
+   "animal_hide",
+   "raw_bestial_meat",
+   "small_animal_fang",
+   "soft_animal_fur"
+  ]
+ },
+ {
+  "name": "Wormelbow",
+  "file": "map/Wormelbow.json",
+  "count": 1,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "X_Marks_the_Spot",
+  "file": "map/X_Marks_the_Spot.json",
+  "count": 5,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Yew_Tree",
+  "file": "map/Yew_Tree.json",
+  "count": 51,
+  "icon": null,
+  "items": [
+   "bird_nest",
+   "yew_logs",
+   "yew_tree_seed"
+  ]
+ },
+ {
+  "name": "Zamorakian_Acolyte",
+  "file": "map/Zamorakian_Acolyte.json",
+  "count": 45,
+  "icon": null,
+  "items": [
+   "zamorakian_mage_pack"
+  ]
+ },
+ {
+  "name": "Zanik",
+  "file": "map/Zanik.json",
+  "count": 4,
+  "icon": "img/Zanik.png",
+  "items": []
+ },
+ {
+  "name": "Zogre",
+  "file": "map/Zogre.json",
+  "count": 4,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "Zombie",
+  "file": "map/Zombie.json",
+  "count": 100,
+  "icon": null,
+  "items": [
+   "soul_fragment",
+   "undead_bone",
+   "zombie_pack"
+  ]
+ },
+ {
+  "name": "Zombie_Rat",
+  "file": "map/Zombie_Rat.json",
+  "count": 5,
+  "icon": null,
+  "items": [
+   "coarse_animal_fur",
+   "small_animal_fang",
+   "undead_meat"
+  ]
+ },
+ {
+  "name": "chests",
+  "file": "map/chests.json",
+  "count": 137,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "test",
+  "file": "map/test.json",
+  "count": 239,
+  "icon": null,
+  "items": []
+ },
+ {
+  "name": "zogre",
+  "file": "map/zogre.json",
+  "count": 4,
+  "icon": null,
+  "items": [
+   "ascension_shard",
+   "corpse_cotton",
+   "hard_leather",
+   "mount_grassfoot_screecher",
+   "mount_leafwood_strider",
+   "mount_springdown_runner",
+   "shard_of_smoky_glass",
+   "soul_fragment",
+   "undead_bone",
+   "zogre_pack"
+  ]
+ }
+]

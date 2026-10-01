@@ -1,0 +1,1 @@
+module.exports={...require('./review.config.cjs'),testDir:__dirname+'/../../Sigouin-Hub/tests',testMatch:/site\.spec\.ts/,outputDir:__dirname+'/site-results',projects:[{name:'desktop',use:{viewport:{width:1440,height:900}}}]};

@@ -1,0 +1,16 @@
+
+ ⛅️ wrangler 4.133.0 (update available 4.134.0)
+───────────────────────────────────────────────
+✨ Compiled Worker successfully
+Uploading... (64/81)
+Uploading... (69/81)
+Uploading... (75/81)
+Uploading... (81/81)
+✨ Success! Uploaded 17 files (64 already uploaded) (1.66 sec)
+
+✨ Uploading _headers
+✨ Uploading Functions bundle
+✨ Uploading _routes.json
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://3d91385e.sigouin-net.pages.dev
+Deployment URL: https://3d91385e.sigouin-net.pages.dev

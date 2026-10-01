@@ -1,0 +1,2 @@
+COMMAND: ['rg', '-n', 'costs-timeline-20260917', 'site', '-g', '*.html', '-g', '*.js', '-g', '*.css', '-g', '!vendor/**']
+EXIT: 1

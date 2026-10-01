@@ -1,0 +1,531 @@
+[
+  {
+    "name": "sigzmusic",
+    "one_liner": "Luc's own music site under the artist name SiGz; press play and the catalogue streams from his own server with no platform in the way.",
+    "stack": "Cloudflare Worker, D1 catalog, private R2 audio, AES-128 encrypted audio-only HLS, SPA with persistent bottom player bar",
+    "status": "live",
+    "live_urls": ["https://sigzmusic.com"],
+    "live_data_endpoints": [
+      {"url": "https://sigzmusic.com/api/tracks", "returns": "JSON 14387 bytes, tracks array with slug, title, durationSeconds, releaseDate, accentColor, playCount, albumSlug, trackNumber", "verified": true},
+      {"url": "https://sigzmusic.com/api/albums", "returns": "JSON 1242 bytes, the 6 records", "verified": true},
+      {"url": "https://sigzmusic.com/api/health", "returns": "JSON 11 bytes", "verified": true},
+      {"url": "https://sigzmusic.com/api/albums/:slug", "returns": "declared in source, not called", "verified": false},
+      {"url": "https://sigzmusic.com/api/mixes", "returns": "declared in source, deliberately empty catalogue, not called", "verified": false},
+      {"url": "https://sigzmusic.com/api/play/:slug", "returns": "declared in source, not called", "verified": false}
+    ],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic/site/public", "kind": "images (cover art, OG, icons)", "count": 155},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic/brand", "kind": "brand images including source neon sign HEIC and Spotify crops", "count": 30},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic/artwork-lab", "kind": "artwork competition images", "count": 29},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic/security-audit/shots/ripped-ytdlp.mp4", "kind": "mp4 proof clip", "count": 1},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic/masters/Released Tracks/Social/youtube", "kind": "mp4 music videos", "count": 6},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigzmusic", "kind": "all (png 281, jpg 129, webp 30, svg 12, mp4 1, heic 1)", "count": 454}
+    ],
+    "hook": "The waveform. Peaks are precomputed per track as real -1..+1 floats in peaks.json, so a waveform on the hub is data, not decoration. Per-record accent colours with acid lime reserved for now-playing.",
+    "process_artifacts": "43 REPORT.md files, the most of any project. Fleet dirs: fleet-fix-review-findings (4 SCORE.md), fleet-loose-ends, fleet-mobile-chrome, fleet-mobile-rebuild, fleet-vibe-fix. Boards: security-audit/workbench.html, artwork-lab/workbench.html. Rubrics and scores in player-page, design-audit, reports/lanes, mobile-fix, ios/lanes/SCORER-TASK.md.",
+    "show_it_as": "Show it as: a live waveform strip driven by /api/tracks, with play counts ticking and the record accent colour flooding the panel on hover."
+  },
+  {
+    "name": "teetimes",
+    "one_liner": "A map of every open golf tee time near you in the Ottawa area, with a link out to the course's own booking page.",
+    "stack": "Cloudflare Worker API plus two static front ends (desktop and phone), MapLibre map, Chronogolf as the live source",
+    "status": "live",
+    "live_urls": ["https://teetime.sigouin.net", "https://teetime.sigouin.net/m/"],
+    "live_data_endpoints": [
+      {"url": "https://teetime.sigouin.net/api/courses", "returns": "JSON 25859 bytes, course objects with id, name, city, province, lat, lng, holes, vendor, bookingUrl, website, phone, verified, live, photo.url", "verified": true},
+      {"url": "https://teetime.sigouin.net/api/teetimes", "returns": "JSON 82239 bytes, real available slots", "verified": true},
+      {"url": "https://teetime.sigouin.net/api/health", "returns": "JSON 42 bytes", "verified": true},
+      {"url": "https://teetime.sigouin.net/api/weather", "returns": "400 with no query args; required params unknown", "verified": false}
+    ],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/teetimes/v0.1/data/photos", "kind": "course photos jpg (source copy)", "count": 2185},
+      {"path": "/Users/ls/Claude-Workspace/personal/teetimes/v0.1", "kind": "png and svg (UI, icons)", "count": 24}
+    ],
+    "hook": "The map. Drop a pin, drag a radius, watch live slots across 38 courses fill in.",
+    "process_artifacts": "12 REPORT.md. Round-1 research lanes in research/ (grok-market, codex-probe, claude-arch), synthesis in PLAN.md, brief plus self-check rubric in BRIEF.md, current state in STATUS.md.",
+    "show_it_as": "Show it as: a live embedded map pulling /api/teetimes, slot counts animating in per course, with the course photo as the pin."
+  },
+  {
+    "name": "undergrowth-v2",
+    "one_liner": "A browser tower defense game where you build war engines on a grid to bend the route the horde walks.",
+    "stack": "Three.js plus Vite, Cloudflare Pages",
+    "status": "live",
+    "live_urls": ["https://undergrowth.pages.dev"],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/undergrowth-v2/public/art", "kind": "sprite art png and webp at fixed sizes", "count": 58},
+      {"path": "/Users/ls/Claude-Workspace/personal/undergrowth-v2", "kind": "all png and webp including test-results gate screenshots", "count": 874}
+    ],
+    "hook": "The garden siege itself, a 3D board where the dotted route bends as you build. The only WebGL and only true 3D thing in the workspace.",
+    "process_artifacts": "18 REPORT.md. Seven fleet rounds: fleet-r1-foundation, r2-design, r3-polish, r4-ship, r5-layout, r6-art, r7-medieval. Rounds r1 to r3 each have scorer/SCORE.md. Board at workbench/workbench.html. Art rounds r6 and r7 logged costs in eight costs.jsonl files (board, icons, towers, enemies), all gpt-image-2. Gates named in README: npm test, tests/golden.mjs, tests/balance-gate.mjs, tests/layout-gate.mjs, tests/browser.mjs, tests/mobile-layout.mjs.",
+    "show_it_as": "Show it as: a playable embed, or a looping screen capture of one wave with the route rerouting live."
+  },
+  {
+    "name": "sigouin-net",
+    "one_liner": "Luc's own site, a scroll-driven page where a warm sun patch travels down the page as you scroll.",
+    "stack": "Static HTML with inlined scrollcraft CSS and JS, Cloudflare Pages",
+    "status": "live",
+    "live_urls": ["https://sigouin.net"],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets", "kind": "webp stills (hero planes, chapter photos, real neon sign)", "count": 11},
+      {"path": "/Users/ls/Claude-Workspace/personal/sigouin-net", "kind": "all (png 39, jpg 19, webp 11, svg 2, mp4 1)", "count": 72}
+    ],
+    "hook": "The window light. A warm sun patch that tracks scroll position, chosen over three rejected signature moves (object, ink, depth).",
+    "process_artifacts": "12 REPORT.md. Nine fleet round dirs on disk: fleet-r3-scroll, r5-hero, r6-seam, r7-folio-cable, r8-stuck, r9-signature, r10-near, r11-near3, r12-portfolio-discovery. Board at workbench/workbench.html. Four earlier rounds and five candidate looks archived under archive/sigouin-net-fleet-2026-09-02.",
+    "show_it_as": "Show it as: the hub itself, with its own fleet process board as an exhibit."
+  },
+  {
+    "name": "IPTV / livetvcan-website",
+    "one_liner": "The marketing site, admin panel, customer portal and API for LiveTVCan, all in one deploy.",
+    "stack": "React plus Vite front end, Cloudflare Pages Functions backend, D1 migrations, no Stripe",
+    "status": "live",
+    "live_urls": ["https://livetvcan.com"],
+    "live_data_endpoints": [
+      {"url": "https://livetvcan.com/api/*", "returns": "single catch-all handler at functions/api/[[path]].ts; not read, not called; assume customer data and do NOT use as a public hub feed", "verified": false}
+    ],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/IPTV", "kind": "png and svg", "count": 98},
+      {"path": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/Screenshot 2026-04-09 at 1.33.31 PM.png", "kind": "loose screenshot", "count": 2}
+    ],
+    "hook": "One deploy wearing four faces: marketing, admin, portal and API from a single Pages project.",
+    "process_artifacts": "8 REPORT.md. Six fleet dirs: fleet-admin-fixes, fleet-p1-fix, fleet-p1-fix2, fleet-p1-review, fleet-wb-merge, fleet-wb-unslop; five carry RUBRIC.md. Three workbench boards: workbench/workbench.html, reports/fleet-100x/workbench.html, public/admin/wb/workbench.html. PATCH-NOTES.md, IPTV-FEATURES-PLAN.md.",
+    "show_it_as": "Show it as: a before and after screenshot pair of the admin panel plus the fleet-100x board. Keep live customer data out."
+  },
+  {
+    "name": "RsyncGui",
+    "one_liner": "A web UI to schedule, run and watch rsync backups across servers, shipped as one Docker container for Unraid.",
+    "stack": "React front end, Express plus SQLite backend, single container, SSE live logs, ghcr.io/lucsigouin/rsyncgui via GitHub Actions",
+    "status": "shipped as a public container image, no public web URL",
+    "live_urls": ["https://github.com/LucSigouin/rsyncgui", "ghcr.io/lucsigouin/rsyncgui"],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/RsyncGui/icon.svg", "kind": "svg logo", "count": 4},
+      {"path": "/Users/ls/Claude-Workspace/personal/RsyncGui/RsyncGui-icon.png", "kind": "png icon", "count": 2}
+    ],
+    "hook": "A streaming run log with a progress bar over SSE, cancellable mid-flight. Motion that is real, not staged.",
+    "process_artifacts": "security-audit/workbench.html, CHANGELOG.md, README.md, unraid-template.xml, docs/.",
+    "show_it_as": "Show it as: a screen capture of one backup run streaming its log. Nothing usable is on disk, so this needs new capture work."
+  },
+  {
+    "name": "scrollcraft",
+    "one_liner": "The working area for the scrollcraft skill, which builds scroll-driven sites and keeps a registry so no two builds share a skeleton.",
+    "stack": "Static HTML, CSS and JS per build, Python inliner build-inline.py, per-build screenshot harness in lab/",
+    "status": "local only (builds/sigouin-net is the source of the live sigouin.net)",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab", "kind": "scroll capture strip, frame by frame", "count": 172},
+      {"path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigz-console", "kind": "images for the unshipped sigzmusic console build", "count": 167},
+      {"path": "/Users/ls/Claude-Workspace/personal/scrollcraft", "kind": "mp4 clips (01-desk and mobile pairs across four builds plus out/)", "count": 9},
+      {"path": "/Users/ls/Claude-Workspace/personal/scrollcraft", "kind": "all (png 432, jpg 31, webp 54, mp4 9)", "count": 526}
+    ],
+    "hook": "FINGERPRINTS.md, an append-only registry with six dimensions (grammar, nav treatment, hero device, act-sequence shape, close pattern, signature move). A new build must differ from every existing row on at least four. Proof of not repeating yourself, in a table.",
+    "process_artifacts": "FINGERPRINTS.md plus six lab capture strips under builds/ (sigz-console, sigouin-net, sigouin-near-a, -b, -c). builds/sigz-console is a scroll-driven alternative front end for sigzmusic that was never shipped.",
+    "show_it_as": "Show it as: the lab capture strip played as a scrubbing filmstrip, with the FINGERPRINTS table as the caption. The single best process exhibit on disk."
+  },
+  {
+    "name": "imagegen",
+    "one_liner": "The scripts behind the imagegen skill: turn a theme into images and watch them land on a self-refreshing gallery page.",
+    "stack": "Pure-stdlib Python (generate.py, remix.py, live-gallery.py, gallery_assets.py, dopamine.py, costlog.py)",
+    "status": "local tooling, not a deployable",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/imagegen/drops", "kind": "generated png drops", "count": 35},
+      {"path": "/Users/ls/Claude-Workspace/personal/imagegen", "kind": "all png including remixes and site", "count": 101}
+    ],
+    "hook": "costlog.py. Every generated image gets one JSON line with provider, model and real dollars or credits, so the gallery shows a running cost next to each picture.",
+    "process_artifacts": "imagegen/drops/20260903-213421-cooking-the/costs.jsonl. Across the workspace, 10 costs.jsonl files hold 146 image records totalling 30.25 USD, 144 gpt-image-2 and 2 grok. No credit-denominated rows anywhere, so no Higgsfield or kie.ai credits are logged in this format.",
+    "show_it_as": "Show it as: the live gallery page, images appearing one by one with the running cost counter beside them."
+  },
+  {
+    "name": "homelab",
+    "one_liner": "Notes, plans and reports for Luc's three-box Tailscale homelab called the Gardens.",
+    "stack": "Self-contained HTML reports plus shell and JSON runbook artifacts",
+    "status": "local only, reference material",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/homelab", "kind": "png and webp (dynacat-glance.webp plus two pasted screenshots)", "count": 4},
+      {"path": "/Users/ls/Claude-Workspace/personal/homelab", "kind": "standalone HTML documents (the-gardens, gardens-master-plan, amp-plan, amp-capabilities, config-report, two sonarr runbooks)", "count": 7}
+    ],
+    "hook": "The Sonarr cleanup runbook. Every destructive step has a matching rollback JSON on disk. Careful work on live infrastructure, recorded.",
+    "process_artifacts": "Dry-run and rollback JSON pairs (sonarr-tag-purge, sonarr-ended-unmonitor, sonarr-deadend-unmonitor, tagwriter and qualitydefinition backups). Migration plans: palworld-to-amp, windrose-to-amp, offsite-versioning-plan-2026-08-14.md.",
+    "show_it_as": "Show it as: the Gardens topology as an interactive diagram, with the rollback pairs shown as a paired before and after list."
+  },
+  {
+    "name": "fantasy-football",
+    "one_liner": "Now just one thing: generated profile art for a fantasy football team called Cooking the Lads.",
+    "stack": "gpt-image-2 through the imagegen pipeline",
+    "status": "local only",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/fantasy-football/cooking-the-lads/out", "kind": "generated jpg (pfp, steam profile) plus candidates", "count": 4},
+      {"path": "/Users/ls/Claude-Workspace/personal/fantasy-football/cooking-the-lads/refs", "kind": "reference photos (ladd-mcconkey.png, james-cook.jpg)", "count": 2}
+    ],
+    "hook": "The reference-to-result pair. Two real player photos in, one team crest out.",
+    "process_artifacts": "out/gallery.html, out/costs.jsonl, result.json. DISCREPANCY: personal/CLAUDE.md names fleet-cheatsheet-workbench/lane-c-codex/cheatsheet.html and a workbench.html mission log here; neither exists on disk today.",
+    "show_it_as": "Show it as: a small before and after card, two reference photos morphing into the crest."
+  },
+  {
+    "name": "tripo-mcp",
+    "one_liner": "A hand-written MCP server that turns an image or a text prompt into a 3D model through the Tripo v3 API.",
+    "stack": "One Python file, server.py, run by uv run --script with PEP-723 inline deps, registered at user scope",
+    "status": "local tooling, registered and available",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/tripo-mcp/out", "kind": "3D output folder, EMPTY", "count": 0}
+    ],
+    "hook": "The reason it is hand written: the official server has no API-key path and cannot take a local image, and the community package would hold the key inside unvetted npm code. About 300 lines was the safer answer.",
+    "process_artifacts": "README.md, which states that reasoning as a table.",
+    "show_it_as": "Show it as: a spinning 3D object on the hub, generated fresh. Nothing on disk to reuse, and there are zero 3D model files anywhere in personal/."
+  },
+  {
+    "name": "Traditionally",
+    "one_liner": "Unknown. One empty subdirectory also named Traditionally, and nothing else.",
+    "stack": "none",
+    "status": "empty, not listed in personal/CLAUDE.md",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "none",
+    "process_artifacts": "none",
+    "show_it_as": "Show it as: do not show it. Candidate for deletion, ask Luc."
+  },
+  {
+    "name": "scratch",
+    "one_liner": "The disposable, git-ignored working area, 95 entries and 51 MB.",
+    "stack": "mixed",
+    "status": "local only, disposable by design",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/scratch", "kind": "all (png 58, webp 26, mp4 4, jpg 2)", "count": 90}
+    ],
+    "hook": "model-bakeoff/ with its own RUBRIC and SCORES.",
+    "process_artifacts": "14 REPORT.md, workbench.bak.html, model-bakeoff/RUBRIC.md, model-bakeoff/round2/RUBRIC.md, model-bakeoff/results/SCORES.md, fleet-test/.",
+    "show_it_as": "Show it as: nothing, but read model-bakeoff/results/SCORES.md before the hub quotes a models-used number."
+  },
+  {
+    "name": "undergrowth (v1)",
+    "one_liner": "The v1 prototype of the tower defense game, superseded by undergrowth-v2.",
+    "stack": "Three.js plus Vite, no git",
+    "status": "local only, dead, flagged for archiving in personal/CLAUDE.md and not yet archived",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/undergrowth", "kind": "png (dist, tests, test-results)", "count": 28}
+    ],
+    "hook": "The rough first pass next to the shipped rewrite.",
+    "process_artifacts": "README.md, tests/, test-results/.",
+    "show_it_as": "Show it as: one side-by-side frame against v2, to show the rewrite."
+  },
+  {
+    "name": "BBC (archived)",
+    "one_liner": "A golf match-play scoreboard for Luc's events; last event This is 30 on 2026-06-22.",
+    "stack": "Cloudflare, npm project",
+    "status": "deployed but archived, still live",
+    "live_urls": ["https://bbc.sigouin.net"],
+    "live_data_endpoints": [
+      {"url": "https://bbc.sigouin.net/api/state", "returns": "JSON 1000 bytes, live scoreboard state", "verified": true},
+      {"url": "https://bbc.sigouin.net/data.json", "returns": "200 but text/html, so it is the SPA fallback, not data", "verified": true}
+    ],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/BBC", "kind": "images", "count": 5}
+    ],
+    "hook": "A real scoreboard that real people watched during a real tournament.",
+    "process_artifacts": "none found beyond the repo.",
+    "show_it_as": "Show it as: a live scoreboard tile fed by /api/state, captioned with the event date."
+  },
+  {
+    "name": "widgell-bach (archived)",
+    "one_liner": "A bachelor-party golf tournament site, sister to BBC; event passed around 2026-06-06.",
+    "stack": "npm project, 298M of which 160M is regenerable node_modules",
+    "status": "archived, no live URL recorded",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/widgell-bach", "kind": "not separately counted, inside the archive totals", "count": 0}
+    ],
+    "hook": "The same scoreboard idea dressed for one party.",
+    "process_artifacts": "described from archive/README.md only, contents not opened.",
+    "show_it_as": "Show it as: one screenshot next to BBC, to show a template reused for a second event."
+  },
+  {
+    "name": "Unraid dashboard (archived)",
+    "one_liner": "A custom React and Vite dashboard for the Unraid server TheMediaGarden, warm paper theme.",
+    "stack": "React plus Vite, Unraid GraphQL API with a viewer key",
+    "status": "never deployed, local npm run dev only, idle since 2026-05-10",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/Unraid", "kind": "not separately counted; 101M of the 102M is node_modules", "count": 0}
+    ],
+    "hook": "A warm paper theme on a server dashboard, the opposite of every dark homelab UI.",
+    "process_artifacts": "described from archive/README.md only.",
+    "show_it_as": "Show it as: a screenshot only. It cannot be made live without exposing a homelab key."
+  },
+  {
+    "name": "cockpit (archived)",
+    "one_liner": "A self-hosted IPTV panel plus a patched TiviMate APK, a PHP panel on a VPS.",
+    "stack": "PHP panel on a Vultr or DO VPS, not a Cloudflare Worker",
+    "status": "dead; not in use since 2026-07-10, DNS record removed, licence not transferred",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "The only self-hosted PHP box in the whole workspace. The download CNAME to R2 bucket livetvcan-downloads still serves the APK.",
+    "process_artifacts": "its own CLAUDE.md plus secrets.local.md, neither opened.",
+    "show_it_as": "Show it as: a single archive card, text and one screenshot if one exists. Do not revive."
+  },
+  {
+    "name": "kimi-projects / Kingdom Idle (archived)",
+    "one_liner": "An idle game built end to end by the kimi CLI in its own memory silo.",
+    "stack": "browser game, built by kimi",
+    "status": "archived, never deployed, cold since 2026-07-29, pruned from 2.0G to 18M",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects", "kind": "images", "count": 45}
+    ],
+    "hook": "A whole game written by a non-Claude model, which is the point of the fleet story.",
+    "process_artifacts": "its archived memory file, not opened.",
+    "show_it_as": "Show it as: a screenshot strip captioned built by kimi, not by me."
+  },
+  {
+    "name": "OpenArr tarball (dead)",
+    "one_liner": "A from-scratch SwiftUI iPhone client for the arr and homelab stack, declared dead 2026-08-19.",
+    "stack": "SwiftUI, XcodeGen, 164 Swift sources",
+    "status": "dead; never under version control, so the tarball is the only copy",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/OpenArr-source-2026-08-19.tar.gz", "kind": "source tarball, 676K; the 29M of docs/screenshots was dropped, not archived", "count": 1}
+    ],
+    "hook": "164 Swift files and not one surviving picture.",
+    "process_artifacts": "docs/handoff/ per-question design notes and reports/ forge-run output, both inside the tarball, not extracted.",
+    "show_it_as": "Show it as: do not. Nothing visual survives. Mention in a text ledger at most."
+  },
+  {
+    "name": "claude-usage-report (archived)",
+    "one_liner": "A Claude usage dashboard delivered 2026-07-30, index.html plus shots and theme.",
+    "stack": "static HTML",
+    "status": "archived one-off, static, data is a point-in-time snapshot",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/claude-usage-report", "kind": "images", "count": 2}
+    ],
+    "hook": "A dashboard about Luc's own tooling spend.",
+    "process_artifacts": "shots/ and theme/ folders.",
+    "show_it_as": "Show it as: a static screenshot, clearly dated, or regenerate it with fresh numbers for the hub's own cost-of-building panel."
+  },
+  {
+    "name": "sigzmusic-landing competition (archived)",
+    "one_liner": "A 9-lane landing page fleet across four different models, run for sigzmusic.",
+    "stack": "static HTML lanes: claude, codex, grok, kimi-a through kimi-e, plus neon-remix and a 23M backup tarball",
+    "status": "closed, winner shipped and live on sigzmusic.com",
+    "live_urls": ["https://sigzmusic.com"],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing", "kind": "lane builds and images, 45M; not separately counted", "count": 0}
+    ],
+    "hook": "Nine takes on the same brief, side by side, from four different models.",
+    "process_artifacts": "9 lane dirs, neon-remix/REPORT.md, a 23M backup tarball.",
+    "show_it_as": "Show it as: a nine-up contact sheet with the winner highlighted. The strongest how-he-works exhibit in the archive."
+  },
+  {
+    "name": "sigzmusic-redesign-music-page competition (archived)",
+    "one_liner": "A 5-lane music page redesign with a rubric, a score sheet and the real catalog.",
+    "stack": "static HTML lanes a to e, 11M, assets/*.json with 6 records and 61 tracks",
+    "status": "closed and shipped 2026-08-17",
+    "live_urls": ["https://sigzmusic.com"],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-redesign-music-page", "kind": "lane builds plus catalog JSON snapshot", "count": 0}
+    ],
+    "hook": "Five takes scored against one rubric; lane E, editorial, won at 9.8.",
+    "process_artifacts": "RUBRIC.md, SCORES.md, five lane dirs. The catalog JSON is a 2026-08-17 snapshot, so pull /api/tracks instead.",
+    "show_it_as": "Show it as: five thumbnails with the scores printed under them and the 9.8 circled."
+  },
+  {
+    "name": "sigzmusic-mockups (archived)",
+    "one_liner": "The original concept comps that predate both sigzmusic competitions.",
+    "stack": "static HTML: concept-1-cover-story to concept-4-library-shell, spectrum.html, app.css, two exported PNGs. 3.9M",
+    "status": "archived, superseded twice",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-mockups", "kind": "exported PNG comps", "count": 2}
+    ],
+    "hook": "concept-4-library-shell.html is the ancestor of the shipped player.",
+    "process_artifacts": "four concept HTML files plus spectrum.html.",
+    "show_it_as": "Show it as: the first frame of an evolution strip that ends on the live site."
+  },
+  {
+    "name": "sigzmusic-swipe-transition (archived)",
+    "one_liner": "A 3-lane competition for a swipe-up gesture between the landing page and the music page.",
+    "stack": "static HTML lanes a CURTAIN, b THROUGH THE WAVEFORM, c CUT THE POWER, plus BRIEF, RUBRIC and verify-lane.sh. 268K",
+    "status": "closed 2026-08-21, never deployed, Luc chose the plain tap-through",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-swipe-transition", "kind": "three lane builds", "count": 3}
+    ],
+    "hook": "Three named gesture ideas, all rejected, and the research still changed the live transition on 2026-08-21.",
+    "process_artifacts": "BRIEF.md, RUBRIC.md, verify-lane.sh, three lane dirs.",
+    "show_it_as": "Show it as: three short motion clips, captioned none of these shipped, and it still fixed the live page."
+  },
+  {
+    "name": "sigouin-net-fleet-2026-09-02 (archived)",
+    "one_liner": "The sigouin.net build rounds: five candidate looks and three rejected signature moves, 959M plus a 1.0G evening extension.",
+    "stack": "static sites and scrollcraft builds, Higgsfield photos, kie.ai generation",
+    "status": "closed, all four losing looks and three losing signature moves are do-not-re-pitch",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds", "kind": "six lab capture strips (sigouin-layered-a, -b, sigouin-sig-object, -ink, -depth, sigouin-net-pre-light-cable)", "count": 6},
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-a", "kind": "mp4 clips (gen/a1-hero.mp4, gen/a7-wake.mp4, assets/01.mp4, 06.mp4 and -m mobile pairs)", "count": 6},
+      {"path": "/Users/ls/Claude-Workspace/personal/archive", "kind": "archive-wide totals (png 2810, jpg 77, webp 81, svg 17, mp4 17), most of which sit in this folder", "count": 3002}
+    ],
+    "hook": "Five candidate looks for one personal site, with a blind score sheet. Lane-c won round 1 at 9.0.",
+    "process_artifacts": "fleet-r1-site (three lanes plus blind SCORE.md), fleet-r2-polish and r2-site (7 Higgsfield photos), fleet-r4-layered plus two layered scrollcraft builds (494 kie.ai credits), fleet-r9-signature-losers plus three sig builds. Three RUBRIC.md files.",
+    "show_it_as": "Show it as: a five-way look comparison that ends on the live page, with the blind scores shown. Second-strongest process exhibit after the scrollcraft lab strips."
+  },
+  {
+    "name": "chase-ai (archived)",
+    "one_liner": "Chase AI+ course lessons and transcripts, 38M, last touched 2026-05-08.",
+    "stack": "markdown lessons, transcripts, n8n workflow JSON",
+    "status": "archived reference material",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "none worth showing.",
+    "process_artifacts": "course build folders with README and setup-steps per lesson; inflates any workspace-wide grep for model names.",
+    "show_it_as": "Show it as: nothing."
+  },
+  {
+    "name": "fable-runbooks (archived)",
+    "one_liner": "Fable 5 use-case runbooks, 20K. Runbook 01 was run 2026-07-07; 02, 03 and 04 are unrun prompt blocks.",
+    "stack": "markdown prompt blocks, model-agnostic",
+    "status": "archived, partially run",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "Prompt blocks written to outlive the model they were made for.",
+    "process_artifacts": "four runbook markdown files.",
+    "show_it_as": "Show it as: a text card about model-agnostic runbooks."
+  },
+  {
+    "name": "email-migration (archived)",
+    "one_liner": "A 5-to-1 mailbox consolidation that never started; every checkbox in tracker/migration-status.md is unchecked.",
+    "stack": "tracker markdown, 9.3M",
+    "status": "stalled since 2026-04-23, genuine open to-do",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "none.",
+    "process_artifacts": "tracker/migration-status.md.",
+    "show_it_as": "Show it as: nothing, it never started."
+  },
+  {
+    "name": "homepage-amp-widget (archived)",
+    "one_liner": "A completed and deployed gethomepage customapi widget config for AMP, 8K.",
+    "stack": "YAML widget config",
+    "status": "deployed, live on the Unraid dashboard, folder is reference only",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "A one-file config that is still running on a real dashboard.",
+    "process_artifacts": "the config itself.",
+    "show_it_as": "Show it as: a live widget tile inside a homelab dashboard screenshot."
+  },
+  {
+    "name": "homepage-unraid-widget (archived)",
+    "one_liner": "A completed and deployed gethomepage native unraid widget config, 8K.",
+    "stack": "YAML widget config",
+    "status": "deployed, live, folder is reference only",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "The native-widget twin of the customapi one.",
+    "process_artifacts": "the config itself.",
+    "show_it_as": "Show it as: the same homelab dashboard screenshot as the AMP widget."
+  },
+  {
+    "name": "sigouin-net (old, archived)",
+    "one_liner": "The previous static sigouin.net, 16K, idle since 2026-05-15.",
+    "stack": "static HTML",
+    "status": "archived, superseded by the current live site",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "The plain first version of the site this round is rebuilding.",
+    "process_artifacts": "none.",
+    "show_it_as": "Show it as: the first frame of the sigouin.net evolution strip."
+  },
+  {
+    "name": "claude-settings-audit (archived)",
+    "one_liner": "An audit of the ~/.claude settings and hooks from 2026-08-06, 84K.",
+    "stack": "DESIGN.md, PRODUCT.md, index.html",
+    "status": "archived; its findings were promoted into CLAUDE.md, so the folder is a duplicate record",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "The working-out behind a rule that is now enforced.",
+    "process_artifacts": "DESIGN.md, PRODUCT.md, index.html.",
+    "show_it_as": "Show it as: a static screenshot of the audit page."
+  },
+  {
+    "name": "football (archived)",
+    "one_liner": "PRODUCT.md plus plan and research, 168K, last touched 2026-08-05. Nothing was built.",
+    "stack": "markdown only",
+    "status": "archived planning material",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "none.",
+    "process_artifacts": "PRODUCT.md, plan/, research/.",
+    "show_it_as": "Show it as: nothing."
+  },
+  {
+    "name": "traktor (archived)",
+    "one_liner": "Three leftover CSVs from one Traktor crate-dig session, 2026-07-27, 72K.",
+    "stack": "CSV",
+    "status": "archived, superseded by recipes that lived in the retired memory system",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "none.",
+    "process_artifacts": "three CSVs.",
+    "show_it_as": "Show it as: nothing, or one number in a stats band."
+  },
+  {
+    "name": "kimi-usage (archived)",
+    "one_liner": "A one-off kimi usage probe: kimi_usage.py plus README plus one screenshot, 2026-08-11, 100K.",
+    "stack": "Python script against the uv kimi-cli 1.49 layout, which has since moved",
+    "status": "archived, script needs path fixes to run",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [
+      {"path": "/Users/ls/Claude-Workspace/personal/archive/kimi-usage", "kind": "screenshot", "count": 1}
+    ],
+    "hook": "Measuring a second CLI's spend the same way as Claude's.",
+    "process_artifacts": "kimi_usage.py, README.",
+    "show_it_as": "Show it as: the one screenshot, in a tooling strip."
+  },
+  {
+    "name": "gameserver-hosting (archived)",
+    "one_liner": "Round-3 side-income research into game-server hosting and panels, 88K, rejected on evidence.",
+    "stack": "markdown research",
+    "status": "archived and closed; do not re-pitch the category",
+    "live_urls": [],
+    "live_data_endpoints": [],
+    "assets": [],
+    "hook": "A category killed by its own numbers: panel ceiling around 40 USD lifetime against free Pterodactyl, hosting needs 300 to 650 customers, no verified solo revenue.",
+    "process_artifacts": "00-SYNTHESIS-ROUND3.md lives in research-side-income, which is no longer on disk.",
+    "show_it_as": "Show it as: nothing. The category is closed."
+  }
+]

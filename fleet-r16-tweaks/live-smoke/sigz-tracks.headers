@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Thu, 17 Sep 2026 15:44:38 GMT
+content-type: application/json
+content-length: 14387
+x-live-source: sigzmusic.com
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u7twHNCecQeOLklrBNeEBcbPO%2B5u9bwFFEZVeKJlrDa8s59Naxi20NQ6323FU%2FR4BJHLyQiToOI%2FfCHsvG9Z9baqW%2B8atq%2Fa56J2SBI5zy16%2BunpoQV9ktUEospyyg%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+accept-ranges: bytes
+access-control-allow-origin: https://sigouin.net
+age: 51
+cache-control: public, max-age=60
+last-modified: Thu, 17 Sep 2026 15:43:46 GMT
+server: cloudflare
+vary: Origin
+access-control-expose-headers: X-Live-Source
+x-content-type-options: nosniff
+speculation-rules: "/cdn-cgi/speculation"
+cf-ray: a3c93bbdde67180e-YYZ
+alt-svc: h3=":443"; ma=86400
+

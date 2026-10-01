@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "horizontalOverflow": false,
+    "errors": [],
+    "models": [
+      "assets/glb/sigz-neon-sign-20260917.glb",
+      "assets/glb/golf-pin-v2-20260917.glb",
+      "assets/glb/rack-server-4u-20260917.glb",
+      "assets/glb/game-server-tower-20260917.glb"
+    ],
+    "gameFrame": "https://undergrowth.pages.dev",
+    "cspViolations": []
+  },
+  {
+    "route": "/process/",
+    "width": 1440,
+    "status": 200,
+    "horizontalOverflow": false,
+    "errors": [],
+    "models": [],
+    "cspViolations": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "horizontalOverflow": false,
+    "errors": [],
+    "models": [],
+    "cspViolations": []
+  },
+  {
+    "route": "/process/",
+    "width": 390,
+    "status": 200,
+    "horizontalOverflow": false,
+    "errors": [],
+    "models": [],
+    "cspViolations": []
+  }
+]

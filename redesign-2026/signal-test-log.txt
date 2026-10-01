@@ -1,0 +1,265 @@
+
+> sigouin-two-directions@1.0.0 test
+> node tests/browser.cjs
+
+{
+  "pagesChecked": 4,
+  "accessibilityViolations": [
+    {
+      "site": "signal",
+      "width": 1440,
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".mesh-label-aside"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #738060, background color: #111310, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(3) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(4) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "footer > span"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "site": "signal",
+      "width": 768,
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".mesh-label-aside"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.43 (foreground color: #738060, background color: #111310, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(3) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(4) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "site": "signal",
+      "width": 390,
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".note-row:nth-child(3) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(4) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "footer > span"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "site": "signal",
+      "width": 320,
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".note-row:nth-child(3) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-row:nth-child(4) > .note-index"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "footer > span"
+          ],
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}
+AssertionError [ERR_ASSERTION]: Accessibility violations must be resolved
++ actual - expected
+
++ [
++   {
++     description: 'Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds',
++     id: 'color-contrast',
++     impact: 'serious',
++     nodes: [
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.43 (foreground color: #738060, background color: #111310, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.mesh-label-aside'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(3) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(4) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 5.3pt (7px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           'footer > span'
++         ]
++       }
++     ],
++     site: 'signal',
++     width: 1440
++   },
++   {
++     description: 'Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds',
++     id: 'color-contrast',
++     impact: 'serious',
++     nodes: [
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.43 (foreground color: #738060, background color: #111310, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.mesh-label-aside'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(3) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(4) > .note-index'
++         ]
++       }
++     ],
++     site: 'signal',
++     width: 768
++   },
++   {
++     description: 'Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds',
++     id: 'color-contrast',
++     impact: 'serious',
++     nodes: [
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(3) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(4) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           'footer > span'
++         ]
++       }
++     ],
++     site: 'signal',
++     width: 390
++   },
++   {
++     description: 'Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds',
++     id: 'color-contrast',
++     impact: 'serious',
++     nodes: [
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(3) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.48 (foreground color: #738161, background color: #111310, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           '.note-row:nth-child(4) > .note-index'
++         ]
++       },
++       {
++         summary: 'Fix any of the following:\n' +
++           '  Element has insufficient color contrast of 4.01 (foreground color: #6b795c, background color: #111310, font size: 4.5pt (6px), font weight: normal). Expected contrast ratio of 4.5:1',
++         target: [
++           'footer > span'
++         ]
++       }
++     ],
++     site: 'signal',
++     width: 320
++   }
++ ]
+- []
+
+    at /Users/ls/Claude-Workspace/personal/sigouin-net/redesign-2026/tests/browser.cjs:60:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [Array],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}

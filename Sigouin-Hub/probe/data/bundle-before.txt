@@ -1,0 +1,12 @@
+    2570 ./assets/aiWorkspace-KtnZ8TNk.js
+  117676 ./assets/app-C5Lvy9gq.js
+    2431 ./assets/computerLab-DDAIoaxh.js
+   41160 ./assets/furniture-C6xg731M.js
+    4958 ./assets/index-gUX1hRSt.js
+    9190 ./assets/index-ORes5jla.css
+    9771 ./assets/kit-BMlRbq63.js
+    2706 ./assets/musicStudio-BoL0fBBP.js
+    2202 ./assets/office-CBW1rqWz.js
+  722477 ./assets/three-hnr31L5_.js
+    7830 ./index.html
+  922971 total

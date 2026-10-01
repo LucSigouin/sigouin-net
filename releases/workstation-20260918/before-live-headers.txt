@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Fri, 18 Sep 2026 14:21:21 GMT
+content-type: text/html; charset=utf-8
+content-length: 4302
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tX5ro6JmfGDJUZk1iBnlqQHcrt7eHkI7U7ALJd0wVjwQNv7vKEMawLuTSGZkUo29N81bIWx9a4M3VKuus1SdAp2sYXygjUAYvyjmSBLTdb7jYd3FIkw%2BF8V%2FVUkTkQ%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate, no-transform
+etag: "a6c6d5f4badf59339d7ea8b62f1295ef"
+content-security-policy: default-src 'none'; script-src 'self' https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js 'sha256-i/v3n435qolquosYEoF5HFeHcApJE65vTLe7+0NDBZw='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' blob: https://teetime.sigouin.net; frame-src https://undergrowth.pages.dev; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'none'
+referrer-policy: strict-origin-when-cross-origin
+speculation-rules: "/cdn-cgi/speculation"
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: a3d0ff208b4311fc-YYZ
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,8 @@
+check-hub.py mutant-tested 2026-09-17T14:18Z by the orchestrator (Chase, Fable 5.1).
+Baseline synthetic lane: exit 0. Control copy with regenerated manifest: exit 0.
+16 mutants each exit 1 with the matching message: em dash, font Inter, Space Grotesk,
+backdrop-filter blur, video without poster, no reduced-motion branch, broken local ref,
+missing shot, missing process page, 4 MB video, file not in manifest, state blocked,
+no "Could not verify", emoji heading, marquee, index under 2000 bytes.
+False-positive probe: the words "Internet Interface" pass.
+Not checked mechanically: purple gradient, three equal cards, centred column. Luc's eye.

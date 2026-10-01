@@ -1,0 +1,4 @@
+verify.sh mutant-tested 2026-09-24:
+  empty lane -> exit 1
+  REPORT.md + result.json state=working -> exit 1
+  REPORT.md + result.json state=done -> exit 0

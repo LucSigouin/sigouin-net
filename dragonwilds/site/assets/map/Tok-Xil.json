@@ -1,0 +1,53 @@
+[
+	{
+		"x": 258935.7,
+		"y": 247378.19,
+		"name": "Tok-Xil",
+		"icon": "Tok-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 287285.84,
+		"y": 197805.14,
+		"name": "Tok-Xil",
+		"icon": "Tok-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301625.9,
+		"y": 177421.27,
+		"name": "Tok-Xil",
+		"icon": "Tok-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 367049.7,
+		"y": 77415.88,
+		"name": "Tok-Xil",
+		"icon": "Tok-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 272386.25,
+		"y": 190820.88,
+		"name": "Reforged Zi",
+		"description": "Spawning inside the cave during the quest Brink Of Extinction.",
+		"icon": "Tok-Xil.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

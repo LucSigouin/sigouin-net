@@ -1,0 +1,154 @@
+[
+	{
+		"x": 103810.61,
+		"y": 148877.94,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 68381.95,
+		"y": 146605.88,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 114325.35,
+		"y": 106693.93,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 94104.27,
+		"y": 120702.97,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 69102.664,
+		"y": 118237.98,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 134729.69,
+		"y": -18599.4,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 81508.18,
+		"y": -12845.375,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 29140.783,
+		"y": -45269.945,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 82569.766,
+		"y": -59919.832,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 227472.6,
+		"y": -21593.24,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 44713.508,
+		"y": 144037.28,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 16189.808,
+		"y": 192793.8,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 32918.336,
+		"y": 143776.8,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 68007.484,
+		"y": 172138.8,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 226446.17,
+		"y": 40945.492,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 249257.19,
+		"y": 39880.105,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": -173747.33,
+		"y": 25069.064,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png"
+	},
+	{
+		"x": 209816.77,
+		"y": 184716.62,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348125.3,
+		"y": 121833.97,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371078.22,
+		"y": 178215.31,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339389.47,
+		"y": 32683.035,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 256863.36,
+		"y": 108143.96,
+		"name": "Water Anima Vent",
+		"icon": "Water_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

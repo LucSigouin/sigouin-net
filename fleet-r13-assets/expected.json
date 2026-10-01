@@ -1,0 +1,8 @@
+{
+  "captures":      {"min_files": 12, "must_have_kinds": ["image"]},
+  "3d":            {"min_files": 3,  "must_have_kinds": ["glb"]},
+  "video":         {"min_files": 2,  "must_have_kinds": ["video"]},
+  "stills":        {"min_files": 4,  "must_have_kinds": ["image"]},
+  "process-media": {"min_files": 6,  "must_have_kinds": ["image"]},
+  "proxy":         {"min_files": 2,  "must_have_kinds": ["code"]}
+}

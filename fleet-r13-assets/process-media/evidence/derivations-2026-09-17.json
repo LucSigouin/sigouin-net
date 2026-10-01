@@ -1,0 +1,134 @@
+[
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-c-2026-09-17.png",
+    "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-c/shots/home-1440.png",
+    "source_dimensions": [
+      2880,
+      2430
+    ],
+    "crop": null,
+    "dimensions": [
+      1440,
+      1215
+    ],
+    "palette_colors": null
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r2-polish-2026-09-17.png",
+    "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r2-polish/worker/shots/home-1440.png",
+    "source_dimensions": [
+      2200,
+      722
+    ],
+    "crop": [
+      50,
+      42,
+      1202,
+      722
+    ],
+    "dimensions": [
+      1440,
+      850
+    ],
+    "palette_colors": null
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-a-2026-09-17.png",
+    "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-a/lab/shots/00.png",
+    "source_dimensions": [
+      2880,
+      1800
+    ],
+    "crop": null,
+    "dimensions": [
+      1440,
+      900
+    ],
+    "palette_colors": null
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-b-2026-09-17.png",
+    "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-b/lab/shots/00.png",
+    "source_dimensions": [
+      2880,
+      1800
+    ],
+    "crop": null,
+    "dimensions": [
+      1440,
+      900
+    ],
+    "palette_colors": null
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-nine-up-2026-09-17.webp",
+    "source": [
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-claude.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-codex.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-grok.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-a.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-b.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-c.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-d.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-e.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-live-winner.png"
+    ],
+    "dimensions": [
+      4320,
+      2700
+    ],
+    "order": [
+      "claude",
+      "codex",
+      "grok",
+      "kimi-a",
+      "kimi-b",
+      "kimi-c",
+      "kimi-d",
+      "kimi-e",
+      "live-winner"
+    ],
+    "transform": "3 by 3, no crop, no labels"
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-five-looks-2026-09-17.webp",
+    "source": [
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-c-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r2-polish-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-a-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-b-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-live-2026-09-17.png"
+    ],
+    "dimensions": [
+      7200,
+      900
+    ],
+    "transform": "Horizontal, contained without distortion, no labels"
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-all-seven-2026-09-17.webp",
+    "source": [
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-a-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-b-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-c-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r2-polish-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-a-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-b-2026-09-17.png",
+      "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-live-2026-09-17.png"
+    ],
+    "dimensions": [
+      10080,
+      900
+    ],
+    "transform": "Horizontal, contained without distortion, no labels"
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/kingdom-idle-current-state-2026-09-17.webp",
+    "source": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/current-state.png",
+    "dimensions": [
+      1206,
+      2622
+    ],
+    "transform": "Format conversion, no crop or content change"
+  }
+]

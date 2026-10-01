@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 14387
+Content-Type: application/json
+Access-Control-Allow-Origin: https://sigouin.net
+Cache-Control: public, max-age=60
+Vary: Origin
+Access-Control-Expose-Headers: X-Live-Source
+X-Content-Type-Options: nosniff
+X-Live-Source: sigzmusic.com
+

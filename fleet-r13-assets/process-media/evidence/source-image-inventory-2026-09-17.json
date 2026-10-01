@@ -1,0 +1,524 @@
+[
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/current-state.png",
+    "width": 1206,
+    "height": 2622,
+    "bytes": 548858
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/04-chunky-pixel.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1473345
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/04a-chunky-pixel-ui.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2163402
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/01-handpainted-3d.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2240688
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/01a-handpainted-3d-ui.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2303796
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/02a-vector-flat-ui.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1449340
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/03-isometric-diorama.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2140766
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/02-vector-flat.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1616532
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/idle-art-styles/images/03a-isometric-diorama-ui.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2298400
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/uitest-annotations/home_annotated.png",
+    "width": 1206,
+    "height": 2622,
+    "bytes": 437351
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/block-2x3.png",
+    "width": 1032,
+    "height": 1320,
+    "bytes": 36626
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/block-2x2.png",
+    "width": 840,
+    "height": 1080,
+    "bytes": 30065
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/ground-patch.png",
+    "width": 1152,
+    "height": 576,
+    "bytes": 7335
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/block-1x1.png",
+    "width": 456,
+    "height": 600,
+    "bytes": 14006
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/block-3x3.png",
+    "width": 1224,
+    "height": 1560,
+    "bytes": 47754
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/ground-tile.png",
+    "width": 384,
+    "height": 192,
+    "bytes": 1882
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/mill-L2.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 31311
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/mill-L3.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 30858
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/png/mill-L1.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 31884
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/block-2x3.png",
+    "width": 1032,
+    "height": 1320,
+    "bytes": 24728
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/block-2x2.png",
+    "width": 840,
+    "height": 1080,
+    "bytes": 21039
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/ground-patch.png",
+    "width": 1152,
+    "height": 576,
+    "bytes": 6464
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/block-1x1.png",
+    "width": 456,
+    "height": 600,
+    "bytes": 9654
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/block-3x3.png",
+    "width": 1224,
+    "height": 1560,
+    "bytes": 32606
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/mill-L2.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 22662
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/mill-L3.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 22026
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/plates/mill-L1.png",
+    "width": 840,
+    "height": 1224,
+    "bytes": 22485
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/block-2x3.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 20483
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/block-2x2.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 25174
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/ground-patch.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 10343
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/block-1x1.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 13454
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/block-3x3.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 19418
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/mill-L2.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 25954
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/mill-L3.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 25552
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/iso-idle/blocks/api-plates/mill-L1.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 25960
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/reports/verify-wide.png",
+    "width": 2200,
+    "height": 1430,
+    "bytes": 278134
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects/reports/verify-relaunch.png",
+    "width": 1438,
+    "height": 1645,
+    "bytes": 275305
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/48.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1129398
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/14.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1616885
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/00.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 3103262
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/28.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1653976
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/29.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1332226
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/01.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 2440285
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/15.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1678654
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/03.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1846502
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/17.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1645080
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/16.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1685917
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/02.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1862485
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/06.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1512794
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/12.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1675518
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/sheet.png",
+    "width": 2600,
+    "height": 3250,
+    "bytes": 4332102
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/13.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1612021
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/07.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1522874
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/39.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1784770
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/11.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1716315
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/05.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1546007
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/04.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1669650
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/10.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1733161
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/38.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1755883
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/35.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1555623
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/21.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1023230
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/09.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1740746
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/08.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1758031
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/20.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 964587
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/34.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1536756
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/22.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1259942
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/36.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1632709
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/37.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1709757
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/23.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1637984
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/27.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1864385
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/33.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1535241
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/32.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1582276
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/26.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1622285
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/18.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1425131
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/30.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1315344
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/24.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1746508
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/25.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1726913
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/31.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1463200
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/19.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1282697
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/42.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1270079
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/43.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1239083
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/41.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1499018
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/40.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1709840
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/44.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1105989
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/45.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1110029
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/47.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1151683
+  },
+  {
+    "path": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/46.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 1153672
+  }
+]

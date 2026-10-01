@@ -1,0 +1,11 @@
+HTTP/1.1 405 Method Not Allowed
+Content-Length: 2
+Content-Type: application/json
+Access-Control-Allow-Origin: https://www.sigouin.net
+Allow: GET, HEAD
+Cache-Control: no-store
+Vary: Origin
+Access-Control-Expose-Headers: X-Live-Source
+X-Content-Type-Options: nosniff
+X-Live-Source: sigzmusic.com
+

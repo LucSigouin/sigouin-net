@@ -1,0 +1,5 @@
+{
+  "command": "curl -sI https://sigouin.net/ | grep -i content-security-policy",
+  "exit_code": 0,
+  "checked_at_utc": "2026-09-17T15:21:31.443012+00:00"
+}

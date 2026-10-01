@@ -1,0 +1,2213 @@
+[
+	{
+		"x": 315547.66,
+		"y": 29436.83,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316132.2,
+		"y": 30591.98,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 313547.88,
+		"y": 31038.46,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 314353.12,
+		"y": 31156.62,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316161.97,
+		"y": 31284.01,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326527.28,
+		"y": 31375.99,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 331456.97,
+		"y": 31452.3,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 331154.84,
+		"y": 31551.43,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326409.22,
+		"y": 31612.43,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326665.4,
+		"y": 31617.56,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 331602.25,
+		"y": 31699.54,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325752.34,
+		"y": 31736.51,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326098.6,
+		"y": 31826.79,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326535.38,
+		"y": 31928.75,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 313228.5,
+		"y": 31960.4,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316263.97,
+		"y": 31989.99,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325465.28,
+		"y": 32005.89,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325707.6,
+		"y": 32017.58,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 330453.75,
+		"y": 32069.9,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 332347.2,
+		"y": 32100.82,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316693.38,
+		"y": 32228.36,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325885.38,
+		"y": 32278.75,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329270.22,
+		"y": 32477.4,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329812.6,
+		"y": 32503.52,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329959.9,
+		"y": 32538.25,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329804.75,
+		"y": 32665.82,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329910,
+		"y": 32745.28,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329764.44,
+		"y": 32747.44,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329960.25,
+		"y": 32846.89,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329438.2,
+		"y": 32899.07,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329031.12,
+		"y": 33135.63,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 330069.6,
+		"y": 33172.02,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326359.12,
+		"y": 33456.36,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329328.84,
+		"y": 33470.28,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316340.72,
+		"y": 33496.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325877.7,
+		"y": 33823.22,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325217.78,
+		"y": 33905.52,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315951.16,
+		"y": 34022.16,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326059.06,
+		"y": 34024.41,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325625.8,
+		"y": 34234.57,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323343.7,
+		"y": 34617.17,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327512.06,
+		"y": 34636.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315203.28,
+		"y": 34784.72,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323144.06,
+		"y": 34069.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315060.75,
+		"y": 35038.88,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 322755.1,
+		"y": 35051,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327312.06,
+		"y": 35136.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327712.06,
+		"y": 35136.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 328227.6,
+		"y": 35292.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 322944.06,
+		"y": 35369.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323494.06,
+		"y": 35369.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323859.56,
+		"y": 35525.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316336.25,
+		"y": 35672.64,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323721.62,
+		"y": 35710.79,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315266.72,
+		"y": 35719.75,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327712.5,
+		"y": 35786.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 328012.5,
+		"y": 35786.84,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 324160.8,
+		"y": 35959.13,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323344.06,
+		"y": 36019.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323644.06,
+		"y": 36019.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325614.84,
+		"y": 36107.51,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323973.8,
+		"y": 36138.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 323636.16,
+		"y": 36209.71,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316571.62,
+		"y": 36462.37,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325584.38,
+		"y": 36631.52,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315466.47,
+		"y": 36645.14,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325071.8,
+		"y": 36679.88,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 317391.78,
+		"y": 36927.51,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315544.06,
+		"y": 36997.79,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 324904.4,
+		"y": 37114.26,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 333704.94,
+		"y": 37195.18,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 325999.44,
+		"y": 37272.62,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 324977.22,
+		"y": 37383.46,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 326125.5,
+		"y": 37458.79,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315162.44,
+		"y": 37624.32,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 332646.66,
+		"y": 38235.26,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315093.38,
+		"y": 38283.72,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 332461.22,
+		"y": 39190.32,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 330376.97,
+		"y": 39611.01,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 335266.53,
+		"y": 39844.63,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 333119.06,
+		"y": 40069.61,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320161.25,
+		"y": 40149.41,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 333978.6,
+		"y": 40465.93,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320392.06,
+		"y": 40475.68,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320558.88,
+		"y": 40988.05,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329974.25,
+		"y": 41033.06,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320030.3,
+		"y": 41095.64,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320808.16,
+		"y": 41183.25,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 321395.78,
+		"y": 41430.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320643.44,
+		"y": 41512.81,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320112.78,
+		"y": 41639.85,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327777.53,
+		"y": 41667.05,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329340.66,
+		"y": 41681.51,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 327464.2,
+		"y": 41810.27,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315372.25,
+		"y": 41854.41,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319844.4,
+		"y": 41931.22,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 328600.03,
+		"y": 41992.77,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315927.3,
+		"y": 42085.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320999.5,
+		"y": 42103.12,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329107.22,
+		"y": 42147.62,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315928.2,
+		"y": 42339.25,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 329115.94,
+		"y": 42477.78,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315560.8,
+		"y": 42561.74,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316392.53,
+		"y": 42884.14,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316751.47,
+		"y": 42969.86,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315373.03,
+		"y": 43088.45,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 320385.1,
+		"y": 43280.52,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316611.6,
+		"y": 43366.31,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319972.97,
+		"y": 43449.33,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 317147.28,
+		"y": 43817.38,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 317545.56,
+		"y": 43999.36,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309923.62,
+		"y": 44161.01,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309923.6,
+		"y": 44161.05,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 308976.5,
+		"y": 44260.56,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 308975.8,
+		"y": 44261.38,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309610.22,
+		"y": 44313.83,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309469.34,
+		"y": 44317.99,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309405.72,
+		"y": 44325.3,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 310231.06,
+		"y": 44401.87,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 310231.06,
+		"y": 44401.87,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309769.88,
+		"y": 44571.52,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309769.84,
+		"y": 44571.56,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 308989.6,
+		"y": 44708.06,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 308989.6,
+		"y": 44708.06,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 309402.75,
+		"y": 44786.98,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338791.56,
+		"y": 45945.85,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338893.38,
+		"y": 46136.29,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338579.56,
+		"y": 46191.03,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 318431.1,
+		"y": 46291.38,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 339041.75,
+		"y": 46333.69,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338779.16,
+		"y": 46343.43,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 339246.88,
+		"y": 46453.11,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 339020.84,
+		"y": 46591.99,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 339299.12,
+		"y": 46751.57,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338521.1,
+		"y": 46769.98,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319577.12,
+		"y": 46934.33,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338691.3,
+		"y": 46989.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 337854.84,
+		"y": 46994.25,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 340582.3,
+		"y": 47034.42,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319804.38,
+		"y": 47116.73,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 338612.44,
+		"y": 47199.88,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 317588.22,
+		"y": 47501.68,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 339506.25,
+		"y": 47654.36,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319693.2,
+		"y": 47685.26,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 319927.3,
+		"y": 47892.74,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315221.12,
+		"y": 40234.23,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316147.72,
+		"y": 40267.18,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315479.16,
+		"y": 40268.86,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316375.3,
+		"y": 40285.33,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 340615.34,
+		"y": 40340.65,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315119.34,
+		"y": 40603.94,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 314497.75,
+		"y": 49257.06,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 316207.28,
+		"y": 49497.73,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 315179.62,
+		"y": 49928.1,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 300880.7,
+		"y": 198645.9,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 301071.2,
+		"y": 198864.58,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 252936.81,
+		"y": 198878.6,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 245354.83,
+		"y": 199325.02,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 302796.66,
+		"y": 199668.58,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 302843.34,
+		"y": 199906.72,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 300757.3,
+		"y": 200165.47,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 300880.12,
+		"y": 200376.7,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 245344.12,
+		"y": 200883.5,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 245334.56,
+		"y": 201102.33,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 243990.53,
+		"y": 201464.2,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 247740.89,
+		"y": 201546.16,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 244522.14,
+		"y": 201726.02,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 299265.3,
+		"y": 202828.75,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 298239.75,
+		"y": 203105.19,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 298550.34,
+		"y": 203135.8,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 302204.72,
+		"y": 203426.39,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 302198.84,
+		"y": 203740.6,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 334994.9,
+		"y": 217329.19,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 297301.66,
+		"y": 217354.08,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 335091.25,
+		"y": 217407.58,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 332935.53,
+		"y": 217592.45,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 333362.66,
+		"y": 217673.98,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 299842.62,
+		"y": 218317.31,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 291580.16,
+		"y": 218392.2,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 330943.9,
+		"y": 218469.19,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 291210.4,
+		"y": 218726.66,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 291015.12,
+		"y": 218877.58,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 298715.47,
+		"y": 219121.36,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 332581.5,
+		"y": 219367.4,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 290579.78,
+		"y": 219367.53,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 290525.03,
+		"y": 219609.8,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 302281.5,
+		"y": 220653.2,
+		"name": "Kalphite Queen Egg",
+		"description": "Large Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 289014.06,
+		"y": 221796.73,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 289050.4,
+		"y": 222000.97,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222549.98,
+		"y": 229418.66,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222062.81,
+		"y": 229533.66,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 221854.98,
+		"y": 230684.2,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 223281.92,
+		"y": 230861.08,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 220712.44,
+		"y": 230920.16,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222405.45,
+		"y": 231087.31,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222306.52,
+		"y": 231728.45,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222783.27,
+		"y": 232292.08,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222007,
+		"y": 232680.02,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222718.97,
+		"y": 232880.31,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222066.56,
+		"y": 232947.53,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	},
+	{
+		"x": 222594.11,
+		"y": 233063.17,
+		"name": "Kalphite Queen Egg",
+		"description": "Small Egg",
+		"icon": "Kalphite_Egg.png",
+		"iconSize": [
+			32,
+			40
+		]
+	}
+]

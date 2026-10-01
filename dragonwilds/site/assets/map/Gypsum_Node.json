@@ -1,0 +1,3752 @@
+[
+	{
+		"x": -470490,
+		"y": -127140,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -469085.22,
+		"y": -117823.82,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -467886.78,
+		"y": -136836.92,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -467834.53,
+		"y": -117871.73,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -467813.84,
+		"y": -136957.88,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -464824,
+		"y": 193276.28,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -464637.72,
+		"y": -135959.03,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -464202.12,
+		"y": 193689.89,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -463050,
+		"y": 49660,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -456180,
+		"y": 55090,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -455770,
+		"y": -124090,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -454750.75,
+		"y": 64230.035,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -454611.97,
+		"y": 53252.594,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453430,
+		"y": 69730,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -451810,
+		"y": 64510,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -450029.72,
+		"y": 66587.52,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -443882.9,
+		"y": 77348.195,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -443735.62,
+		"y": 78080.414,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 191337.4,
+		"y": 192860.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 199535.62,
+		"y": 210174.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 200160.14,
+		"y": 209625.89,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 200869,
+		"y": 210843.23,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 203337.86,
+		"y": 152996.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 203398.88,
+		"y": 153479.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 203436.94,
+		"y": 152987.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 206407.73,
+		"y": 151956.33,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 208161.1,
+		"y": 152852.38,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 208910.2,
+		"y": 180940.3,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 211248.78,
+		"y": 189238.61,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 212011.14,
+		"y": 186421.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214135.86,
+		"y": 134939.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214231.7,
+		"y": 134965.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214441.36,
+		"y": 187279.58,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214707.45,
+		"y": 187810.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 215965.4,
+		"y": 138963.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 216019.19,
+		"y": 187178.03,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 216103.77,
+		"y": 138591.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 217986.53,
+		"y": 132049.28,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218216.61,
+		"y": 111121.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218264.1,
+		"y": 111034.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 226414.52,
+		"y": 198648.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 234168.4,
+		"y": 183384.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 236535.81,
+		"y": 183662.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 238909.2,
+		"y": 197717.66,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 239682.4,
+		"y": 197868.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 239958.42,
+		"y": 141181.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 241552.5,
+		"y": 167653.86,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 242634,
+		"y": 167825.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 242993.14,
+		"y": 167959.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 243456.62,
+		"y": 231220.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 243880.42,
+		"y": 229903.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 244472.64,
+		"y": 233692.62,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 244939.94,
+		"y": 199705.42,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245140.84,
+		"y": 201894.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245276.73,
+		"y": 175185.44,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246199.56,
+		"y": 249255.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246370.86,
+		"y": 202649.39,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246491.42,
+		"y": 231781.95,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246516,
+		"y": 202937.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246553.6,
+		"y": 199763.5,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246687.7,
+		"y": 173911.12,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246690.03,
+		"y": 202419.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246796.69,
+		"y": 203132.67,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248493.66,
+		"y": 201600.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248666.06,
+		"y": 172967.5,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 249210.34,
+		"y": 177297.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 249348.95,
+		"y": 174841.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 249935.98,
+		"y": 208148.12,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 250372.95,
+		"y": 208685.05,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 252825.83,
+		"y": 198520.88,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 253770.84,
+		"y": 204614.05,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 257427.53,
+		"y": 248427.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 258040.94,
+		"y": 247656.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 259506.31,
+		"y": 249594.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 260060.61,
+		"y": 246280.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 261827.48,
+		"y": 246826.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 264553.9,
+		"y": 152080.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 264844.3,
+		"y": 152266.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 265796.84,
+		"y": 243568.31,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 266113.72,
+		"y": 244281.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 267822.5,
+		"y": 151920.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 268090.5,
+		"y": 151531.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 270420.34,
+		"y": 136763.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 270743.4,
+		"y": 104025.336,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 270815.25,
+		"y": 194407.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 270881.2,
+		"y": 195425.44,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271039.66,
+		"y": 135743.67,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271177,
+		"y": 132138,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271817.66,
+		"y": 150392.34,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271900,
+		"y": 103900,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271972.7,
+		"y": 150301.94,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 272625.4,
+		"y": 194399.06,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 276263.97,
+		"y": 113376.46,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 276863.7,
+		"y": 105999.53,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 278383.62,
+		"y": 183923.86,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281180.9,
+		"y": 135339.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281213.28,
+		"y": 134873.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281583.1,
+		"y": 134562.5,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281904.38,
+		"y": 134157.77,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 282397.53,
+		"y": 181104.83,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 282846.53,
+		"y": 180992.06,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283185.8,
+		"y": 196557.33,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283308.62,
+		"y": 196834.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283316.6,
+		"y": 196379.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283487.78,
+		"y": 239625.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283530,
+		"y": 122750,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283532.12,
+		"y": 242451.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283714.66,
+		"y": 242356.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283901.22,
+		"y": 196781.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283912.06,
+		"y": 240498.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284096.03,
+		"y": 242561.42,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284372.22,
+		"y": 242686.52,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284483.7,
+		"y": 241909.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 286500,
+		"y": 193300,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 286583.84,
+		"y": 181374.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 287091.06,
+		"y": 180171.5,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 287183.38,
+		"y": 181325.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 287547.38,
+		"y": 180500.42,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289040.97,
+		"y": 185207.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289374.1,
+		"y": 198185.62,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289400.3,
+		"y": 179115.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289998.28,
+		"y": 182969.39,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 290179.2,
+		"y": 180890,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291186.7,
+		"y": 182242.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 294971.75,
+		"y": 62508.555,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 295058.72,
+		"y": 62356.035,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 295511,
+		"y": 80753.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 296276.75,
+		"y": 135193.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 297173.5,
+		"y": 217520.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298764.34,
+		"y": 69821.12,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298888.88,
+		"y": 70088.59,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298895.53,
+		"y": 69969.87,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298935.78,
+		"y": 69662.266,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299742.88,
+		"y": 218083.69,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299881.1,
+		"y": 65151.996,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299973.47,
+		"y": 65354.996,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300386.1,
+		"y": 218215.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300578.8,
+		"y": 218356.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301269.5,
+		"y": 100567.484,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301480.6,
+		"y": 96242.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301641.5,
+		"y": 94385.48,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302100.4,
+		"y": 220790.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302445.72,
+		"y": 220793.88,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302632.12,
+		"y": 101491.91,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302873.34,
+		"y": 65371.285,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 303410,
+		"y": 65500,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 303749.6,
+		"y": 64028.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 304504.8,
+		"y": 210906.67,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 305554.8,
+		"y": 210225.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306080.3,
+		"y": 177381.44,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306524.47,
+		"y": 177551.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 307035.88,
+		"y": 178838.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 307939.03,
+		"y": 180919.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 308449.7,
+		"y": 181034.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 308680.12,
+		"y": 181036.44,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 308903.94,
+		"y": 180929.89,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 309109,
+		"y": 210736.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 309343.72,
+		"y": 210986.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 309959.22,
+		"y": 182895.69,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310128.66,
+		"y": 213467.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310326.94,
+		"y": 183893.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310361.1,
+		"y": 183661.95,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310408,
+		"y": 183484.67,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 312381.16,
+		"y": 38976.027,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 312579.22,
+		"y": 39170.19,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 312876.6,
+		"y": 39227.562,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313022.12,
+		"y": 187546.25,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313216.97,
+		"y": 33285.85,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313224.6,
+		"y": 31049.434,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313306.2,
+		"y": 187670.48,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313410.47,
+		"y": 30135.943,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313792.66,
+		"y": 29874.553,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314171.6,
+		"y": 125634.07,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314301.47,
+		"y": 125704.83,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314305.22,
+		"y": 82991.29,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314421.1,
+		"y": 125736.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314442,
+		"y": 83015.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314463.75,
+		"y": 82838.99,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314620.6,
+		"y": 203319.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314628.66,
+		"y": 211906.62,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314664.72,
+		"y": 200886.75,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314691.84,
+		"y": 202966.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314756.03,
+		"y": 200620.97,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314762.56,
+		"y": 202613.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314879,
+		"y": 210209.3,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315037.12,
+		"y": 210986.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315222.72,
+		"y": 37924.656,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315395.4,
+		"y": 36415.938,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315789.3,
+		"y": 199635.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315950.78,
+		"y": 31231.041,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316333.62,
+		"y": 30615.768,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316709.44,
+		"y": 32545.219,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316739.22,
+		"y": 36632.617,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316782.4,
+		"y": 32394.525,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317028.72,
+		"y": 32976.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317065.06,
+		"y": 44609.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317107.28,
+		"y": 47247.75,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317267.6,
+		"y": 210432.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317275.12,
+		"y": 44757.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 317332.25,
+		"y": 210054.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319286,
+		"y": 149375.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319325.25,
+		"y": 149544.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319447.5,
+		"y": 147642.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319480.72,
+		"y": 147363.62,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319517.8,
+		"y": 147500.23,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319636.06,
+		"y": 213709.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 319767.38,
+		"y": 213826.38,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 321792.38,
+		"y": 146883.52,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 322051.97,
+		"y": 148848.97,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 322216.94,
+		"y": 148556.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 323550.84,
+		"y": 45646.39,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 323993.6,
+		"y": 37388.016,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 324292.12,
+		"y": 36229.832,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 324437.6,
+		"y": 36039.742,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326296.16,
+		"y": 40385.31,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326531.03,
+		"y": 31022.951,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327169.56,
+		"y": 31794.232,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327504.62,
+		"y": 110843.97,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327850,
+		"y": 76294,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 328000.12,
+		"y": 76469.15,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 328753.66,
+		"y": 170127.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329100.8,
+		"y": 78492.44,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329120.12,
+		"y": 37266.117,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329142.03,
+		"y": 78129.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329148.88,
+		"y": 42765.363,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329691.2,
+		"y": 170198.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329736.84,
+		"y": 166283.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329988.38,
+		"y": 165978.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330670.03,
+		"y": 33615.484,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330672.4,
+		"y": 218534.75,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330854.4,
+		"y": 218656.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330877.28,
+		"y": 167013.06,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331471,
+		"y": 218338.89,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331969.75,
+		"y": 31440.23,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332205.34,
+		"y": 31491.947,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332374.28,
+		"y": 32784.594,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332415.56,
+		"y": 38400.293,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332421.28,
+		"y": 38098.35,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332645.6,
+		"y": 166960.03,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332778.03,
+		"y": 166997.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332956.78,
+		"y": 166815.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333310.88,
+		"y": 36924.74,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333417.1,
+		"y": 37089.793,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 334781.56,
+		"y": 164942.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 334965,
+		"y": 164857.34,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336141.8,
+		"y": 130206.45,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336192.75,
+		"y": 130344.945,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336215.84,
+		"y": 218868.88,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336774.94,
+		"y": 219101.19,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 337006.34,
+		"y": 217898.31,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 337429.22,
+		"y": 131771.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 337522.72,
+		"y": 218088.8,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338090,
+		"y": 47656.812,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338271.22,
+		"y": 47578.72,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338446.66,
+		"y": 47622.824,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338603.5,
+		"y": 56795.902,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338727.72,
+		"y": 56943.39,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338858.72,
+		"y": 131454.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339418.47,
+		"y": 46536.836,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 341038.5,
+		"y": 100742.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 341173.44,
+		"y": 100645.86,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 341976.9,
+		"y": 139052.06,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342063.8,
+		"y": 139106.5,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342227.78,
+		"y": 138340,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342338.44,
+		"y": 138299.38,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342416.28,
+		"y": 138200.88,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 343140.88,
+		"y": 138603.23,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 343214.7,
+		"y": 139272.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 343320.16,
+		"y": 139328.61,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 343415.4,
+		"y": 138255.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 344855.75,
+		"y": 155599.25,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 344993.5,
+		"y": 155538.75,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 346555.47,
+		"y": 181461.66,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 346690.53,
+		"y": 181299.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 346743.7,
+		"y": 181148.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 347817.22,
+		"y": 161361.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 347866.8,
+		"y": 161238.45,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 347950,
+		"y": 156000,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348012.56,
+		"y": 156157.78,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348060.66,
+		"y": 155891.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348539.06,
+		"y": 181354.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348640,
+		"y": 181226.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 348726.12,
+		"y": 181068.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 349565.88,
+		"y": 161814.33,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 349569.56,
+		"y": 161662.94,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 349704.7,
+		"y": 161627.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 350926.4,
+		"y": 154742.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 351826.4,
+		"y": 155242.6,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352118.16,
+		"y": 49683.42,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352141.4,
+		"y": 50066.297,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352235.56,
+		"y": 49845.81,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 354367.56,
+		"y": 155577.08,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355498.9,
+		"y": 143474.61,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355624.3,
+		"y": 143678.53,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355698.56,
+		"y": 143826.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356204.53,
+		"y": 157241.55,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356532.5,
+		"y": 157358.19,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356676.1,
+		"y": 157334.12,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356864.47,
+		"y": 157346.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359398.66,
+		"y": 95442.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359432.5,
+		"y": 95301.836,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359574.44,
+		"y": 95211.54,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359580.53,
+		"y": 94000.52,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359712.47,
+		"y": 93848.91,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359753.56,
+		"y": 93991.38,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 360328.25,
+		"y": 178149.7,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 360479.16,
+		"y": 178134.64,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 360604.5,
+		"y": 178115.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361150,
+		"y": 93850,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361324.84,
+		"y": 180426.73,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361543.12,
+		"y": 180291.97,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 362387.2,
+		"y": 179910.89,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 362537.47,
+		"y": 179811.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363983,
+		"y": 74180.31,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364000,
+		"y": 61950,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364313.38,
+		"y": 79130.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364670.22,
+		"y": 78673.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365303.6,
+		"y": 176982.19,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365486.38,
+		"y": 177086.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365659.44,
+		"y": 177106.92,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365666.25,
+		"y": 172641.84,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365735.84,
+		"y": 58948.65,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365780.84,
+		"y": 77994.734,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365840,
+		"y": 59100,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365917.72,
+		"y": 58991.375,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366030.56,
+		"y": 173014.23,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366245.38,
+		"y": 179387.03,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366281.3,
+		"y": 58994.453,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366346.34,
+		"y": 179260.22,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366434.62,
+		"y": 179116.3,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366588.8,
+		"y": 72127.75,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 366803.75,
+		"y": 72271.555,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 368458.88,
+		"y": 183450.47,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 368576.38,
+		"y": 183287.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 368934.44,
+		"y": 80141.805,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369262.25,
+		"y": 74982.69,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369509.16,
+		"y": 141665.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369511.34,
+		"y": 73137.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369639.44,
+		"y": 80597.91,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369642.88,
+		"y": 80045.59,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369723.88,
+		"y": 141947.86,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369845.25,
+		"y": 185607.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369851.22,
+		"y": 185819.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369943.7,
+		"y": 76484.836,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 369973.4,
+		"y": 72534.65,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370332.97,
+		"y": 142196.36,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370397.3,
+		"y": 100315.48,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370400,
+		"y": 99000,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370485.7,
+		"y": 100149.266,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370969.6,
+		"y": 141488.19,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371293.72,
+		"y": 78413.35,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371321.44,
+		"y": 185617.56,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371507.03,
+		"y": 76943.086,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371682.56,
+		"y": 77017.625,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371722.28,
+		"y": 77187.14,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374246.03,
+		"y": 171811.9,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374598.4,
+		"y": 181077.73,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374603.78,
+		"y": 178180.98,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374797.72,
+		"y": 181134.73,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 374828.7,
+		"y": 178113.02,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 375089.7,
+		"y": 171055.48,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 375374,
+		"y": 185962.42,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 375458.56,
+		"y": 186124.1,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 376460.8,
+		"y": 171776.27,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 376769.75,
+		"y": 182288.2,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 376785.97,
+		"y": 182450.67,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 376866.5,
+		"y": 182636.16,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 384725.03,
+		"y": 121867.85,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 384737.06,
+		"y": 122066.29,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 385010.44,
+		"y": 118722.65,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 385151.12,
+		"y": 118694.46,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 385203.66,
+		"y": 118926.195,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 432005.78,
+		"y": 58747.33,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 433048.6,
+		"y": 58541.11,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 433304.8,
+		"y": 59497.33,
+		"name": "Gypsum Node",
+		"icon": "Gypsum_Node.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

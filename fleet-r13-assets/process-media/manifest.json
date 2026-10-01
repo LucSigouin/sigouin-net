@@ -1,0 +1,635 @@
+{
+  "lane": "process-media",
+  "created_at": "2026-09-17T13:59:47.211162Z",
+  "files": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-claude-2026-09-17-full.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/claude/workbench.html",
+      "bytes": 864129,
+      "sha256": "f3c74a45e737083c831e16b115db365442237eecb0c400b0e093956873062243",
+      "capture": {
+        "at": "2026-09-17T13:49:57.676Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": true
+      },
+      "transform": "Full scroll area retained and resized proportionally to 1440 pixels wide where source content overflows; indexed PNG palette to meet the image cap."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-claude-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/claude/workbench.html",
+      "bytes": 251823,
+      "sha256": "c9a4ca992a5d644eb1880861d487933be7c3f1c33538e6eb714f36b5575bb944",
+      "capture": {
+        "at": "2026-09-17T13:49:57.676Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-kimi-2026-09-17-full.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/kimi/workbench.html",
+      "bytes": 1435502,
+      "sha256": "ecfe3445a905616554400416d50c348a9c348c81fcb50eac6821cbcc7ecd8774",
+      "capture": {
+        "at": "2026-09-17T13:35:06.520Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": true
+      },
+      "transform": "Full scroll area retained and resized proportionally to 1440 pixels wide where source content overflows; indexed PNG palette to meet the image cap."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-kimi-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/kimi/workbench.html",
+      "bytes": 216971,
+      "sha256": "513bedcf521cc738d88871529982da314590a13667fb311abc86758047d7db69",
+      "capture": {
+        "at": "2026-09-17T13:35:06.520Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-live-2026-09-17-full.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/workbench/workbench.html",
+      "bytes": 744309,
+      "sha256": "db5b174fe407372bf56a945a41d10c2dded18a2a101f8ae2a30ad95607352b74",
+      "capture": {
+        "at": "2026-09-17T13:35:00.639Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": true
+      },
+      "transform": "Full scroll area retained and resized proportionally to 1440 pixels wide where source content overflows; indexed PNG palette to meet the image cap."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-live-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/workbench/workbench.html",
+      "bytes": 185225,
+      "sha256": "b5b2b662d253852f087a14aed235e3f09703cec2d70f5a9a3156b3698ead24ae",
+      "capture": {
+        "at": "2026-09-17T13:35:00.639Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/how-the-fleet-works-2026-09-17-full.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/how-the-fleet-works.html",
+      "bytes": 32930,
+      "sha256": "e72ec606063c643735940ac12df19f8930d92fe2570474bc7bb47e3172ab8330",
+      "capture": {
+        "at": "2026-09-17T13:35:09.054Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": true
+      },
+      "transform": "Full scroll area retained and resized proportionally to 1440 pixels wide where source content overflows; indexed PNG palette to meet the image cap."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/how-the-fleet-works-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/Fleet-Machine/how-the-fleet-works.html",
+      "bytes": 105775,
+      "sha256": "a9f6c8bb80e0261ecbcf42858653683ee59c15ef79edb742ab3ff5b796925823",
+      "capture": {
+        "at": "2026-09-17T13:35:09.054Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-claude.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/claude/demo.html",
+      "bytes": 636581,
+      "sha256": "3e3b9780517ed35b282402b19410fbecb1418697face871440010e45f3b11550",
+      "capture": {
+        "at": "2026-09-17T13:34:31.000Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-codex.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/codex/demo.html",
+      "bytes": 723849,
+      "sha256": "6f4ff7e4a1e43b4b32a35841f6a5b574d699a338f74294a1526852d9bc5d2067",
+      "capture": {
+        "at": "2026-09-17T13:34:33.855Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-grok.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/grok/demo.html",
+      "bytes": 626096,
+      "sha256": "9dcdd5327f6c3615606f657c3c11be470852ae9bbcc40dc5caf9566813993acd",
+      "capture": {
+        "at": "2026-09-17T13:34:36.719Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-a.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-a/demo.html",
+      "bytes": 643682,
+      "sha256": "574e2f8cfde116597965d31770e3adc6becd5a8cab517e800c00133c63bd50e8",
+      "capture": {
+        "at": "2026-09-17T13:34:39.537Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-b.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-b/demo.html",
+      "bytes": 666063,
+      "sha256": "d4225b8aa17f19a1484bc717c58567ee6b02ab0c3ba28dceb716318a6c873f13",
+      "capture": {
+        "at": "2026-09-17T13:34:42.335Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-c.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-c/demo.html",
+      "bytes": 648968,
+      "sha256": "d36f09f692a8ee72f3e823df782fde0a3da57c39cf3fcc93fb02f9126e517d96",
+      "capture": {
+        "at": "2026-09-17T13:34:45.106Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-d.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-d/demo.html",
+      "bytes": 643941,
+      "sha256": "b3d54e42c28176fbb7882c7753e905b4ff208cc2296d4d7beaa2d97d947aab97",
+      "capture": {
+        "at": "2026-09-17T13:34:47.887Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-e.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-e/demo.html",
+      "bytes": 643967,
+      "sha256": "e41a353a1476118af2157269b8d92c3163ca54aa85958cc5ed4fec73165dd547",
+      "capture": {
+        "at": "2026-09-17T13:34:50.616Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-live-winner.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com",
+      "bytes": 683629,
+      "sha256": "7c1bc7ff5abb954c4a887e7927b82ad74742842bbb981ea62cfe626e3ba2d6a2",
+      "capture": {
+        "at": "2026-09-17T13:34:53.404Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-nine-up-2026-09-17.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/claude/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/codex/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/grok/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-a/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-b/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-c/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-d/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-e/demo.html; https://sigzmusic.com",
+      "bytes": 337192,
+      "sha256": "000003c9652994abd86c9630857c353a54dc0aec4a9807b817cf8c4d1094a312",
+      "transform": {
+        "dimensions": [
+          4320,
+          2700
+        ],
+        "order": [
+          "claude",
+          "codex",
+          "grok",
+          "kimi-a",
+          "kimi-b",
+          "kimi-c",
+          "kimi-d",
+          "kimi-e",
+          "live-winner"
+        ],
+        "transform": "3 by 3, no crop, no labels"
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/scrollcraft-filmstrip-2026-09-17.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/scrollcraft-filmstrip-poster-2026-09-17.webp",
+      "source": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/00.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/01.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/02.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/03.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/04.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/05.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/06.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/07.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/08.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/09.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/10.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/11.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/12.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/13.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/14.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/15.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/16.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/17.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/18.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/19.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/20.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/21.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/22.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/23.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/24.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/25.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/26.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/27.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/28.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/29.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/30.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/31.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/32.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/33.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/34.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/35.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/36.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/37.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/38.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/39.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/40.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/41.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/42.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/43.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/44.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/45.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/46.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/47.png; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/48.png",
+      "bytes": 1285355,
+      "sha256": "5d6fef3e7bd92a455ffe70a156b176a06c961ace3761a73099abe3aa2dfe6598",
+      "transform": "49 ordered frames at 7 source frames per second, 30 fps H.264, 1280 by 800, no audio."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/scrollcraft-filmstrip-poster-2026-09-17.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/00.png",
+      "bytes": 51066,
+      "sha256": "c27a3326ae168af54539590f8cf540df59dbf64d9a490afd9133157a17055997",
+      "transform": "Resized to 1280 by 800, WebP conversion."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-all-seven-2026-09-17.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-a/site/index.html; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-b/site/index.html; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-c/shots/home-1440.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r2-polish/worker/shots/home-1440.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-a/lab/shots/00.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-b/lab/shots/00.png; https://sigouin.net",
+      "bytes": 395016,
+      "sha256": "da2406c6b3d71952b86b135754df5cdefd3ba8814b532e7c215db9fadce3ccb9",
+      "transform": {
+        "dimensions": [
+          10080,
+          900
+        ],
+        "transform": "Horizontal, contained without distortion, no labels"
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-five-looks-2026-09-17.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-c/shots/home-1440.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r2-polish/worker/shots/home-1440.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-a/lab/shots/00.png; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-b/lab/shots/00.png; https://sigouin.net",
+      "bytes": 299172,
+      "sha256": "247c1290d89def36092370a8a4aac22241f2a597fb29350aa2167400fcc0a85f",
+      "transform": {
+        "dimensions": [
+          7200,
+          900
+        ],
+        "transform": "Horizontal, contained without distortion, no labels"
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-a-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-a/lab/shots/00.png",
+      "bytes": 1317045,
+      "sha256": "a48aa039fe3cff468150b1bfc8adf78f7cea328effe7ee4d97bfc16c24fababb",
+      "transform": {
+        "source_dimensions": [
+          2880,
+          1800
+        ],
+        "crop": null,
+        "dimensions": [
+          1440,
+          900
+        ],
+        "palette_colors": null
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-b-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/scrollcraft-builds/sigouin-layered-b/lab/shots/00.png",
+      "bytes": 957147,
+      "sha256": "aa933459b5e2be308ea5cbc559cbae1097825adaecb6cbbb553a9cf3404d68e2",
+      "transform": {
+        "source_dimensions": [
+          2880,
+          1800
+        ],
+        "crop": null,
+        "dimensions": [
+          1440,
+          900
+        ],
+        "palette_colors": null
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-live-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net",
+      "bytes": 980105,
+      "sha256": "4f904c2b38f08a37fc224f0af7a8bfc69a58fd18fbc76aa9c52c0daaaaf26a42",
+      "capture": {
+        "at": "2026-09-17T13:34:57.167Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-a-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-a/site/index.html",
+      "bytes": 87690,
+      "sha256": "e4e336a51ba76883a38169ec9f759bf8c8398e143dddceaca7b92427dd60ba4d",
+      "capture": {
+        "at": "2026-09-17T13:39:12.812Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-b-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-b/site/index.html",
+      "bytes": 74227,
+      "sha256": "15b89e8bfd0c872237cec222f4b070c48df6a8d16b25317d1536dc3d0443e132",
+      "capture": {
+        "at": "2026-09-17T13:39:15.238Z",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "full_page": false
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-c-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-c/shots/home-1440.png",
+      "bytes": 162199,
+      "sha256": "95626d098701f1abf47c53396b02078cfe4855c3099006f6b74105830ce33d60",
+      "transform": {
+        "source_dimensions": [
+          2880,
+          2430
+        ],
+        "crop": null,
+        "dimensions": [
+          1440,
+          1215
+        ],
+        "palette_colors": null
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r2-polish-2026-09-17.png",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r2-polish/worker/shots/home-1440.png",
+      "bytes": 549933,
+      "sha256": "4b2f0185d4daf7dffbeff04485978d38de38d4d958e4d205e803a8182083c95c",
+      "transform": {
+        "source_dimensions": [
+          2200,
+          722
+        ],
+        "crop": [
+          50,
+          42,
+          1202,
+          722
+        ],
+        "dimensions": [
+          1440,
+          850
+        ],
+        "palette_colors": null
+      }
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/costs-timeline.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/fantasy-football/cooking-the-lads/out/costs.jsonl; /Users/ls/Claude-Workspace/personal/imagegen/drops/20260903-213421-cooking-the/costs.jsonl; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/costs.jsonl; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/board/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/enemies/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/icons/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/towers/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/board/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/enemies/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/icons/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/towers/costs.jsonl",
+      "bytes": 66636,
+      "sha256": "c7f69dc86234c7c3db1ffe740ec51e1165f5a69116535d0b2ec790f7d7156386"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/captures-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/claude/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/codex/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/grok/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-a/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-b/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-c/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-d/demo.html; /Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/kimi-e/demo.html; https://sigzmusic.com; https://sigouin.net; /Users/ls/Claude-Workspace/personal/sigouin-net/workbench/workbench.html; /Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/kimi/workbench.html; /Users/ls/Claude-Workspace/Fleet-Machine/how-the-fleet-works.html; /Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/claude/workbench.html",
+      "bytes": 11572,
+      "sha256": "622ea55582f29e4560e146963495331bdd95e588d9a5bbaf3476b805f63d8a63"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/captures-extra-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-a/site/index.html; /Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/lane-b/site/index.html",
+      "bytes": 1741,
+      "sha256": "70b72875d389d27463ad23a8aea930aeb549e4d6e14553f74568c6541bb2482d"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/derivations-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/compose-2026-09-17.py",
+      "bytes": 5807,
+      "sha256": "99a91ee2d56ce8a78d7f728be316c57c8a7a568db49fa8e730cf3c5163e3fce3"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/gate-cases-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/GATE-TESTED.txt; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/REPORT.md; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/result.json; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md",
+      "bytes": 1287,
+      "sha256": "003c75aea130c5f40828c2e1d6fd1df48954ae65ce8f3ad49247da93b33ee80e"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/gate-render-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/render-gate-2026-09-17.py",
+      "bytes": 1215,
+      "sha256": "bf6115927f7db7badc49088058871980575fc2445070406eb7ad3964be5ff8e2"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/source-image-inventory-2026-09-17.json",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/archive/kimi-projects; /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots",
+      "bytes": 14988,
+      "sha256": "6fb8151145e8200f84fca5caf0747109b0a2f4e8d1064ea78ca405b3fd9def79"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green-poster-2026-09-17.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.mp4",
+      "bytes": 102226,
+      "sha256": "122bb872bf1b7355b84e8baf1e16e2dfd72ab99a5cd83945c6f01d93fe516c6c",
+      "transform": "Frame from one second before the end of the real gate replay."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green-poster-2026-09-17.webp",
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/GATE-TESTED.txt; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/REPORT.md; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/result.json; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md",
+      "bytes": 113078,
+      "sha256": "14682d7d2476feb073958f5e8a6da632431f5262b21d515a6dc935a02913f845",
+      "transform": "Actual terminal run recorded by VHS; text and cursor frames encoded by FFmpeg due to the installed VHS 0.12.0 encoder context bug."
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.tape",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/GATE-TESTED.txt; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/REPORT.md; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/result.json; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md; https://github.com/charmbracelet/vhs",
+      "bytes": 1120,
+      "sha256": "271cd8a2a24e95623b5bf2aa59bfdd350e2aaa25afd16559db45f926ab77bb93"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.txt",
+      "kind": "data",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/GATE-TESTED.txt; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/REPORT.md; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/result.json; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md",
+      "bytes": 920,
+      "sha256": "611634a084560a5b09ebe0f1124b6dd652b58ce3e0fc968a87e2ff6f93252df7"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/capture-2026-09-17.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/herocheck.mjs",
+      "bytes": 4849,
+      "sha256": "c9cf36f6ca386770616d178c46b7d0e7161b8a47421974816f785f239a7945e6"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/compose-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/evidence/derivations-2026-09-17.json",
+      "bytes": 4369,
+      "sha256": "43d7a8cb626375e2453402d41545280266d87c84bc4f275672abc2760e208003"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/costs-timeline-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/fantasy-football/cooking-the-lads/out/costs.jsonl; /Users/ls/Claude-Workspace/personal/imagegen/drops/20260903-213421-cooking-the/costs.jsonl; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/costs.jsonl; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/stills/out/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/board/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/enemies/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/icons/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/towers/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/board/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/enemies/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/icons/costs.jsonl; /Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/towers/costs.jsonl",
+      "bytes": 4926,
+      "sha256": "3a6ecdb2705519e5dbed1b97cc262e460ab6ae52453324df7c9c2f79b08a42a0"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/gate-replay-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/GATE-TESTED.txt; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/REPORT.md; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/result.json; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md",
+      "bytes": 2614,
+      "sha256": "7d4666db1c7f90b9fce0a7562d16cead3c39f886f9c3e39000061e4fc57180df"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/package-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md",
+      "bytes": 4703,
+      "sha256": "1d2387a7d81ff455d600de76e58bf3661a20838072b06f4f4a63f0a3eb6aae61"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/render-gate-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "https://github.com/charmbracelet/vhs/blob/v0.12.0/evaluator.go; /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.tape",
+      "bytes": 2234,
+      "sha256": "59668d0aa3e952baf0f5428353adfb4a56c0cf515a3388fa054e104281051469"
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/scripts/verify-process-media-2026-09-17.py",
+      "kind": "code",
+      "poster": null,
+      "source": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 4485,
+      "sha256": "fcab3e674ae583eec22041ba9a5008fcc36bfdb27809f227cdbeb2ef8c5f538b"
+    }
+  ]
+}

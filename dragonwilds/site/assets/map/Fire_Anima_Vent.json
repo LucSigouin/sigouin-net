@@ -1,0 +1,356 @@
+[
+	{
+		"x": 97198.98,
+		"y": 109431.24,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 142042.44,
+		"y": -50739.008,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 125888.46,
+		"y": -65021.168,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 142902.78,
+		"y": 77684.055,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 196082.05,
+		"y": -43626.184,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 54771.504,
+		"y": 168514.1,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 25247.207,
+		"y": 153847.31,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 242549.88,
+		"y": 41985.11,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 40013.586,
+		"y": 192769.8,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -170585.2,
+		"y": 108091.195,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -162997.69,
+		"y": 178817.14,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -169177.48,
+		"y": 20409.418,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -170878.5,
+		"y": 29848.26,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -480589.22,
+		"y": -459404.22,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -472568.75,
+		"y": -463598.25,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -331469.7,
+		"y": -468545.06,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -90032.305,
+		"y": -49313.195,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -84923.28,
+		"y": -47982.6,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -85342.664,
+		"y": 184970.83,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -163560.86,
+		"y": -54321.816,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -170288.28,
+		"y": -60524.844,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -96749.39,
+		"y": 181719.6,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -88463.29,
+		"y": 178230.05,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": -87121.47,
+		"y": 50166.047,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png"
+	},
+	{
+		"x": 301261.25,
+		"y": 201839.25,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289497.06,
+		"y": 213951.1,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 296624.47,
+		"y": 210349.45,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 307841.84,
+		"y": 186447.2,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 229938.16,
+		"y": 232409.64,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329652.62,
+		"y": 76229.79,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331632.22,
+		"y": 212231.56,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333165.25,
+		"y": 217479.5,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336551.88,
+		"y": 209457.69,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299354.6,
+		"y": 201178.31,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300387.06,
+		"y": 201424.92,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 288774.72,
+		"y": 190387.95,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281694.22,
+		"y": 181791.42,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 275210.16,
+		"y": 189420.16,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316987.12,
+		"y": 214594.38,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 304424.6,
+		"y": 219238.88,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306808.5,
+		"y": 210569.62,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363929.12,
+		"y": 183276.36,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 359273.16,
+		"y": 77614.61,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 219003.38,
+		"y": 206761.12,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271302.22,
+		"y": 214913.97,
+		"name": "Fire Anima Vent",
+		"icon": "Fire_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

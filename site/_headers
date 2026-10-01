@@ -1,0 +1,20 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-lmntmxEBcbaa5eKGrZTyFrEvZk9p6dRZ/Y/EAqyaIs8='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' blob:; media-src 'self' data: blob:; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; worker-src 'self' blob:
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Preserve the HTML bytes when Cloudflare would otherwise inject scripts.
+/
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/process/
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/hub/
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/hub/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/vybe/*
+  Cache-Control: public, max-age=0, must-revalidate

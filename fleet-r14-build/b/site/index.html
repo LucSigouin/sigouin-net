@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luc Sigouin, ten exhibits</title>
+<meta name="description" content="Ten personal projects, built with a fleet of AI agents on a canvas. Every tool and model named.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=instrument-serif:400|jetbrains-mono:400,500">
+<link rel="stylesheet" href="hub.css">
+<link rel="preload" as="image" href="assets/stills/03-sigz-waveform.webp" fetchpriority="high">
+</head>
+<body>
+<a class="skip" href="#index">Skip to the index</a>
+
+<div class="bar">
+  <a class="bar__mark" href="/">L.S.</a>
+  <nav class="bar__nav" aria-label="Sections">
+    <a href="#index">Index</a>
+    <a href="process/">Process</a>
+    <a href="mailto:luc@sigouin.net">Contact</a>
+  </nav>
+</div>
+
+<header class="overture">
+  <div class="overture__plate">
+    <img src="assets/stills/03-sigz-waveform.webp" alt="A waveform strip cut from the SiGz catalogue" fetchpriority="high" decoding="async" width="1536" height="1024">
+  </div>
+
+  <div class="overture__head">
+    <div class="overture__strip overture__strip--hi" aria-hidden="true">
+      <img src="assets/process/sigouin-five-looks-2026-09-17.webp" alt="" decoding="async">
+      <img src="assets/stills/01-livetvcan-hero.webp" alt="" decoding="async">
+      <img src="assets/caps/bbc-1440-scroll0-20260917.webp" alt="" decoding="async">
+      <img src="assets/glb/sigz-neon-sign-20260917.webp" alt="" decoding="async">
+      <img src="assets/glb/rack-server-4u-20260917.webp" alt="" decoding="async">
+      <img src="assets/glb/golf-pin-v2-20260917.webp" alt="" decoding="async">
+    </div>
+    <div class="overture__strip" aria-hidden="true">
+      <img src="assets/caps/teetimes-1440-scroll0-20260917.webp" alt="" decoding="async">
+      <img src="assets/caps/undergrowth-1440-scroll0-play8s-20260917.webp" alt="" decoding="async">
+      <img src="assets/video/undergrowth-flyover-20260917.poster.webp" alt="" decoding="async">
+      <img src="assets/stills/02-gardens-homelab.webp" alt="" decoding="async">
+      <img src="assets/caps/livetvcan-1440-scroll0-20260917.webp" alt="" decoding="async">
+    </div>
+    <h1 class="name">
+      <span class="name__mask"><span style="animation-delay:.05s">Luc</span></span>
+      <span class="name__mask"><em><span style="animation-delay:.14s">Sig</span><span style="animation-delay:.2s">ouin</span></em></span>
+    </h1>
+  </div>
+
+  <div class="rule-sweep"></div>
+
+  <div class="overture__meta">
+    <span>Ottawa</span>
+    <span><b>10</b> exhibits</span>
+    <span><b>6</b> live sites</span>
+    <span><b>33</b> fleet rounds</span>
+    <span><b>131</b> worker reports</span>
+    <span><a href="process/" style="color:var(--acid);text-decoration:none">How it gets built</a></span>
+  </div>
+</header>
+
+<main class="hub">
+  <ol class="index" id="index">
+    <li class="index__lead"><span>The index</span><span>Hover to preview, click to hold</span></li>
+  </ol>
+
+  <figure class="stage">
+    <div class="stage__media" id="stage-media"></div>
+    <figcaption class="stage__foot">
+      <p class="stage__fact" id="stage-fact"></p>
+      <p class="stage__credits" id="stage-credits"></p>
+      <p class="stage__live" id="stage-live"></p>
+    </figcaption>
+  </figure>
+</main>
+
+<footer class="tail">
+  <span id="tail-live"><span>Last deploy <b>2026-09-17</b></span></span>
+  <span><a href="process/">The process wing</a></span>
+  <span><a href="mailto:luc@sigouin.net">luc@sigouin.net</a></span>
+</footer>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<script type="module" src="hub.js"></script>
+</body>
+</html>

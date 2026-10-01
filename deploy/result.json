@@ -1,0 +1,1 @@
+{"state":"done","files":["promote.sh","deploy.sh","verify-live.sh","README.md","REPORT.md","result.json"],"verify":"python3 ../check-deploy.py .","verify_exit":0,"unverified":["Cloudflare Pages project creation and deployment were not run by request.","Live verification requires the owner's deployed site."]}

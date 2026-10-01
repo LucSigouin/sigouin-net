@@ -1,0 +1,61 @@
+{
+  "lane": "3d",
+  "files": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/sigz-neon-sign-20260917.glb",
+      "kind": "glb",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/sigz-neon-sign-20260917.png",
+      "source": "/Users/ls/Claude-Workspace/personal/sigzmusic/brand/source/neon-sign-1600.jpg",
+      "bytes": 2381660
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/sigz-neon-sign-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "Tripo render of sigz-neon-sign-20260917.glb",
+      "bytes": 176122
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/golf-pin-v2-20260917.glb",
+      "kind": "glb",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/golf-pin-v2-20260917.png",
+      "source": "a single connected golf pin object: one long thin vertical white pole standing straight up out of a green grass mound, the pole reaching from the ground all the way to the top, a small red triangle flag attached to the very top of the pole, one solid piece, low poly, clean flat colors, game ready asset",
+      "bytes": 1235020
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/golf-pin-v2-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "Tripo render of golf-pin-v2-20260917.glb",
+      "bytes": 81953
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/rack-server-4u-20260917.glb",
+      "kind": "glb",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/rack-server-4u-20260917.png",
+      "source": "a 4U rackmount home server chassis, matte black steel box, wide front panel with two columns of removable hard drive bays with small handles and status LEDs, rack ears with screw holes on each side, low poly, clean flat colors, game ready asset",
+      "bytes": 1522268
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/rack-server-4u-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "Tripo render of rack-server-4u-20260917.glb",
+      "bytes": 139864
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/game-server-tower-20260917.glb",
+      "kind": "glb",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/game-server-tower-20260917.png",
+      "source": "a small stylised mini PC game server tower, upright dark charcoal box with rounded corners, a single bright glowing cyan light strip running vertically down the centre of the front panel, small vents on the side, low poly, clean flat colors, game ready asset",
+      "bytes": 1266212
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/3d/game-server-tower-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "Tripo render of game-server-tower-20260917.glb",
+      "bytes": 68287
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "expected_sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+  "deploy_completed_utc": "2026-09-17T15:43:21.301335+00:00",
+  "poll_interval_seconds": 10,
+  "maximum_seconds": 180,
+  "samples": [
+    {
+      "started_utc": "2026-09-17T15:43:21.303462+00:00",
+      "completed_utc": "2026-09-17T15:43:21.479650+00:00",
+      "seconds_after_deploy": 0.178,
+      "sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+      "exit_code": 0,
+      "matched": true
+    }
+  ],
+  "matched": true,
+  "first_match_seconds_after_deploy": 0.178
+}

@@ -1,0 +1,21 @@
+{
+  "captured_utc": "2026-09-17T15:45:58.803875+00:00",
+  "deployment_id": "83b9e0f7",
+  "site_original_files_unchanged": 74,
+  "site_added_plumbing_files": [
+    "_routes.json",
+    "functions/assets/[[path]].js"
+  ],
+  "source_original_files_unchanged": 74,
+  "source_added_plumbing_files": [
+    "_routes.json",
+    "functions/assets/[[path]].js"
+  ],
+  "final_diff_exit_code": 0,
+  "final_diff_output": "",
+  "rollback_index_sha256": "e246a01af166c7c7eaaa069438bef77f94ca3f87a2e0383cee52ab96186b4fff",
+  "verify_live_exit_code": 0,
+  "smoke_all_passed": true,
+  "content_all_passed": true,
+  "public_files_matched": 72
+}

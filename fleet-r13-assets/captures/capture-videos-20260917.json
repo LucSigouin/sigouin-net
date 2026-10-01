@@ -1,0 +1,89 @@
+[
+  {
+    "site": "sigz-music",
+    "url": "https://sigzmusic.com/music/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:37:07.622Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigzmusic.com/music/",
+    "scrolling": {
+      "selector": "div.listwrap",
+      "max": 359,
+      "clientHeight": 620
+    },
+    "motion": {
+      "selector": "div.listwrap",
+      "from": 0,
+      "to": 359,
+      "seconds": 7.5,
+      "description": "Slow scroll over 6.5 seconds with a short hold at each end"
+    },
+    "video": {
+      "filename": "sigz-music-1440-scroll-20260917.webm",
+      "trim": "last 7 seconds",
+      "muted": true
+    }
+  },
+  {
+    "site": "teetimes",
+    "url": "https://teetime.sigouin.net/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:37:18.991Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://teetime.sigouin.net/",
+    "scrolling": {
+      "selector": "div.rail-body",
+      "max": 16146,
+      "clientHeight": 484
+    },
+    "motion": {
+      "selector": "div.rail-body",
+      "from": 0,
+      "to": 1000,
+      "seconds": 7.5,
+      "description": "Slow scroll over 6.5 seconds with a short hold at each end"
+    },
+    "video": {
+      "filename": "teetimes-1440-scroll-20260917.webm",
+      "trim": "last 7 seconds",
+      "muted": true
+    }
+  },
+  {
+    "site": "sigouin",
+    "url": "https://sigouin.net/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:46:21.523Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigouin.net/",
+    "scrolling": {
+      "selector": "document",
+      "max": 6072,
+      "clientHeight": 900
+    },
+    "motion": {
+      "selector": "document",
+      "from": 0,
+      "to": 750,
+      "seconds": 7.5,
+      "description": "Slow scroll over 6.5 seconds with a short hold at each end"
+    },
+    "video": {
+      "filename": "sigouin-1440-scroll-20260917.webm",
+      "trim": "last 7 seconds",
+      "muted": true
+    }
+  }
+]

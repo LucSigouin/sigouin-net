@@ -1,0 +1,67 @@
+[
+	{
+		"x": 41280,
+		"y": 169670,
+		"name": "Crumbling Well",
+		"icon": "Secondary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of the Ghost Speak Amulet."
+	},
+	{
+		"x": 37721.137,
+		"y": 174621.81,
+		"name": "Ghost 1 - Warren",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of the Warren."
+	},
+	{
+		"x": 19110.434,
+		"y": 173476.86,
+		"name": "Ghost 2 - Lazina",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of the Lazina."
+	},
+	{
+		"x": 53987.918,
+		"y": 146564.39,
+		"name": "Ghost 3 - Kay",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of Kay."
+	},
+	{
+		"x": 63966.63,
+		"y": 186780.06,
+		"name": "Ghost 4 - Finn",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of the Garou Druid."
+	},
+	{
+		"x": 2477.1724,
+		"y": 187977.73,
+		"name": "Say farewells here",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	}
+]

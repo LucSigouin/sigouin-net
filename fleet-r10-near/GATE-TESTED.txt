@@ -1,0 +1,1 @@
+red-proof: 2026-09-02T23:26:21Z check-r10.py on current build (plant still the near plane) -> exit 1

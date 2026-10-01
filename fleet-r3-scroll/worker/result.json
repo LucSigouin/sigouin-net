@@ -1,0 +1,44 @@
+{
+  "state": "done",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/index.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/page.dev.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/build-inline.py",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/BRIEF.md",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/scrollcraft.css",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/scrollcraft.js",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/01-desk.mp4",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/01-desk-m.mp4",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/01-desk.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/02-studio.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/03-living-room.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/04-media.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/04-gaming.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/04-offsite.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/real-neon-sign.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/shots/sheet.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/mobile/sheet.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/reduced/sheet.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/tabcheck.mjs",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/FINGERPRINTS.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r3-scroll/worker/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r3-scroll/worker/result.json"
+  ],
+  "verify": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r3-scroll/check-scroll.py /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r3-scroll/worker",
+  "verify_exit": 0,
+  "spend_usd": null,
+  "spend_credits": {
+    "per_call_sum_at_published_rates": 356,
+    "probe_before": 1010,
+    "probe_after": 516,
+    "probe_delta_ceiling": 494,
+    "calls": "7 stills at 28 (one reroll), 1 clip at 160",
+    "note": "delta exceeds the per-call sum, so another consumer was drawing on the shared key; no published credit-to-dollar rate was reachable (pricing page 403), so no dollar figure is claimed"
+  },
+  "unverified": [
+    "real phone: iOS video decode, autoplay policy and Low Power Mode cannot be reproduced by headless Edge",
+    "Google Fonts on a real network (fallback stack is Helvetica Neue / Arial)",
+    "phones shorter than about 660 px (a media query shrinks the pinned spreads; only 390x844 was shot)",
+    "dollar cost of the kie.ai spend"
+  ]
+}

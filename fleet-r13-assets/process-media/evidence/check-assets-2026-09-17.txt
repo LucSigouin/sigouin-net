@@ -1,0 +1,1 @@
+PASS: process-media 49 files, kinds ['code', 'data', 'image', 'video'], model {'requested': 'gpt-6-astra', 'effective': 'gpt-6-astra', 'source': 'spawn flag'}

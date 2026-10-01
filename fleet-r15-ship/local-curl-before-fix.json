@@ -1,0 +1,48 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "curl_exit": 0,
+    "bytes": 2521,
+    "sha256": "e67a795b64a103ebee1baddcbf5d9eacd48b4cfd24f808ab658e5e2e30e0db15",
+    "first_200_bytes": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>Luc Sigouin: twelve exhibits</title>\n<met",
+    "first_200_hex": "3c21646f63747970652068746d6c3e0a3c68746d6c206c616e673d22656e223e0a3c686561643e0a3c6d65746120636861727365743d227574662d38223e0a3c6d657461206e616d653d2276696577706f72742220636f6e74656e743d2277696474683d6465766963652d77696474682c20696e697469616c2d7363616c653d312c2076696577706f72742d6669743d636f766572223e0a3c7469746c653e4c7563205369676f75696e3a207477656c76652065786869626974733c2f7469746c653e0a3c6d6574",
+    "checked_at": "2026-09-17T14:45:47.502354+00:00",
+    "error": ""
+  },
+  {
+    "route": "/process/",
+    "status": 200,
+    "curl_exit": 0,
+    "bytes": 10411,
+    "sha256": "6fbaa29ee8dd8a32fabd440914671e3003710242103d6047ce881681df61c583",
+    "first_200_bytes": "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>How it gets built: the fleet</title>\n<met",
+    "first_200_hex": "3c21646f63747970652068746d6c3e0a3c68746d6c206c616e673d22656e223e0a3c686561643e0a3c6d65746120636861727365743d227574662d38223e0a3c6d657461206e616d653d2276696577706f72742220636f6e74656e743d2277696474683d6465766963652d77696474682c20696e697469616c2d7363616c653d312c2076696577706f72742d6669743d636f766572223e0a3c7469746c653e486f772069742067657473206275696c743a2074686520666c6565743c2f7469746c653e0a3c6d6574",
+    "checked_at": "2026-09-17T14:45:47.503072+00:00",
+    "error": ""
+  },
+  {
+    "route": "/api/live/sigz/tracks",
+    "status": 502,
+    "curl_exit": 0,
+    "bytes": 43,
+    "sha256": "5115d97cff4e590339e623782edf1d2b19ae254aa11a5f82c6348c01a539fc52",
+    "first_200_bytes": "{\"error\":\"upstream\",\"host\":\"sigzmusic.com\"}",
+    "first_200_hex": "7b226572726f72223a22757073747265616d222c22686f7374223a227369677a6d757369632e636f6d227d",
+    "checked_at": "2026-09-17T14:45:47.501464+00:00",
+    "error": "",
+    "json_valid": true
+  },
+  {
+    "route": "/api/live/bbc/state",
+    "status": 502,
+    "curl_exit": 0,
+    "bytes": 45,
+    "sha256": "345395ae5c71f7b731fda9d5fa96cecf8736ab0153d2f364891a0efaa7d8cee9",
+    "first_200_bytes": "{\"error\":\"upstream\",\"host\":\"bbc.sigouin.net\"}",
+    "first_200_hex": "7b226572726f72223a22757073747265616d222c22686f7374223a226262632e7369676f75696e2e6e6574227d",
+    "checked_at": "2026-09-17T14:45:47.501710+00:00",
+    "error": "",
+    "json_valid": true
+  }
+]

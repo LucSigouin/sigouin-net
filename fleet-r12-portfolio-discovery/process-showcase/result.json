@@ -1,0 +1,32 @@
+{
+  "state": "done",
+  "taskId": null,
+  "model": {
+    "requested": "grok (CLI default, highest)",
+    "effective": "grok-4.6",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/process-showcase/RESEARCH-process.md",
+  "files": [
+    "RESEARCH-process.md",
+    "REPORT.md",
+    "result.json"
+  ],
+  "verify": {
+    "cmd": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/process-showcase",
+    "exit": 0
+  },
+  "unverified": [
+    "CNVS task id empty in cnvs_state",
+    "resn.co DNS failed",
+    "Active Theory Chile20 original Medium slug",
+    "culture.basicagency.com not loaded",
+    "bfcm.stripe.dev seasonal, not confirmed live today",
+    "app.agentops.ai and platform.openai.com/traces need login",
+    "Bloomberg Terminal is paid, used public DASH page only",
+    "Screen Studio prices disagree across reviews",
+    "no vhs/asciinema/ffmpeg/Screen Studio/Lottie/Rive run",
+    "no CNVS screenshot",
+    "Pieter Levels MRR from secondary posts"
+  ]
+}

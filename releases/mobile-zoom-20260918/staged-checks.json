@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:56688/",
+  "checks": [
+    "homepage WebGL, all seven hover cables, fixed connectors/desk, rack hover, font, contact, zero CSP/page errors",
+    "reduced-motion still",
+    "graphics-failure fallback",
+    "mobile still without GLB or horizontal overflow",
+    "existing process page retained without CSP violations"
+  ],
+  "errors": [],
+  "stats": {
+    "compact": false,
+    "view": null,
+    "cables": {
+      "count": 7,
+      "hovered": -1,
+      "clock": 0,
+      "leads": [
+        {
+          "name": "Network.Lead.00",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1278.4392600552962,
+            480.77999972191714
+          ]
+        },
+        {
+          "name": "Network.Lead.01",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1291.5595533244048,
+            481.40886464917577
+          ]
+        },
+        {
+          "name": "Network.Lead.02",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1304.7239848014765,
+            482.03984512258165
+          ]
+        },
+        {
+          "name": "Network.Lead.03",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1317.9327443289023,
+            482.67291968316187
+          ]
+        },
+        {
+          "name": "Network.Lead.04",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1331.1861074027781,
+            483.3081655338483
+          ]
+        },
+        {
+          "name": "Network.Lead.05",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1344.4842723745246,
+            483.9455429708972
+          ]
+        },
+        {
+          "name": "Network.Lead.SFP",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            1373.9672208818838,
+            414.6923752082453
+          ]
+        }
+      ]
+    },
+    "signal": {
+      "mode": "player",
+      "clock": 0,
+      "maxDisplacement": 0,
+      "maxBarHeight": 1.633175144604327,
+      "activeBars": 0,
+      "tileHover": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": 2,
+      "instances": 96,
+      "drawCalls": 2,
+      "renderTarget": [
+        1536,
+        256
+      ],
+      "progress": 0.32167832167832167
+    },
+    "tileCenters": [
+      [
+        458.6708377808534,
+        312.1967511759059
+      ],
+      [
+        554.4737279302806,
+        314.3715380616072
+      ],
+      [
+        652.3216786136784,
+        316.592749129531
+      ],
+      [
+        752.280878742855,
+        318.8618869103125
+      ],
+      [
+        854.4204046755389,
+        321.18051948145603
+      ]
+    ],
+    "rackCenter": [
+      1247.7757269399622,
+      537.0155198791492
+    ],
+    "playerCenter": [
+      657.0290419012449,
+      508.2895025089432
+    ],
+    "screenCenter": [
+      624.5830466194782,
+      402.8154604706631
+    ],
+    "workstationRotation": [
+      0,
+      0,
+      0,
+      "XYZ"
+    ],
+    "deskMatrix": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "hasChair": false,
+    "openProgress": 0,
+    "clock": 0,
+    "idleEmission": [
+      1.5502499589323997
+    ],
+    "visible": true,
+    "paused": false,
+    "drawCalls": 405,
+    "triangles": 734694,
+    "canvasCount": 1,
+    "averageFrameMs": null,
+    "pixelRatio": 1,
+    "gpu": "Apple GPU",
+    "parts": [
+      {
+        "name": "Rack.Door.Hinge",
+        "position": [
+          0.34299999475479126,
+          0.15000000596046448,
+          0.4740000069141388
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Rack.ServerTray.00",
+        "position": [
+          0,
+          1.1699999570846558,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Rack.ServerTray.01",
+        "position": [
+          0,
+          0.9549999833106995,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

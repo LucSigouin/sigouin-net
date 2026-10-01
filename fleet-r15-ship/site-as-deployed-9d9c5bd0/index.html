@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luc Sigouin: twelve exhibits</title>
+<meta name="description" content="Twelve things Luc Sigouin built, and the fleet of agents that built them with him.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="preload" as="image" href="assets/still/03-sigz-waveform.webp">
+<link rel="stylesheet" href="css/hub.css">
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="overture">
+  <img class="overture__bed" src="assets/still/03-sigz-waveform.webp" alt="" width="1536" height="1024" fetchpriority="high" decoding="sync">
+  <div class="overture__top">
+    <span>Luc Sigouin</span>
+    <span>Ottawa, Canada</span>
+    <span>Index of twelve</span>
+  </div>
+  <div class="overture__foot">
+    <h1 class="wordmark" aria-label="SIGOUIN.NET">
+      <span><b style="--i:0">S</b></span><span><b style="--i:1">I</b></span><span><b style="--i:2">G</b></span><span><b style="--i:3">O</b></span><span><b style="--i:4">U</b></span><span><b style="--i:5">I</b></span><span><b style="--i:6">N</b></span><span><b style="--i:7" class="dot">.</b></span><span><b style="--i:8">N</b></span><span><b style="--i:9">E</b></span><span><b style="--i:10">T</b></span>
+    </h1>
+    <p class="tagline">Twelve things I built. <strong>Six of them are live right now.</strong> Every one was made with a fleet of AI agents, and every tool and model that touched them is named on this page.</p>
+  </div>
+</header>
+
+<main class="hub">
+  <ol class="rail" id="rail" aria-label="The twelve exhibits"></ol>
+  <section class="stage" id="stage" aria-live="polite" aria-label="Exhibit"></section>
+</main>
+
+<footer class="foot">
+  <dl>
+    <div><dt>Last build</dt><dd>2026-09-17</dd></div>
+    <div><dt>SiGz plays, catalogue total</dt><dd data-live="sigz">...</dd><dd class="live-note"></dd></div>
+    <div><dt>Open tee slots</dt><dd data-live="tee">...</dd><dd class="live-note"></dd></div>
+  </dl>
+  <p style="margin:0"><a href="process/">How this gets built</a></p>
+</footer>
+
+<script type="module" src="js/hub.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+	{
+		"x": 18919,
+		"y": 149100,
+		"name": "Pedestal",
+		"description": "Pedestal 1"
+	},
+	{
+		"x": 19931,
+		"y": 145320,
+		"name": "Pedestal",
+		"description": "Pedestal 2"
+	},
+	{
+		"x": 23716,
+		"y": 146323,
+		"name": "Pedestal",
+		"description": "Pedestal 3"
+	}
+]

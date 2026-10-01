@@ -1,0 +1,33 @@
+{
+  "state": "done",
+  "taskId": null,
+  "model": {
+    "requested": "grok (CLI default, highest)",
+    "effective": "grok-4.6",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/ai-assets/RESEARCH-ai-assets.md",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/ai-assets/RESEARCH-ai-assets.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/ai-assets/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/ai-assets/result.json"
+  ],
+  "verify": {
+    "cmd": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/ai-assets",
+    "exit": 0
+  },
+  "unverified": [
+    "Higgsfield Seedance 2.5 at 9 credits/second 1080p (not on loaded pages; closest was 52 credits for 8s at 720p)",
+    "kie.ai live per-model USD table (pricing page did not yield a parseable sheet)",
+    "OpenAI gpt-image-2 sizes beyond 1024/1536 on the official customize-output section (fetch truncated)",
+    "21st.dev credit burn per sketch/code generation",
+    "MotionSites live dollar price on motionsites.ai/unlimited",
+    "ui-skills registry contents (list_skills bento returned 0)",
+    "Motionsites MCP tools (auth required this session)",
+    "Tripo MCP quality=high actual model id vs public v3.1-20260211",
+    "Full kie.ai and Higgsfield Terms of Use contracts",
+    "Dollar value of one Higgsfield app credit on Luc's current plan",
+    "Animated AVIF Safari 2026",
+    "Rive editor commercial license for a client hub"
+  ]
+}

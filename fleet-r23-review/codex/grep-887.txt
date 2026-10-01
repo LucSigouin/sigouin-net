@@ -1,0 +1,5 @@
+COMMAND: ['rg', '-n', 'data-live', 'site', '-g', '*.html', '-g', '*.js', '-g', '*.css', '-g', '!vendor/**']
+EXIT: 0
+site/js/hub.js:55:    ? `<span>live <b class="stage__live" data-live="${ex.live}">...</b> <i class="live-note" style="font-style:normal;color:var(--dim);text-transform:none;letter-spacing:.06em"></i></span>`
+site/js/hub.js:70:  if (ex.live) paint(ex.live, stage.querySelector('[data-live]'));
+site/js/live-hub.js:75:  for (const node of root.querySelectorAll('[data-live]')) paint(node.dataset.live, node);

@@ -1,0 +1,556 @@
+[
+  {
+    "site": "sigz",
+    "url": "https://sigzmusic.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:36:37.092Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigzmusic.com/",
+    "scrolling": {
+      "selector": "document",
+      "max": 0,
+      "clientHeight": 900
+    },
+    "shots": [
+      {
+        "filename": "sigz-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 0
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:36:42.784Z"
+      }
+    ]
+  },
+  {
+    "site": "sigz",
+    "url": "https://sigzmusic.com/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:36:42.961Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigzmusic.com/",
+    "scrolling": {
+      "selector": "document",
+      "max": 0,
+      "clientHeight": 844
+    },
+    "shots": [
+      {
+        "filename": "sigz-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 0
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:36:48.019Z"
+      }
+    ]
+  },
+  {
+    "site": "sigz-music",
+    "url": "https://sigzmusic.com/music/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:36:48.229Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigzmusic.com/music/",
+    "scrolling": {
+      "selector": "div.listwrap",
+      "max": 359,
+      "clientHeight": 620
+    },
+    "shots": [
+      {
+        "filename": "sigz-music-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 359
+        },
+        "selector": "div.listwrap",
+        "captured": "2026-09-17T13:36:51.824Z"
+      },
+      {
+        "filename": "sigz-music-1440-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 180,
+          "max": 359
+        },
+        "selector": "div.listwrap",
+        "captured": "2026-09-17T13:36:52.883Z"
+      },
+      {
+        "filename": "sigz-music-1440-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 359,
+          "max": 359
+        },
+        "selector": "div.listwrap",
+        "captured": "2026-09-17T13:36:53.941Z"
+      }
+    ]
+  },
+  {
+    "site": "sigz-music",
+    "url": "https://sigzmusic.com/music/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:36:54.043Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigzmusic.com/music/",
+    "scrolling": {
+      "selector": "document",
+      "max": 364,
+      "clientHeight": 844
+    },
+    "shots": [
+      {
+        "filename": "sigz-music-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 364
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:36:57.698Z"
+      },
+      {
+        "filename": "sigz-music-390-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 182,
+          "max": 364
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:36:58.747Z"
+      },
+      {
+        "filename": "sigz-music-390-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 364,
+          "max": 364
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:36:59.800Z"
+      }
+    ]
+  },
+  {
+    "site": "sigouin",
+    "url": "https://sigouin.net/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:37:30.153Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigouin.net/",
+    "scrolling": {
+      "selector": "document",
+      "max": 6072,
+      "clientHeight": 900
+    },
+    "shots": [
+      {
+        "filename": "sigouin-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 6072
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:34.197Z"
+      },
+      {
+        "filename": "sigouin-1440-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 3036,
+          "max": 6072
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:35.771Z"
+      },
+      {
+        "filename": "sigouin-1440-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 6072,
+          "max": 6072
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:37.146Z"
+      }
+    ]
+  },
+  {
+    "site": "sigouin",
+    "url": "https://sigouin.net/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:37:37.535Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://sigouin.net/",
+    "scrolling": {
+      "selector": "document",
+      "max": 6437,
+      "clientHeight": 844
+    },
+    "shots": [
+      {
+        "filename": "sigouin-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 6437
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:41.302Z"
+      },
+      {
+        "filename": "sigouin-390-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 3219,
+          "max": 6437
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:42.406Z"
+      },
+      {
+        "filename": "sigouin-390-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 6437,
+          "max": 6437
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:43.476Z"
+      }
+    ]
+  },
+  {
+    "site": "livetvcan",
+    "url": "https://livetvcan.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:37:43.618Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://livetvcan.com/",
+    "scrolling": {
+      "selector": "document",
+      "max": 6450,
+      "clientHeight": 900
+    },
+    "shots": [
+      {
+        "filename": "livetvcan-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 6450
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:47.189Z"
+      },
+      {
+        "filename": "livetvcan-1440-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 3225,
+          "max": 6450
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:48.276Z"
+      },
+      {
+        "filename": "livetvcan-1440-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 6450,
+          "max": 6450
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:49.332Z"
+      }
+    ]
+  },
+  {
+    "site": "livetvcan",
+    "url": "https://livetvcan.com/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:37:49.434Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://livetvcan.com/",
+    "scrolling": {
+      "selector": "document",
+      "max": 12720,
+      "clientHeight": 844
+    },
+    "shots": [
+      {
+        "filename": "livetvcan-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 12720
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:52.929Z"
+      },
+      {
+        "filename": "livetvcan-390-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 6360,
+          "max": 12720
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:53.961Z"
+      },
+      {
+        "filename": "livetvcan-390-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 12720,
+          "max": 12720
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:54.993Z"
+      }
+    ]
+  },
+  {
+    "site": "bbc",
+    "url": "https://bbc.sigouin.net/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:37:55.100Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://bbc.sigouin.net/",
+    "scrolling": {
+      "selector": "document",
+      "max": 258,
+      "clientHeight": 900
+    },
+    "shots": [
+      {
+        "filename": "bbc-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 258
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:58.598Z"
+      },
+      {
+        "filename": "bbc-1440-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 129,
+          "max": 258
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:37:59.700Z"
+      },
+      {
+        "filename": "bbc-1440-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 258,
+          "max": 258
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:38:00.800Z"
+      }
+    ]
+  },
+  {
+    "site": "bbc",
+    "url": "https://bbc.sigouin.net/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:38:00.894Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://bbc.sigouin.net/",
+    "scrolling": {
+      "selector": "document",
+      "max": 1030,
+      "clientHeight": 844
+    },
+    "shots": [
+      {
+        "filename": "bbc-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 1030
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:38:04.343Z"
+      },
+      {
+        "filename": "bbc-390-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 515,
+          "max": 1030
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:38:05.393Z"
+      },
+      {
+        "filename": "bbc-390-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 1030,
+          "max": 1030
+        },
+        "selector": "document",
+        "captured": "2026-09-17T13:38:06.446Z"
+      }
+    ]
+  },
+  {
+    "site": "teetimes",
+    "url": "https://teetime.sigouin.net/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "started": "2026-09-17T13:39:36.898Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://teetime.sigouin.net/",
+    "scrolling": {
+      "selector": "div.rail-body",
+      "max": 16146,
+      "clientHeight": 484
+    },
+    "shots": [
+      {
+        "filename": "teetimes-1440-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 16146,
+          "settlePasses": 1
+        },
+        "selector": "div.rail-body",
+        "captured": "2026-09-17T13:39:41.345Z"
+      },
+      {
+        "filename": "teetimes-1440-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 8420,
+          "max": 16839,
+          "settlePasses": 2
+        },
+        "selector": "div.rail-body",
+        "captured": "2026-09-17T13:39:43.461Z"
+      },
+      {
+        "filename": "teetimes-1440-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 17185,
+          "max": 17185,
+          "settlePasses": 2
+        },
+        "selector": "div.rail-body",
+        "captured": "2026-09-17T13:39:45.578Z"
+      }
+    ]
+  },
+  {
+    "site": "teetimes",
+    "url": "https://teetime.sigouin.net/m/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "started": "2026-09-17T13:39:45.701Z",
+    "errors": [],
+    "status": 200,
+    "finalUrl": "https://teetime.sigouin.net/m/",
+    "scrolling": {
+      "selector": "div.m-list-body",
+      "max": 16725,
+      "clientHeight": 562
+    },
+    "shots": [
+      {
+        "filename": "teetimes-390-scroll0-20260917.png",
+        "requestedPercent": 0,
+        "actual": {
+          "y": 0,
+          "max": 16725,
+          "settlePasses": 1
+        },
+        "selector": "div.m-list-body",
+        "captured": "2026-09-17T13:39:49.264Z"
+      },
+      {
+        "filename": "teetimes-390-scroll50-20260917.png",
+        "requestedPercent": 50,
+        "actual": {
+          "y": 8363,
+          "max": 16725,
+          "settlePasses": 1
+        },
+        "selector": "div.m-list-body",
+        "captured": "2026-09-17T13:39:50.326Z"
+      },
+      {
+        "filename": "teetimes-390-scroll100-20260917.png",
+        "requestedPercent": 100,
+        "actual": {
+          "y": 16725,
+          "max": 16725,
+          "settlePasses": 1
+        },
+        "selector": "div.m-list-body",
+        "captured": "2026-09-17T13:39:51.374Z"
+      }
+    ]
+  }
+]

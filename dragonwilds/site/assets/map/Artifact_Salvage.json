@@ -1,0 +1,632 @@
+[
+	{
+		"x": 207984.83,
+		"y": 152947.38,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 214617.03,
+		"y": 136641.52,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 217184.83,
+		"y": 136387.38,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 218750,
+		"y": 110220,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 226419.89,
+		"y": 198805.38,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 226925.34,
+		"y": 198205.62,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 235474.83,
+		"y": 125987.37,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 235725.88,
+		"y": 183634.67,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 239462.33,
+		"y": 197616.52,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 243745.86,
+		"y": 231607.6,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 243984.84,
+		"y": 230020.47,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 244308.64,
+		"y": 200723.39,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 244819.19,
+		"y": 193278.89,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 245421.55,
+		"y": 201053.83,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 246667.81,
+		"y": 199895.34,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 247714.19,
+		"y": 201102.77,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 248049.75,
+		"y": 201382.42,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 249549.56,
+		"y": 206817.66,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 249625.78,
+		"y": 208165.75,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 250165.05,
+		"y": 208362.66,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 250350.11,
+		"y": 198722.3,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 250552.08,
+		"y": 206948.23,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 251148.86,
+		"y": 196679.8,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 251787.9,
+		"y": 201103,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 252128.06,
+		"y": 198323.19,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 252132.19,
+		"y": 201988.45,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 252963.34,
+		"y": 199363.27,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 268419.78,
+		"y": 150995.86,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 271310,
+		"y": 134240,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 276004.84,
+		"y": 112293.46,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 276695.4,
+		"y": 106316.88,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 279438.22,
+		"y": 195995.25,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 282570,
+		"y": 113820,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 285769,
+		"y": 185901.19,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 289101.6,
+		"y": 200056.6,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 292113.06,
+		"y": 213196.11,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 293599.97,
+		"y": 198570.73,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 294656.94,
+		"y": 158676.4,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 295846.28,
+		"y": 199866.83,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 296184.7,
+		"y": 182114.12,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 297156.66,
+		"y": 133991.53,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 299084.94,
+		"y": 64794.09,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 303121.72,
+		"y": 179452.36,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 305558.62,
+		"y": 194502.28,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 308279.66,
+		"y": 210454.69,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 309763.97,
+		"y": 188285.55,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 313551.22,
+		"y": 195967.31,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 315001.94,
+		"y": 122982.99,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 315270.22,
+		"y": 206098.98,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 316639.8,
+		"y": 47767.29,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 319597.94,
+		"y": 43648.59,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 319853.47,
+		"y": 146401.34,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 321438.94,
+		"y": 214007.17,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 321634.34,
+		"y": 201607.34,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 334593.03,
+		"y": 33249.06,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 335025.8,
+		"y": 216118.73,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 335113.84,
+		"y": 133087.3,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 341617.75,
+		"y": 43605.92,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 345537.25,
+		"y": 178962.27,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 349427.2,
+		"y": 155923.75,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 355118.72,
+		"y": 156550.66,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 358710.22,
+		"y": 93822.62,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 363828.75,
+		"y": 78967.74,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 364306.8,
+		"y": 179904.53,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 365948.4,
+		"y": 71962.12,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 366272.16,
+		"y": 173060.4,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 375406.7,
+		"y": 184822.14,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 379747.38,
+		"y": 116187,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 380348.66,
+		"y": 122846.01,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 382692.2,
+		"y": 162796.6,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			40,
+			40
+		]
+	}
+]

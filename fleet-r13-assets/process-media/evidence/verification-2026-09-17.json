@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "manifest_files": 49,
+  "images": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-claude-2026-09-17-full.png",
+      "width": 1440,
+      "height": 26024,
+      "bytes": 864129
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-claude-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 251823
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-kimi-2026-09-17-full.png",
+      "width": 1440,
+      "height": 20294,
+      "bytes": 1435502
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-kimi-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 216971
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-live-2026-09-17-full.png",
+      "width": 1440,
+      "height": 12399,
+      "bytes": 744309
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/board-live-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 185225
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/how-the-fleet-works-2026-09-17-full.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 32930
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/how-the-fleet-works-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 105775
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/kingdom-idle-current-state-2026-09-17.webp",
+      "width": 1206,
+      "height": 2622,
+      "bytes": 262206
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-claude.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 636581
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-codex.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 723849
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-grok.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 626096
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-a.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 643682
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-b.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 666063
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-c.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 648968
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-d.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 643941
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-kimi-e.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 643967
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-live-winner.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 683629
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/landing-nine-up-2026-09-17.webp",
+      "width": 4320,
+      "height": 2700,
+      "bytes": 337192
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/scrollcraft-filmstrip-poster-2026-09-17.webp",
+      "width": 1280,
+      "height": 800,
+      "bytes": 51066
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-all-seven-2026-09-17.webp",
+      "width": 10080,
+      "height": 900,
+      "bytes": 395016
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-five-looks-2026-09-17.webp",
+      "width": 7200,
+      "height": 900,
+      "bytes": 299172
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-a-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 1317045
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-layered-b-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 957147
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-live-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 980105
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-a-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 87690
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-b-2026-09-17.png",
+      "width": 1440,
+      "height": 900,
+      "bytes": 74227
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r1-lane-c-2026-09-17.png",
+      "width": 1440,
+      "height": 1215,
+      "bytes": 162199
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/sigouin-r2-polish-2026-09-17.png",
+      "width": 1440,
+      "height": 850,
+      "bytes": 549933
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green-poster-2026-09-17.webp",
+      "width": 1440,
+      "height": 900,
+      "bytes": 102226
+    }
+  ],
+  "videos": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/2026-09-17/scrollcraft-filmstrip-2026-09-17.mp4",
+      "duration": 7.0,
+      "codec": "h264",
+      "width": 1280,
+      "height": 800,
+      "audio_streams": 0,
+      "frames": "210",
+      "bytes": 1285355
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/process-media/gate-red-green.mp4",
+      "duration": 7.466667,
+      "codec": "h264",
+      "width": 1440,
+      "height": 900,
+      "audio_streams": 0,
+      "frames": "224",
+      "bytes": 113078
+    }
+  ],
+  "gate_exits": [
+    1,
+    1,
+    0
+  ],
+  "cost_sources": 12,
+  "cost_entries": 154,
+  "cost_totals": {
+    "all": {
+      "usd": 30.58767,
+      "credits": 0.0,
+      "entries": 154,
+      "priced_entries": 152,
+      "unknown_price_entries": 2
+    },
+    "by_provider": {
+      "grok": {
+        "usd": 0.0,
+        "credits": 0.0,
+        "entries": 2,
+        "priced_entries": 0,
+        "unknown_price_entries": 2
+      },
+      "openai": {
+        "usd": 30.58767,
+        "credits": 0.0,
+        "entries": 152,
+        "priced_entries": 152,
+        "unknown_price_entries": 0
+      }
+    },
+    "by_model": {
+      "grok/unknown": {
+        "usd": 0.0,
+        "credits": 0.0,
+        "entries": 2,
+        "priced_entries": 0,
+        "unknown_price_entries": 2
+      },
+      "openai/gpt-image-2": {
+        "usd": 30.58767,
+        "credits": 0.0,
+        "entries": 152,
+        "priced_entries": 152,
+        "unknown_price_entries": 0
+      }
+    }
+  },
+  "known_gap": "Six Kingdom Idle gameplay screenshots cannot be made from the specified archive. Its screenshots folder was deleted, leaving one clean gameplay capture."
+}

@@ -1,0 +1,9 @@
+{
+  "rollback_copy": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r15-ship/site-as-deployed-9d9c5bd0",
+  "rollback_diff_exit_code": 0,
+  "promotion_diff_exit_code": 0,
+  "promotion_diff_output": "",
+  "prepared_files": 74,
+  "new_index_sha256": "12f73cab94e91157b844609559cbd0ab370cb444319f2f63b424e4247c699b3a",
+  "promoted_utc": "2026-09-17T15:37:09.179812+00:00"
+}

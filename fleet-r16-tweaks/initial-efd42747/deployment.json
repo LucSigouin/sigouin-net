@@ -1,0 +1,9 @@
+{
+  "command": "CONFIRM_DEPLOY=1 /Users/ls/Claude-Workspace/personal/sigouin-net/deploy/deploy.sh",
+  "started_utc": "2026-09-17T15:38:02.826428+00:00",
+  "completed_utc": "2026-09-17T15:38:13.444296+00:00",
+  "duration_seconds": 10.618,
+  "exit_code": 0,
+  "deployment_id": "efd42747",
+  "pages_url": "https://efd42747.sigouin-net.pages.dev"
+}

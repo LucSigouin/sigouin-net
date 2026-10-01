@@ -1,0 +1,10 @@
+Round 16 pre-deploy reference
+Captured UTC: 2026-09-17T15:37:08.709415+00:00
+
+$ curl -s https://sigouin.net/ | shasum -a 256
+e246a01af166c7c7eaaa069438bef77f94ca3f87a2e0383cee52ab96186b4fff  -
+Exit code: 0
+
+$ shasum -a 256 < /Users/ls/Claude-Workspace/personal/sigouin-net/site/index.html
+e246a01af166c7c7eaaa069438bef77f94ca3f87a2e0383cee52ab96186b4fff  -
+Exit code: 0

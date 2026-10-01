@@ -1,0 +1,4 @@
+Wrangler 4.133.0 local Worker, default compatibility date 2026-09-16.
+Both requested JSON routes initially returned 502. Temporary server logging reported:
+TypeError: Invalid redirect value, must be one of "follow" or "manual" ("error" won't be implemented since it does not make sense at the edge; use "manual" and check the response status code).
+Changed only the promoted handler to redirect: "manual". Its existing !upstreamResponse.ok check rejects 3xx, cancels the body, and returns 502 without following the Location. Removed temporary logging.

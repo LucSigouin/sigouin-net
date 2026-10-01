@@ -1,0 +1,191 @@
+[
+	{
+		"x": 52124.45,
+		"y": 172224.66,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 51232.02,
+		"y": 153631.08,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 82653.99,
+		"y": 173184.83,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 76151.35,
+		"y": 150385.64,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 336636.7,
+		"y": 131080.78,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Umbral Sands.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 124802.89,
+		"y": 104131.75,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 74399.12,
+		"y": 142354.6,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 13599.45,
+		"y": 73449.5,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 124303.52,
+		"y": 157146.2,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 41590.01,
+		"y": 131700.38,
+		"name": "Sanguine Urn",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 194483.92,
+		"y": 63727.4,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Dowdun Reach.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 241210.73,
+		"y": 10909.15,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Dowdun Reach.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 235466.84,
+		"y": 43987.1,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Dowdun Reach.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 185162.67,
+		"y": -15880.62,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Fellhollow.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 151032.06,
+		"y": -62753.35,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Fellhollow.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 32025.27,
+		"y": -46994.28,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Umbral Sands.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 288487.62,
+		"y": 198441.19,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Umbral Sands.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	},
+	{
+		"x": 295248,
+		"y": 164835.53,
+		"name": "Sanguine Urn",
+		"description": "The location of a Sanguine Urn in Umbral Sands.",
+		"icon": "Sanguine_Urn_Icon.png",
+		"iconSize": [
+			46,
+			50
+		]
+	}
+]

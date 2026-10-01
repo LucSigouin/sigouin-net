@@ -1,0 +1,87 @@
+[
+  {
+    "path": "site/assets/bg-b-1080-20260917.av1.mp4",
+    "bytes": 412175,
+    "references": []
+  },
+  {
+    "path": "site/assets/bg-b-1080-20260917.mp4",
+    "bytes": 1108463,
+    "references": []
+  },
+  {
+    "path": "site/assets/bg-b-1080-20260917.poster.webp",
+    "bytes": 55554,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/livetvcan-390-scroll0-20260917.webp",
+    "bytes": 24242,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigouin-1440-scroll0-20260917.webp",
+    "bytes": 42630,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigouin-390-scroll0-20260917.webp",
+    "bytes": 18564,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigz-music-1440-scroll-20260917-poster.webp",
+    "bytes": 22766,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigz-music-1440-scroll-20260917.mp4",
+    "bytes": 206791,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigz-music-1440-scroll50-20260917.webp",
+    "bytes": 28816,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/sigz-music-390-scroll0-20260917.webp",
+    "bytes": 21324,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/teetimes-1440-scroll0-20260917.webp",
+    "bytes": 117296,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/teetimes-1440-scroll50-20260917.webp",
+    "bytes": 112578,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/teetimes-390-scroll0-20260917.webp",
+    "bytes": 52866,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/undergrowth-1440-scroll0-ready-20260917.webp",
+    "bytes": 161142,
+    "references": []
+  },
+  {
+    "path": "site/assets/cap/undergrowth-390-scroll0-play8s-20260917.webp",
+    "bytes": 39368,
+    "references": []
+  },
+  {
+    "path": "site/assets/proc/gate-red-green.txt",
+    "bytes": 920,
+    "references": []
+  },
+  {
+    "path": "site/assets/proc/sigouin-live-2026-09-17.png",
+    "bytes": 980105,
+    "references": []
+  }
+]

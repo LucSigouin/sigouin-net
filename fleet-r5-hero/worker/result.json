@@ -1,0 +1,32 @@
+{
+  "state": "done",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/page.dev.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/index.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/BRIEF.md",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-far-1600.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-far-800.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-mid-1600.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-mid-900.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-near-1200.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/assets/hero-near-700.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/hero-layers.py",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net/lab/herocheck.mjs",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/site/index.html",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets/",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r5-hero/worker/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r5-hero/worker/result.json"
+  ],
+  "verify": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r5-hero/check-hero.py /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-net /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r5-hero/worker",
+  "verify_exit": 0,
+  "spend_usd": null,
+  "spend_credits": 56,
+  "spend_credits_planned_at_published_rate": 112,
+  "stills_generated": 4,
+  "unverified": [
+    "real phone and real mouse (pointer drift exercised only with the headless pointer)",
+    "Safari (harness is Chromium-based Edge only)",
+    "phones shorter than about 660 px (only 844 tall shot)",
+    "dollar value of the kie.ai spend (no published credit-to-dollar rate found)"
+  ]
+}

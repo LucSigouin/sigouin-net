@@ -1,0 +1,2 @@
+COMMAND: ['rg', '-n', 'bg-b-1080', 'site', '-g', '*.html', '-g', '*.js', '-g', '*.css', '-g', '!vendor/**']
+EXIT: 1

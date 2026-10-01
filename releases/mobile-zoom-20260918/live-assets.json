@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files": {
+    "index.html": "1b63fd39b96a842e9e9d522af549dd822cc86018e9dac4864b81a2ea3845fcaa",
+    "vybe/app.js": "e4bf7a07fe3e636fde797f991c16961b4033645798592f76ede639f0572d2442",
+    "vybe/workspace.js": "5870f31f077ea3e89d417f5aa69ff1d065046e645ee151fb9a07076688d95562",
+    "vybe/signal.css": "b143708d827c97c98306254c4e8f7ba45c0f29ad96130f661d8213fa33db9ad7",
+    "vybe/assets/mobile-closed.webp": "dc876f5e6f485ceed36a1a1d57ebccfdef22023791ddaee073a6884be8424c64",
+    "vybe/assets/mobile-open.webp": "e5df080f4ec4756d576d2eafc4ec770142a4bfec5f240a952285b65403712feb",
+    "vybe/mobile-zoom.js": "363b2a721708f7eb967fa2b0e37ffa739c0b5a80bde1587abc99f66160acf880"
+  }
+}

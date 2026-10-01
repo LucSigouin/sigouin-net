@@ -1,0 +1,143 @@
+{
+  "state": {
+    "vybe": {
+      "mode": "still",
+      "stats": null
+    },
+    "hub": null,
+    "visibleControls": [],
+    "videos": [],
+    "resources": [
+      {
+        "url": "https://sigouin.net/cdn-cgi/speculation",
+        "transfer": 451,
+        "encoded": 151,
+        "decoded": 151,
+        "duration": 14.700000017881393
+      },
+      {
+        "url": "https://sigouin.net/vybe/style.css",
+        "transfer": 4243,
+        "encoded": 3943,
+        "decoded": 12261,
+        "duration": 23
+      },
+      {
+        "url": "https://sigouin.net/vybe/render-only.css",
+        "transfer": 1265,
+        "encoded": 965,
+        "decoded": 2478,
+        "duration": 21.599999994039536
+      },
+      {
+        "url": "https://sigouin.net/vybe/app.js?v=perf-20260923",
+        "transfer": 3136,
+        "encoded": 2836,
+        "decoded": 7989,
+        "duration": 22
+      },
+      {
+        "url": "https://sigouin.net/vybe/render-only.js",
+        "transfer": 978,
+        "encoded": 678,
+        "decoded": 1570,
+        "duration": 23.5
+      },
+      {
+        "url": "https://sigouin.net/vybe/signal.css?v=mobile-zoom-20260918",
+        "transfer": 2255,
+        "encoded": 1955,
+        "decoded": 5731,
+        "duration": 26.30000001192093
+      },
+      {
+        "url": "https://sigouin.net/vybe/assets/closed.webp",
+        "transfer": 69806,
+        "encoded": 69506,
+        "decoded": 69506,
+        "duration": 38
+      },
+      {
+        "url": "https://sigouin.net/vybe/assets/inter-400.ttf",
+        "transfer": 150812,
+        "encoded": 150512,
+        "decoded": 324820,
+        "duration": 49.30000001192093
+      }
+    ],
+    "paint": [
+      {
+        "name": "first-paint",
+        "start": 112
+      },
+      {
+        "name": "first-contentful-paint",
+        "start": 136
+      }
+    ],
+    "images": [
+      {
+        "src": "https://sigouin.net/vybe/assets/closed.webp",
+        "complete": true,
+        "width": 1600
+      },
+      {
+        "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "complete": true,
+        "width": 1
+      },
+      {
+        "src": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+        "complete": true,
+        "width": 1
+      }
+    ],
+    "scroll": {
+      "w": 1440,
+      "h": 900,
+      "iw": 1440,
+      "ih": 900
+    },
+    "tabFocus": "<body>\n<svg class=\"icon-defs\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><defs>\n<symbol id=\"i-arrow\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"></path></symbol>\n<symbol id=\"i-serve"
+  },
+  "errors": [],
+  "responses": [
+    {
+      "url": "https://sigouin.net/",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/cdn-cgi/speculation",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/render-only.css",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/app.js?v=perf-20260923",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/assets/closed.webp",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/render-only.js",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/signal.css?v=mobile-zoom-20260918",
+      "status": 200
+    },
+    {
+      "url": "https://sigouin.net/vybe/assets/inter-400.ttf",
+      "status": 200
+    }
+  ],
+  "failures": []
+}

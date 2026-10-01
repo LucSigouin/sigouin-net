@@ -1,0 +1,42 @@
+{
+  "state": "done",
+  "taskId": null,
+  "model": {
+    "requested": "claude-opus-5",
+    "effective": "claude-opus-5",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/site/index.html",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/site/index.html",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/site/process/index.html",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/site/css/hub.css",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/site/js/hub.js",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/check-noscroll.mjs",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/verify.sh",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shoot.mjs",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/GATE-TESTED.txt",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/manifest.json",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/index-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/index-390.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/process-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/process-390.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/index-after-overture-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/process-p8-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/index-stage-390.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/process-ledger-1440.png",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/shots/process-ledger-390.png"
+  ],
+  "verify": {
+    "cmd": "bash /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r17-noscroll/verify.sh",
+    "exit": 0
+  },
+  "unverified": [
+    "The rendered pages by human eye, only my own PNG captures were reviewed",
+    "Real trackpad wheel and real touch swipe on hardware, the gate drives the buttons",
+    "Viewport heights other than 900 and 844",
+    "Live API numbers, a static preview does not run Cloudflare Functions so the labelled sample fixture is shown",
+    "Video decode on a real phone, the 390 captures are desktop mobile emulation"
+  ]
+}

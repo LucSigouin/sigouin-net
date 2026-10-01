@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How it gets built, eight stops</title>
+<meta name="description" content="A fleet of AI agents on a canvas: how one brief becomes lanes, gates, losers and a winner.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link rel="stylesheet" href="https://fonts.bunny.net/css?family=instrument-serif:400|jetbrains-mono:400,500">
+<link rel="stylesheet" href="../hub.css">
+<link rel="preload" as="image" href="../assets/video/cnvs-canvas-pullback-20260917.poster.webp" fetchpriority="high">
+</head>
+<body>
+<a class="skip" href="#p1">Skip to the first stop</a>
+
+<div class="bar">
+  <a class="bar__mark" href="../">L.S.</a>
+  <nav class="bar__nav" aria-label="Sections">
+    <a href="../">Index</a>
+    <a href="#p1">Process</a>
+    <a href="mailto:luc@sigouin.net">Contact</a>
+  </nav>
+</div>
+
+<header class="overture">
+  <div class="overture__plate">
+    <img src="../assets/video/cnvs-canvas-pullback-20260917.poster.webp" alt="A canvas of live agent terminal nodes, pulled back" fetchpriority="high" decoding="async">
+  </div>
+  <div class="overture__head">
+    <div class="overture__strip overture__strip--hi" aria-hidden="true">
+      <img src="../assets/process/board-claude-2026-09-17.png" alt="" decoding="async">
+      <img src="../assets/process/board-kimi-2026-09-17.png" alt="" decoding="async">
+      <img src="../assets/process/how-the-fleet-works-2026-09-17.png" alt="" decoding="async">
+      <img src="../assets/process/sigouin-r1-lane-a-2026-09-17.png" alt="" decoding="async">
+      <img src="../assets/process/sigouin-r2-polish-2026-09-17.png" alt="" decoding="async">
+      <img src="../assets/process/landing-live-winner.png" alt="" decoding="async">
+    </div>
+    <div class="overture__strip" aria-hidden="true">
+      <img src="../assets/process/landing-nine-up-2026-09-17.webp" alt="" decoding="async">
+      <img src="../assets/process/gate-red-green-poster-2026-09-17.webp" alt="" decoding="async">
+      <img src="../assets/process/sigouin-five-looks-2026-09-17.webp" alt="" decoding="async">
+      <img src="../assets/process/scrollcraft-filmstrip-poster-2026-09-17.webp" alt="" decoding="async">
+      <img src="../assets/process/board-live-2026-09-17.png" alt="" decoding="async">
+    </div>
+    <h1 class="name">
+      <span class="name__mask"><span style="animation-delay:.05s">How</span></span>
+      <span class="name__mask"><em><span style="animation-delay:.14s">it</span> <span style="animation-delay:.2s">runs</span></em></span>
+    </h1>
+  </div>
+  <div class="rule-sweep"></div>
+  <div class="overture__meta">
+    <span><b>8</b> stops</span>
+    <span><b>1</b> orchestrator, never a writer</span>
+    <span><b>13</b> tools and models named below</span>
+    <span><b>0</b> untested gates</span>
+  </div>
+</header>
+
+<main class="wing">
+
+  <section class="scene" id="p1">
+    <div class="scene__plate">
+      <video muted loop playsinline preload="none" autoplay poster="../assets/video/cnvs-canvas-pullback-20260917.poster.webp" aria-label="The canvas pulling back over live agent nodes">
+        <source src="../assets/video/cnvs-canvas-pullback-20260917.av1.mp4" type='video/mp4; codecs="av01.0.05M.08"'>
+        <source src="../assets/video/cnvs-canvas-pullback-20260917.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P1 / The canvas</p>
+      <h2 class="scene__h">Workers are windows, not hidden threads</h2>
+      <p class="scene__fact">Every agent runs as a visible terminal node on a <b>CNVS</b> canvas. Luc can read a worker mid sentence, interrupt it, or let it finish. Nothing runs where he cannot see it.</p>
+      <ul class="chips"><li class="on">CNVS</li><li>cnvsctl</li><li>Tracked tasks</li><li>Shared canvas memory</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p2">
+    <div class="scene__plate scene__plate--fit">
+      <img src="../assets/process/how-the-fleet-works-2026-09-17.png" alt="A diagram of one prompt splitting into lane folders" loading="lazy" decoding="async">
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P2 / The split</p>
+      <h2 class="scene__h">One prompt becomes five folders</h2>
+      <p class="scene__fact">The orchestrator is always <b>Claude Fable 5</b>, and it never edits a file. It writes the rubric first, cuts the work into lanes that touch no shared file, and hands each lane to a fresh worker: <b>Claude Opus 5</b>, <b>Codex</b>, <b>Grok 4.6</b>, <b>Kimi K3</b> or <b>Qwen</b>.</p>
+      <ul class="chips"><li class="on">Claude Fable 5</li><li>Claude Opus 5</li><li>Codex</li><li>Grok 4.6</li><li>Kimi K3</li><li>Qwen</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p3">
+    <div class="scene__plate scene__plate--fit">
+      <video muted loop playsinline preload="none" poster="../assets/process/gate-red-green-poster-2026-09-17.webp" aria-label="A gate script failing red then passing green">
+        <source src="../assets/process/gate-red-green-20260917.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P3 / The gate</p>
+      <h2 class="scene__h">Red first, on purpose</h2>
+      <p class="scene__fact">Done means a worker reported <b>and</b> its verify command exited zero. Before a gate is trusted it is broken on purpose to prove it can fail. A suite that has never gone red has proven nothing.</p>
+      <ul class="chips"><li class="on">Mutant tested gates</li><li>Read only predicates</li><li>result.json contract</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p4">
+    <div class="scene__plate scene__plate--fit">
+      <img src="../assets/process/board-live-2026-09-17.png" alt="The live workbench board with worker rows, models and verify commands" loading="lazy" decoding="async">
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P4 / The board</p>
+      <h2 class="scene__h">The header colour is the fleet state</h2>
+      <p class="scene__fact">One HTML page, live from the first spawn: every worker, its task, its model, its verify command and what it cost. Not a diary written afterwards. The model comes from each worker's own result.json, because the task ledger has no model field.</p>
+      <ul class="chips"><li class="on">workbench.html</li><li>131 REPORT.md on disk</li><li>66 result.json</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p5">
+    <div class="scene__plate scene__plate--fit">
+      <img src="../assets/process/landing-nine-up-2026-09-17.webp" alt="Nine landing page lanes in one contact sheet, one lit" loading="lazy" decoding="async">
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P5 / The contest</p>
+      <h2 class="scene__h">Nine lanes, one brief, one winner</h2>
+      <p class="scene__fact">The largest contest on disk ran nine lanes across four model families on a single landing brief. No agent scores another agent. Luc picks by eye, and the eight that lose are archived with a revive note, never deleted.</p>
+      <ul class="chips"><li class="on">Claude Opus 5</li><li class="on">Codex</li><li class="on">Grok 4.6</li><li class="on">Kimi K3</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p6">
+    <div class="scene__plate scene__plate--pair">
+      <figure><img src="../assets/process/board-claude-2026-09-17.png" alt="The Claude lane of the workbench build off" loading="lazy" decoding="async"></figure>
+      <figure><img src="../assets/process/board-kimi-2026-09-17.png" alt="The Kimi lane of the same brief" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P6 / Same brief, two models</p>
+      <h2 class="scene__h">9.25 against 8.42</h2>
+      <p class="scene__fact">Two workers get the identical brief and the identical rubric, in folders that never touch. <b>Claude Opus 5</b> above, <b>Kimi K3</b> below. The gap is visible before anyone reads a score, which is the whole reason the lanes are rendered side by side.</p>
+      <ul class="chips"><li class="on">Claude Opus 5</li><li class="on">Kimi K3</li><li>Disjoint folders</li><li>One rubric</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p7">
+    <div class="scene__plate scene__plate--pair">
+      <figure><img src="../assets/process/sigouin-r1-lane-a-2026-09-17.png" alt="An overnight lane, first pass" loading="lazy" decoding="async"></figure>
+      <figure><img src="../assets/process/sigouin-r2-polish-2026-09-17.png" alt="The same lane after the polish round" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P7 / The overnight lab</p>
+      <h2 class="scene__h">Rounds land while the house sleeps</h2>
+      <p class="scene__fact">Art and layout rounds run unattended and log their own cost. 146 images, 30.25 USD, generated by <b>gpt-image-2</b>, <b>kie.ai</b> Nano Banana, <b>Higgsfield</b> Seedance and <b>Tripo</b> for anything that had to turn in three dimensions. References come from <b>MotionSites</b> and <b>21st.dev</b>.</p>
+      <ul class="chips"><li class="on">gpt-image-2</li><li class="on">kie.ai</li><li class="on">Higgsfield</li><li class="on">Tripo</li><li class="on">MotionSites</li><li class="on">21st.dev</li></ul>
+    </div>
+  </section>
+
+  <section class="scene" id="p8">
+    <div class="scene__plate scene__plate--pair">
+      <figure><img src="../assets/process/sigouin-five-looks-2026-09-17.webp" alt="Five candidate looks in a row" loading="lazy" decoding="async"></figure>
+      <figure><img src="../assets/process/landing-live-winner.png" alt="The look that shipped" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="scene__body">
+      <p class="scene__n">P8 / The shelf</p>
+      <h2 class="scene__h">Four archived, one shipped</h2>
+      <p class="scene__fact">Losing work goes to archive intact, with a row explaining why and how to revive it. Nothing is thrown away, and nothing rejected gets pitched twice. The winner deploys through its own script, then the served hash is compared against the local one before anyone says it is live.</p>
+      <ul class="chips"><li class="on">Archive with revive notes</li><li>deploy.sh only</li><li>Served hash equals local</li></ul>
+    </div>
+  </section>
+
+</main>
+
+<dl class="ledger">
+  <div><dt>Canvas</dt><dd>CNVS</dd></div>
+  <div><dt>Orchestrator</dt><dd>Claude Fable 5</dd></div>
+  <div><dt>Build and review</dt><dd>Claude Opus 5</dd></div>
+  <div><dt>Audit and forensics</dt><dd>Codex</dd></div>
+  <div><dt>Research sweeps</dt><dd>Grok 4.6</dd></div>
+  <div><dt>UI contests</dt><dd>Kimi K3</dd></div>
+  <div><dt>Extra lane</dt><dd>Qwen</dd></div>
+  <div><dt>Video and brand</dt><dd>Higgsfield</dd></div>
+  <div><dt>Image to 3D</dt><dd>Tripo</dd></div>
+  <div><dt>Stills</dt><dd>kie.ai</dd></div>
+  <div><dt>Images</dt><dd>gpt-image-2</dd></div>
+  <div><dt>Motion reference</dt><dd>MotionSites</dd></div>
+  <div><dt>Component reference</dt><dd>21st.dev</dd></div>
+</dl>
+
+<footer class="tail">
+  <span>Eight stops, every artifact real and on disk</span>
+  <span><a href="../">Back to the twelve</a></span>
+  <span><a href="mailto:luc@sigouin.net">luc@sigouin.net</a></span>
+</footer>
+
+<script>
+/* Play each scene loop only while it is on screen, and only if motion is welcome. */
+if (!matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+  const seen = new IntersectionObserver(entries => {
+    for (const e of entries) {
+      const v = e.target;
+      if (e.isIntersecting) { v.preload = "auto"; v.play().catch(() => {}); }
+      else v.pause();
+    }
+  }, { threshold: 0.25 });
+  document.querySelectorAll(".scene__plate video").forEach(v => seen.observe(v));
+}
+</script>
+</body>
+</html>

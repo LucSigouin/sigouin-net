@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "fixture_0000",
+    "output": {
+      "item": "wall",
+      "name": "Wall",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "8",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 4.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wall"
+  },
+  {
+    "id": "fixture_0001",
+    "output": {
+      "item": "wall",
+      "name": "Wall",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "16",
+    "materials": [
+      {
+        "item": "ash_plank",
+        "name": "Ash Plank",
+        "qty": 4.0
+      },
+      {
+        "item": "oak_logs",
+        "name": "Oak Logs",
+        "qty": 2.0
+      },
+      {
+        "item": "ground_stone",
+        "name": "Ground Stone",
+        "qty": 2.0
+      },
+      {
+        "item": "ground_sandstone",
+        "name": "Ground Sandstone",
+        "qty": 2.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wall"
+  },
+  {
+    "id": "fixture_0002",
+    "output": {
+      "item": "wall",
+      "name": "Wall",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "stone_block",
+        "name": "Stone Block",
+        "qty": 4.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wall"
+  },
+  {
+    "id": "fixture_0003",
+    "output": {
+      "item": "crafting_table",
+      "name": "Crafting Table",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "12",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 4.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Crafting_Table"
+  },
+  {
+    "id": "fixture_0004",
+    "output": {
+      "item": "rat_roast",
+      "name": "Rat Roast",
+      "qty": 1.0
+    },
+    "facility": "Campfire",
+    "skill": "Cooking",
+    "skillxp": "10",
+    "materials": [
+      {
+        "item": "raw_rat_meat",
+        "name": "Raw Rat Meat",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rat_Roast"
+  },
+  {
+    "id": "fixture_0005",
+    "output": {
+      "item": "rat_roast",
+      "name": "Rat Roast",
+      "qty": 1.0
+    },
+    "facility": "Grill",
+    "skill": "Cooking",
+    "skillxp": "10",
+    "materials": [
+      {
+        "item": "raw_rat_meat",
+        "name": "Raw Rat Meat",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rat_Roast"
+  },
+  {
+    "id": "fixture_0006",
+    "output": {
+      "item": "spinning_wheel",
+      "name": "Spinning Wheel",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "12",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 12.0
+      },
+      {
+        "item": "flax",
+        "name": "Flax",
+        "qty": 4.0
+      },
+      {
+        "item": "stone",
+        "name": "Stone",
+        "qty": 2.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Spinning_Wheel"
+  },
+  {
+    "id": "fixture_0007",
+    "output": {
+      "item": "coarse_thread",
+      "name": "Coarse Thread",
+      "qty": 1.0
+    },
+    "facility": "Spinning Wheel",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "flax",
+        "name": "Flax",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Coarse_Thread"
+  },
+  {
+    "id": "fixture_0008",
+    "output": {
+      "item": "coarse_thread",
+      "name": "Coarse Thread",
+      "qty": 1.0
+    },
+    "facility": "Spinning Wheel",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "coarse_animal_fur",
+        "name": "Coarse Animal Fur",
+        "qty": 3.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Coarse_Thread"
+  },
+  {
+    "id": "fixture_0009",
+    "output": {
+      "item": "imbued_leather_wrappings",
+      "name": "Imbued Leather Wrappings",
+      "qty": 1.0
+    },
+    "facility": "Blacksmith's Bench",
+    "skill": "Artisan",
+    "skillxp": "40",
+    "materials": [
+      {
+        "item": "dire_wolf_leather",
+        "name": "Dire Wolf Leather",
+        "qty": 1.0
+      },
+      {
+        "item": "anima_infused_bark",
+        "name": "Anima-Infused Bark",
+        "qty": 5.0
+      },
+      {
+        "item": "vault_shard",
+        "name": "Vault Shard",
+        "qty": 3.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Imbued_Leather_Wrappings"
+  },
+  {
+    "id": "fixture_0010",
+    "output": {
+      "item": "ornate_maul_handle",
+      "name": "Ornate Maul Handle",
+      "qty": 1.0
+    },
+    "facility": "Blacksmith's Bench",
+    "skill": "Artisan",
+    "skillxp": "40",
+    "materials": [
+      {
+        "item": "blightwood",
+        "name": "Blightwood",
+        "qty": 7.0
+      },
+      {
+        "item": "silver_bar",
+        "name": "Silver Bar",
+        "qty": 5.0
+      },
+      {
+        "item": "bronze_bar",
+        "name": "Bronze Bar",
+        "qty": 5.0
+      },
+      {
+        "item": "vault_shard",
+        "name": "Vault Shard",
+        "qty": 3.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ornate_Maul_Handle"
+  },
+  {
+    "id": "fixture_0011",
+    "output": {
+      "item": "adventurer_s_tunic",
+      "name": "Adventurer's Tunic",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "coarse_animal_fur",
+        "name": "Coarse Animal Fur",
+        "qty": 9.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Adventurer%27s_Tunic"
+  },
+  {
+    "id": "fixture_0012",
+    "output": {
+      "item": "adventurer_s_leggings",
+      "name": "Adventurer's Leggings",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "coarse_animal_fur",
+        "name": "Coarse Animal Fur",
+        "qty": 6.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Adventurer%27s_Leggings"
+  },
+  {
+    "id": "fixture_0013",
+    "output": {
+      "item": "torch",
+      "name": "Torch",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 1.0
+      },
+      {
+        "item": "coarse_animal_fur",
+        "name": "Coarse Animal Fur",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Torch"
+  },
+  {
+    "id": "fixture_0014",
+    "output": {
+      "item": "brewing_cauldron",
+      "name": "Brewing Cauldron",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "12",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 16.0
+      },
+      {
+        "item": "coarse_thread",
+        "name": "Coarse Thread",
+        "qty": 6.0
+      },
+      {
+        "item": "rune_essence",
+        "name": "Rune Essence",
+        "qty": 10.0
+      },
+      {
+        "item": "clay",
+        "name": "Clay",
+        "qty": 6.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Brewing_Cauldron"
+  },
+  {
+    "id": "fixture_0015",
+    "output": {
+      "item": "ash_battlestaff",
+      "name": "Ash Battlestaff",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 12.0
+      },
+      {
+        "item": "rune_essence",
+        "name": "Rune Essence",
+        "qty": 6.0
+      },
+      {
+        "item": "coarse_thread",
+        "name": "Coarse Thread",
+        "qty": 2.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ash_Battlestaff"
+  },
+  {
+    "id": "fixture_0016",
+    "output": {
+      "item": "leather",
+      "name": "Leather",
+      "qty": 1.0
+    },
+    "facility": "Tannery",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "animal_hide",
+        "name": "Animal Hide",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Leather"
+  },
+  {
+    "id": "fixture_0017",
+    "output": {
+      "item": "leather",
+      "name": "Leather",
+      "qty": 1.0
+    },
+    "facility": "Tannery",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "animal_hide_scraps",
+        "name": "Animal Hide Scraps",
+        "qty": 3.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Leather"
+  },
+  {
+    "id": "fixture_0018",
+    "output": {
+      "item": "weak_focused_cooking_potion",
+      "name": "Weak Focused Cooking Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "marrentil",
+        "name": "Marrentil",
+        "qty": 1.0
+      },
+      {
+        "item": "cabbage",
+        "name": "Cabbage",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Cooking_Potion"
+  },
+  {
+    "id": "fixture_0019",
+    "output": {
+      "item": "weak_focused_artisan_potion",
+      "name": "Weak Focused Artisan Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "marrentil",
+        "name": "Marrentil",
+        "qty": 1.0
+      },
+      {
+        "item": "redberries",
+        "name": "Redberries",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Artisan_Potion"
+  },
+  {
+    "id": "fixture_0020",
+    "output": {
+      "item": "weak_focused_woodcutting_potion",
+      "name": "Weak Focused Woodcutting Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "marrentil",
+        "name": "Marrentil",
+        "qty": 1.0
+      },
+      {
+        "item": "feathers",
+        "name": "Feathers",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Woodcutting_Potion"
+  },
+  {
+    "id": "fixture_0021",
+    "output": {
+      "item": "weak_antipoison_potion",
+      "name": "Weak Antipoison Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "marrentil",
+        "name": "Marrentil",
+        "qty": 1.0
+      },
+      {
+        "item": "bittercap_mushroom",
+        "name": "Bittercap Mushroom",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Antipoison_Potion"
+  },
+  {
+    "id": "fixture_0022",
+    "output": {
+      "item": "weak_lumberjack_potion",
+      "name": "Weak Lumberjack Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "harralander",
+        "name": "Harralander",
+        "qty": 1.0
+      },
+      {
+        "item": "antler",
+        "name": "Antler",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Lumberjack_Potion"
+  },
+  {
+    "id": "fixture_0023",
+    "output": {
+      "item": "weak_quarrymaster_potion",
+      "name": "Weak Quarrymaster Potion",
+      "qty": 1.0
+    },
+    "facility": "Brewing Cauldron",
+    "skill": "Artisan",
+    "skillxp": "0",
+    "materials": [
+      {
+        "item": "harralander",
+        "name": "Harralander",
+        "qty": 1.0
+      },
+      {
+        "item": "clay",
+        "name": "Clay",
+        "qty": 1.0
+      },
+      {
+        "item": "clay_vessel",
+        "name": "Clay Vessel",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Quarrymaster_Potion"
+  },
+  {
+    "id": "fixture_0024",
+    "output": {
+      "item": "fleet_footed_infusion",
+      "name": "Fleet-Footed Infusion",
+      "qty": 1.0
+    },
+    "facility": "Stone Range",
+    "skill": "Cooking",
+    "skillxp": "15",
+    "materials": [
+      {
+        "item": "clean_water",
+        "name": "Clean Water",
+        "qty": 1.0
+      },
+      {
+        "item": "feathers",
+        "name": "Feathers",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fleet-Footed_Infusion"
+  },
+  {
+    "id": "fixture_0025",
+    "output": {
+      "item": "fleet_footed_infusion",
+      "name": "Fleet-Footed Infusion",
+      "qty": 1.0
+    },
+    "facility": "Cooking Range",
+    "skill": "Cooking",
+    "skillxp": "15",
+    "materials": [
+      {
+        "item": "clean_water",
+        "name": "Clean Water",
+        "qty": 1.0
+      },
+      {
+        "item": "feathers",
+        "name": "Feathers",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fleet-Footed_Infusion"
+  },
+  {
+    "id": "fixture_0026",
+    "output": {
+      "item": "clean_water",
+      "name": "Clean Water",
+      "qty": 1.0
+    },
+    "facility": "Campfire",
+    "skill": "Cooking",
+    "skillxp": "1",
+    "materials": [
+      {
+        "item": "dirty_water",
+        "name": "Dirty Water",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clean_Water"
+  },
+  {
+    "id": "fixture_0027",
+    "output": {
+      "item": "clean_water",
+      "name": "Clean Water",
+      "qty": 1.0
+    },
+    "facility": "Grill",
+    "skill": "Cooking",
+    "skillxp": "1",
+    "materials": [
+      {
+        "item": "dirty_water",
+        "name": "Dirty Water",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clean_Water"
+  },
+  {
+    "id": "fixture_0028",
+    "output": {
+      "item": "clean_water",
+      "name": "Clean Water",
+      "qty": 1.0
+    },
+    "facility": "Campfire",
+    "skill": "Cooking",
+    "skillxp": "1",
+    "materials": [
+      {
+        "item": "wither_water",
+        "name": "Wither Water",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clean_Water"
+  },
+  {
+    "id": "fixture_0029",
+    "output": {
+      "item": "clean_water",
+      "name": "Clean Water",
+      "qty": 1.0
+    },
+    "facility": "Grill",
+    "skill": "Cooking",
+    "skillxp": "1",
+    "materials": [
+      {
+        "item": "wither_water",
+        "name": "Wither Water",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clean_Water"
+  },
+  {
+    "id": "fixture_0030",
+    "output": {
+      "item": "clay_vessel",
+      "name": "Clay Vessel",
+      "qty": 1.0
+    },
+    "facility": "Kiln",
+    "skill": "Artisan",
+    "skillxp": "40",
+    "materials": [
+      {
+        "item": "clay_vessel_unfired",
+        "name": "Clay Vessel (Unfired)",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clay_Vessel"
+  },
+  {
+    "id": "fixture_0031",
+    "output": {
+      "item": "clay_vessel_unfired",
+      "name": "Clay Vessel (Unfired)",
+      "qty": 1.0
+    },
+    "facility": "Pottery Wheel",
+    "skill": "Artisan",
+    "skillxp": "60",
+    "materials": [
+      {
+        "item": "clay",
+        "name": "Clay",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clay_Vessel_%28Unfired%29"
+  },
+  {
+    "id": "fixture_0032",
+    "output": {
+      "item": "pottery_wheel",
+      "name": "Pottery Wheel",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "12",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 12.0
+      },
+      {
+        "item": "stone",
+        "name": "Stone",
+        "qty": 8.0
+      },
+      {
+        "item": "coarse_thread",
+        "name": "Coarse Thread",
+        "qty": 4.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Pottery_Wheel"
+  },
+  {
+    "id": "fixture_0033",
+    "output": {
+      "item": "kiln",
+      "name": "Kiln",
+      "qty": 1.0
+    },
+    "facility": "Build Menu",
+    "skill": "Construction",
+    "skillxp": "12",
+    "materials": [
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 8.0
+      },
+      {
+        "item": "stone",
+        "name": "Stone",
+        "qty": 20.0
+      },
+      {
+        "item": "clay",
+        "name": "Clay",
+        "qty": 6.0
+      },
+      {
+        "item": "fire_rune",
+        "name": "Fire Rune",
+        "qty": 10.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Kiln"
+  },
+  {
+    "id": "fixture_0034",
+    "output": {
+      "item": "padded_cloth",
+      "name": "Padded Cloth",
+      "qty": 1.0
+    },
+    "facility": "Loom",
+    "skill": "Artisan",
+    "skillxp": "40",
+    "materials": [
+      {
+        "item": "rough_cloth",
+        "name": "Rough Cloth",
+        "qty": 1.0
+      },
+      {
+        "item": "wool_cloth",
+        "name": "Wool Cloth",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Padded_Cloth"
+  },
+  {
+    "id": "fixture_0035",
+    "output": {
+      "item": "stone_club",
+      "name": "Stone Club",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": "Artisan",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "stone",
+        "name": "Stone",
+        "qty": 8.0
+      },
+      {
+        "item": "ash_logs",
+        "name": "Ash Logs",
+        "qty": 6.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Stone_Club"
+  },
+  {
+    "id": "fixture_0036",
+    "output": {
+      "item": "tattered_cape",
+      "name": "Tattered Cape",
+      "qty": 1.0
+    },
+    "facility": "Crafting Table",
+    "skill": null,
+    "skillxp": null,
+    "materials": [],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Tattered_Cape"
+  },
+  {
+    "id": "fixture_0037",
+    "output": {
+      "item": "tattered_cape",
+      "name": "Tattered Cape",
+      "qty": 1.0
+    },
+    "facility": "Armour Bench",
+    "skill": null,
+    "skillxp": null,
+    "materials": [],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Tattered_Cape"
+  },
+  {
+    "id": "fixture_0038",
+    "output": {
+      "item": "meat_stew",
+      "name": "Meat Stew",
+      "qty": 1.0
+    },
+    "facility": "Stone Range",
+    "skill": "Cooking",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "fillet",
+        "name": "Fillet",
+        "qty": 1.0
+      },
+      {
+        "item": "haunch",
+        "name": "Haunch",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Meat_Stew"
+  },
+  {
+    "id": "fixture_0039",
+    "output": {
+      "item": "meat_stew",
+      "name": "Meat Stew",
+      "qty": 1.0
+    },
+    "facility": "Cooking Range",
+    "skill": "Cooking",
+    "skillxp": "20",
+    "materials": [
+      {
+        "item": "fillet",
+        "name": "Fillet",
+        "qty": 1.0
+      },
+      {
+        "item": "haunch",
+        "name": "Haunch",
+        "qty": 1.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Meat_Stew"
+  },
+  {
+    "id": "fixture_0040",
+    "output": {
+      "item": "bronze_bar",
+      "name": "Bronze Bar",
+      "qty": 2.0
+    },
+    "facility": "Furnace",
+    "skill": "Artisan",
+    "skillxp": "5",
+    "materials": [
+      {
+        "item": "copper_ore",
+        "name": "Copper Ore",
+        "qty": 3.0
+      },
+      {
+        "item": "tin_ore",
+        "name": "Tin Ore",
+        "qty": 3.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Bar"
+  },
+  {
+    "id": "fixture_0041",
+    "output": {
+      "item": "bronze_bar",
+      "name": "Bronze Bar",
+      "qty": 1.0
+    },
+    "facility": "Furnace",
+    "skill": "Artisan",
+    "skillxp": "5",
+    "materials": [
+      {
+        "item": "bronze_salvage_pile",
+        "name": "Bronze Salvage Pile",
+        "qty": 9.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Bar"
+  },
+  {
+    "id": "fixture_0042",
+    "output": {
+      "item": "bronze_bar",
+      "name": "Bronze Bar",
+      "qty": 1.0
+    },
+    "facility": "Blast Furnace",
+    "skill": "Artisan",
+    "skillxp": "10",
+    "materials": [
+      {
+        "item": "bronze_leaf",
+        "name": "Bronze Leaf",
+        "qty": 10.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Bar"
+  },
+  {
+    "id": "fixture_0043",
+    "output": {
+      "item": "bronze_pickaxe",
+      "name": "Bronze Pickaxe",
+      "qty": 1.0
+    },
+    "facility": "Blacksmith's Bench",
+    "skill": "Artisan",
+    "skillxp": "60",
+    "materials": [
+      {
+        "item": "bronze_bar",
+        "name": "Bronze Bar",
+        "qty": 5.0
+      },
+      {
+        "item": "oak_logs",
+        "name": "Oak Logs",
+        "qty": 4.0
+      },
+      {
+        "item": "leather",
+        "name": "Leather",
+        "qty": 2.0
+      }
+    ],
+    "unlock": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Pickaxe"
+  }
+]

@@ -1,0 +1,1 @@
+red-proof: 2026-09-17T13:27:56Z check-assets.py: empty lane -> 1; unknown lane -> 1; missing poster -> 1; glb over cap -> 1; below min_files -> 1; clean fixture -> 0 (fixture kept in .gate-fixture/). check-housekeeping.py before fixes -> 1.

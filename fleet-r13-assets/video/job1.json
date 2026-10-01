@@ -1,0 +1,38 @@
+[
+  {
+    "created_at": "2026-09-17T13:33:39.934544Z",
+    "display_name": "Seedance 2.0 Mini",
+    "id": "c6c1e68e-29b6-4ce9-b547-59cb8b96b20c",
+    "job_type": "seedance_2_0_mini",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "ca808cba-2066-4c07-a2ed-81360dafad00",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BxaHapxneQUuMYTxbEATa4kJGM/ca808cba-2066-4c07-a2ed-81360dafad00.png"
+          },
+          "role": "image"
+        }
+      ],
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Slow aerial drift over a stylised 3D garden board with wooden war engines. A dirt horde route runs down the board and bends between the towers. The camera glides gently forward and slightly down, steady, no cuts. Keep the reference image colours exactly: mossy green board squares, pale grey stone border, warm brown wood, dark green trees and grey boulders around the edge. No text, no user interface panels, no people.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "720p",
+      "speedramp": "auto",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3BxaHapxneQUuMYTxbEATa4kJGM/hf_20260917_133339_c6c1e68e-29b6-4ce9-b547-59cb8b96b20c.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3BxaHapxneQUuMYTxbEATa4kJGM/hf_20260917_133339_c6c1e68e-29b6-4ce9-b547-59cb8b96b20c_thumbnail.webp"
+  }
+]

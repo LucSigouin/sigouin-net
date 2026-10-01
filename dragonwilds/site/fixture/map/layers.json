@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Copper_Ore_Node",
+    "file": "map/Copper_Ore_Node.json",
+    "count": 123,
+    "icon": "img/Copper_Ore.png",
+    "items": [
+      "copper_ore"
+    ]
+  },
+  {
+    "name": "Tin_Ore_Node",
+    "file": "map/Tin_Ore_Node.json",
+    "count": 118,
+    "icon": "img/Tin_Ore.png",
+    "items": [
+      "tin_ore"
+    ]
+  },
+  {
+    "name": "Lodestone",
+    "file": "map/Lodestone.json",
+    "count": 3,
+    "icon": null,
+    "items": []
+  }
+]

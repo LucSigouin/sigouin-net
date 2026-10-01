@@ -1,0 +1,838 @@
+{
+  "lane": "captures",
+  "files": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/REPORT.md",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 7115
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=258px); captured=2026-09-17T13:37:58.598Z; real viewport PNG",
+      "bytes": 199959
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=258px); captured=2026-09-17T13:37:58.598Z; cwebp quality 88 from PNG",
+      "bytes": 50580
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=258px / max=258px); captured=2026-09-17T13:38:00.800Z; real viewport PNG",
+      "bytes": 206139
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=258px / max=258px); captured=2026-09-17T13:38:00.800Z; cwebp quality 88 from PNG",
+      "bytes": 55010
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=129px / max=258px); captured=2026-09-17T13:37:59.700Z; real viewport PNG",
+      "bytes": 209000
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-1440-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=129px / max=258px); captured=2026-09-17T13:37:59.700Z; cwebp quality 88 from PNG",
+      "bytes": 58816
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=1030px); captured=2026-09-17T13:38:04.343Z; real viewport PNG",
+      "bytes": 45668
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=1030px); captured=2026-09-17T13:38:04.343Z; cwebp quality 88 from PNG",
+      "bytes": 24524
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=1030px / max=1030px); captured=2026-09-17T13:38:06.446Z; real viewport PNG",
+      "bytes": 53184
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=1030px / max=1030px); captured=2026-09-17T13:38:06.446Z; cwebp quality 88 from PNG",
+      "bytes": 27682
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=515px / max=1030px); captured=2026-09-17T13:38:05.393Z; real viewport PNG",
+      "bytes": 49383
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/bbc-390-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://bbc.sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=515px / max=1030px); captured=2026-09-17T13:38:05.393Z; cwebp quality 88 from PNG",
+      "bytes": 25614
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/browser-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 4065
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/browser-processes-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 2883
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/browser-qa-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 13188
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/capture-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 3917
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/capture-game-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 7604
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/capture-game-videos-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 1672
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/capture-stills-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 13075
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/capture-videos-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 2081
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/captures-index.html",
+      "kind": "html",
+      "poster": null,
+      "source": "Local contact sheet of every delivered PNG, WebP, and MP4 in this lane; original URL, viewport, and scroll in each image Source detail",
+      "bytes": 54320
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/cors-probe.json",
+      "kind": "data",
+      "poster": null,
+      "source": "https://sigzmusic.com/api/tracks; https://teetime.sigouin.net/api/teetimes; https://teetime.sigouin.net/api/courses; https://bbc.sigouin.net/api/state | curl GET; Origin=https://sigouin.net; viewport=N/A; scroll=N/A",
+      "bytes": 1856
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/encode-20260917.py",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 4267
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/encoding-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 9384
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/game-capture-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 4806
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/game-scout-20260917.log",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 6372
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/game-scout-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 1159
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/garden-inspect-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 1824
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/garden-readiness-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900; scroll=0%; initial public DOM and JavaScript readiness inspection, plus the user-approved visible-readiness resolution",
+      "bytes": 5227
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/gate-check-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 435
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6450px); captured=2026-09-17T13:37:47.189Z; real viewport PNG",
+      "bytes": 113244
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6450px); captured=2026-09-17T13:37:47.189Z; cwebp quality 88 from PNG",
+      "bytes": 48634
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6450px / max=6450px); captured=2026-09-17T13:37:49.332Z; real viewport PNG",
+      "bytes": 63785
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6450px / max=6450px); captured=2026-09-17T13:37:49.332Z; cwebp quality 88 from PNG",
+      "bytes": 26160
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3225px / max=6450px); captured=2026-09-17T13:37:48.276Z; real viewport PNG",
+      "bytes": 110033
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-1440-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3225px / max=6450px); captured=2026-09-17T13:37:48.276Z; cwebp quality 88 from PNG",
+      "bytes": 39922
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=12720px); captured=2026-09-17T13:37:52.929Z; real viewport PNG",
+      "bytes": 54569
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=12720px); captured=2026-09-17T13:37:52.929Z; cwebp quality 88 from PNG",
+      "bytes": 24242
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=12720px / max=12720px); captured=2026-09-17T13:37:54.993Z; real viewport PNG",
+      "bytes": 32350
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=12720px / max=12720px); captured=2026-09-17T13:37:54.993Z; cwebp quality 88 from PNG",
+      "bytes": 11746
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=6360px / max=12720px); captured=2026-09-17T13:37:53.961Z; real viewport PNG",
+      "bytes": 48514
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/livetvcan-390-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://livetvcan.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=6360px / max=12720px); captured=2026-09-17T13:37:53.961Z; cwebp quality 88 from PNG",
+      "bytes": 22258
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/manifest.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 52685
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/media-verification-20260917.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 8989
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/package-20260917.py",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 6844
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/probe-20260917.py",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 2121
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/qa-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 2161
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/result.json",
+      "kind": "data",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 14676
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/scout-20260917.mjs",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 3375
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll-20260917-poster.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"document\", \"to\": 750}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4; poster at second 1.000 of delivered MP4",
+      "bytes": 26204
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll-20260917.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll-20260917-poster.webp",
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"document\", \"to\": 750}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4",
+      "bytes": 581267
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6072px); captured=2026-09-17T13:37:34.197Z; real viewport PNG",
+      "bytes": 980873
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6072px); captured=2026-09-17T13:37:34.197Z; cwebp quality 88 from PNG",
+      "bytes": 42630
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6072px / max=6072px); captured=2026-09-17T13:37:37.146Z; real viewport PNG",
+      "bytes": 337307
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6072px / max=6072px); captured=2026-09-17T13:37:37.146Z; cwebp quality 88 from PNG",
+      "bytes": 33666
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3036px / max=6072px); captured=2026-09-17T13:37:35.771Z; real viewport PNG",
+      "bytes": 447345
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-1440-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3036px / max=6072px); captured=2026-09-17T13:37:35.771Z; cwebp quality 88 from PNG",
+      "bytes": 49264
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6437px); captured=2026-09-17T13:37:41.302Z; real viewport PNG",
+      "bytes": 205373
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=6437px); captured=2026-09-17T13:37:41.302Z; cwebp quality 88 from PNG",
+      "bytes": 18564
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6437px / max=6437px); captured=2026-09-17T13:37:43.476Z; real viewport PNG",
+      "bytes": 123535
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=6437px / max=6437px); captured=2026-09-17T13:37:43.476Z; cwebp quality 88 from PNG",
+      "bytes": 20826
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3219px / max=6437px); captured=2026-09-17T13:37:42.406Z; real viewport PNG",
+      "bytes": 186521
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigouin-390-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigouin.net/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=3219px / max=6437px); captured=2026-09-17T13:37:42.406Z; cwebp quality 88 from PNG",
+      "bytes": 33626
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T13:36:42.784Z; real viewport PNG",
+      "bytes": 683903
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T13:36:42.784Z; cwebp quality 88 from PNG",
+      "bytes": 27390
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T13:36:48.019Z; real viewport PNG",
+      "bytes": 232280
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T13:36:48.019Z; cwebp quality 88 from PNG",
+      "bytes": 14880
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll-20260917-poster.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"div.listwrap\", \"to\": 359}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4; poster at second 1.000 of delivered MP4",
+      "bytes": 22766
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll-20260917.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll-20260917-poster.webp",
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"div.listwrap\", \"to\": 359}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4",
+      "bytes": 206791
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of div.listwrap (y=0px / max=359px); captured=2026-09-17T13:36:51.824Z; real viewport PNG",
+      "bytes": 101447
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of div.listwrap (y=0px / max=359px); captured=2026-09-17T13:36:51.824Z; cwebp quality 88 from PNG",
+      "bytes": 29032
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of div.listwrap (y=359px / max=359px); captured=2026-09-17T13:36:53.941Z; real viewport PNG",
+      "bytes": 100304
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of div.listwrap (y=359px / max=359px); captured=2026-09-17T13:36:53.941Z; cwebp quality 88 from PNG",
+      "bytes": 28194
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of div.listwrap (y=180px / max=359px); captured=2026-09-17T13:36:52.883Z; real viewport PNG",
+      "bytes": 104782
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-1440-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of div.listwrap (y=180px / max=359px); captured=2026-09-17T13:36:52.883Z; cwebp quality 88 from PNG",
+      "bytes": 28816
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=364px); captured=2026-09-17T13:36:57.698Z; real viewport PNG",
+      "bytes": 71144
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=364px); captured=2026-09-17T13:36:57.698Z; cwebp quality 88 from PNG",
+      "bytes": 21324
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=364px / max=364px); captured=2026-09-17T13:36:59.800Z; real viewport PNG",
+      "bytes": 70553
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of document (y=364px / max=364px); captured=2026-09-17T13:36:59.800Z; cwebp quality 88 from PNG",
+      "bytes": 20998
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=182px / max=364px); captured=2026-09-17T13:36:58.747Z; real viewport PNG",
+      "bytes": 72794
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/sigz-music-390-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://sigzmusic.com/music/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of document (y=182px / max=364px); captured=2026-09-17T13:36:58.747Z; cwebp quality 88 from PNG",
+      "bytes": 20690
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll-20260917-poster.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"div.rail-body\", \"to\": 1000}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4; poster at second 1.000 of delivered MP4",
+      "bytes": 81350
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll-20260917.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll-20260917-poster.webp",
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; motion={\"description\": \"Slow scroll over 6.5 seconds with a short hold at each end\", \"from\": 0, \"seconds\": 7.5, \"selector\": \"div.rail-body\", \"to\": 1000}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4",
+      "bytes": 533402
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of div.rail-body (y=0px / max=16146px); captured=2026-09-17T13:39:41.345Z; real viewport PNG",
+      "bytes": 559421
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of div.rail-body (y=0px / max=16146px); captured=2026-09-17T13:39:41.345Z; cwebp quality 88 from PNG",
+      "bytes": 117296
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of div.rail-body (y=17185px / max=17185px); captured=2026-09-17T13:39:45.578Z; real viewport PNG",
+      "bytes": 529657
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=100% of div.rail-body (y=17185px / max=17185px); captured=2026-09-17T13:39:45.578Z; cwebp quality 88 from PNG",
+      "bytes": 111222
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of div.rail-body (y=8420px / max=16839px); captured=2026-09-17T13:39:43.461Z; real viewport PNG",
+      "bytes": 555039
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-1440-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=50% of div.rail-body (y=8420px / max=16839px); captured=2026-09-17T13:39:43.461Z; cwebp quality 88 from PNG",
+      "bytes": 112578
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll0-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of div.m-list-body (y=0px / max=16725px); captured=2026-09-17T13:39:49.264Z; real viewport PNG",
+      "bytes": 247483
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll0-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of div.m-list-body (y=0px / max=16725px); captured=2026-09-17T13:39:49.264Z; cwebp quality 88 from PNG",
+      "bytes": 52866
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll100-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of div.m-list-body (y=16725px / max=16725px); captured=2026-09-17T13:39:51.374Z; real viewport PNG",
+      "bytes": 190539
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll100-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=100% of div.m-list-body (y=16725px / max=16725px); captured=2026-09-17T13:39:51.374Z; cwebp quality 88 from PNG",
+      "bytes": 38158
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll50-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of div.m-list-body (y=8363px / max=16725px); captured=2026-09-17T13:39:50.326Z; real viewport PNG",
+      "bytes": 207067
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/teetimes-390-scroll50-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://teetime.sigouin.net/m/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=50% of div.m-list-body (y=8363px / max=16725px); captured=2026-09-17T13:39:50.326Z; cwebp quality 88 from PNG",
+      "bytes": 46530
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-play-20260917-poster.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; motion={\"description\": \"First-stage play after placing three Ballista defenses and one Catapult, then clicking Start; no scroll\", \"from\": 0, \"seconds\": 7, \"selector\": \"document\", \"to\": 0}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4; poster at second 1.000 of delivered MP4",
+      "bytes": 99270
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-play-20260917.mp4",
+      "kind": "video",
+      "poster": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-play-20260917-poster.webp",
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; motion={\"description\": \"First-stage play after placing three Ballista defenses and one Catapult, then clicking Start; no scroll\", \"from\": 0, \"seconds\": 7, \"selector\": \"document\", \"to\": 0}; Playwright recordVideo WebM source; last 7 seconds encoded to muted H.264 MP4",
+      "bytes": 292756
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-built-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:12.384Z; game state=Three Ballista defenses and one Catapult placed by clicks; real viewport PNG",
+      "bytes": 1356482
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-built-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:12.384Z; game state=Three Ballista defenses and one Catapult placed by clicks; cwebp quality 88 from PNG",
+      "bytes": 162942
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play15s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:27.638Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=15.001; real viewport PNG",
+      "bytes": 1359711
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play15s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:27.638Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=15.001; cwebp quality 88 from PNG",
+      "bytes": 164000
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play3s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:15.638Z; game state=Battlefield after Start click; wave active; seconds after Start click=3.001; real viewport PNG",
+      "bytes": 1358225
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play3s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:15.638Z; game state=Battlefield after Start click; wave active; seconds after Start click=3.001; cwebp quality 88 from PNG",
+      "bytes": 162820
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play8s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:20.637Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=8.001; real viewport PNG",
+      "bytes": 1358759
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-play8s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:20.637Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=8.001; cwebp quality 88 from PNG",
+      "bytes": 164160
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-ready-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:10.522Z; game state=Initial battlefield; Start control enabled; real viewport PNG",
+      "bytes": 1346217
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-1440-scroll0-ready-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=1440x900 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:10.522Z; game state=Initial battlefield; Start control enabled; cwebp quality 88 from PNG",
+      "bytes": 161142
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-built-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:32.645Z; game state=Three Ballista defenses and one Catapult placed by clicks; real viewport PNG",
+      "bytes": 306996
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-built-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:32.645Z; game state=Three Ballista defenses and one Catapult placed by clicks; cwebp quality 88 from PNG",
+      "bytes": 38050
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play15s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:47.769Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=15.001; real viewport PNG",
+      "bytes": 309411
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play15s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:47.769Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=15.001; cwebp quality 88 from PNG",
+      "bytes": 38688
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play3s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:35.773Z; game state=Battlefield after Start click; wave active; seconds after Start click=3; real viewport PNG",
+      "bytes": 307483
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play3s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:35.773Z; game state=Battlefield after Start click; wave active; seconds after Start click=3; cwebp quality 88 from PNG",
+      "bytes": 38538
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play8s-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:40.773Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=8.001; real viewport PNG",
+      "bytes": 310751
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-play8s-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:40.773Z; game state=Battlefield after Start click; stage cleared; waiting for next Start click; seconds after Start click=8.001; cwebp quality 88 from PNG",
+      "bytes": 39368
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-ready-20260917.png",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:30.628Z; game state=Initial battlefield; Start control enabled; real viewport PNG",
+      "bytes": 307175
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/undergrowth-390-scroll0-ready-20260917.webp",
+      "kind": "image",
+      "poster": null,
+      "source": "https://undergrowth.pages.dev/ | viewport=390x844 CSS px; deviceScaleFactor=1; scroll=0% of document (y=0px / max=0px); captured=2026-09-17T14:01:30.628Z; game state=Initial battlefield; Start control enabled; cwebp quality 88 from PNG",
+      "bytes": 38536
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/captures/verify-media-20260917.py",
+      "kind": "code",
+      "poster": null,
+      "source": "CAPTURES round 13 capture workflow and evidence; viewport=N/A; scroll=N/A; inputs=/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/COMMON.md and /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r13-assets/RUBRIC.md",
+      "bytes": 4512
+    }
+  ]
+}

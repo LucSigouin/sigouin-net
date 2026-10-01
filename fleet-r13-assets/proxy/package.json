@@ -1,0 +1,7 @@
+{
+  "name": "sigouin-live-proxy-r13-2026-09-17",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=24.12.0" }
+}

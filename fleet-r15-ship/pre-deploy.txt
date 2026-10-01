@@ -1,0 +1,26 @@
+Captured at UTC: 2026-09-17T15:11:07.048930+00:00
+
+$ curl -sI https://sigouin.net/
+HTTP/2 103 
+link: <https://fonts.googleapis.com>; rel=preconnect
+
+HTTP/2 200 
+date: Thu, 17 Sep 2026 15:11:07 GMT
+content-type: text/html; charset=utf-8
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pz0FEJmh2HnMunTdRb%2BaY6qyrsrhVwMOjnF9jJdBHGiBLWKUbjFKyaxifHmZLwrnXGIS2DABau7ahZk7c2%2Bhnu5flZak9ElgO%2FPLpyO4gt8Tw2sGcigZDPOBfd2ExQ%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+x-content-type-options: nosniff
+link: <https://fonts.googleapis.com>; rel="preconnect"
+referrer-policy: strict-origin-when-cross-origin
+server: cloudflare
+cf-cache-status: DYNAMIC
+speculation-rules: "/cdn-cgi/speculation"
+cf-ray: a3c90aa5bde236f9-YYZ
+alt-svc: h3=":443"; ma=86400
+
+
+$ curl -s https://sigouin.net/ | shasum -a 256
+164754e2274724d31e60b61df048cfcc46b491e53c22d83ee1569a54c0f107f5  -
+

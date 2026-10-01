@@ -1,0 +1,34 @@
+{
+  "state": "done",
+  "lane": "a",
+  "candidate": "the desk corner itself: sharp front edge of the pale oak desk, white ceramic mug, closed grey notebook; no tall object",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/index.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/page.dev.html",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/assets/hero-near-1200.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/assets/hero-near-700.webp",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/out/hero-near-desk-a.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/out/hero-near-desk-b.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/out/hero-near-desk-c.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/out/hero-near-r11a.rgba.png",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/hero-near-r11a.py",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/herocheck.mjs",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/shots-r11/desk",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/shots-r11/mobile",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/shots-r11/reduced",
+    "/Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a/lab/shots-r11/mutant",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r11-near3/a/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r11-near3/a/gallery.html"
+  ],
+  "verify": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r11-near3/check-r11.py /Users/ls/Claude-Workspace/personal/scrollcraft/builds/sigouin-near-a /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r11-near3/a",
+  "verify_exit": 0,
+  "near_bytes": {"hero-near-1200.webp": 44952, "hero-near-700.webp": 21522, "total": 66474, "cap": 120000},
+  "spend_credits": {"before": 432, "after": 362, "delta": 70, "stills": 3},
+  "unverified": [
+    "a real phone or a real mouse: pointer drift read from transform values in headless Edge only",
+    "Safari: the harness is Chromium-based Edge only",
+    "phones shorter than 844 px",
+    "the dollar value of the 70 kie.ai credits",
+    "the taste call: the mid plane keeps its own mug and notebook, so the hero shows two mugs and two notebooks at different depths"
+  ]
+}

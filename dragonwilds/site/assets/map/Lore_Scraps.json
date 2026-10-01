@@ -1,0 +1,487 @@
+[
+	{
+		"x": 52153,
+		"y": 172030,
+		"name": "[[Scrawled Diary Page]]"
+	},
+	{
+		"x": 62614,
+		"y": 172179,
+		"name": "[[Druid's Memoirs]]"
+	},
+	{
+		"x": 50467,
+		"y": 153659,
+		"name": "[[Forgotten Diary]]"
+	},
+	{
+		"x": 61445,
+		"y": 159035,
+		"name": "[[Duke's Diary]]"
+	},
+	{
+		"x": 63040,
+		"y": 160405,
+		"name": "[[Cathan's Journal [Castle]]]"
+	},
+	{
+		"x": 61409,
+		"y": 160992,
+		"name": "[[Servant's Secret Diary]]"
+	},
+	{
+		"x": 68968,
+		"y": 178598,
+		"name": "[[Grubby Note]]"
+	},
+	{
+		"x": 73772,
+		"y": 186935,
+		"name": "[[Tear-Stained Journal]]"
+	},
+	{
+		"x": 48282,
+		"y": 177692,
+		"name": "[[Pungent Scribble]]"
+	},
+	{
+		"x": 25979,
+		"y": 99944,
+		"name": "[[Ritual Of Purification]]"
+	},
+	{
+		"x": 33581,
+		"y": 99721,
+		"name": "[[Leathery Parchment]]"
+	},
+	{
+		"x": 19144,
+		"y": 72491,
+		"name": "[[Dragonkin Diary Page]]"
+	},
+	{
+		"x": 29118,
+		"y": 156991,
+		"name": "[[Ancient Journal Page]]"
+	},
+	{
+		"x": 31204,
+		"y": 163832,
+		"name": "[[Soot-Stained Diary]]"
+	},
+	{
+		"x": 79928,
+		"y": 153565,
+		"name": "[[Muddy Scrawl]]"
+	},
+	{
+		"x": 81422,
+		"y": 173925,
+		"name": "[[Grimy Parchment]]"
+	},
+	{
+		"x": 85904,
+		"y": 162732,
+		"name": "[[Weathered Diary (Bramblemead Valley)]]"
+	},
+	{
+		"x": 138421,
+		"y": 76160,
+		"name": "[[Infused Journal]]"
+	},
+	{
+		"x": 124886,
+		"y": 136676,
+		"name": "[[Bloodstained Page]]"
+	},
+	{
+		"x": 105591,
+		"y": 130745,
+		"name": "[[Leaf-Scented Page]]"
+	},
+	{
+		"x": 140829,
+		"y": 123526,
+		"name": "[[Dragonkin Notebook Page]]"
+	},
+	{
+		"x": 24322,
+		"y": 146327,
+		"name": "[[Preserved Diary]]"
+	},
+	{
+		"x": 19694,
+		"y": 145873,
+		"name": "[[Vault Hunter's Journal]]"
+	},
+	{
+		"x": 68009,
+		"y": 135975,
+		"name": "[[Torn Journal Page]]"
+	},
+	{
+		"x": 55318,
+		"y": 126503,
+		"name": "[[Garou Writings]]"
+	},
+	{
+		"x": 19773,
+		"y": 173386,
+		"name": "[[Bloodstained Journal]]"
+	},
+	{
+		"x": 71521,
+		"y": 124448,
+		"name": "[[Scorched Journal]]"
+	},
+	{
+		"x": 87042,
+		"y": 133040,
+		"name": "[[Elder's Storybook Page]]"
+	},
+	{
+		"x": 94588,
+		"y": 127362,
+		"name": "[[Dragonkin Journal Page]]"
+	},
+	{
+		"x": 78184,
+		"y": 134319,
+		"name": "[[Cathan's Journal [Ghornfell]]]"
+	},
+	{
+		"x": 5158,
+		"y": 190522,
+		"name": "[[Dust-Covered Diary]]"
+	},
+	{
+		"x": 13009,
+		"y": 192183,
+		"name": "[[Priest's Journal]]"
+	},
+	{
+		"x": 15511,
+		"y": 178838,
+		"name": "[[Cathan's Note]]"
+	},
+	{
+		"x": 59376.074,
+		"y": -48011.977,
+		"name": "[[Lazilly-penned Diary]]"
+	},
+	{
+		"x": 52872.42,
+		"y": -47313.99,
+		"name": "[[Ravanna's Second Journal]]"
+	},
+	{
+		"x": 132249.11,
+		"y": 30610.754,
+		"name": "[[Ravanna's First Journal]]"
+	},
+	{
+		"x": 141002.73,
+		"y": -44138.246,
+		"name": "[[Battered Diary]]"
+	},
+	{
+		"x": 60837.63,
+		"y": -69819.84,
+		"name": "[[Farmer Fred's Journal]]"
+	},
+	{
+		"x": 70230.51,
+		"y": -54332.273,
+		"name": "[[Priestly Journal]]"
+	},
+	{
+		"x": 136002.69,
+		"y": 5285.602,
+		"name": "[[Ravanna's Third Journal]]"
+	},
+	{
+		"x": 27817.064,
+		"y": -41441.684,
+		"name": "[[Experiment Log]]"
+	},
+	{
+		"x": 86217.375,
+		"y": -62653.957,
+		"name": "[[The Tale of the Ghost Wolves]]"
+	},
+	{
+		"x": 201421.36,
+		"y": -75646.375,
+		"name": "[[Laboratory Note]]"
+	},
+	{
+		"x": 185933.81,
+		"y": -31739.824,
+		"name": "[[Ulgo's Diary]]"
+	},
+	{
+		"x": 133234.03,
+		"y": 25634.793,
+		"name": "[[Weathered Diary (Fellhollow)]]"
+	},
+	{
+		"x": 165792.9,
+		"y": -50608.96,
+		"name": "[[Ravanna's Fourth Journal]]"
+	},
+	{
+		"x": 151791.52,
+		"y": -29479.766,
+		"name": "[[Withered Diary]]"
+	},
+	{
+		"x": 134877.34,
+		"y": -83202.92,
+		"name": "[[Samuel Malcifer's Journal]]"
+	},
+	{
+		"x": 238732.16,
+		"y": -32221.887,
+		"name": "[[Soot-stained Journal]]"
+	},
+	{
+		"x": 235251.53,
+		"y": -32350.346,
+		"name": "[[Red-stained Diary]]"
+	},
+	{
+		"x": 237084.08,
+		"y": -42754.53,
+		"name": "[[Captain Rainer's Journal]]"
+	},
+	{
+		"x": 98009.664,
+		"y": -29908.986,
+		"name": "[[Dragon-embossed Journal]]"
+	},
+	{
+		"x": 95319.7,
+		"y": -41087.176,
+		"name": "[[Winston Henning's Diary]]"
+	},
+	{
+		"x": 157079.97,
+		"y": -57241.758,
+		"name": "[[Withered Journal]]"
+	},
+	{
+		"x": 193127.9,
+		"y": -80320.086,
+		"name": "[[Nolan Scathe's Journal]]"
+	},
+	{
+		"x": 129346.82,
+		"y": -20226.768,
+		"name": "[[Mould-covered Journal]]"
+	},
+	{
+		"x": 183590.3,
+		"y": -71401.74,
+		"name": "[[Lacrussa's Journal]]"
+	},
+	{
+		"x": 152876.33,
+		"y": -5318.916,
+		"name": "[[Eleanor Scathe's Diary]]"
+	},
+	{
+		"x": 139716.56,
+		"y": -56387.63,
+		"name": "[[Ravanna's Fifth Journal]]"
+	},
+	{
+		"x": 129159.89,
+		"y": -64598.76,
+		"name": "[[Ravanna's Seventh Journal]]"
+	},
+	{
+		"x": 112897.13,
+		"y": -36564.965,
+		"name": "[[Weathered Journal]]"
+	},
+	{
+		"x": 58460.12,
+		"y": -46299.688,
+		"name": "[[Ravanna's Sixth Journal]]"
+	},
+	{
+		"x": 219747.75,
+		"y": 9312.236,
+		"name": "[[Badly Scrawled Note]]"
+	},
+	{
+		"x": 206611.2,
+		"y": 39507.76,
+		"name": "Dowdun Lore Scrap 2/14"
+	},
+	{
+		"x": 229763.34,
+		"y": 53719.598,
+		"name": "Dowdun Lore Scrap 3/14"
+	},
+	{
+		"x": 203437.42,
+		"y": 49666.266,
+		"name": "Dowdun Lore Scrap 4/14"
+	},
+	{
+		"x": 243734.12,
+		"y": 25329.11,
+		"name": "[[Quartermaster's Journal]]"
+	},
+	{
+		"x": 213886.97,
+		"y": 57693.746,
+		"name": "Dowdun Lore Scrap 6/14"
+	},
+	{
+		"x": 218408.08,
+		"y": 48111.76,
+		"name": "[[Hastily Scrawled Note]]"
+	},
+	{
+		"x": 199977.16,
+		"y": 42338.06,
+		"name": "Dowdun Lore Scrap 8/14"
+	},
+	{
+		"x": 198569.62,
+		"y": 43253.184,
+		"name": "Dowdun Lore Scrap 9/14"
+	},
+	{
+		"x": 199141.56,
+		"y": 33929.273,
+		"name": "Dowdun Lore Scrap 10/14"
+	},
+	{
+		"x": 259891.1,
+		"y": 30554.691,
+		"name": "[[Goblins of da Reach Unite!]]"
+	},
+	{
+		"x": 227666.31,
+		"y": 34595.73,
+		"name": "Dowdun Lore Scrap 12/14"
+	},
+	{
+		"x": 210531.4,
+		"y": 46368.492,
+		"name": "Dowdun Lore Scrap 13/14"
+	},
+	{
+		"x": 231130.45,
+		"y": 69536.14,
+		"name": "[[Hall of Heroes]]"
+	},
+	{
+		"x": 316465.9,
+		"y": 30407.2,
+		"name": "[[Avisk’s Experiment Log]]"
+	},
+	{
+		"x": 369655.8,
+		"y": 75033.3,
+		"name": "[[Chewed Doodle-Covered Journal]]"
+	},
+	{
+		"x": 359758.9,
+		"y": 93669.6,
+		"name": "[[Dragonkin Journal]]"
+	},
+	{
+		"x": 348674.5,
+		"y": 161575.3,
+		"name": "[[Bug Catcher’s Diary]]"
+	},
+	{
+		"x": 310302.5,
+		"y": 122791.6,
+		"name": "[[Sand-scoured Diary]]"
+	},
+	{
+		"x": 270419.7,
+		"y": 109349.6,
+		"name": "[[Child’s Storybook]]"
+	},
+	{
+		"x": 252613.3,
+		"y": 108177.9,
+		"name": "[[Sun-scorched Recipe Book]]"
+	},
+	{
+		"x": 245025.7,
+		"y": 98127.9,
+		"name": "[[Sand-worn Leather Tome]]"
+	},
+	{
+		"x": 216410.7,
+		"y": 132835.8,
+		"name": "[[Dragonkin Journal]]"
+	},
+	{
+		"x": 244382.8,
+		"y": 194599.8,
+		"name": "[[Partially-melted Journal]]"
+	},
+	{
+		"x": 226979.7,
+		"y": 198282.4,
+		"name": "[[Gold-plated Tome]]"
+	},
+	{
+		"x": 206286.1,
+		"y": 229492.5,
+		"name": "[[The Wolf and the Goddess]]"
+	},
+	{
+		"x": 231715.6,
+		"y": 246433.7,
+		"name": "[[The Wolf and the Goddess]]"
+	},
+	{
+		"x": 244064.7,
+		"y": 233557.8,
+		"name": "[[Everburning Book]]"
+	},
+	{
+		"x": 283004.9,
+		"y": 242750.8,
+		"name": "[[Entomologist’s Journal]]"
+	},
+	{
+		"x": 290762,
+		"y": 225518.6,
+		"name": "[[Black-plated Tome]]"
+	},
+	{
+		"x": 294155.1,
+		"y": 202922.3,
+		"name": "[[Soot-stained Ledger]]"
+	},
+	{
+		"x": 294452.6,
+		"y": 186955.2,
+		"name": "[[Obsidian-carved Book]]"
+	},
+	{
+		"x": 297094.7,
+		"y": 179343.3,
+		"name": "[[Dragonscorched Ledger]]"
+	},
+	{
+		"x": 291609.5,
+		"y": 172912.6,
+		"name": "[[Dusty Tome]]"
+	},
+	{
+		"x": 326273.3,
+		"y": 203742.4,
+		"name": "[[Ancient Text]]"
+	}
+]

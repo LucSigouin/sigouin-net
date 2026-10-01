@@ -1,0 +1,68 @@
+[
+	{
+		"x": 74432,
+		"y": 157558,
+		"name": "Zanik",
+		"icon": "Secondary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of Zanik."
+	},
+	{
+		"x": 83971,
+		"y": 148823,
+		"name": "Garou Druid",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of the Garou Druid."
+	},
+	{
+		"x": 79037,
+		"y": 172223,
+		"name": "Wormelbow (caged goblin)",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of Wormelbow."
+	},
+	{
+		"x": 82592,
+		"y": 174260,
+		"name": "Bandosian Amulet",
+		"icon": "Bandosian Amulet.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of one of the Bandosian Amulet."
+	},
+	{
+		"x": 79805,
+		"y": 156892,
+		"name": "Bilegut (caged goblin)",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of Bilegut."
+	},
+	{
+		"x": 80826,
+		"y": 155423,
+		"name": "Bandosian Amulet",
+		"icon": "Bandosian Amulet.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Location of one of the Bandosian Amulet."
+	}
+]

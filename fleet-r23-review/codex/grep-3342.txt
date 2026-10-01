@@ -1,0 +1,12 @@
+COMMAND: ['rg', '-n', 'fixture|raw-items|build_fixture', 'site', '-g', '*.html', '-g', '*.js', '-g', '*.css', '-g', '!vendor/**']
+EXIT: 0
+site/runescape/app.js:10:const state = {items:[],recipes:[],facilities:[],regions:[],layers:[],byId:new Map(),byRecipe:new Map(),query:'',cats:new Set(),facility:'',skill:'',sort:'relevance',selected:null,limit:120,keyboard:-1,filtered:[],base:'assets/',fixture:false,layerNames:new Set(),layerCache:new Map(),map:null,mini:null,mapEpoch:0,detailEpoch:0,groups:new Map(),crs:null,routeReady:false};
+site/runescape/app.js:28: if(forceFixture){base='fixture/';items=await json(base+'data/items.json');}
+site/runescape/app.js:29: else {try{items=await json(base+'data/items.json');}catch{base='fixture/';items=await json(base+'data/items.json');}}
+site/runescape/app.js:31: state.base=base;state.fixture=base==='fixture/';state.items=items;state.recipes=recipes;state.facilities=facilities;state.regions=regions;state.layers=layers;state.crs=crs;state.layerCache.clear();
+site/runescape/app.js:41: document.documentElement.dataset.source=state.fixture?'fixture':'assets';
+site/runescape/app.js:62: $('#result-count').textContent=`${number(list.length)} ${list.length===1?'item':'items'}${q?' found':' to discover'}${state.fixture?' · Preview archive':''}`;
+site/runescape/app.js:199: try{const fixture=new URLSearchParams(location.search).get('fixture')==='1';await loadData(fixture);bindEvents();if(!location.hash)history.replaceState(null,'',matchMedia('(max-width:650px)').matches?'#items':'#item/bronze_bar');await route();window.guide={state,route,rank,bounds};
+site/runescape/app.js:200:  if(state.fixture&&!fixture){const poll=setInterval(async()=>{try{const r=await fetch('assets/data/items.json',{method:'HEAD'});if(!r.ok)return;await loadData();if(state.fixture)return;clearInterval(poll);if(state.map){state.map.remove();state.map=null;}state.groups.clear();await route();notice('The full Ashenfall archive is now available.');}catch{}},20000);}
+site/js/live-hub.js:3:// fixture and label it as sample data. A stale or sample number is dimmed.
+site/js/live-hub.js:4:// A number is never invented: if both the route and the fixture fail, the slot stays "-".

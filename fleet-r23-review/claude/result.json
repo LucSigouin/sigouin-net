@@ -1,0 +1,5 @@
+{"state":"done","taskId":"EA7ABB23-3AD0-45A8-9BE1-222488EA7759",
+ "model":{"requested":"claude-opus-5","effective":"claude-opus-5-5","source":"spawn flag"},
+ "files":["REPORT.md","result.json"],
+ "verify":{"cmd":"bash fleet-r23-review/verify.sh claude","exit":0},
+ "unverified":["rendered visuals, contrast ratios, real phone portrait/landscape (no browser run)","Playwright site.spec.ts not run: playwright.config.ts webServer always runs npm run build (would write dist/, breaks RULES)","whether wrangler uploads site/.wrangler (only proven: not served)","Cloudflare zone settings inferred from response headers, not read","verify-live.sh stopped after attempt 1 of 10 (DIFF is per-request random, cannot converge)"]}

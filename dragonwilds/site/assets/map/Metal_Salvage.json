@@ -1,0 +1,299 @@
+[
+	{
+		"x": 200160,
+		"y": 34450,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 193390,
+		"y": 43255,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 200585,
+		"y": 34255,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 209260,
+		"y": 63600,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 211795,
+		"y": 56530,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 204855,
+		"y": 57835,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 221600,
+		"y": 56430,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 219040,
+		"y": 28010,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 221355,
+		"y": 29620,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 228520,
+		"y": 52715,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 229690,
+		"y": 53560,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 236370,
+		"y": 50525,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 240495,
+		"y": 50540,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 247860,
+		"y": 51540,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 252015,
+		"y": 29580,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 240005,
+		"y": 19335,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 238610,
+		"y": 13375,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 229730,
+		"y": 24505,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 232535,
+		"y": 22600,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 235915,
+		"y": 20320,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 244070,
+		"y": 22150,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 231305,
+		"y": 29090,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 237220,
+		"y": 48280,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 236085,
+		"y": 48480,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 240940,
+		"y": 46840,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 249840,
+		"y": 46560,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 244460,
+		"y": 26010,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 235590,
+		"y": 46570,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 230455,
+		"y": 26740,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 231850,
+		"y": 28685,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 233855,
+		"y": 31070,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 239710,
+		"y": 37435,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 237675,
+		"y": 41865,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	}
+]

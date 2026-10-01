@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-09-17T14:07:12.158885+00:00",
+  "processes": [
+    {
+      "label": "garden-inspect",
+      "pid": 41102,
+      "started": "2026-09-17T13:36:36.819Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T13:37:22.600Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "qa",
+      "pid": 49318,
+      "started": "2026-09-17T13:47:50.346Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T13:47:55.440Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "stills",
+      "pid": 43357,
+      "started": "2026-09-17T13:39:36.713Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T13:39:51.491Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "videos",
+      "pid": 48818,
+      "started": "2026-09-17T13:46:21.089Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T13:46:33.547Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "pid": 36784,
+      "closed": "2026-09-17T13:34:00.682Z",
+      "running_at_final_check": false
+    },
+    {
+      "label": "game-stills",
+      "pid": 54313,
+      "started": "2026-09-17T14:01:07.001Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T14:01:47.896Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "game-scout",
+      "pid": 53988,
+      "started": "2026-09-17T13:59:26.571Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T13:59:34.366Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "game-video",
+      "pid": 54410,
+      "started": "2026-09-17T14:01:35.466Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T14:01:48.619Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    },
+    {
+      "label": "qa",
+      "pid": 54754,
+      "started": "2026-09-17T14:03:07.235Z",
+      "version": "153.0.4234.32",
+      "channel": "msedge",
+      "headless": true,
+      "sigtermSent": true,
+      "closed": "2026-09-17T14:03:13.215Z",
+      "stillRunning": false,
+      "running_at_final_check": false
+    }
+  ],
+  "remaining_edge_processes_in_lane": [],
+  "http_servers_started": 0
+}

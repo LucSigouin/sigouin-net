@@ -1,0 +1,102 @@
+[
+	{
+		"x": 209069,
+		"y": 182195,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 209594,
+		"y": 182518,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 257040,
+		"y": 106396,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 258620,
+		"y": 107850,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 339464.03,
+		"y": 34054.746,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 341186.03,
+		"y": 34075.746,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 348144.78,
+		"y": 123083.65,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 349668.78,
+		"y": 121882.65,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 369425.97,
+		"y": 179571.9,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	},
+	{
+		"x": 370101.97,
+		"y": 177994.9,
+		"name": "Net Fishing Spot (Monkfish)",
+		"icon": "Raw_Monkfish.png",
+		"iconSize": [
+			40,
+			40
+		]
+	}
+]

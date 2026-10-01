@@ -1,0 +1,45 @@
+{
+  "base": "http://127.0.0.1:5198",
+  "panes": [
+    {
+      "label": "index rail column",
+      "worstLum": 0.0258,
+      "p99Lum": 0.0159,
+      "worstPixelRGB": "rgb(44,44,51) at 518,209",
+      "paperWorst": 11.25,
+      "paperP99": 12.93,
+      "dimWorst": 3.93,
+      "dimP99": 4.52
+    },
+    {
+      "label": "index stage body",
+      "worstLum": 0.0153,
+      "p99Lum": 0.0152,
+      "worstPixelRGB": "rgb(33,33,35) at 861,112",
+      "paperWorst": 13.04,
+      "paperP99": 13.08,
+      "dimWorst": 4.56,
+      "dimP99": 4.57
+    },
+    {
+      "label": "index header strip",
+      "worstLum": 0.0258,
+      "p99Lum": 0.013,
+      "worstPixelRGB": "rgb(44,44,51) at 517,96",
+      "paperWorst": 11.25,
+      "paperP99": 13.52,
+      "dimWorst": 3.93,
+      "dimP99": 4.72
+    },
+    {
+      "label": "process scene note",
+      "worstLum": 0.1258,
+      "p99Lum": 0.0117,
+      "worstPixelRGB": "rgb(74,99,150) at 0,294",
+      "paperWorst": 4.85,
+      "paperP99": 13.82,
+      "dimWorst": 1.69,
+      "dimP99": 4.83
+    }
+  ]
+}

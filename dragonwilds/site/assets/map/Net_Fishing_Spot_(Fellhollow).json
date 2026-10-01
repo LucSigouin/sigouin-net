@@ -1,0 +1,382 @@
+[
+	{
+		"x": 219879,
+		"y": -18873,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 221496,
+		"y": -20962,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 219617,
+		"y": -21962,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 219573,
+		"y": -11324,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 220647,
+		"y": -9159,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 222623,
+		"y": -9314,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 215865,
+		"y": -3702,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 215043,
+		"y": -3512,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 203195,
+		"y": -47042,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 206046,
+		"y": -43260,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 51551,
+		"y": -45412,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 55548,
+		"y": -46196,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 126324,
+		"y": -30641,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 72148,
+		"y": -53792,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 69831,
+		"y": -52235,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 57986,
+		"y": -51971,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 68234,
+		"y": -54310,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 60364,
+		"y": -52083,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 75453,
+		"y": -13762,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 29213,
+		"y": -46566,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 28401,
+		"y": -47056,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 50190,
+		"y": -40915,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 80452,
+		"y": -61341,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 82311,
+		"y": -59282,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 97867,
+		"y": -53749,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 99877,
+		"y": -54923,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 98723,
+		"y": -55661,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 88770,
+		"y": -64738,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 80910,
+		"y": -59947,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 76908,
+		"y": -12296,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 141708,
+		"y": -76762,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 139375,
+		"y": -79098,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 129663,
+		"y": -80330,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 126122,
+		"y": -77129,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 227537,
+		"y": -23850,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 231665,
+		"y": -18690,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 134025,
+		"y": -16856,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	},
+	{
+		"x": 135214,
+		"y": -16102,
+		"icon": "Raw_Lobster.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Lobster)"
+	}
+]

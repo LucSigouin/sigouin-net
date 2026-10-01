@@ -1,0 +1,147 @@
+{
+  "preset_id": "kinetic-typography",
+  "template_version": 4,
+  "revision": 1,
+  "subject": "Luc Sigouin personal website introduction",
+  "brand": "sigouin.net",
+  "status": "blocked_by_higgsfield_plan_not_submitted",
+  "source_urls": [
+    "https://sigouin.net"
+  ],
+  "source_prompt_path": "/Users/ls/.codex/skills/motion-design/references/source-prompts/kinetic-typography.txt",
+  "source_prompt_sha256": "8a38483e851f73243f9197a7d412c18ad79a64a5ba433fc07ca7bbb79e4c9d24",
+  "prompt_path": "/Users/ls/Claude-Workspace/personal/sigouin-net/motion/intro-2026-09-08/prompt.txt",
+  "prompt_sha256": "4200d420667cb9ba5112ed1af0ffac34424087ad9713e7d270c144206f40bdbb",
+  "brief_path": "/Users/ls/Claude-Workspace/personal/sigouin-net/motion/intro-2026-09-08/brief.md",
+  "model_preference": "strongest suitable accessible Seedance model through Higgsfield MCP",
+  "model_id": "seedance_2_5",
+  "model_schema_verified": true,
+  "intended_format": {
+    "duration_s": 15,
+    "aspect_ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "delivery_fps": 30
+  },
+  "native_settings": null,
+  "generation_strategy": "one_full_film_request",
+  "copy": [
+    "Luc Sigouin",
+    "I build things.",
+    "Systems",
+    "Music",
+    "Built for myself.",
+    "Shared with you.",
+    "Projects",
+    "sigouin.net"
+  ],
+  "palette": {
+    "paper": "#F4F2ED",
+    "ink": "#16181B",
+    "accent": "#2454CC",
+    "sunlight": "#F1C98F"
+  },
+  "audio": "instrumental_music_and_effects_no_speech",
+  "ending": "static_hold_13.75_to_15_seconds",
+  "inputs": [
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets/01-desk.webp",
+      "sha256": "b7b98bf37ba3543694a92a3c8ed3ff2adaedc3eacac09815948e54e246846bfd",
+      "role": "card_content_identity",
+      "provenance": "existing_site_illustration",
+      "visually_inspected": true,
+      "uploaded": true,
+      "remote_id": "aef6f319-6336-4e0d-8f20-905ff9050824",
+      "source_url": "https://sigouin.net/assets/01-desk.webp",
+      "remote_role": "image_references",
+      "live_hash_verified": true
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets/02-studio.webp",
+      "sha256": "3618475fd58158e3f0b617778f9bf6391b1fc14f546585ddd64018f8fecd4699",
+      "role": "card_content_identity",
+      "provenance": "existing_site_illustration",
+      "visually_inspected": true,
+      "uploaded": true,
+      "remote_id": "062a5249-f6be-4e68-886f-060b94206661",
+      "source_url": "https://sigouin.net/assets/02-studio.webp",
+      "remote_role": "image_references",
+      "live_hash_verified": true
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets/real-neon-sign.webp",
+      "sha256": "eb47ac1dc316caaa4c4834743e66eb7b97e5c88e5b98f94dec5b5cd1a9d63358",
+      "role": "card_content_identity",
+      "provenance": "real_photograph",
+      "visually_inspected": true,
+      "uploaded": true,
+      "remote_id": "f479ac32-7eb4-451c-b3a3-c0ee6127e671",
+      "source_url": "https://sigouin.net/assets/real-neon-sign.webp",
+      "remote_role": "image_references",
+      "live_hash_verified": true
+    },
+    {
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/site/assets/04-media.webp",
+      "sha256": "75c8597165c0bc232ef4b1564fda1a85202224eaba6587a7590f8014951c0ce8",
+      "role": "card_content_identity",
+      "provenance": "existing_site_illustration",
+      "visually_inspected": true,
+      "uploaded": true,
+      "remote_id": "4fac5ec2-6d04-4c89-a08f-80feb084ffce",
+      "source_url": "https://sigouin.net/assets/04-media.webp",
+      "remote_role": "image_references",
+      "live_hash_verified": true
+    }
+  ],
+  "derived_assumptions": [
+    "sigouin.net is the intended website",
+    "User-played homepage introduction",
+    "User delegated creative direction"
+  ],
+  "job_id": null,
+  "submitted_settings": null,
+  "outputs": [],
+  "cost_actual": 0,
+  "limitation": "Authenticated Higgsfield Starter account. Seedance 2.5 and Seedance 2.0 each rejected submission: Requires plus plan or higher. No job created.",
+  "review": "not_inspected_no_generated_film",
+  "cost_estimated_credits": 135,
+  "prepared_settings": {
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
+    "duration": 15,
+    "resolution": "1080p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "bitrate_mode": "high",
+    "count": 1,
+    "prompt": "[Shot 1] A 15-second 2D flat graphic motion film introducing Luc Sigouin and his personal website. 16:9, one continuous composition with no cuts. The story is personal: a systems administrator builds things he wants to use, makes music, and shares his projects. Warm, assured and curious. No people, no simulated 3D space, no extruded typography, no bevels or added drop shadows. Depth and light already present inside the supplied images remain inside their image cards.\n\nThe background stays fixed throughout: warm paper #F4F2ED with a very faint sunlight haze #F1C98F in the upper left and pale blue #E4EBF8 in the lower right, plus fine even grain. All added text uses a single bold geometric grotesque in the character of Schibsted Grotesk Bold, close tracking, centre aligned, ink #16181B. The accent is blue #2454CC; inactive text is warm grey #BBBAB5. Maintain generous empty space. Begin with only four small flat marks around the centre, each about 2% of frame height: two blue four-pointed sparkles and two ink arrows pointing inward.\n\nCAMERA: locked-off static frame. No push in, pull out, pan, tilt, zoom, dolly, handheld motion, shake, roll, parallax, drift or reframing. Only the graphic layers animate inside the fixed frame.\n\nMOTION RULES: entrances decelerate cleanly with no bounce or overshoot; exits accelerate into their destination. Fast moves carry directional motion blur on the moving layer only. Background and landed text remain sharp. Nothing rotates except the specified two-degree card tilts. No fades, dissolves, crossfades or wipes. Graphic replacement, inward collection and scale changes connect each phase. Blue landing accents settle to ink within approximately 0.13 seconds. Keep all text within the central 80% of frame width.\n\n[0.00 to 3.00 seconds] A two-line headline builds at frame centre. Line one reads \"Luc Sigouin\"; line two reads \"I build things.\" Set it word by word between 0.25 and 1.35 seconds, each word rising approximately 20 pixels at 1080p into place, briefly landing blue, then locking in ink. Cap height is about 7% of frame height. Two small grey labels, \"Systems\" and \"Music\", enter the outer left and right margins at about 2.5% of frame height and hold. The opening marks shift outward to make room. Keep the complete headline still and readable from 1.35 through 3.00 seconds.\n\n[3.00 to 6.00 seconds] Four rounded rectangular image cards enter from beyond the frame edges, staggered over the first 0.65 seconds: the supplied warm desk illustration upper left, the supplied daylight music studio illustration upper right, the supplied real blue Sigz neon-sign photograph lower left, and the supplied server-and-router illustration lower right. Each card is 16:9, approximately 24% of frame width, with a 20-pixel corner radius at 1080p and a slight alternating two-degree tilt. Reframe within each image to preserve its subject: keyboard and headphones at the desk, monitors and music keyboard in the studio, the complete lettering of the neon sign, and the server with its router. Do not alter the sign lettering. The card interiors are still images; animate the cards as whole flat layers. No invented application screens or extra labels.\n\nCards arrive in a blue-and-paper duotone treatment, resolve in place into their original warm colour or real blue neon colour at 4.00 seconds, and hold until 6.00 seconds. Keep the central headline entirely unobstructed throughout. These four views make the words personal: the place of making, the music equipment, the music identity, and the systems kept at home.\n\n[6.00 to 8.00 seconds] All four cards slide inward together, collecting the headline, margin labels and opening marks into one compact central stack by 6.65 seconds. Scale the stack down to a point by 7.00 seconds. At that same point, a flat blue four-pointed sparkle expands to approximately 24% of frame height by 7.35 seconds and holds. Its four points echo the four incoming cards: different interests collected into one personal practice. Use a simple graphic shape with no glowing particles, no rotation and no ornamental flourish.\n\n[8.00 to 11.50 seconds] The sparkle shrinks to inline icon size and shifts right while the words \"Built for myself.\" slide in from the left and lock beside it at centre by 8.45 seconds. Below, \"Shared with you.\" rises into place by 9.10 seconds and lands blue before becoming ink. Change the upper line and its icon to warm grey in a crisp colour substitution. Hold both complete lines, completely readable, from 9.20 through 11.50 seconds. There is no additional word replacement in this phase.\n\n[11.50 to 15.00 seconds] The two lines move upward into a short centred vertical list. Two long thin ink arrows appear and remain pinned at the left and right of the central reading band, pointing inward. The list continues upward through \"Systems\", \"Music\", \"Projects\", then \"sigouin.net\". Only the item crossing the central reading band is ink; the others are warm grey. Let each of the first three labels be readable in the band for about half a second. Decelerate into \"sigouin.net\" and stop it exactly between the arrows by 13.75 seconds. Other list items have left the frame. Snap one small blue four-pointed sparkle below the domain. Hold the whole frame absolutely still from 13.75 through 15.00 seconds. This is the resolved ending; do not append a separate title card or reset to the opening.\n\nTEXT LOCK: Added text is limited to these exact strings: \"Luc Sigouin\", \"I build things.\", \"Systems\", \"Music\", \"Built for myself.\", \"Shared with you.\", \"Projects\", \"sigouin.net\". Preserve the existing Sigz lettering only inside its supplied photograph. Arrows and four-pointed sparkles are graphic symbols. Do not translate, paraphrase, add captions, insert watermarks or invent extra lettering. All added text uses the same bold geometric grotesque.\n\noverall_soundscape: No speech, narration or vocals. Quiet dry taps accompany word landings, four soft paper slides accompany the cards, a brief inward air sweep follows the stack collapse, and one restrained bright click marks the sparkle. The final domain lands with a soft musical accent. Effects remain subtle beneath the music.\n\nnon_diegetic_music: Warm instrumental electronic music at approximately 96 BPM: a soft rounded synth pulse, restrained percussion and a few spacious bell-like notes. Curious and relaxed, with enough rhythm to support the card entries. Resolve the final chord at 13.75 seconds and let it decay cleanly within the 15-second film. Do not imitate a named artist or an existing song.\n",
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+      {
+        "role": "image_references",
+        "value": "aef6f319-6336-4e0d-8f20-905ff9050824"
+      },
+      {
+        "role": "image_references",
+        "value": "062a5249-f6be-4e68-886f-060b94206661"
+      },
+      {
+        "role": "image_references",
+        "value": "f479ac32-7eb4-451c-b3a3-c0ee6127e671"
+      },
+      {
+        "role": "image_references",
+        "value": "4fac5ec2-6d04-4c89-a08f-80feb084ffce"
+      }
+    ]
+  },
+  "production_record": "production-record.json",
+  "fallback_record": "fallback-record.json",
+  "balance_observation": {
+    "before": 270,
+    "after": 240,
+    "delta": -30,
+    "attribution": "Transaction history identifies the 30-credit spend as MiniMax H3 at 2026-09-09T00:07:18.556430Z. This task requested Seedance only; no Seedance charge is shown."
+  },
+  "cost_actual_evidence": "No Seedance charge in latest transaction history; both requests returned plan errors without job IDs."
+}

@@ -1,0 +1,182 @@
+{
+  "params": {
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
+    "duration": 15,
+    "resolution": "1080p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "bitrate_mode": "high",
+    "count": 1,
+    "prompt": "[Shot 1] A 15-second 2D flat graphic motion film introducing Luc Sigouin and his personal website. 16:9, one continuous composition with no cuts. The story is personal: a systems administrator builds things he wants to use, makes music, and shares his projects. Warm, assured and curious. No people, no simulated 3D space, no extruded typography, no bevels or added drop shadows. Depth and light already present inside the supplied images remain inside their image cards.\n\nThe background stays fixed throughout: warm paper #F4F2ED with a very faint sunlight haze #F1C98F in the upper left and pale blue #E4EBF8 in the lower right, plus fine even grain. All added text uses a single bold geometric grotesque in the character of Schibsted Grotesk Bold, close tracking, centre aligned, ink #16181B. The accent is blue #2454CC; inactive text is warm grey #BBBAB5. Maintain generous empty space. Begin with only four small flat marks around the centre, each about 2% of frame height: two blue four-pointed sparkles and two ink arrows pointing inward.\n\nCAMERA: locked-off static frame. No push in, pull out, pan, tilt, zoom, dolly, handheld motion, shake, roll, parallax, drift or reframing. Only the graphic layers animate inside the fixed frame.\n\nMOTION RULES: entrances decelerate cleanly with no bounce or overshoot; exits accelerate into their destination. Fast moves carry directional motion blur on the moving layer only. Background and landed text remain sharp. Nothing rotates except the specified two-degree card tilts. No fades, dissolves, crossfades or wipes. Graphic replacement, inward collection and scale changes connect each phase. Blue landing accents settle to ink within approximately 0.13 seconds. Keep all text within the central 80% of frame width.\n\n[0.00 to 3.00 seconds] A two-line headline builds at frame centre. Line one reads \"Luc Sigouin\"; line two reads \"I build things.\" Set it word by word between 0.25 and 1.35 seconds, each word rising approximately 20 pixels at 1080p into place, briefly landing blue, then locking in ink. Cap height is about 7% of frame height. Two small grey labels, \"Systems\" and \"Music\", enter the outer left and right margins at about 2.5% of frame height and hold. The opening marks shift outward to make room. Keep the complete headline still and readable from 1.35 through 3.00 seconds.\n\n[3.00 to 6.00 seconds] Four rounded rectangular image cards enter from beyond the frame edges, staggered over the first 0.65 seconds: the supplied warm desk illustration upper left, the supplied daylight music studio illustration upper right, the supplied real blue Sigz neon-sign photograph lower left, and the supplied server-and-router illustration lower right. Each card is 16:9, approximately 24% of frame width, with a 20-pixel corner radius at 1080p and a slight alternating two-degree tilt. Reframe within each image to preserve its subject: keyboard and headphones at the desk, monitors and music keyboard in the studio, the complete lettering of the neon sign, and the server with its router. Do not alter the sign lettering. The card interiors are still images; animate the cards as whole flat layers. No invented application screens or extra labels.\n\nCards arrive in a blue-and-paper duotone treatment, resolve in place into their original warm colour or real blue neon colour at 4.00 seconds, and hold until 6.00 seconds. Keep the central headline entirely unobstructed throughout. These four views make the words personal: the place of making, the music equipment, the music identity, and the systems kept at home.\n\n[6.00 to 8.00 seconds] All four cards slide inward together, collecting the headline, margin labels and opening marks into one compact central stack by 6.65 seconds. Scale the stack down to a point by 7.00 seconds. At that same point, a flat blue four-pointed sparkle expands to approximately 24% of frame height by 7.35 seconds and holds. Its four points echo the four incoming cards: different interests collected into one personal practice. Use a simple graphic shape with no glowing particles, no rotation and no ornamental flourish.\n\n[8.00 to 11.50 seconds] The sparkle shrinks to inline icon size and shifts right while the words \"Built for myself.\" slide in from the left and lock beside it at centre by 8.45 seconds. Below, \"Shared with you.\" rises into place by 9.10 seconds and lands blue before becoming ink. Change the upper line and its icon to warm grey in a crisp colour substitution. Hold both complete lines, completely readable, from 9.20 through 11.50 seconds. There is no additional word replacement in this phase.\n\n[11.50 to 15.00 seconds] The two lines move upward into a short centred vertical list. Two long thin ink arrows appear and remain pinned at the left and right of the central reading band, pointing inward. The list continues upward through \"Systems\", \"Music\", \"Projects\", then \"sigouin.net\". Only the item crossing the central reading band is ink; the others are warm grey. Let each of the first three labels be readable in the band for about half a second. Decelerate into \"sigouin.net\" and stop it exactly between the arrows by 13.75 seconds. Other list items have left the frame. Snap one small blue four-pointed sparkle below the domain. Hold the whole frame absolutely still from 13.75 through 15.00 seconds. This is the resolved ending; do not append a separate title card or reset to the opening.\n\nTEXT LOCK: Added text is limited to these exact strings: \"Luc Sigouin\", \"I build things.\", \"Systems\", \"Music\", \"Built for myself.\", \"Shared with you.\", \"Projects\", \"sigouin.net\". Preserve the existing Sigz lettering only inside its supplied photograph. Arrows and four-pointed sparkles are graphic symbols. Do not translate, paraphrase, add captions, insert watermarks or invent extra lettering. All added text uses the same bold geometric grotesque.\n\noverall_soundscape: No speech, narration or vocals. Quiet dry taps accompany word landings, four soft paper slides accompany the cards, a brief inward air sweep follows the stack collapse, and one restrained bright click marks the sparkle. The final domain lands with a soft musical accent. Effects remain subtle beneath the music.\n\nnon_diegetic_music: Warm instrumental electronic music at approximately 96 BPM: a soft rounded synth pulse, restrained percussion and a few spacious bell-like notes. Curious and relaxed, with enough rhythm to support the card entries. Resolve the final chord at 13.75 seconds and let it decay cleanly within the 15-second film. Do not imitate a named artist or an existing song.\n",
+    "declined_preset_id": "24bae836-2c4a-48e0-89b6-49fcc0b21612",
+    "medias": [
+      {
+        "role": "image_references",
+        "value": "aef6f319-6336-4e0d-8f20-905ff9050824"
+      },
+      {
+        "role": "image_references",
+        "value": "062a5249-f6be-4e68-886f-060b94206661"
+      },
+      {
+        "role": "image_references",
+        "value": "f479ac32-7eb4-451c-b3a3-c0ee6127e671"
+      },
+      {
+        "role": "image_references",
+        "value": "4fac5ec2-6d04-4c89-a08f-80feb084ffce"
+      }
+    ]
+  },
+  "imports": [
+    {
+      "media_id": "aef6f319-6336-4e0d-8f20-905ff9050824",
+      "type": "image",
+      "content_type": "image/webp",
+      "source_url": "https://sigouin.net/assets/01-desk.webp"
+    },
+    {
+      "media_id": "062a5249-f6be-4e68-886f-060b94206661",
+      "type": "image",
+      "content_type": "image/webp",
+      "source_url": "https://sigouin.net/assets/02-studio.webp"
+    },
+    {
+      "media_id": "f479ac32-7eb4-451c-b3a3-c0ee6127e671",
+      "type": "image",
+      "content_type": "image/webp",
+      "source_url": "https://sigouin.net/assets/real-neon-sign.webp"
+    },
+    {
+      "media_id": "4fac5ec2-6d04-4c89-a08f-80feb084ffce",
+      "type": "image",
+      "content_type": "image/webp",
+      "source_url": "https://sigouin.net/assets/04-media.webp"
+    }
+  ],
+  "model_schema": {
+    "id": "seedance_2_5",
+    "name": "Seedance 2.5",
+    "provider_name": "Bytedance",
+    "description": "Seedance 2.5 text-to-video, multimodal omni-reference generation, video edit, and video extension",
+    "output_type": "video",
+    "parameters": [
+      {
+        "name": "mode",
+        "required": "optional",
+        "type": "string",
+        "description": "Generation mode: 't2v' for prompt-only generation, 'omni_reference' for image, video, or audio references, 'video_edit' to edit one reference video (billed by that video's duration; 'duration' and 'aspect_ratio' are ignored), or 'video_extension' to extend a reference video ('aspect_ratio' is ignored \u2014 the output follows the extended video).",
+        "options": [
+          "t2v",
+          "omni_reference",
+          "video_edit",
+          "video_extension"
+        ],
+        "default": "t2v"
+      },
+      {
+        "name": "duration",
+        "required": "optional",
+        "type": "number",
+        "description": "Duration in seconds (4-30).",
+        "min": 4,
+        "max": 30,
+        "default": 5
+      },
+      {
+        "name": "resolution",
+        "required": "optional",
+        "type": "string",
+        "description": "Output resolution: 480p, 720p, or 1080p.",
+        "options": [
+          "480p",
+          "720p",
+          "1080p"
+        ],
+        "default": "720p"
+      },
+      {
+        "name": "generate_audio",
+        "required": "optional",
+        "type": "bool",
+        "description": "Generate audio for the output video.",
+        "default": true
+      },
+      {
+        "name": "bitrate_mode",
+        "required": "optional",
+        "type": "string",
+        "description": "'standard' = normal output bitrate; 'high' = higher bitrate output.",
+        "options": [
+          "standard",
+          "high"
+        ],
+        "default": "standard"
+      },
+      {
+        "name": "extension_mode",
+        "required": "optional",
+        "type": "string",
+        "description": "Extension direction; required for mode 'video_extension' and not allowed otherwise.",
+        "options": [
+          "backward",
+          "forward"
+        ],
+        "nullable": true
+      }
+    ],
+    "medias": [
+      {
+        "name": "medias",
+        "type": "image",
+        "roles": [
+          "start_image",
+          "end_image",
+          "image_references",
+          "video_references",
+          "audio_references"
+        ]
+      }
+    ],
+    "aspect_ratios": [
+      "auto",
+      "21:9",
+      "16:9",
+      "4:3",
+      "1:1",
+      "3:4",
+      "9:16"
+    ],
+    "tags": [
+      "text-to-video",
+      "reference",
+      "identity",
+      "audio-reference",
+      "video-reference",
+      "video-edit",
+      "video-extension",
+      "480p",
+      "720p",
+      "1080p"
+    ],
+    "unlim": {
+      "available": false,
+      "remaining": null,
+      "expires_at": null
+    }
+  },
+  "preflight": {
+    "cost": {
+      "credits": 135,
+      "credits_exact": 135
+    }
+  },
+  "state": "seedance_2_5_plan_rejected",
+  "native_fps": "not_exposed_by_schema",
+  "submission": {
+    "error": "Requires plus plan or higher.",
+    "request_id": "a3d71d82-c77c-4de3-9510-ba35ec90f66c",
+    "job_id": null
+  }
+}

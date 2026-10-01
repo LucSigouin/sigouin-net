@@ -1,0 +1,687 @@
+[
+	{
+		"x": 115711,
+		"y": 82146,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 66367,
+		"y": 168439,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 66176,
+		"y": 153538,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 58155,
+		"y": 161713,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 61497,
+		"y": 161561,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 71099,
+		"y": 160704,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 61541,
+		"y": 160978,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 54889,
+		"y": 157280,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 62612,
+		"y": 171897,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 64332,
+		"y": 186189,
+		"description_": "Tier2_World_Vestige_AdventurersLongbow"
+	},
+	{
+		"x": 72228,
+		"y": 184929,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 46446,
+		"y": 186205,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 48283,
+		"y": 176843,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 26091,
+		"y": 99567,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 49044,
+		"y": 93098,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 45021,
+		"y": 79301,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 36398,
+		"y": 83030,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 25718,
+		"y": 91064,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 27617,
+		"y": 91680,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 21453,
+		"y": 71957,
+		"description_": "Tier4_World_Highlands_Cape"
+	},
+	{
+		"x": 86189,
+		"y": 90460,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 42722,
+		"y": 172338,
+		"description_": "Tier2_World_Vestige_SackHead"
+	},
+	{
+		"x": 32444,
+		"y": 164374,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 80945,
+		"y": 153405,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 81541,
+		"y": 175602,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 138348,
+		"y": 76395,
+		"description_": "Tier3_World_Vestige_DraconicStaff"
+	},
+	{
+		"x": 142668,
+		"y": 77450,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 102207,
+		"y": 132935,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 123147,
+		"y": 145282,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 122164,
+		"y": 141274,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 142624,
+		"y": 109799,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 84289,
+		"y": 124201,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 79184,
+		"y": 113781,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 78372,
+		"y": 114684,
+		"description_": "Tier3_World_Vestige_ChieftanBlade"
+	},
+	{
+		"x": 69684,
+		"y": 96826,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 20696,
+		"y": 80119,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 16407,
+		"y": 82585,
+		"description_": "Tier4_World_Highlands"
+	},
+	{
+		"x": 139493,
+		"y": 146594,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 75514,
+		"y": 83247,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 19248,
+		"y": 144931,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 21597,
+		"y": 148183,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 21416,
+		"y": 147505,
+		"description_": "Tier2_World_Cape"
+	},
+	{
+		"x": 124683,
+		"y": 103605,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 118927,
+		"y": 65209,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 118550,
+		"y": 62845,
+		"description_": "Tier3_World_Cape"
+	},
+	{
+		"x": 73403,
+		"y": 142129,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 53880,
+		"y": 127175,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 61405,
+		"y": 150432,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 55001,
+		"y": 137348,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 68954,
+		"y": 136295,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 16257,
+		"y": 172060,
+		"description_": "Tier2_World_Vestige_LeggingsLightness"
+	},
+	{
+		"x": 22385,
+		"y": 153624,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 55960,
+		"y": 106215,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 54467,
+		"y": 124087,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 72799,
+		"y": 115279,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 76663,
+		"y": 147824,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 82869,
+		"y": 143638,
+		"description_": "Tier2+_World_Cape"
+	},
+	{
+		"x": 87970,
+		"y": 132862,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 114635,
+		"y": 154879,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 125736,
+		"y": 157185,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 125281,
+		"y": 170452,
+		"description_": "Tier4_World_ToxicSwamp_Cape"
+	},
+	{
+		"x": 5179,
+		"y": 190727,
+		"description_": "Tier2_World_Vestige_TrainingSword"
+	},
+	{
+		"x": 6975,
+		"y": 186133,
+		"description_": "Tier2_World"
+	},
+	{
+		"x": 126535,
+		"y": 163249,
+		"description_": "Tier3_World"
+	},
+	{
+		"x": 41611,
+		"y": 133137,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 40461,
+		"y": 132250,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 43576,
+		"y": 144870,
+		"description_": "Tier2+_World"
+	},
+	{
+		"x": 228182.67,
+		"y": 25606.854,
+		"description": "Tier 6"
+	},
+	{
+		"x": 237359.05,
+		"y": 34462.453,
+		"description": "Tier 6"
+	},
+	{
+		"x": 230043.48,
+		"y": 22327.46,
+		"description": "Tier 6"
+	},
+	{
+		"x": 241687.3,
+		"y": 10965.105,
+		"description": "Tier 6"
+	},
+	{
+		"x": 239343.16,
+		"y": 19654.113,
+		"description": "Tier 6"
+	},
+	{
+		"x": 235989.81,
+		"y": 20828.879,
+		"description": "Tier 6"
+	},
+	{
+		"x": 234588.23,
+		"y": 20703.84,
+		"description": "Tier 6"
+	},
+	{
+		"x": 241888.25,
+		"y": 28558.092,
+		"description": "Tier 6"
+	},
+	{
+		"x": 217120.14,
+		"y": 16997,
+		"description": "Tier 6"
+	},
+	{
+		"x": 230863.94,
+		"y": 34701.477,
+		"description": "Tier 6"
+	},
+	{
+		"x": 240249.6,
+		"y": 32832.516,
+		"description": "Tier 6"
+	},
+	{
+		"x": 239295.25,
+		"y": 35915.387,
+		"description": "Tier 6"
+	},
+	{
+		"x": 237452.03,
+		"y": 42356.973,
+		"description": "Tier 6"
+	},
+	{
+		"x": 233710.81,
+		"y": 44794.656,
+		"description": "Tier 6"
+	},
+	{
+		"x": 231344.44,
+		"y": 39268.31,
+		"description": "Tier 6"
+	},
+	{
+		"x": 226422.72,
+		"y": 44762.336,
+		"description": "Tier 6"
+	},
+	{
+		"x": 242028.52,
+		"y": 43656.04,
+		"description": "Tier 6"
+	},
+	{
+		"x": 251465.86,
+		"y": 24794.3,
+		"description": "Tier 6"
+	},
+	{
+		"x": 261542.94,
+		"y": 29037.336,
+		"description": "Tier 6"
+	},
+	{
+		"x": 251875.72,
+		"y": 19098.55,
+		"description": "Tier 6"
+	},
+	{
+		"x": 252804.06,
+		"y": 31310.242,
+		"description": "Tier 6"
+	},
+	{
+		"x": 259940.6,
+		"y": 35087.97,
+		"description": "Tier 6"
+	},
+	{
+		"x": 227787.47,
+		"y": 24880.11,
+		"description": "Tier 6"
+	},
+	{
+		"x": 219992.03,
+		"y": 42943.72,
+		"description": "Tier 6"
+	},
+	{
+		"x": 219043.42,
+		"y": 28029.078,
+		"description": "Tier 6"
+	},
+	{
+		"x": 239312.6,
+		"y": 43605.977,
+		"description": "Tier 6"
+	},
+	{
+		"x": 209076.94,
+		"y": 38023.82,
+		"description": "Tier 6"
+	},
+	{
+		"x": 204243,
+		"y": 40885.02,
+		"description": "Tier 6"
+	},
+	{
+		"x": 202697.84,
+		"y": 37624.684,
+		"description": "Tier 6"
+	},
+	{
+		"x": 204052.33,
+		"y": 50661.406,
+		"description": "Tier 6"
+	},
+	{
+		"x": 207414.42,
+		"y": 38173.316,
+		"description": "Tier 6"
+	},
+	{
+		"x": 200836.48,
+		"y": 32634.162,
+		"description": "Tier 6"
+	},
+	{
+		"x": 206767.84,
+		"y": 48819.91,
+		"description": "Tier 6"
+	},
+	{
+		"x": 217627.95,
+		"y": 40140.824,
+		"description": "Tier 6"
+	},
+	{
+		"x": 224190.19,
+		"y": 50874.605,
+		"description": "Tier 6"
+	},
+	{
+		"x": 232423.92,
+		"y": 49555.234,
+		"description": "Tier 6"
+	},
+	{
+		"x": 234846.69,
+		"y": 50316.023,
+		"description": "Tier 6"
+	},
+	{
+		"x": 237008.23,
+		"y": 58265.836,
+		"description": "Tier 6"
+	},
+	{
+		"x": 240096.14,
+		"y": 53280.52,
+		"description": "Tier 6"
+	},
+	{
+		"x": 240319.81,
+		"y": 52897.93,
+		"description": "Tier 6"
+	},
+	{
+		"x": 250008.52,
+		"y": 52427.918,
+		"description": "Tier 6"
+	},
+	{
+		"x": 235362.77,
+		"y": 46538.4,
+		"description": "Tier 6"
+	},
+	{
+		"x": 247831.16,
+		"y": 57983.965,
+		"description": "Tier 6"
+	},
+	{
+		"x": 249987.77,
+		"y": 45592.137,
+		"description": "Tier 6"
+	},
+	{
+		"x": 218888.69,
+		"y": 31084.928,
+		"description": "Tier 6"
+	},
+	{
+		"x": 244920.61,
+		"y": 29738.014,
+		"description": "Tier 6"
+	},
+	{
+		"x": 193194.52,
+		"y": 55368.03,
+		"description": "Tier 6"
+	},
+	{
+		"x": 191011.5,
+		"y": 51176.246,
+		"description": "Tier 6"
+	},
+	{
+		"x": 215139.14,
+		"y": 59293.914,
+		"description": "Tier 6"
+	},
+	{
+		"x": 212727.86,
+		"y": 59223.523,
+		"description": "Tier 6"
+	},
+	{
+		"x": 236682.31,
+		"y": 48588.926,
+		"description": "Tier 6"
+	},
+	{
+		"x": 220286.08,
+		"y": 55594.816,
+		"description": "Tier 6"
+	},
+	{
+		"x": 218595.27,
+		"y": 48874.59,
+		"description": "Tier 6"
+	},
+	{
+		"x": 244672.45,
+		"y": 50730.934,
+		"description": "Tier 6"
+	},
+	{
+		"x": 231337.92,
+		"y": 55997.906,
+		"description": "Tier 6"
+	},
+	{
+		"x": 201737.02,
+		"y": 48885.85,
+		"description": "Tier 6"
+	},
+	{
+		"x": 216817.66,
+		"y": 53346.63,
+		"description": "Tier 6"
+	},
+	{
+		"x": 218118.98,
+		"y": 41579.918,
+		"description": "Tier 6"
+	},
+	{
+		"x": 183531.38,
+		"y": 66699.375,
+		"description": "Tier 6"
+	},
+	{
+		"x": 198162.62,
+		"y": 66529.71,
+		"description": "Tier 6"
+	},
+	{
+		"x": 198748.77,
+		"y": 43549.742,
+		"description": "Tier 6"
+	},
+	{
+		"x": 201702.17,
+		"y": 32794.926,
+		"description": "Tier 6"
+	},
+	{
+		"x": 239634.33,
+		"y": 26789.064,
+		"description": "Tier 6"
+	},
+	{
+		"x": 239118.75,
+		"y": 19490.133,
+		"description": "Tier 6"
+	},
+	{
+		"x": 237850.36,
+		"y": 51182.32,
+		"description": "Tier 6"
+	},
+	{
+		"x": 235184.19,
+		"y": 47464.816,
+		"description": "Tier 6"
+	},
+	{
+		"x": 241393.39,
+		"y": 49117.746,
+		"description": "Tier 6"
+	},
+	{
+		"x": 210341.42,
+		"y": 44241.42,
+		"description": "Tier 6"
+	},
+	{
+		"x": 217400,
+		"y": 42100,
+		"description": "Tier 6"
+	},
+	{
+		"x": 240403.5,
+		"y": 38933.33,
+		"description": "Tier 6"
+	}
+]

@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "id": "computer-lab",
+      "exhibits": [
+        {
+          "id": "computer-lab:0",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "computer-lab:1",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "computer-lab:2",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        }
+      ]
+    },
+    {
+      "id": "music-studio",
+      "exhibits": [
+        {
+          "id": "music-studio:0",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "music-studio:1",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "music-studio:2",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "exhibits": [
+        {
+          "id": "office:0",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "office:1",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "office:2",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        }
+      ]
+    },
+    {
+      "id": "ai-workspace",
+      "exhibits": [
+        {
+          "id": "ai-workspace:0",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "ai-workspace:1",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        },
+        {
+          "id": "ai-workspace:2",
+          "kind": "exhibit",
+          "label": "Coming soon"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

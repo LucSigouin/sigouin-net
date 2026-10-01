@@ -1,0 +1,1457 @@
+{
+  "generated": "2026-09-17",
+  "lane": "tooling",
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/tooling/TOOLING.md",
+  "numbers": {
+    "skills": 52,
+    "subagents": 20,
+    "hooks_live": 4,
+    "hooks_parked": 12,
+    "mcp_user_scope": 3,
+    "agent_clis": 8,
+    "reports_personal": 131,
+    "result_json_all_roots": 91,
+    "fleet_dirs_personal": 33,
+    "fleet_dirs_fleet_machine": 9,
+    "boards_personal": 10,
+    "boards_all_roots": 27,
+    "distinct_models_named": 9,
+    "largest_competition_lanes": 9
+  },
+  "tools": [
+    {
+      "name": "claude",
+      "kind": "cli",
+      "purpose": "Orchestrator (Fable 5) and worker (Opus). Bulk edits, reviews, UI contests.",
+      "projects": [
+        "all"
+      ],
+      "evidence": "/opt/homebrew/bin/claude",
+      "show_as": "terminal replay gif"
+    },
+    {
+      "name": "codex",
+      "kind": "cli",
+      "purpose": "Reviews, audits, forensics, tooling scripts. Out of UI contests since 2026-08-30.",
+      "projects": [
+        "Fleet-Machine",
+        "livetvcan"
+      ],
+      "evidence": "/opt/homebrew/bin/codex",
+      "show_as": "side by side review diff"
+    },
+    {
+      "name": "kimi",
+      "kind": "cli",
+      "purpose": "UI build and polish, competes with claude on the same brief.",
+      "projects": [
+        "sigzmusic",
+        "undergrowth-v2",
+        "Fleet-Machine"
+      ],
+      "evidence": "/Users/ls/.local/bin/kimi",
+      "show_as": "two lanes side by side"
+    },
+    {
+      "name": "grok",
+      "kind": "cli",
+      "purpose": "Research sweeps and reference hunting.",
+      "projects": [
+        "Fleet-Machine",
+        "teetimes"
+      ],
+      "evidence": "/Users/ls/.local/bin/grok",
+      "show_as": "source count callout"
+    },
+    {
+      "name": "qwen",
+      "kind": "cli",
+      "purpose": "Extra lane in build-offs.",
+      "projects": [
+        "widgetmart"
+      ],
+      "evidence": "/opt/homebrew/bin/qwen",
+      "show_as": "lane screenshot"
+    },
+    {
+      "name": "opencode",
+      "kind": "cli",
+      "purpose": "Installed. No fleet round on disk used it.",
+      "projects": [],
+      "evidence": "/opt/homebrew/bin/opencode",
+      "show_as": "skip"
+    },
+    {
+      "name": "higgsfield",
+      "kind": "cli",
+      "purpose": "Image, video, brandkit and game asset generation.",
+      "projects": [
+        "sigouin-net",
+        "widgetmart"
+      ],
+      "evidence": "/opt/homebrew/bin/higgsfield",
+      "show_as": "generated asset strip"
+    },
+    {
+      "name": "cnvsctl",
+      "kind": "cli",
+      "purpose": "Canvas control CLI: spawn tracked agents, open browser nodes, read the task ledger.",
+      "projects": [
+        "all cnvs rounds"
+      ],
+      "evidence": "/Applications/CNVS.app/Contents/MacOS/cnvsctl",
+      "show_as": "canvas screen recording"
+    },
+    {
+      "name": "motionsites",
+      "kind": "mcp",
+      "purpose": "Motion design prompt library.",
+      "projects": [],
+      "evidence": "https://xgdzyqfalbibzelpdpvr.supabase.co/functions/v1/mcp",
+      "show_as": "motion reference reel"
+    },
+    {
+      "name": "tripo3d",
+      "kind": "mcp",
+      "purpose": "Image to 3D and text to 3D via the Tripo v3 REST API. Hand written, about 300 lines.",
+      "projects": [
+        "tripo-mcp"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/tripo-mcp/README.md",
+      "show_as": "rotating 3D object"
+    },
+    {
+      "name": "ui-skills",
+      "kind": "mcp",
+      "purpose": "21st.dev style component library served as skills.",
+      "projects": [],
+      "evidence": "https://www.ui-skills.com/mcp",
+      "show_as": "component gallery still"
+    },
+    {
+      "name": "cnvs",
+      "kind": "mcp",
+      "purpose": "Canvas control from inside a session: spawn agent, open browser, screenshot, shared memory.",
+      "projects": [
+        "all cnvs rounds"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/cnvs/CLAUDE.md",
+      "show_as": "canvas screenshot"
+    },
+    {
+      "name": "fleet",
+      "kind": "skill",
+      "purpose": "Run several AI coders at once on CNVS. The orchestration contract.",
+      "projects": [
+        "all"
+      ],
+      "evidence": "/Users/ls/.claude/skills/fleet/SKILL.md",
+      "show_as": "process board"
+    },
+    {
+      "name": "scrollcraft",
+      "kind": "skill",
+      "purpose": "Scroll driven landing pages, signature move per build, no shared skeletons.",
+      "projects": [
+        "sigouin-net",
+        "sigz-console"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/scrollcraft/FINGERPRINTS.md",
+      "show_as": "scroll capture video"
+    },
+    {
+      "name": "imagegen",
+      "kind": "skill",
+      "purpose": "Drop and remix image generation with a live gallery node.",
+      "projects": [
+        "sigzmusic"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/imagegen/",
+      "show_as": "generated image wall"
+    },
+    {
+      "name": "img2threejs",
+      "kind": "skill",
+      "purpose": "Reference image to a procedural animation ready Three.js model.",
+      "projects": [],
+      "evidence": "/Users/ls/.claude/skills/img2threejs/SKILL.md",
+      "show_as": "3D object"
+    },
+    {
+      "name": "impeccable",
+      "kind": "skill",
+      "purpose": "Frontend design, critique, polish, motion, accessibility, tokens.",
+      "projects": [
+        "sigouin-net"
+      ],
+      "evidence": "/Users/ls/.claude/skills/impeccable/SKILL.md",
+      "show_as": "before and after pair"
+    },
+    {
+      "name": "new-ui",
+      "kind": "skill",
+      "purpose": "Plan, theme, build, evaluate, polish a new page or component.",
+      "projects": [
+        "livetvcan",
+        "undergrowth-v2"
+      ],
+      "evidence": "/Users/ls/.claude/skills/new-ui/SKILL.md",
+      "show_as": "build timeline"
+    },
+    {
+      "name": "redesign-skill",
+      "kind": "skill",
+      "purpose": "Full visual overhaul of an existing UI, strips AI template patterns.",
+      "projects": [
+        "sigzmusic"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-redesign-music-page/",
+      "show_as": "before and after pair"
+    },
+    {
+      "name": "evaluate-ui",
+      "kind": "skill",
+      "purpose": "Three lens UI audit: technical, UX critique, Nielsen heuristics.",
+      "projects": [
+        "sigzmusic",
+        "livetvcan"
+      ],
+      "evidence": "/Users/ls/.claude/skills/evaluate-ui/SKILL.md",
+      "show_as": "severity scorecard"
+    },
+    {
+      "name": "verify-live",
+      "kind": "skill",
+      "purpose": "Deploy then prove it on the live endpoint before saying done.",
+      "projects": [
+        "livetvcan",
+        "teetimes",
+        "sigzmusic"
+      ],
+      "evidence": "/Users/ls/.claude/skills/verify-live/SKILL.md",
+      "show_as": "terminal replay of curl plus shasum"
+    },
+    {
+      "name": "unslop",
+      "kind": "skill",
+      "purpose": "Cut AI tells from any writing.",
+      "projects": [
+        "livetvcan"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-wb-unslop/editor/REPORT.md",
+      "show_as": "before and after text pair"
+    },
+    {
+      "name": "grilling",
+      "kind": "skill",
+      "purpose": "Relentless interview that stress tests a plan before building.",
+      "projects": [
+        "sigouin-net"
+      ],
+      "evidence": "/Users/ls/.claude/skills/grilling/SKILL.md",
+      "show_as": "quote card"
+    },
+    {
+      "name": "evaluate-skill",
+      "kind": "skill",
+      "purpose": "Pass@k reliability measurement for a skill.",
+      "projects": [
+        "cnvs skill-eval"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/cnvs/scratch/skill-eval-2026-09-16/",
+      "show_as": "pass rate chart"
+    },
+    {
+      "name": "higgsfield-generate",
+      "kind": "skill",
+      "purpose": "Images, video, 3D, audio via Higgsfield.",
+      "projects": [
+        "sigouin-net"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/",
+      "show_as": "generated asset strip"
+    },
+    {
+      "name": "higgsfield-brandkit",
+      "kind": "skill",
+      "purpose": "Full visual identity: palette, SVG marks, type, mockups, brandbook.",
+      "projects": [
+        "widgetmart"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/cnvs/widgetmart/brandkit/",
+      "show_as": "brand board screenshot"
+    },
+    {
+      "name": "cloudflare",
+      "kind": "skill",
+      "purpose": "Workers, Pages, KV, D1, R2, Vectorize, Workers AI.",
+      "projects": [
+        "sigzmusic",
+        "teetimes",
+        "livetvcan"
+      ],
+      "evidence": "/Users/ls/.claude/skills/cloudflare/SKILL.md",
+      "show_as": "architecture diagram"
+    },
+    {
+      "name": "wrangler",
+      "kind": "skill",
+      "purpose": "Workers CLI for deploy and resource management.",
+      "projects": [
+        "teetimes",
+        "undergrowth-v2"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/teetimes/v0.1/deploy/deploy.sh",
+      "show_as": "deploy log replay"
+    },
+    {
+      "name": "workers-best-practices",
+      "kind": "skill",
+      "purpose": "Reviews and authors Worker code against production practices.",
+      "projects": [
+        "teetimes"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/teetimes/v0.1/review/REPORT.md",
+      "show_as": "findings list"
+    },
+    {
+      "name": "amp",
+      "kind": "skill",
+      "purpose": "Create and configure AMP game server instances, backups, widgets, monitors.",
+      "projects": [
+        "homelab"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/homelab/",
+      "show_as": "dashboard widget screenshot"
+    },
+    {
+      "name": "homepage-widget",
+      "kind": "skill",
+      "purpose": "gethomepage widget for a self hosted app, native or customapi.",
+      "projects": [
+        "homelab"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/archive/README.md",
+      "show_as": "dashboard tile"
+    },
+    {
+      "name": "last30days",
+      "kind": "skill",
+      "purpose": "Research a topic across Reddit, X, YouTube, TikTok, HN, Polymarket, GitHub, web.",
+      "projects": [
+        "cnvs"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/cnvs/github-trending-aug2026.html",
+      "show_as": "research page screenshot"
+    },
+    {
+      "name": "chisle",
+      "kind": "skill",
+      "purpose": "Maximum signal minimum noise mode for prose and code.",
+      "projects": [
+        "this session"
+      ],
+      "evidence": "/Users/ls/.claude/skills/",
+      "show_as": "quote card"
+    },
+    {
+      "name": "cnvs-browser-redirect.sh",
+      "kind": "hook",
+      "purpose": "Rewrites a bare open command into a canvas browser node.",
+      "projects": [
+        "global"
+      ],
+      "evidence": "/Users/ls/.claude/hooks/cnvs-browser-redirect.sh",
+      "show_as": "canvas screenshot with a browser node"
+    },
+    {
+      "name": "subagent-cnvs-redirect.sh",
+      "kind": "hook",
+      "purpose": "Blocks the invisible built-in subagent tool so every worker is a visible node.",
+      "projects": [
+        "global"
+      ],
+      "evidence": "/Users/ls/.claude/hooks/subagent-cnvs-redirect.sh",
+      "show_as": "canvas screen recording"
+    },
+    {
+      "name": "session-mode-banner.sh",
+      "kind": "hook",
+      "purpose": "Prints the workspace mode a session started in.",
+      "projects": [
+        "global"
+      ],
+      "evidence": "/Users/ls/.claude/hooks/session-mode-banner.sh",
+      "show_as": "terminal still"
+    },
+    {
+      "name": "homelab-allow-writes.sh",
+      "kind": "hook",
+      "purpose": "Time boxed TTY gated write window for homelab APIs.",
+      "projects": [
+        "global"
+      ],
+      "evidence": "/Users/ls/.claude/hooks/homelab-allow-writes.sh",
+      "show_as": "skip"
+    },
+    {
+      "name": "vibecoding-security",
+      "kind": "agent",
+      "purpose": "48 check read only security audit, every finding with file and line.",
+      "projects": [
+        "sigzmusic",
+        "RsyncGui"
+      ],
+      "evidence": "/Users/ls/Claude-Workspace/personal/sigzmusic/security-audit/workbench.html",
+      "show_as": "security audit board screenshot"
+    }
+  ],
+  "rounds": [
+    {
+      "project": "sigzmusic",
+      "round": "landing competition",
+      "date": "2026-08-12",
+      "lanes": [
+        "claude",
+        "codex",
+        "grok",
+        "kimi-a",
+        "kimi-b",
+        "kimi-c",
+        "kimi-d",
+        "kimi-e",
+        "neon-remix"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "closed and shipped",
+      "verify": "not recorded",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-landing/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "redesign music page",
+      "date": "2026-08-17",
+      "lanes": [
+        "lane-a",
+        "lane-e",
+        "scoring"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "lane E editorial 9.8",
+      "verify": "SCORES.md present",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-redesign-music-page/SCORES.md"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "fix-review-findings",
+      "date": "2026-08-17",
+      "lanes": [
+        "frontend-player",
+        "publisher",
+        "secrets-auth",
+        "tests-gate",
+        "worker-data"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "per lane",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/fleet-fix-review-findings/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "mobile-rebuild",
+      "date": "2026-08-17",
+      "lanes": [
+        "lane-claude-a",
+        "lane-claude-b",
+        "lane-kimi-a",
+        "lane-kimi-b",
+        "baseline-backup"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "Luc picked by eye",
+      "verify": "per lane",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/fleet-mobile-rebuild/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "mobile-chrome",
+      "date": "2026-08-17",
+      "lanes": [
+        "lane-claude-chrome",
+        "lane-claude-density",
+        "lane-kimi-chrome",
+        "lane-kimi-density",
+        "merged"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "merged",
+      "verify": "per lane",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/fleet-mobile-chrome/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "vibe-fix",
+      "date": "2026-08-17",
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c",
+        "lane-d",
+        "lane-e",
+        "backup",
+        "followup",
+        "smoke"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "smoke lane",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/fleet-vibe-fix/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "artwork-lab",
+      "date": "2026-08-19",
+      "lanes": [
+        "art",
+        "research",
+        "tools"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "see SCORES.md",
+      "verify": "RUBRIC.md present",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/artwork-lab/REPORT.md",
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/artwork-lab/SCORES.md"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "loose-ends",
+      "date": "2026-08-21",
+      "lanes": [
+        "all-tweaks",
+        "cardnav",
+        "deeplink",
+        "home-meta-trim",
+        "home-trim",
+        "r2-token",
+        "transition-fix",
+        "url-remap"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "per lane",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/fleet-loose-ends/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "swipe-transition",
+      "date": "2026-08-21",
+      "lanes": [
+        "a curtain",
+        "b through the waveform",
+        "c cut the power"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "none, closed",
+      "verify": "verify-lane.sh",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigzmusic-swipe-transition/"
+      ]
+    },
+    {
+      "project": "sigzmusic",
+      "round": "security-audit",
+      "date": "2026-08-22",
+      "lanes": [
+        "3 lanes"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "board",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigzmusic/security-audit/workbench.html"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "p1-review",
+      "date": "2026-08-31",
+      "lanes": [
+        "claude-review",
+        "codex-review",
+        "scoring"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "both merged",
+      "verify": "python3 ../gate.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-p1-review/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "p1-fix",
+      "date": "2026-08-31",
+      "lanes": [
+        "fixer",
+        "scoring"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "fixer",
+      "verify": "npm run lint && npm run build",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-p1-fix/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "p1-fix2",
+      "date": "2026-08-31",
+      "lanes": [
+        "fixer",
+        "scoring"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "fixer",
+      "verify": "npm run lint && npm run build",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-p1-fix2/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "wb-merge",
+      "date": "2026-08-31",
+      "lanes": [
+        "builder",
+        "scoring"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "builder",
+      "verify": "python3 fleet-wb-merge/gate-wb.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-wb-merge/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "wb-unslop",
+      "date": "2026-08-31",
+      "lanes": [
+        "editor"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "editor",
+      "verify": "python3 fleet-wb-unslop/gate-unslop.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-wb-unslop/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "admin-fixes",
+      "date": "2026-09-06",
+      "lanes": [
+        "admin-ui",
+        "backend-bouquet"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "both",
+      "verify": "exit 0 recorded",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/fleet-admin-fixes/"
+      ]
+    },
+    {
+      "project": "livetvcan",
+      "round": "fleet-100x",
+      "date": "2026-08-31",
+      "lanes": [
+        "board",
+        "rubric",
+        "scores"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": null,
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/reports/fleet-100x/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r1-site",
+      "date": "2026-09-01",
+      "lanes": [
+        "lane-a",
+        "lane-b",
+        "lane-c",
+        "scoring",
+        "assets"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "lane-c 9.0 blind scored",
+      "verify": "check-lane.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r1-site/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r2-polish",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "lane-c polished, 7 Higgsfield photos",
+      "verify": "check-r2.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r2-polish/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r3-scroll",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "the scrollcraft lane Luc picked",
+      "verify": "check-scroll.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r3-scroll/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r4-layered",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "closed, 494 kie.ai credits",
+      "verify": "check-scroll.py x2",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r4-layered/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r5-hero",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "check-hero.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r5-hero/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r6-seam",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "check-hero.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r6-seam/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r7-folio-cable",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "check-r7.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r7-folio-cable/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r8-stuck",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "check-r7.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r8-stuck/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r9-signature",
+      "date": "2026-09-02",
+      "lanes": [
+        "light",
+        "object (archived)",
+        "ink (archived)",
+        "depth (archived)"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "light",
+      "verify": "check-sig.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r9-signature/",
+        "/Users/ls/Claude-Workspace/personal/archive/sigouin-net-fleet-2026-09-02/fleet-r9-signature-losers/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r10-near",
+      "date": "2026-09-02",
+      "lanes": [
+        "worker"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "round check script",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r10-near/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r11-near3",
+      "date": "2026-09-02",
+      "lanes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "round check script",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r11-near3/"
+      ]
+    },
+    {
+      "project": "sigouin-net",
+      "round": "r12-portfolio-discovery",
+      "date": "2026-09-17",
+      "lanes": [
+        "ai-assets",
+        "awwwards",
+        "inventory",
+        "process-showcase",
+        "tooling"
+      ],
+      "models": [
+        "claude-opus-5"
+      ],
+      "winner": null,
+      "verify": "check-lane.py",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r1-foundation",
+      "date": "2026-09-07",
+      "lanes": [
+        "format",
+        "sim",
+        "scorer"
+      ],
+      "models": [
+        "claude-opus-5",
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0 all",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r1-foundation/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r2-design",
+      "date": "2026-09-07",
+      "lanes": [
+        "design",
+        "scorer"
+      ],
+      "models": [
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r2-design/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r3-polish",
+      "date": "2026-09-11",
+      "lanes": [
+        "a",
+        "b",
+        "scorer"
+      ],
+      "models": [
+        "kimi-code/k3",
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r3-polish/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r4-ship",
+      "date": "2026-09-07",
+      "lanes": [
+        "ship",
+        "scorer"
+      ],
+      "models": [
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r4-ship/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r5-layout",
+      "date": "2026-09-07",
+      "lanes": [
+        "layout",
+        "scorer"
+      ],
+      "models": [
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r5-layout/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r6-art",
+      "date": "2026-09-08",
+      "lanes": [
+        "board",
+        "enemies",
+        "icons",
+        "towers",
+        "integrate",
+        "scorer"
+      ],
+      "models": [
+        "gpt-6-astra x4",
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0 all six",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r6-art/"
+      ]
+    },
+    {
+      "project": "undergrowth-v2",
+      "round": "r7-medieval",
+      "date": "2026-09-08",
+      "lanes": [
+        "board",
+        "enemies",
+        "icons",
+        "towers",
+        "integrate",
+        "theme",
+        "scorer"
+      ],
+      "models": [
+        "gpt-6-astra x5",
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0 all seven",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/undergrowth-v2/fleet-r7-medieval/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r1-discovery",
+      "date": "2026-08-30",
+      "lanes": [
+        "grok-observability",
+        "grok-efficiency",
+        "codex-ledger",
+        "codex-cnvs",
+        "claude-workbench"
+      ],
+      "models": [
+        "grok",
+        "grok",
+        "codex high",
+        "codex high",
+        "claude opus"
+      ],
+      "winner": null,
+      "verify": "all five verified",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r1-discovery/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r2-workbench",
+      "date": "2026-08-30",
+      "lanes": [
+        "claude",
+        "kimi",
+        "scorer"
+      ],
+      "models": [
+        "claude opus",
+        "kimi K3",
+        "claude-fable-5"
+      ],
+      "winner": "claude 9.25 PASS vs kimi 8.42 FAIL",
+      "verify": "verify.py exit 0 both",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/",
+        "/Users/ls/Claude-Workspace/Fleet-Machine/STATUS.md"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r3-live",
+      "date": "2026-08-30",
+      "lanes": [
+        "shots",
+        "board"
+      ],
+      "models": [
+        "codex gpt-5.6 high",
+        "codex gpt-5.6 high"
+      ],
+      "winner": null,
+      "verify": "exit 0 both",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r3-live/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r4-ops",
+      "date": "2026-08-30",
+      "lanes": [
+        "cost",
+        "preflight"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r4-ops/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r5-rating",
+      "date": "2026-08-30",
+      "lanes": [
+        "grok",
+        "kimi",
+        "qwen",
+        "synthesis"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": "RATING-SYSTEM-v1.md",
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r5-rating/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r6-liveworkbench",
+      "date": "2026-08-31",
+      "lanes": [],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": null,
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r6-liveworkbench/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r7-template",
+      "date": "2026-09-06",
+      "lanes": [
+        "template",
+        "fixture"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r7-template/"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r8-workbench-look",
+      "date": "2026-09-06",
+      "lanes": [
+        "claude-visual",
+        "grok-agentboards",
+        "grok-runboards"
+      ],
+      "models": [
+        "claude-opus-5",
+        "grok-4.6",
+        "grok-4.6"
+      ],
+      "winner": "38 named references",
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r8-workbench-look/",
+        "/Users/ls/Claude-Workspace/cnvs/r8-workbench-directions.md"
+      ]
+    },
+    {
+      "project": "Fleet-Machine",
+      "round": "r9-workbench-redesign",
+      "date": "2026-09-06",
+      "lanes": [
+        "builder",
+        "scorer"
+      ],
+      "models": [
+        "claude-opus-5",
+        "claude-fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0",
+      "paths": [
+        "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r9-workbench-redesign/"
+      ]
+    },
+    {
+      "project": "widgetmart",
+      "round": "r1-test",
+      "date": "2026-08-31",
+      "lanes": [
+        "claude",
+        "codex",
+        "qwen",
+        "scorer"
+      ],
+      "models": [
+        "opus",
+        "claude-opus",
+        "qwen default",
+        "fable-5"
+      ],
+      "winner": null,
+      "verify": "exit 0 each",
+      "paths": [
+        "/Users/ls/Claude-Workspace/cnvs/widgetmart/fleet-r1-test/"
+      ]
+    },
+    {
+      "project": "cnvs scratch",
+      "round": "skill-eval",
+      "date": "2026-09-16",
+      "lanes": [
+        "grok-3d-apple",
+        "grok-library-caliper",
+        "grok-trim-lint",
+        "grok-verify-plan"
+      ],
+      "models": [
+        "grok-4.6 x4"
+      ],
+      "winner": null,
+      "verify": "one exit 0, three not recorded",
+      "paths": [
+        "/Users/ls/Claude-Workspace/cnvs/scratch/skill-eval-2026-09-16/"
+      ]
+    },
+    {
+      "project": "scratch",
+      "round": "fleet-test",
+      "date": "2026-08-10",
+      "lanes": [
+        "4 lanes"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "not recorded",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/scratch/fleet-test/"
+      ]
+    },
+    {
+      "project": "teetimes",
+      "round": "research",
+      "date": "2026-09-12",
+      "lanes": [
+        "claude-arch",
+        "codex-probe",
+        "grok-market"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "older result.json shape",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/teetimes/research/"
+      ]
+    },
+    {
+      "project": "teetimes",
+      "round": "v0.1 build",
+      "date": "2026-09-13",
+      "lanes": [
+        "api",
+        "data",
+        "data/verify",
+        "data/verify-fixes",
+        "data/photos",
+        "review",
+        "web-a",
+        "web-b",
+        "web-m"
+      ],
+      "models": [
+        "not recorded"
+      ],
+      "winner": null,
+      "verify": "older result.json shape",
+      "paths": [
+        "/Users/ls/Claude-Workspace/personal/teetimes/v0.1/"
+      ]
+    }
+  ],
+  "boards": [
+    {
+      "bytes": 1652566,
+      "path": "/Users/ls/Claude-Workspace/personal/sigouin-net/workbench/workbench.html"
+    },
+    {
+      "bytes": 1313030,
+      "path": "/Users/ls/Claude-Workspace/personal/undergrowth-v2/workbench/workbench.html"
+    },
+    {
+      "bytes": 902095,
+      "path": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/public/admin/wb/workbench.html"
+    },
+    {
+      "bytes": 902095,
+      "path": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/dist/admin/wb/workbench.html"
+    },
+    {
+      "bytes": 902095,
+      "path": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/reports/fleet-100x/workbench.html"
+    },
+    {
+      "bytes": 735035,
+      "path": "/Users/ls/Claude-Workspace/personal/IPTV/livetvcan-website/workbench/workbench.html"
+    },
+    {
+      "bytes": 565000,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/workbench/workbench.html"
+    },
+    {
+      "bytes": 320430,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/claude/workbench.html"
+    },
+    {
+      "bytes": 254277,
+      "path": "/Users/ls/Claude-Workspace/personal/scratch/workbench.bak.html"
+    },
+    {
+      "bytes": 227113,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/kimi/workbench.html"
+    },
+    {
+      "bytes": 154082,
+      "path": "/Users/ls/Claude-Workspace/cnvs/widgetmart/workbench/workbench.html"
+    },
+    {
+      "bytes": 93179,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r7-template/fixture/workbench/workbench.html"
+    },
+    {
+      "bytes": 85984,
+      "path": "/Users/ls/Claude-Workspace/cnvs/widgetmart/workbench/workbench-final.html"
+    },
+    {
+      "bytes": 64986,
+      "path": "/Users/ls/Claude-Workspace/cnvs/widgetmart/workbench/workbench-after.html"
+    },
+    {
+      "bytes": 63795,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r3-live/board/board.html"
+    },
+    {
+      "bytes": 47029,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/workbench/template.html"
+    },
+    {
+      "bytes": 31697,
+      "path": "/Users/ls/Claude-Workspace/cnvs/widgetmart/workbench/final-template.html"
+    },
+    {
+      "bytes": 28362,
+      "path": "/Users/ls/Claude-Workspace/personal/RsyncGui/security-audit/workbench.html"
+    },
+    {
+      "bytes": 24047,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r2-workbench/claude/template.html"
+    },
+    {
+      "bytes": 23457,
+      "path": "/Users/ls/Claude-Workspace/personal/sigzmusic/artwork-lab/workbench.html"
+    },
+    {
+      "bytes": 21725,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r8-workbench-look/preview.html"
+    },
+    {
+      "bytes": 21350,
+      "path": "/Users/ls/Claude-Workspace/personal/sigzmusic/security-audit/workbench.html"
+    },
+    {
+      "bytes": 20158,
+      "path": "/Users/ls/Claude-Workspace/cnvs/widgetmart/workbench/after-template.html"
+    },
+    {
+      "bytes": 14002,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-r8-workbench-look/preview-2x3.html"
+    },
+    {
+      "bytes": 13500,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/fleet-rules.html"
+    },
+    {
+      "bytes": 5698,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/STATUS.html"
+    },
+    {
+      "bytes": 2599,
+      "path": "/Users/ls/Claude-Workspace/Fleet-Machine/how-the-fleet-works.html"
+    }
+  ]
+}

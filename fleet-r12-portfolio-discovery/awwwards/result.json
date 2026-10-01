@@ -1,0 +1,31 @@
+{
+  "state": "done",
+  "taskId": "4E04D579-B94C-4181-BB9B-280B24881FF4",
+  "model": {
+    "requested": "grok (CLI default, highest)",
+    "effective": "grok-4.6",
+    "source": "spawn flag"
+  },
+  "deliverable": "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/awwwards/RESEARCH-awwwards.md",
+  "files": [
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/awwwards/RESEARCH-awwwards.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/awwwards/REPORT.md",
+    "/Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/awwwards/result.json"
+  ],
+  "verify": {
+    "cmd": "python3 /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/check-lane.py /Users/ls/Claude-Workspace/personal/sigouin-net/fleet-r12-portfolio-discovery/awwwards",
+    "exit": 0
+  },
+  "unverified": [
+    "Awwwards Site of the Year 2026 not announced as of 2026-09-17",
+    "FWA of the Year 2026 not announced; 2025 is Bruno Simon",
+    "CSSDA Website of the Year 2026 not announced; 2025 is Dropbox Brand",
+    "godly.website redirected to recent.design",
+    "offbrand.studio did not connect; used itsoffbrand.com",
+    "resn.co did not connect",
+    "lxlcreative.com returned 406",
+    "whitedesert.ae did not connect",
+    "matvoyce.tv cited by Hon Tran; live check used matvoyce.com",
+    "WebGL scenes not GPU-walked; notes from HTML, award tags, and writeups"
+  ]
+}

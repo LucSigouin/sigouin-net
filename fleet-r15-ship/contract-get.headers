@@ -1,0 +1,9 @@
+HTTP/1.1 404 Not Found
+Content-Length: 2
+Content-Type: application/json
+Access-Control-Allow-Origin: https://www.sigouin.net
+Cache-Control: no-store
+Vary: Origin
+Access-Control-Expose-Headers: X-Live-Source
+X-Content-Type-Options: nosniff
+

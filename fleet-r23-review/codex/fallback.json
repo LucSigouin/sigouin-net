@@ -1,0 +1,12 @@
+[
+  {
+    "js": true,
+    "controls": [],
+    "mode": "still"
+  },
+  {
+    "js": false,
+    "controls": [],
+    "mode": "loading"
+  }
+]

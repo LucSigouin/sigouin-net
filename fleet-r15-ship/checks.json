@@ -1,0 +1,22 @@
+{
+  "archive_intact": true,
+  "archive_files": 12,
+  "lane_a_intact": true,
+  "lane_a_files": 77,
+  "promoted_changes": [
+    "_headers",
+    "functions/api/live/[[path]].ts",
+    "index.html"
+  ],
+  "static_files_verified": 76,
+  "page_header_sets_verified": 2,
+  "four_required_routes_200": true,
+  "browser_checks_passed": 4,
+  "models_loaded": 4,
+  "dev_server_stopped": true,
+  "largest_file_bytes": 2381660,
+  "deploy_gate_preserved": true,
+  "deploy_executed": false,
+  "complete_wordmark_accessible_name": true,
+  "final_index_sha256": "e246a01af166c7c7eaaa069438bef77f94ca3f87a2e0383cee52ab96186b4fff"
+}

@@ -1,0 +1,39 @@
+[
+	{
+		"x": 74418.75,
+		"y": 157729.174805,
+		"icon": "Zanik.png",
+		"iconSize": [
+			32,
+			48
+		]
+	},
+	{
+		"x": 153365.625,
+		"y": -21180.981445,
+		"icon": "Zanik.png",
+		"iconSize": [
+			32,
+			48
+		]
+	},
+	{
+		"x": 220450.78125,
+		"y": 28213.110352,
+		"description": "Found under The Courtyard.",
+		"icon": "Zanik.png",
+		"iconSize": [
+			32,
+			48
+		]
+	},
+	{
+		"x": 338597.589704,
+		"y": 35804.300461,
+		"icon": "Zanik.png",
+		"iconSize": [
+			32,
+			48
+		]
+	}
+]

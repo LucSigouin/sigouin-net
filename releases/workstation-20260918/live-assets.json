@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "path": "/",
+      "passed": true,
+      "sha256": "1ff96ee01cb7cc78d3da84a56f87bd24c4fcb5d049bb153b67b3fb677ca10fd5"
+    },
+    {
+      "path": "/process/",
+      "passed": true,
+      "sha256": "5a81f0d7d53bcc24e8c0cc1059f12fa7c0f86f2c8d25f451ece1830e849f672b"
+    },
+    {
+      "path": "/vybe/ASSET_CREDITS.md",
+      "passed": true,
+      "sha256": "d79e78365d7be316668ed4835124e8dc000ce1e5fcc1dc65ce7377e84cbc86cc"
+    },
+    {
+      "path": "/vybe/app.js",
+      "passed": true,
+      "sha256": "53a7fbc133af2d2fc30ccca8f09964acc6c1b63fbc32b56244cd06d509c2eba8"
+    },
+    {
+      "path": "/vybe/assets/closed.webp",
+      "passed": true,
+      "sha256": "4b2817a104412e9a99770b0e68b90cdf493fd822d1274fe2789fbb44e6877d71"
+    },
+    {
+      "path": "/vybe/assets/inter-400.ttf",
+      "passed": true,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "path": "/vybe/assets/open.webp",
+      "passed": true,
+      "sha256": "6aa89025768f46e61ad854947c2b50bc82e55b7acffc92eba14a7b15e19f88d4"
+    },
+    {
+      "path": "/vybe/assets/player-background.webp",
+      "passed": true,
+      "sha256": "bc94949bf39cbf5040cc54685da07caf842df0f47e01a76d95fa73415cf28d61"
+    },
+    {
+      "path": "/vybe/assets/poses.json",
+      "passed": true,
+      "sha256": "083267a2ceb2c3891eb171c0c5a9dc5113d1cddde535363df75a12bd8c9926b1"
+    },
+    {
+      "path": "/vybe/assets/process.jpg",
+      "passed": true,
+      "sha256": "2134cb21cdb31c350756f60ed66226408c2ad132bd1a9ff83d4968dcb3d19309"
+    },
+    {
+      "path": "/vybe/assets/services-background.webp",
+      "passed": true,
+      "sha256": "4d218fefddd8081c4f249ecfd602a871762dd02178eef5405b550e50bb1b961e"
+    },
+    {
+      "path": "/vybe/assets/sigz-signal.glb",
+      "passed": true,
+      "sha256": "cfafd87ff29d9fee9762cb34c688520323c24c340f5733526f2fba32b4bd3fff"
+    },
+    {
+      "path": "/vybe/assets/studio.hdr",
+      "passed": true,
+      "sha256": "358d532ee8233f17499830eb512591c1e308ce16ed181e0efc938cb7f0f0e11f"
+    },
+    {
+      "path": "/vybe/assets/workstation.glb",
+      "passed": true,
+      "sha256": "1bfb0d462e2344eaadaac22340ce32f02a1dcee26f54988128fced83c5b527ba"
+    },
+    {
+      "path": "/vybe/cables.js",
+      "passed": true,
+      "sha256": "e52bb78178482163a19f3a34ae1ff40935141ae99dff92cedb46999d7247462c"
+    },
+    {
+      "path": "/vybe/signal.css",
+      "passed": true,
+      "sha256": "2c30812235bd958df03cb3a8f2206c5ac49ad32d7690fd24044c91059bb7a904"
+    },
+    {
+      "path": "/vybe/signal.js",
+      "passed": true,
+      "sha256": "b100cf249b75bc93bfa40d707fb5ef4b043ecaaa89acf6143897bea754a89ebf"
+    },
+    {
+      "path": "/vybe/style.css",
+      "passed": true,
+      "sha256": "72ba0a1591f22cf2e6782231406f0742133e0f5c286f3f4f13073458c98d549e"
+    },
+    {
+      "path": "/vybe/vendor/HDRLoader.js",
+      "passed": true,
+      "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1"
+    },
+    {
+      "path": "/vybe/vendor/LICENSE",
+      "passed": true,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "/vybe/vendor/three/BufferGeometryUtils.js",
+      "passed": true,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+    },
+    {
+      "path": "/vybe/vendor/three/GLTFLoader.js",
+      "passed": true,
+      "sha256": "40dbe3d6e74aecee096be0858ca6bd253b71a65e6fcbad9063e86add573908ea"
+    },
+    {
+      "path": "/vybe/vendor/three/LICENSE",
+      "passed": true,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "/vybe/vendor/three/SkeletonUtils.js",
+      "passed": true,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "/vybe/vendor/three/three.core.js",
+      "passed": true,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "/vybe/vendor/three/three.module.js",
+      "passed": true,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "/vybe/workspace.js",
+      "passed": true,
+      "sha256": "7415f28a3606b846ed688848832a072797064b9568695f3c47e96c67de15a9c8"
+    },
+    {
+      "path": "/vybe/assets/Inter-OFL.txt",
+      "passed": true,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    }
+  ],
+  "apis": [
+    {
+      "path": "/api/live/sigz/tracks",
+      "passed": true
+    },
+    {
+      "path": "/api/live/bbc/state",
+      "passed": true
+    }
+  ]
+}

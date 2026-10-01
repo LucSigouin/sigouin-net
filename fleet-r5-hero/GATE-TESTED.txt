@@ -1,0 +1,1 @@
+red-proof: 2026-09-02T18:05:34Z check-hero.py on current build (no layers, no worker report) -> exit 1

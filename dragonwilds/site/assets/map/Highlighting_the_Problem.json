@@ -1,0 +1,46 @@
+[
+	{
+		"x": 18919,
+		"y": 149100,
+		"name": "Pedestal",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Pedestal 1"
+	},
+	{
+		"x": 19931,
+		"y": 145320,
+		"name": "Pedestal",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Pedestal 2"
+	},
+	{
+		"x": 23716,
+		"y": 146323,
+		"name": "Pedestal",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Pedestal 3"
+	},
+	{
+		"x": 19234,
+		"y": 147056,
+		"name": "Saradomin Statue",
+		"icon": "Secondary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Start and end of quest"
+	}
+]

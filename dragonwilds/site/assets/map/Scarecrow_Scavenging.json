@@ -1,0 +1,32 @@
+[
+	{
+		"x": 55341.34,
+		"y": 97569.49,
+		"name": "Scarecrow",
+		"description": "The location of the Scarecrow"
+	},
+	{
+		"x": 55428.79,
+		"y": 97893.33,
+		"name": "Scarecrow's Treasure Map 1",
+		"description": "Location of Map 1"
+	},
+	{
+		"x": 29864.11,
+		"y": 74464.18,
+		"name": "Scarecrow's Treasure Map 2",
+		"description": "Location of Map 2"
+	},
+	{
+		"x": 118245.15,
+		"y": 160073.98,
+		"name": "Scarecrow's Treasure Map 3",
+		"description": "Location of Map 3"
+	},
+	{
+		"x": 79736.26,
+		"y": 114249.51,
+		"name": "Buried Treasure Chest",
+		"description": "Location of Buried Treasure Chest"
+	}
+]
