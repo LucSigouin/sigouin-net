@@ -1,6 +1,6 @@
 import {createMobileZoom} from './mobile-zoom.js';
 import {createCableMotion} from './cables.js';
-import { createSignal, PLAYER, TILES } from './signal.js?v=ls-20261001';
+import { createSignal, PLAYER, TILES } from './signal.js?v=ls-20261001d';
 import { HDRLoader } from './vendor/HDRLoader.js';
 import * as THREE from 'three';
 import { GLTFLoader } from './vendor/three/GLTFLoader.js';

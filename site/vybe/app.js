@@ -17,7 +17,7 @@ function syncControls(){
   pauseButton.hidden=!engine;pauseButton.textContent=paused?'Resume motion':'Pause motion';pauseButton.setAttribute('aria-pressed',String(paused));
 }
 function showPose(value,announce=true){
-  opened=value;poster.src=opened?'/vybe/assets/open.webp?v=ls-20261001':'/vybe/assets/closed.webp?v=ls-20261001';mobilePoster.srcset=opened?'/vybe/assets/mobile-open.webp?v=ls-20261001':'/vybe/assets/mobile-closed.webp?v=ls-20261001';
+  opened=value;poster.src=opened?'/vybe/assets/open.webp?v=ls-20261001d':'/vybe/assets/closed.webp?v=ls-20261001d';mobilePoster.srcset=opened?'/vybe/assets/mobile-open.webp?v=ls-20261001d':'/vybe/assets/mobile-closed.webp?v=ls-20261001d';
   poster.alt=`Amber-lit workstation with the server rack ${opened?'open for service, with two trays extended':'closed'}`;
   engine?.setOpen(opened);if(announce)announcement.textContent=opened?'Rack open. Service trays extended.':'Rack closed.';
 }
@@ -36,7 +36,7 @@ async function startLive(){
   abort=new AbortController();const signal=abort.signal;let candidate=null;
   const timeout=setTimeout(()=>{if(id===generation)failLive('The workspace is taking too long to load. Try again, or enjoy the still view.')},25000);
   try{
-    const {createWorkspace}=await import('./workspace.js?v=ls-20261001');if(id!==generation)return;
+    const {createWorkspace}=await import('./workspace.js?v=ls-20261001d');if(id!==generation)return;
     candidate=await createWorkspace({host:document.querySelector('#canvas-host'),signal,onEnter:enterHub,compact:mobile.matches,onZoomChange:updateZoom,onOpenChange:value=>showPose(value),onPauseChange:setPaused,onFailure:()=>failLive('Graphics paused. Showing the still view.'),paused,opened,onMonitorLayout:bounds=>{monitorToolbar.style.left=bounds.left+'px';monitorToolbar.style.top=bounds.top+'px';monitorToolbar.style.width=bounds.width+'px';monitorToolbar.style.height=bounds.height+'px'}});
     if(id!==generation){candidate.dispose();return}
     engine=candidate;loading=false;scene.dataset.mode='live';scene.setAttribute('aria-busy','false');hint.textContent='Brush the song waveform · hover over the rack to open';monitorToolbar.hidden=false;
