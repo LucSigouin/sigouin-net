@@ -109,7 +109,7 @@ test('F at a lab computer dives into the screen, shows the loading screen, then 
   test.setTimeout(600_000);
   const lab = content.buildings['computer-lab'].entries as { title: string; url: string | null; exhibit: string }[];
   const linked = lab.filter((e) => e.url && e.exhibit.startsWith('monitor'));
-  expect(linked.map((e) => e.title).sort()).toEqual(['Dragonwilds Field Guide', 'Undergrowth']);
+  expect(linked.map((e) => e.title).sort()).toEqual(['Dragonwilds Field Guide', 'River Garden', 'Undergrowth']);
   for (const entry of linked) {
     const errors = collectErrors(page);
     const host = new URL(entry.url!).origin;

@@ -23,6 +23,14 @@
           "tag": "Field guide"
         },
         {
+          "title": "River Garden",
+          "blurb": "A cozy idle game in the browser. Your campers gather and craft while you're away, then you fight your way up the river.",
+          "url": "https://rivergarden.sigouin.net/",
+          "image": "/shots/rivergarden.jpg",
+          "exhibit": "monitor-4",
+          "tag": "Idle game"
+        },
+        {
           "title": "Game servers for friends",
           "blurb": "Dedicated servers I host for the group, set up and backed up automatically.",
           "url": null,
@@ -95,8 +103,8 @@
         {
           "title": "The fleet",
           "blurb": "How this site gets built: one brief, several AI coders, tests before anything ships.",
-          "url": "/process/",
-          "image": "/shots/process.jpg",
+          "url": null,
+          "image": null,
           "exhibit": "brain"
         },
         {
@@ -107,9 +115,9 @@
           "exhibit": "terminal-1"
         },
         {
-          "title": "Coming soon",
-          "blurb": "A slot saved for the next project.",
-          "url": null,
+          "title": "How I work with AI",
+          "blurb": "The full playbook: one lead agent, specialist workers, and a gate that rejects unproven work.",
+          "url": "/ai-prep/",
           "image": null,
           "exhibit": "terminal-2"
         }

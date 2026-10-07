@@ -1,4 +1,4 @@
-// Landing, /process/, 404 and redirect checks on a deployed or `wrangler pages dev` build:
+// Landing, 404 and redirect checks on a deployed or `wrangler pages dev` build:
 //   SITE_URL=http://localhost:8788 npx playwright test tests/site-fixes.spec.ts --project=desktop
 import { test, expect, type Page } from '@playwright/test';
 import type {} from '../src/hubApi';
@@ -34,60 +34,10 @@ for (const motion of ['no-preference', 'reduce'] as const) {
   });
 }
 
-const HIDDEN_SCENE_MEDIA = ['board-live-2026-09-17', 'landing-nine-up-2026-09-17', 'board-claude-2026-09-17',
-  'board-kimi-2026-09-17', 'landing-live-winner', 'sigouin-five-looks-2026-09-17', 'gate-red-green.mp4'];
-
-test('process: hidden scenes load nothing until reached @desktop', async ({ page }) => {
-  test.skip(!site, 'set SITE_URL');
-  const problems = watch(page);
-  const urls: string[] = [];
-  page.on('request', (r) => urls.push(r.url()));
-  await page.goto(`${site}/process/`);
-  await page.waitForLoadState('networkidle');
-  for (const m of HIDDEN_SCENE_MEDIA) expect(urls.filter((u) => u.includes(m)), m).toEqual([]);
-  // The scene on screen plays; normal motion is untouched.
-  await expect.poll(() => page.evaluate(() => document.querySelector<HTMLVideoElement>('.scene.is-on video')!.paused)).toBe(false);
-  // Reaching a scene loads its media.
-  await page.locator('#next').click();
-  await page.locator('#next').click();
-  await expect.poll(() => urls.some((u) => u.includes('board-live-2026-09-17'))).toBe(true);
-  // Plain buttons, not half-built tabs.
-  await expect(page.locator('#dots [role="tab"], [role="tablist"]')).toHaveCount(0);
-  await expect(page.locator('#dots [aria-current="step"]')).toHaveCount(1);
-  await expect(page.locator('#dots button').nth(2)).toHaveAttribute('aria-current', 'step');
-  expect(problems).toEqual([]);
-});
-
-test('process: reduced motion stops every clip @desktop', async ({ page }) => {
-  test.skip(!site, 'set SITE_URL');
-  await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.goto(`${site}/process/`);
-  await page.waitForLoadState('networkidle');
-  await page.locator('#next').click();
-  await page.locator('#next').click(); // P3 has the second scene clip
-  await page.waitForTimeout(800);
-  const playing = await page.evaluate(() => [...document.querySelectorAll('video')].filter((v) => !v.paused).length);
-  expect(playing).toBe(0);
-});
-
-test('process: on a short screen the ledger scrolls to its Close button @desktop', async ({ page }) => {
-  test.skip(!site, 'set SITE_URL');
-  await page.setViewportSize({ width: 844, height: 390 });
-  await page.goto(`${site}/process/`);
-  await page.locator('#ledgerBtn').click();
-  const close = page.locator('[data-close-ledger]');
-  const box = await page.locator('#ledger').boundingBox();
-  await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height / 2);
-  for (let i = 0; i < 12; i++) await page.mouse.wheel(0, 400);
-  await expect.poll(async () => { const b = await close.boundingBox(); return !!b && b.y + b.height <= 390; }).toBe(true);
-  await close.click();
-  await expect(page.locator('#ledger')).toBeHidden();
-});
-
 test('unknown addresses are real 404s, old guide links redirect @desktop', async ({ page }) => {
   test.skip(!site, 'set SITE_URL');
   // Not /robots.txt: on the live zone Cloudflare answers it itself (managed content signals).
-  for (const path of ['/nope-404', '/hub/nope', '/hub/assets/nope.js', '/process/nope']) {
+  for (const path of ['/nope-404', '/hub/nope', '/hub/assets/nope.js', '/process/', '/js/process.js']) {
     const r = await page.request.get(`${site}${path}`);
     expect(r.status(), path).toBe(404);
   }

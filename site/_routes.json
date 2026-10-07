@@ -2,7 +2,10 @@
   "version": 1,
   "include": [
     "/api/live/*",
-    "/assets/proc/kingdom-idle-current-state-2026-09-17.webp",
+    "/process",
+    "/process/*",
+    "/js/process.js",
+    "/assets/proc/*",
     "/assets/still/05-ff-crest-cooking-the-lads.webp",
     "/assets/still/06-ff-ref-james-cook.webp",
     "/assets/still/07-ff-ref-ladd-mcconkey.webp"

@@ -9,7 +9,7 @@ Live deployment: `a3e36a1d` (2026-09-29). Every deploy has notes and a rollback 
 |---|---|---|
 | `/` | Render-only Vybe workstation (monitor login screen). Upright phones get the rack still. Tab shows an "Enter the hub" link. | `site/index.html`, `site/vybe/` |
 | `/hub/` | Walkable 3D courtyard, four buildings of project cards. `?links` = plain list. | `Sigouin-Hub/` (built with `vite build --base=/hub/`) |
-| `/process/` | "How it gets built" stepper, 8 scenes. Media loads per scene. | `site/process/`, `site/js/process.js`, `site/css/hub.css` |
+| `/process/` | Removed 2026-10-06 (real 404 via `site/functions/_middleware.js`). Source in `retired/process-20261006/`. | `releases/remove-process-20261006/` |
 | `/runescape/*` | 301 to https://dragonwilds.sigouin.net (own Pages project). | `site/_redirects`, `dragonwilds/` |
 | anything else | Real 404 page. | `site/404.html` |
 | `/api/live/*` | Read-only JSON relay (SiGz tracks, BBC state, teetimes). No page calls it now. | `site/functions/api/live/` |

@@ -7,9 +7,6 @@
 /
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
-/process/
-  Cache-Control: public, max-age=0, must-revalidate, no-transform
-
 /hub/
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
