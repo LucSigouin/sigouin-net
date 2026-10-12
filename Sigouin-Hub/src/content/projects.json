@@ -31,6 +31,14 @@
           "tag": "Idle game"
         },
         {
+          "title": "Ley Woods",
+          "blurb": "A cozy idle game in the browser. Wire your woods with ley lines and let your familiars run it while you're away.",
+          "url": "https://leywoods.pages.dev/",
+          "image": "/shots/leywoods.jpg",
+          "exhibit": "monitor-5",
+          "tag": "Idle game"
+        },
+        {
           "title": "Game servers for friends",
           "blurb": "Dedicated servers I host for the group, set up and backed up automatically.",
           "url": null,
