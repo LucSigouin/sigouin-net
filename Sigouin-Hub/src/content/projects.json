@@ -32,8 +32,8 @@
         },
         {
           "title": "Ley Woods",
-          "blurb": "A cozy idle game in the browser. Wire your woods with ley lines and let your familiars run it while you're away.",
-          "url": "https://leywoods.pages.dev/",
+          "blurb": "A cozy top-down idle game. Walk a wizard through the woods, harvest, build crafters and wire pylons so the base runs itself, even while you're away.",
+          "url": "https://leywoods.sigouin.net/",
           "image": "/shots/leywoods.jpg",
           "exhibit": "monitor-5",
           "tag": "Idle game"
