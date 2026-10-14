@@ -1,7 +1,7 @@
 
 Attempt 1/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 4e6f071d67c2 DIFF
+/ai-prep/                                     e8e63f2b8d3f 2ef2a8c0fcf7 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -116,13 +116,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-3261: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-16763: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 2/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 610958ac9dcf DIFF
+/ai-prep/                                     e8e63f2b8d3f 1b6bacf2b357 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -237,13 +237,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-7664: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-31003: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 3/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 5a338960f4ad DIFF
+/ai-prep/                                     e8e63f2b8d3f a5d5b7d74d9d DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -358,13 +358,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-15248: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-19181: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 4/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f e45544ac89d0 DIFF
+/ai-prep/                                     e8e63f2b8d3f fc884b15bfc1 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -479,13 +479,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-17902: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-30133: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 5/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f e3c4c4905cca DIFF
+/ai-prep/                                     e8e63f2b8d3f 9d9ae4fd5159 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -600,13 +600,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-29970: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-3817: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 6/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 7c8f3d27ed67 DIFF
+/ai-prep/                                     e8e63f2b8d3f a48a0ad87dd2 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -721,13 +721,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-997: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-2669: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 7/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f b2aaaca93e23 DIFF
+/ai-prep/                                     e8e63f2b8d3f 40f8e7e56b93 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -842,13 +842,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-32009: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-1548: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 8/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 3b402a4246bb DIFF
+/ai-prep/                                     e8e63f2b8d3f dd9544b837aa DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -963,13 +963,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-14264: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-23263: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 9/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f 17ce9c8e063b DIFF
+/ai-prep/                                     e8e63f2b8d3f da12e7c1cb66 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -1084,13 +1084,13 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-32367: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-5015: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
 
 Attempt 10/10
 path                                          local hash   live hash    result
-/ai-prep/                                     e8e63f2b8d3f f74a5dfac512 DIFF
+/ai-prep/                                     e8e63f2b8d3f c14cc3ea0de3 DIFF
 Headers /ai-prep/: MATCH
 /assets/bg-a-1080-20260917.av1.mp4            dafc11246dee dafc11246dee MATCH
 /assets/bg-a-1080-20260917.mp4                57b5ba7a99ec 57b5ba7a99ec MATCH
@@ -1205,6 +1205,6 @@ Headers /: MATCH
 /vybe/vendor/three/three.core.js              9edde002b066 9edde002b066 MATCH
 /vybe/vendor/three/three.module.js            9052042d676c 9052042d676c MATCH
 /vybe/workspace.js                            11c48ccf4228 11c48ccf4228 MATCH
-404 /verify-live-missing-15549: 404 + 404.html body (up to </main>) + CSP MATCH
+404 /verify-live-missing-11499: 404 + 404.html body (up to </main>) + CSP MATCH
 Function /api/live/sigz/tracks: 200 JSON (sigzmusic.com)
 Function /api/live/bbc/state: 200 JSON (bbc.sigouin.net)
