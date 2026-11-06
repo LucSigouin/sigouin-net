@@ -1,6 +1,6 @@
 {
-  "source": "/Users/ls/Claude-Workspace/personal/vybe-workstation/site/realism",
-  "previous_site": "/Users/ls/Claude-Workspace/personal/sigouin-net/releases/workstation-20260918/before-site",
+  "source": "vybe-workstation/site/realism",
+  "previous_site": "releases/workstation-20260918/before-site",
   "retained_routes": [
     "/process/",
     "/api/live/*"

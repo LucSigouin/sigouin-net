@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TARGET="/Users/ls/Claude-Workspace/personal/sigouin-net"
+TARGET="${TARGET:-$(cd "$(dirname "$0")/.." && pwd)}"
 FORCE=0
 APPLY=0
 LANE=""

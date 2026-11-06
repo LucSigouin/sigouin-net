@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SITE="${1:-/Users/ls/Claude-Workspace/personal/sigouin-net/site}"
-ENV_FILE="/Users/ls/Claude-Workspace/personal/.env"
+SITE="${1:-$(cd "$(dirname "$0")/.." && pwd)/site}"
+ENV_FILE="${ENV_FILE:-$HOME/Claude-Workspace/personal/.env}"
 NPM_CACHE="${TMPDIR:-/tmp}/npmcache"
 
 if [ ! -d "$SITE" ]; then

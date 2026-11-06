@@ -3,7 +3,7 @@
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 SITE="${1:-$HERE/site}"
-ENV_FILE="/Users/ls/Claude-Workspace/personal/.env"
+ENV_FILE="${ENV_FILE:-$HOME/Claude-Workspace/personal/.env}"
 NPM_CACHE="${TMPDIR:-/tmp}/npmcache"
 [ -d "$SITE" ] || { printf 'Site directory not found: %s\n' "$SITE" >&2; exit 1; }
 if [ "${CONFIRM_DEPLOY:-0}" != "1" ]; then

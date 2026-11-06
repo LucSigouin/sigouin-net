@@ -12,7 +12,7 @@ You share no context with the session that wrote this plan. Everything you need 
 
 ## 0. Ground rules (read first, they are Luc's standing rules)
 
-- **Project root:** `/Users/ls/Claude-Workspace/personal/sigouin-net/Sigouin-Hub/` (TypeScript +
+- **Project root:** `Sigouin-Hub/` (TypeScript +
   Vite + three 0.186). Not a git repo. Work only inside this folder.
 - **Playwright is approved here, headless only** (Luc, 2026-09-23). It is already a dev dependency
   (`@playwright/test` 1.63.0), and Chromium + WebKit are installed. Never open the system browser

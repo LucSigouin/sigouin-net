@@ -2,7 +2,7 @@
 set -euo pipefail
 
 BASE="${1:-https://sigouin.net}"
-SITE="${2:-/Users/ls/Claude-Workspace/personal/sigouin-net/site}"
+SITE="${2:-$(cd "$(dirname "$0")/.." && pwd)/site}"
 BASE="${BASE%/}"
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
