@@ -1,0 +1,997 @@
+[
+	{
+		"x": 18511.035,
+		"y": 108124.95,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 30425.535,
+		"y": 106396.52,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 32940.73,
+		"y": 76546.766,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 177597.34,
+		"y": -22679.408,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 95465.22,
+		"y": -48248.926,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 16167.681,
+		"y": 102150.27,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 22882,
+		"y": 90341.26,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 49022.4,
+		"y": 87535.664,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 18187.406,
+		"y": 82209.89,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 57786.54,
+		"y": 73490.02,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 173431.03,
+		"y": -25094.104,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 212025.75,
+		"y": -74455.23,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 81267.79,
+		"y": -36456.594,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 61845.73,
+		"y": -32317.186,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 196458.33,
+		"y": -79064.73,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 39323.152,
+		"y": 108126.27,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 18059.186,
+		"y": 78050.31,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 27237.102,
+		"y": 82014.8,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 43355.113,
+		"y": 75580.56,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 31884.256,
+		"y": 69965.24,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 135953.72,
+		"y": -79461.016,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 137006.55,
+		"y": -80231.41,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 39535.21,
+		"y": 78912.38,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 203853.34,
+		"y": -73806.734,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 84665.73,
+		"y": -39906.168,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 74524.32,
+		"y": -44606.86,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 69594.45,
+		"y": -46335.9,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 20423.799,
+		"y": 70237.27,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 155906.56,
+		"y": -24084.21,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 137007.95,
+		"y": -15987.731,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 149068.73,
+		"y": -29504.48,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 25716.455,
+		"y": 110015.26,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 26140.38,
+		"y": 103278.22,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 33389.023,
+		"y": 86866.08,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 43185.027,
+		"y": 83038.99,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 34606.074,
+		"y": 72738.49,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 38605.21,
+		"y": 70476.05,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 80648.26,
+		"y": -42051.332,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 183050.97,
+		"y": -21052.682,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 185290.42,
+		"y": -30346.686,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 100314.375,
+		"y": -47574.676,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 205027.5,
+		"y": -49996.06,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 145921.1,
+		"y": -37152.773,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 21344.555,
+		"y": 93890.37,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 18057.25,
+		"y": 91540.09,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 17976.432,
+		"y": 80541.94,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 19039.557,
+		"y": 101193.336,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 83304.87,
+		"y": -39770.875,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 216751.16,
+		"y": -50216.69,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 222892.89,
+		"y": -64539.77,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 24343.965,
+		"y": 105917.35,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 35193.66,
+		"y": 101544.45,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 42072.47,
+		"y": 100408.19,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 17647.324,
+		"y": 96761.06,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 18117.422,
+		"y": 76153.85,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 36287.984,
+		"y": 82249.44,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 48917.105,
+		"y": 79636.82,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 20752.178,
+		"y": 82869.96,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 22099.148,
+		"y": 105795.33,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 33305.957,
+		"y": 72107.89,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 33709.203,
+		"y": 77303.68,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 223194.44,
+		"y": -50393.13,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 59842.777,
+		"y": -34122.066,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 174515.4,
+		"y": -38151.85,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 186269.12,
+		"y": -49474.49,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 21761.818,
+		"y": 80613.33,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 29012.639,
+		"y": 92531.93,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 45776.137,
+		"y": 78785.89,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 21973.27,
+		"y": 81221.56,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 189354.25,
+		"y": -27151.576,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 229825.8,
+		"y": -51007.473,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 206352.92,
+		"y": -70007.17,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 93741.05,
+		"y": -37863.062,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 82980.09,
+		"y": -4118.264,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 42444.81,
+		"y": -54262.69,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 199993.2,
+		"y": -33359.973,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 230395.55,
+		"y": -25583.484,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 214049.3,
+		"y": -54846.27,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 207840.19,
+		"y": -58899.727,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 24206.617,
+		"y": 103643.1,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 17573.38,
+		"y": 98041.78,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 22658.672,
+		"y": 80026.16,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 49024.586,
+		"y": 78246.19,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 44301.97,
+		"y": 79751.266,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 23522.695,
+		"y": 71676.516,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 27994.117,
+		"y": 79029.84,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 230323.06,
+		"y": -49274.74,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 221964.42,
+		"y": -63628.76,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 210750.66,
+		"y": -63884.844,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 23883.662,
+		"y": 98975.016,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 40799.25,
+		"y": 82518.414,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 205049.52,
+		"y": -59661.81,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 205422.06,
+		"y": -59972.25,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 37194.7,
+		"y": 100787.805,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 200335.97,
+		"y": -59467,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 204941.9,
+		"y": -60041.797,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 193891.53,
+		"y": -60497.2,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 40245.812,
+		"y": -56796.06,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 70898.13,
+		"y": -46084.37,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 149379.1,
+		"y": -75644.305,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 165512.98,
+		"y": -75668.35,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 194045.05,
+		"y": -77009.984,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 183068.92,
+		"y": -76654.45,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 142798.25,
+		"y": -78257.5,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 123178.625,
+		"y": -82536.24,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 25807.863,
+		"y": 103070.805,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 10643.514,
+		"y": 76097.16,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 30663.107,
+		"y": 83669.44,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 30954.07,
+		"y": 90008.21,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 37428.35,
+		"y": 99232.27,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 42432.145,
+		"y": 88033.55,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 44281.36,
+		"y": 77696.62,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 40369.004,
+		"y": 88471.41,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 108606.33,
+		"y": -48566.457,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 220781.28,
+		"y": -1621.1515,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 36729.97,
+		"y": -53242.758,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 188820.67,
+		"y": -53035.406,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 59821.375,
+		"y": -35249.92,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 108349.41,
+		"y": -50155.035,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 36504.64,
+		"y": 81860.55,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 39982.254,
+		"y": 94606.02,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 39946.184,
+		"y": 72766.25,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 187924.98,
+		"y": -28973.488,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 146858.4,
+		"y": -60391.293,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 19475.264,
+		"y": 106680.75,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 37314.598,
+		"y": 106969.05,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 13379.14,
+		"y": 77275.83,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 30832.943,
+		"y": 84764.96,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 47493.54,
+		"y": 93504.984,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 31509.756,
+		"y": 90405.81,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 107880.65,
+		"y": -48421.01,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 38977.28,
+		"y": 71008.93,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 40609.76,
+		"y": 88828.49,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 32113.463,
+		"y": 70623.1,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 231280.97,
+		"y": -36615.855,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 206171.86,
+		"y": -65709.13,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 207277.77,
+		"y": -79844.766,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 88466.66,
+		"y": -34872.24,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 194154.72,
+		"y": -57781.44,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 137260.11,
+		"y": -21214.717,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 103660.67,
+		"y": -46845.746,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 141687.81,
+		"y": -32193.477,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 27648.477,
+		"y": 106891.62,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 20814.229,
+		"y": 78154.086,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 42003.05,
+		"y": 70073.305,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 40239.695,
+		"y": 69909.93,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 25240.29,
+		"y": 102002.88,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 32446.271,
+		"y": 71456.98,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 210424.62,
+		"y": -62003.04,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 141550,
+		"y": -20349.97,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 37843.44,
+		"y": -52075.008,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 68203.445,
+		"y": -51249.965,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 227991.3,
+		"y": -2300.1982,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 231052.45,
+		"y": -7305.8906,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 229815.69,
+		"y": -22492.008,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 236711.66,
+		"y": -16416.924,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 239434.17,
+		"y": -20881.355,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 120868.914,
+		"y": -51475.895,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 124408.14,
+		"y": -49102.477,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 96146.97,
+		"y": -58872.266,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 84830.74,
+		"y": -54994.715,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 73031.89,
+		"y": -72367.22,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 59112.387,
+		"y": -74008.12,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 53294.78,
+		"y": -68613,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 46332.957,
+		"y": -64372.137,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 27302.498,
+		"y": -50856.11,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 26036.156,
+		"y": -43035.582,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 46339.164,
+		"y": -37592.777,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 45156.645,
+		"y": -37349.062,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 60060.395,
+		"y": -38637.867,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 86096.82,
+		"y": -21413.256,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 87418.34,
+		"y": -19803.832,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 18723.594,
+		"y": 104366.96,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 23680.441,
+		"y": 109758.79,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 33478.695,
+		"y": 78566,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 207691.45,
+		"y": -74194.49,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 170978.9,
+		"y": -25319.695,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 172876.05,
+		"y": -71986.43,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 197515.66,
+		"y": -14657.862,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 204954.9,
+		"y": -4779.962,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 205971.17,
+		"y": -8653.135,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 214037.64,
+		"y": -3480.0203,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 227643.95,
+		"y": -3099.5627,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 55697.45,
+		"y": 88219.3,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 24065.316,
+		"y": 71304.26,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 32774.84,
+		"y": 71171.01,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 221185.64,
+		"y": -64012.773,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 221389.19,
+		"y": -63370.637,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 218945.53,
+		"y": -66172.305,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 173516.58,
+		"y": -20715.543,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 205925.25,
+		"y": -74424.54,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 219058.92,
+		"y": -63522.062,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 138886.12,
+		"y": -22146.676,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 206265.45,
+		"y": -46510.473,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 147880.38,
+		"y": -29113.412,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 27211.15,
+		"y": 105536.92,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 30389.652,
+		"y": 82805.39,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 39749.996,
+		"y": 80083.89,
+		"name": "Iron Ore Node"
+	},
+	{
+		"x": 35976.023,
+		"y": 90580.516,
+		"name": "Iron Ore Node"
+	}
+]

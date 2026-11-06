@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-24T00:39:03.316Z",
+  "results": [
+    {
+      "name": "freeze: world time not pinned",
+      "guard": "gate test \"frozen shots are pixel-identical across two page loads\"",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "Running 1 test using 1 worker\n\nspawn: 23129 different pixels\n  ✘  1 [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop (15.5s)\n\n\n  1) [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop \n\n    Error: spawn\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: 0\n    Received: 23129\n\n      55 |     const n = await differentPixels(page, first[i], second[i]);\n      56 |     console.log(`${views[i]}: ${n} different pixels`);\n    > 57 |     expect(n, views[i]).toBe(0);\n         |                         ^\n      58 |   }\n      59 | });\n      60 |\n        at Sigouin-Hub/tests/probe.spec.ts:57:25\n\n    Error Context: test-results/probe-frozen-shots-are-pix-f61d3-ross-two-page-loads-desktop-desktop/error-context.md\n\n  1 failed\n    [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop",
+      "restoredTail": "aerial: 0 different pixels\n  ✓  1 [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop (15.8s)\n\n  1 passed (19.1s)"
+    }
+  ]
+}

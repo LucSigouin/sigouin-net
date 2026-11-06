@@ -1,0 +1,134 @@
+[
+	{
+		"x": 37482,
+		"y": 191753,
+		"name": "Crasorak Kara",
+		"description": "The location of the Crasorak Kara vault in Temple Woods",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 26749,
+		"y": 150692,
+		"name": "Thishepen Kara",
+		"description": "The location of the Thishepen Kara in Bramblemead Valley",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 102981,
+		"y": 145062,
+		"name": "Vertentis Kara",
+		"description": "The location of the Vertentis Kara in Whispering Swamp",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 73020,
+		"y": 118948,
+		"name": "Takla Kara",
+		"description": "The location of the Takla Kara in Fractured Plains",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 135920,
+		"y": 78549,
+		"name": "Skeklac Kara",
+		"description": "The location of the Skeklac Kara in Fractured Plains at Ashien's Watch",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 118481,
+		"y": 169062,
+		"name": "Kletterbuja Kara",
+		"description": "The location of the Kletterbuja Kara in Bloodblight Swamp",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 15712,
+		"y": 79152,
+		"name": "Chaktan Kara",
+		"description": "The location of the Chaktan Kara in Stormtouched Highlands",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 29382.146,
+		"y": -51578.39,
+		"name": "Kalistrakthen Kara",
+		"description": "The location of the Kalistrakthen Kara in Emberwood",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 197933.86,
+		"y": -42374.29,
+		"name": "Skekven Kara",
+		"description": "The location of the Skekven Kara, east of the Lake of Lost Souls",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 144038.16,
+		"y": -57699.82,
+		"name": "Vekchenven Kara",
+		"description": "The location of the Vekchenven Kara, west of the Lake of Lost Souls",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 233977.750432,
+		"y": 223194.951886,
+		"name": "Vault (Kalphite)",
+		"description": "The location of the Vault, south of Manafem Plains at the pyramid.",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342890.610277,
+		"y": 74271.003185,
+		"name": "Vault (Mirrors)",
+		"description": "The location of the Vault, north of Dunes of Uzzer at the pyramid.",
+		"icon": "Dungeon_entrance_icon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

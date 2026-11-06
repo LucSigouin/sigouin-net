@@ -1,0 +1,50 @@
+{
+  "at": "2026-09-24T00:35:32.668Z",
+  "results": [
+    {
+      "name": "freeze: world time not pinned",
+      "guard": "gate test \"frozen shots are pixel-identical across two page loads\"",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "\n      55 |     const n = await differentPixels(page, first[i], second[i]);\n      56 |     console.log(`${views[i]}: ${n} different pixels`);\n    > 57 |     expect(n, views[i]).toBe(0);\n         |                         ^\n      58 |   }\n      59 | });\n      60 |\n        at Sigouin-Hub/tests/probe.spec.ts:57:25\n\n    Error Context: test-results/probe-frozen-shots-are-pix-f61d3-ross-two-page-loads-desktop-desktop/error-context.md\n\n  1 failed\n    [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop",
+      "restoredTail": "aerial: 0 different pixels\n  ✓  1 [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop (11.9s)\n\n  1 passed (14.0s)"
+    },
+    {
+      "name": "bundle: probe imported statically into the main chunk",
+      "guard": "gate test \"a normal visit downloads no probe code\"",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "\n      37 |   console.log(`normal visit: ${normal.length} scripts, ${normal.reduce((a, b) => a + b.text.length, 0)} bytes`);\n      38 |   expect(normal.length).toBeGreaterThan(0);\n    > 39 |   expect(normal.filter((s) => s.url.includes('probe') || s.text.includes('__probe')).map((s) => s.url)).toEqual([]);\n         |                                                                                                         ^\n      40 |   expect(await page.evaluate(() => '__probe' in window)).toBe(false);\n      41 |   bodies.length = 0;\n      42 |   await open(page, '?probe');\n        at Sigouin-Hub/tests/probe.spec.ts:39:105\n\n    Error Context: test-results/probe-a-normal-visit-downloads-no-probe-code-desktop-desktop/error-context.md\n\n  1 failed\n    [desktop] › tests/probe.spec.ts:31:1 › a normal visit downloads no probe code @desktop ─────────",
+      "restoredTail": "normal visit: 4 scripts, 886504 bytes\n  ✓  1 [desktop] › tests/probe.spec.ts:31:1 › a normal visit downloads no probe code @desktop (10.9s)\n\n  1 passed (13.1s)"
+    },
+    {
+      "name": "game: the E key no longer opens doors",
+      "guard": "gate test \"scripted play\" (the expect step)",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "\n       96 |   ]), b);\n       97 |   for (const s of r.steps) console.log(`${s.pass ? 'ok  ' : 'FAIL'} ${JSON.stringify(s.step)} ${s.reason} (${s.ms} ms)`);\n    >  98 |   expect(r.pass).toBe(true);\n          |                  ^\n       99 |   expect(await page.evaluate(() => window.__probe.frozen)).toBe(true);\n      100 | });\n      101 |\n        at Sigouin-Hub/tests/probe.spec.ts:98:18\n\n    Error Context: test-results/probe-scripted-play-walk-t-fd257--card-come-back-out-desktop-desktop/error-context.md\n\n  1 failed\n    [desktop] › tests/probe.spec.ts:88:1 › scripted play: walk to a building, go in, open a card, come back out @desktop",
+      "restoredTail": "ok   {\"expect\":{\"level\":\"courtyard\",\"state\":\"play\"},\"timeout\":20000} ok (1418 ms)\n  ✓  1 [desktop] › tests/probe.spec.ts:88:1 › scripted play: walk to a building, go in, open a card, come back out @desktop (28.4s)\n\n  1 passed (31.7s)"
+    },
+    {
+      "name": "game: a crate blocks the Music Studio doorstep",
+      "guard": "gate test \"scripted play\" (walkTo step)",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "\n       96 |   ]), b);\n       97 |   for (const s of r.steps) console.log(`${s.pass ? 'ok  ' : 'FAIL'} ${JSON.stringify(s.step)} ${s.reason} (${s.ms} ms)`);\n    >  98 |   expect(r.pass).toBe(true);\n          |                  ^\n       99 |   expect(await page.evaluate(() => window.__probe.frozen)).toBe(true);\n      100 | });\n      101 |\n        at Sigouin-Hub/tests/probe.spec.ts:98:18\n\n    Error Context: test-results/probe-scripted-play-walk-t-fd257--card-come-back-out-desktop-desktop/error-context.md\n\n  1 failed\n    [desktop] › tests/probe.spec.ts:88:1 › scripted play: walk to a building, go in, open a card, come back out @desktop",
+      "restoredTail": "ok   {\"expect\":{\"level\":\"courtyard\",\"state\":\"play\"},\"timeout\":20000} ok (1418 ms)\n  ✓  1 [desktop] › tests/probe.spec.ts:88:1 › scripted play: walk to a building, go in, open a card, come back out @desktop (27.9s)\n\n  1 passed (31.2s)"
+    },
+    {
+      "name": "visual diff: fountain moved 0.5 m",
+      "guard": "node probe/diff.mjs against probe/baseline",
+      "brokenExit": 1,
+      "restoredExit": 0,
+      "pass": true,
+      "brokenTail": "[ 180s] done: 55 shots in 180 s -> probe/shots/mutant-fountain-1790209766671/contact.html\nall checks passed\n  FAIL    desktop/orbits/fountain-stone/low-180.png  721685 px (55.6856%), max delta 255\n  FAIL    desktop/orbits/fountain-stone/low-225.png  807794 px (62.3298%), max delta 254\n  FAIL    desktop/orbits/fountain-stone/low-270.png  671927 px (51.8462%), max delta 254\n  FAIL    desktop/orbits/fountain-stone/low-315.png  640612 px (49.4299%), max delta 253\n  FAIL    desktop/views/aerial/beauty.png  5632 px (0.4346%), max delta 207\n  FAIL    desktop/views/aerial/id.png  3039 px (0.2345%), max delta 237\n  FAIL    desktop/views/aerial/normals.png  4141 px (0.3195%), max delta 244\n  FAIL    desktop/views/aerial/triggers.png  5654 px (0.4363%), max delta 208\n  FAIL    desktop/views/aerial/walkable.png  5376 px (0.4148%), max delta 204\n  FAIL    desktop/views/aerial/wireframe.png  3129 px (0.2414%), max delta 243\n  ... and 14 more (see diff.json)\ndiff images: probe/shots/mutant-fountain-1790209766671/diff/",
+      "restoredTail": "compared 45 images (tol 6, max 0.05%): 43 same, 2 small drift, 0 failed"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+	{
+		"x": 63040,
+		"y": 160405,
+		"name": "Cathan's Journal",
+		"icon": "Inventory Interface - Primary quest item.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Cathan's Journal at the top on the Keep of Blue Flames"
+	},
+	{
+		"x": 48282,
+		"y": 177692,
+		"name": "Wise Old Man",
+		"icon": "Primary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "The location of the Wise Old Man in Bramblemead Valley"
+	},
+	{
+		"x": 21949,
+		"y": 95942,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 22120,
+		"y": 95948,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 22388,
+		"y": 95949,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 22553,
+		"y": 96030,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 22712,
+		"y": 96152,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 22249,
+		"y": 95936,
+		"name": "Dragon Tooth",
+		"icon": "Dragon Tooth.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Dragon tooth that can be mined"
+	},
+	{
+		"x": 124199,
+		"y": 167980,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 123933,
+		"y": 169000,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 124283,
+		"y": 169068,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 124415,
+		"y": 168764,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 124453,
+		"y": 168876,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 124261,
+		"y": 168694,
+		"name": "Bloodwood Sap",
+		"icon": "Bloodwood Sap.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Bloodwood sap found from a Bloodwood tree (requires an iron logging axe)"
+	},
+	{
+		"x": 98793,
+		"y": 97935,
+		"name": "Velgar's Rise",
+		"icon": "Primary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "Old dragonkin tower, that is now a base for Velgar"
+	},
+	{
+		"x": 103441,
+		"y": 146659,
+		"name": "\"Blue Flame Door\"",
+		"icon": "Primary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		],
+		"description": "The Blue Flame Door, known as Vertentis Kara, a Dragonkin Vault\u003Cbr\u003ELocation of Splitfoot"
+	}
+]

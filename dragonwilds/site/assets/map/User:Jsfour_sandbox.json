@@ -1,0 +1,42 @@
+{
+	"coordinateOrder": "xy",
+	"categories": [
+		{
+			"id": "category_1",
+			"name": "Category 1",
+			"color": "#fc030f",
+			"symbol": "C1",
+			"symbolColor": "#ffffff"
+		},
+		{
+			"id": "category_2",
+			"name": "Category 2",
+			"color": "##210dff",
+			"symbol": "C2",
+			"symbolColor": "#ffffff"
+		}
+	],
+	"markers": [
+		{
+			"position": [
+				200812.83,
+				33551.11
+			],
+			"categoryId": "category_1"
+		},
+		{
+			"position": [
+				198092.47,
+				41254.484
+			],
+			"categoryId": "category_2"
+		},
+		{
+			"position": [
+				213926.64,
+				57631.01
+			],
+			"categoryId": "resource"
+		}
+	]
+}

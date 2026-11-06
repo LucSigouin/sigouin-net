@@ -1,0 +1,72 @@
+[
+	{
+		"x": 132812.03,
+		"y": 24771.459,
+		"name": "Postie Pete",
+		"icon": "Secondary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 135393.33,
+		"y": 5182.354,
+		"name": "Suspicious Skeleton",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 149846.1,
+		"y": -15553.674,
+		"name": "Satchel",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 120675.93,
+		"y": -24004.78,
+		"name": "Shaun",
+		"icon": "Secondary quest NPC icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 138648.88,
+		"y": -15530.708,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 133736.3,
+		"y": -59324.977,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 115992,
+		"y": -37154.37,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	}
+]

@@ -1,0 +1,674 @@
+[
+	{
+		"x": 1256.1307,
+		"y": 187185.39,
+		"name": "Law Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 94949.836,
+		"y": 162321.38,
+		"name": "Nature Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 103810.61,
+		"y": 148877.94,
+		"name": "Water Anima Vent",
+		"description": "Whispering Swamp"
+	},
+	{
+		"x": 84156.62,
+		"y": 149771.8,
+		"name": "Earth Anima Vent",
+		"description": "Whispering Swamp"
+	},
+	{
+		"x": 68381.95,
+		"y": 146605.88,
+		"name": "Water Anima Vent",
+		"description": "Whispering Swamp"
+	},
+	{
+		"x": 72470.36,
+		"y": 131012.79,
+		"name": "Earth Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 61902.875,
+		"y": 128150.164,
+		"name": "Nature Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 47184.336,
+		"y": 114845.016,
+		"name": "Earth Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 58437.8,
+		"y": 106707.86,
+		"name": "Law Anima vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 72663.086,
+		"y": 95249.984,
+		"name": "Air Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 84078.76,
+		"y": 101922.71,
+		"name": "Air Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 97198.98,
+		"y": 109431.24,
+		"name": "Fire Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 114325.35,
+		"y": 106693.93,
+		"name": "Water Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 131100.4,
+		"y": 125042.61,
+		"name": "Nature Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 94104.27,
+		"y": 120702.97,
+		"name": "Water Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 69102.664,
+		"y": 118237.98,
+		"name": "Water Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 27873.816,
+		"y": 73949.03,
+		"name": "Earth Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 18068.424,
+		"y": 107027.9,
+		"name": "Air Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 16139.584,
+		"y": 68030.06,
+		"name": "Earth Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 87831.72,
+		"y": 87307.57,
+		"name": "Air Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 105282.7,
+		"y": 88918.11,
+		"name": "Nature Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 119908.734,
+		"y": 87313.08,
+		"name": "Air Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 126409.586,
+		"y": 79813.84,
+		"name": "Law Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 146100.03,
+		"y": 84293.96,
+		"name": "Air Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 117902.65,
+		"y": 68411.04,
+		"name": "Nature Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 91495.66,
+		"y": 133534.3,
+		"name": "Nature Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 66213.52,
+		"y": 187596.58,
+		"name": "Nature Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 133852.77,
+		"y": -1250.3109,
+		"name": "Nature Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 134729.69,
+		"y": -18599.4,
+		"name": "Water Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 122460.7,
+		"y": -20938.252,
+		"name": "Nature Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 113107.07,
+		"y": -28972.422,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 80342.26,
+		"y": -30302.676,
+		"name": "Nature Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 81508.18,
+		"y": -12845.375,
+		"name": "Water Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 88672.234,
+		"y": -19198.807,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 69169.33,
+		"y": -41073.23,
+		"name": "Nature Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 55535.613,
+		"y": -40375.855,
+		"name": "Law Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 29140.783,
+		"y": -45269.945,
+		"name": "Water Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 38241.75,
+		"y": -46944.633,
+		"name": "Astral Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 51141.74,
+		"y": -50881.6,
+		"name": "Air Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 82569.766,
+		"y": -59919.832,
+		"name": "Water Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 74511.98,
+		"y": -56243.21,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 142042.44,
+		"y": -50739.008,
+		"name": "Fire Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 196016.55,
+		"y": -80703.11,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 211005.5,
+		"y": -69371.414,
+		"name": "Air Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 228882.48,
+		"y": -46634.508,
+		"name": "Air Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 227472.6,
+		"y": -21593.24,
+		"name": "Water Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 223240.73,
+		"y": -22289.8,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 209144.9,
+		"y": -15316.651,
+		"name": "Astral Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 173992.34,
+		"y": -32031.854,
+		"name": "Air Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 172930.77,
+		"y": -42937.055,
+		"name": "Astral Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 173199.52,
+		"y": -64397.3,
+		"name": "Astral Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 139203.44,
+		"y": -31529.443,
+		"name": "Air Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 108890.25,
+		"y": -49824.473,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 63263.785,
+		"y": -70819.5,
+		"name": "Law Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 125888.46,
+		"y": -65021.168,
+		"name": "Fire Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 142984.78,
+		"y": -72465.57,
+		"name": "Nature Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 51126.754,
+		"y": 69761.75,
+		"name": "Earth Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 146407.08,
+		"y": 106097.29,
+		"name": "Earth Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 142902.78,
+		"y": 77684.055,
+		"name": "Fire Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 196082.05,
+		"y": -43626.184,
+		"name": "Fire Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 192639.52,
+		"y": -54388.72,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 205676.58,
+		"y": -52516.4,
+		"name": "Earth Anima Vent",
+		"description": "Fellhollow"
+	},
+	{
+		"x": 224323.56,
+		"y": 44967.523,
+		"name": "Water Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 35013.715,
+		"y": 181972.97,
+		"name": "Earth Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 56789.406,
+		"y": 188706.42,
+		"name": "Astral Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 64388.86,
+		"y": 187006.61,
+		"name": "Nature Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 54771.504,
+		"y": 168514.1,
+		"name": "Fire Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 36659.445,
+		"y": 158609.88,
+		"name": "Astral Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 67562.86,
+		"y": 160086.94,
+		"name": "Astral Anima Vent",
+		"description": "Brynmoor"
+	},
+	{
+		"x": 43663.91,
+		"y": 129100.37,
+		"name": "Astral Anima Vent",
+		"description": "Whispering Swamp"
+	},
+	{
+		"x": 53447.523,
+		"y": 144120.89,
+		"name": "Nature Anima Vent",
+		"description": "Whispering Swamp"
+	},
+	{
+		"x": 53888.727,
+		"y": 125655.19,
+		"name": "Earth Anima Vent",
+		"description": "Whispering Swamp (Inside Cave)"
+	},
+	{
+		"x": 98746.13,
+		"y": 132355.47,
+		"name": "Earth Anima Vent",
+		"description": "Fractured Plains (Inside Cave)"
+	},
+	{
+		"x": 44713.508,
+		"y": 144037.28,
+		"name": "Water Anima Vent",
+		"description": "Whispering Swamp (Inside Cave)"
+	},
+	{
+		"x": 37259.727,
+		"y": 107468.234,
+		"name": "Astral Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 49954.37,
+		"y": 93195,
+		"name": "Astral Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 27402.45,
+		"y": 87782.16,
+		"name": "Earth Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 116025.16,
+		"y": 157608.53,
+		"name": "Astral Anima Vent",
+		"description": "Bloodblight Swamp"
+	},
+	{
+		"x": 131896.98,
+		"y": 143261.67,
+		"name": "Nature Anima Vent",
+		"description": "Bloodblight Swamp"
+	},
+	{
+		"x": 136909.7,
+		"y": 71757.25,
+		"name": "Astral Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 78798.94,
+		"y": 80393.37,
+		"name": "Astral Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 79655.47,
+		"y": 111895.445,
+		"name": "Astral Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 66187.07,
+		"y": 96677.59,
+		"name": "Astral Anima Vent",
+		"description": "Fractured Plains"
+	},
+	{
+		"x": 58877.344,
+		"y": 87710.1,
+		"name": "Astral Anima Vent",
+		"description": "Stormtouched Highlands"
+	},
+	{
+		"x": 101975.17,
+		"y": -39250.41,
+		"name": "Astral Anima Vent",
+		"description": "Felhollow"
+	},
+	{
+		"x": 151584.4,
+		"y": -63873.754,
+		"name": "Astral Anima Vent",
+		"description": "Felhollow"
+	},
+	{
+		"x": 17791.139,
+		"y": 172846.61,
+		"name": "Air Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 16189.808,
+		"y": 192793.8,
+		"name": "Water Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 18413.766,
+		"y": 183367.03,
+		"name": "Astral Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 24927.342,
+		"y": 147752.17,
+		"name": "Law Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 17494.088,
+		"y": 144770.05,
+		"name": "Earth Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 40233.883,
+		"y": 169524.28,
+		"name": "Nature Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 44969.12,
+		"y": 183851.16,
+		"name": "Earth Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 30658.29,
+		"y": 195643.62,
+		"name": "Air Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 79542.28,
+		"y": 176379.73,
+		"name": "Law Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 57171.625,
+		"y": 156055.27,
+		"name": "Earth Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 32918.336,
+		"y": 143776.8,
+		"name": "Water Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 25247.207,
+		"y": 153847.31,
+		"name": "Fire Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 68007.484,
+		"y": 172138.8,
+		"name": "Water Anima Vent",
+		"description": "Brynmore"
+	},
+	{
+		"x": 194975.39,
+		"y": 65833.21,
+		"name": "Air Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 209010.16,
+		"y": 46999.734,
+		"name": "Nature Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 197553.19,
+		"y": 59808.895,
+		"name": "Earth Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 259867.4,
+		"y": 33674.8,
+		"name": "Earth Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 216760.94,
+		"y": 11824.536,
+		"name": "Air Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 226446.17,
+		"y": 40945.492,
+		"name": "Water Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 210927.47,
+		"y": 33806.26,
+		"name": "Air Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 252029.78,
+		"y": 27360.205,
+		"name": "Earth Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 185393.17,
+		"y": 63394.9,
+		"name": "Earth Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 193655.8,
+		"y": 41213.844,
+		"name": "Nature Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 242549.88,
+		"y": 41985.11,
+		"name": "Fire Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 249257.19,
+		"y": 39880.105,
+		"name": "Water Anima Vent",
+		"description": "Dowdun Reach"
+	},
+	{
+		"x": 40013.586,
+		"y": 192769.8,
+		"name": "Fire Anima Vent",
+		"description": "Brynmoor"
+	}
+]

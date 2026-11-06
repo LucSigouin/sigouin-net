@@ -1,0 +1,13 @@
+[
+	{
+		"x": 366889,
+		"y": 60889,
+		"name": "Treasure Chest",
+		"description": "Contains the [[Shred of Sunbleached Weave|Umbral Sands Cape Vestige]]",
+		"icon": "Umbral Sands Cape.png",
+		"iconsize": [
+			75,
+			75
+		]
+	}
+]

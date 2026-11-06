@@ -1,0 +1,22 @@
+{
+  "name": "sigouin-hub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.13.6",
+    "@types/three": "0.186.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.0"
+  }
+}

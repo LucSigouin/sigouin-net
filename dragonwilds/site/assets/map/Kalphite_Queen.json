@@ -1,0 +1,23 @@
+[
+	{
+		"x": 316229.6875,
+		"y": 30291.68457,
+		"name": "Kalphite Queen",
+		"icon": "Kalphite_Queen.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 223124.21875,
+		"y": 233797.543945,
+		"name": "Kalphite Queen",
+		"description": "Found at the end of the vault.",
+		"icon": "Kalphite_Queen.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luc Sigouin · Prep brief for 7 October 2026</title>
+<style>
+:root{
+  color-scheme: light dark;
+  --paper:#F2EDE3; --paper-2:#E8E1D2; --card:#FAF7F1; --ink:#17181C; --ink-2:#3A3B40;
+  --muted:#625E56; --rule:#CBC1AD; --accent:#B93C0A; --accent-soft:#F6DCCB;
+  --blue:#1E4B73; --blue-soft:#D9E4EE; --ok:#25704A; --bad:#A8241A; --hazard:#E3A21A;
+  --note:#FFF3C4; --note-ink:#4A3B00;
+  --serif:"Iowan Old Style","Charter","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:"Avenir Next","Avenir","Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  --pad:clamp(1rem,4vw,3rem);
+  --rail:15.5rem;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#111316; --paper-2:#171A1E; --card:#1C2026; --ink:#EEE8DC; --ink-2:#CFC8BB;
+    --muted:#A39D92; --rule:#30353C; --accent:#FF7A3D; --accent-soft:#3A2116;
+    --blue:#8DBBE6; --blue-soft:#1A2733; --ok:#62C690; --bad:#F2766B; --hazard:#E8A317;
+    --note:#2F2A14; --note-ink:#F3E3A0;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:1rem}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:.08em}
+a:hover{color:var(--accent)}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.12;margin:0;letter-spacing:-.01em}
+p{margin:0 0 .9em;max-width:68ch}
+code,.mono{font-family:var(--mono);font-size:.88em}
+.kicker{font:600 .72rem/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* ---------- shell + rail ---------- */
+.shell{display:grid;grid-template-columns:1fr;min-height:100vh}
+.rail{position:relative;z-index:20;background:var(--ink);color:var(--paper);padding:.6rem var(--pad);display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center}
+.rail .who{font:600 1rem/1.1 var(--serif);white-space:nowrap}
+.rail .who small{display:none}
+.rail nav ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem}
+.rail nav a{display:flex;gap:.45rem;align-items:baseline;white-space:nowrap;text-decoration:none;padding:.35rem .55rem;border-radius:4px;font-size:.88rem;color:color-mix(in srgb,var(--paper) 78%,transparent)}
+.rail nav a b{font:600 .7rem var(--mono);color:var(--hazard)}
+.rail nav a.on,.rail nav a:hover{background:color-mix(in srgb,var(--paper) 12%,transparent);color:var(--paper)}
+.rail .tools{display:none}
+@media (prefers-color-scheme: dark){ .rail{background:#08090B;color:var(--ink)} .rail nav a{color:color-mix(in srgb,var(--ink) 75%,transparent)} .rail nav a.on,.rail nav a:hover{color:var(--ink);background:#1E2228} }
+@media (min-width:1100px){
+  .shell{grid-template-columns:var(--rail) 1fr}
+  .rail{position:sticky;top:0;height:100vh;flex-direction:column;flex-wrap:nowrap;align-items:stretch;padding:1.6rem 1.1rem 1.2rem 1.4rem;gap:1.4rem;overflow-y:auto}
+  .rail .who{font-size:1.35rem;white-space:normal}
+  .rail .who small{display:block;font:500 .7rem/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--hazard);margin-top:.5rem}
+  .rail nav ol{flex-direction:column;gap:.05rem}
+  .rail nav a{padding:.42rem .6rem;font-size:.95rem}
+  .rail .tools{display:grid;gap:.5rem;margin-top:auto}
+}
+.btn{appearance:none;border:1px solid currentColor;background:transparent;color:inherit;font:600 .74rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:.6rem .7rem;border-radius:4px;cursor:pointer;text-align:left;text-decoration:none;display:inline-flex;gap:.5rem;align-items:center}
+.btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn kbd{font:inherit;opacity:.65}
+.rail .btn{color:color-mix(in srgb,var(--paper) 85%,transparent)}
+@media (prefers-color-scheme: dark){ .rail .btn{color:var(--ink-2)} }
+
+/* ---------- bands ---------- */
+main{min-width:0}
+.band{padding:clamp(3rem,7vw,5.5rem) var(--pad);border-top:1px solid var(--rule)}
+.band.alt{background:var(--paper-2)}
+.head{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1.4rem;align-items:end;margin-bottom:clamp(1.6rem,3vw,2.6rem)}
+.head .num{font:500 clamp(3rem,7vw,5.6rem)/.8 var(--serif);color:var(--accent);grid-row:span 2}
+.head h2{font-size:clamp(1.9rem,4.2vw,3.3rem)}
+.lede{font:400 clamp(1.15rem,1.7vw,1.4rem)/1.5 var(--serif);color:var(--ink-2);max-width:60ch}
+
+/* private notes */
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding:clamp(3rem,8vw,6.5rem) var(--pad) clamp(2.5rem,5vw,4rem);
+  background-color:var(--paper);
+  background-image:linear-gradient(var(--rule) 1px,transparent 1px),linear-gradient(90deg,var(--rule) 1px,transparent 1px);
+  background-size:48px 48px;background-position:-1px -1px}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,var(--paper) 35%,color-mix(in srgb,var(--paper) 55%,transparent) 75%,color-mix(in srgb,var(--paper) 20%,transparent));pointer-events:none}
+.hero>*{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:2rem;align-items:center}
+@media (min-width:980px){.hero-grid{grid-template-columns:minmax(0,1.6fr) minmax(16rem,.7fr)}}
+.hero h1{font-size:clamp(2.3rem,5.6vw,5rem);line-height:1.02;letter-spacing:-.025em;max-width:18ch;margin:.9rem 0 1.3rem}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero .sub{font-size:clamp(1.05rem,1.4vw,1.25rem);max-width:58ch;color:var(--ink-2)}
+.stamp{justify-self:center;width:min(100%,19rem);transform:rotate(-7deg);color:var(--ok)}
+.stamp text{font-family:var(--mono)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,11.5rem),1fr));border-top:2px solid var(--ink);margin-top:clamp(2rem,4vw,3.2rem)}
+.stat{padding:1rem 1.2rem 1rem 0;border-bottom:1px solid var(--rule)}
+.stat b{display:block;font:500 clamp(2.1rem,3.6vw,3.1rem)/1 var(--serif);letter-spacing:-.02em}
+.stat span{display:block;font-size:.88rem;color:var(--muted);margin-top:.35rem;max-width:22ch}
+
+/* ---------- pitch ---------- */
+.pitch{background:var(--ink);color:var(--paper)}
+@media (prefers-color-scheme: dark){.pitch{background:#08090B;color:var(--ink)}}
+.pitch .head .num{color:var(--hazard)}
+.pitch .kicker{color:color-mix(in srgb,currentColor 65%,transparent)}
+.pitch-grid{display:grid;grid-template-columns:1fr;gap:clamp(1.5rem,4vw,3.5rem)}
+@media (min-width:1000px){.pitch-grid{grid-template-columns:minmax(0,1.7fr) minmax(15rem,.8fr)}}
+.say{font:400 clamp(1.35rem,2.5vw,2.05rem)/1.42 var(--serif);margin:0}
+.say p{max-width:46ch;margin:0 0 .8em}
+.say mark{background:none;color:var(--hazard);font-style:italic}
+.side-card{border:1px solid color-mix(in srgb,currentColor 25%,transparent);padding:1.2rem 1.3rem;border-radius:3px}
+.side-card h3{font-size:1.15rem;margin-bottom:.6rem}
+.side-card p{font-size:.98rem}
+.oneline{font:italic 500 1.3rem/1.35 var(--serif);color:var(--hazard)}
+.timer{display:flex;gap:.8rem;align-items:center;margin-top:1rem}
+.timer output{font:600 1.4rem var(--mono);min-width:4.5ch}
+.pitch .btn:hover{color:#fff}
+
+/* ---------- story ---------- */
+.beats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:0;border-top:2px solid var(--ink);counter-reset:beat}
+.beat{padding:1.2rem 1.3rem 1.4rem 0;border-bottom:1px solid var(--rule);position:relative}
+@media (min-width:760px){.beat{padding-right:1.6rem}.beat+.beat{padding-left:1.4rem;border-left:1px solid var(--rule)}}
+.beat .t{font:700 .78rem var(--mono);color:var(--accent);letter-spacing:.06em}
+.beat h3{font-size:1.32rem;margin:.4rem 0 .6rem}
+.beat p{font-size:.98rem;margin:0 0 .6em}
+
+/* ---------- flow diagram ---------- */
+.flow{display:grid;grid-template-columns:1fr;gap:1.1rem;margin-top:.6rem}
+@media (min-width:960px){.flow{grid-template-columns:repeat(5,minmax(0,1fr));gap:0 2.2rem}}
+.station{position:relative;background:var(--card);border:1px solid var(--rule);border-top:5px solid var(--ink);padding:1.1rem 1.1rem 1.2rem;border-radius:2px}
+.station.gate{border-top-color:var(--ok)}
+.station.live{border-top-color:var(--accent)}
+.station .st-n{font:700 .72rem var(--mono);color:var(--muted);letter-spacing:.1em}
+.station svg{width:2.4rem;height:2.4rem;display:block;margin:.6rem 0 .5rem;color:var(--ink)}
+.station.gate svg{color:var(--ok)}
+.station.live svg{color:var(--accent)}
+.station h3{font-size:1.25rem}
+.station .role{font:600 .78rem/1.3 var(--mono);color:var(--blue);margin:.25rem 0 .6rem;text-transform:uppercase;letter-spacing:.06em}
+.station p{font-size:.95rem;margin:0 0 .5rem}
+.station .gc{font:italic 1rem/1.35 var(--serif);color:var(--accent);border-top:1px dashed var(--rule);padding-top:.55rem;margin-top:.7rem}
+@media (min-width:960px){
+  .station:not(:last-of-type)::after{content:"";position:absolute;right:-1.75rem;top:3.1rem;width:1.3rem;height:2px;background:var(--ink)}
+  .station:not(:last-of-type)::before{content:"";position:absolute;right:-1.8rem;top:calc(3.1rem - 5px);border:6px solid transparent;border-left:8px solid var(--ink);border-right:0}
+}
+@media (max-width:959px){
+  .station:not(:last-of-type)::after{content:"↓";position:absolute;left:50%;bottom:-1.15rem;transform:translateX(-50%);font:700 1rem var(--mono);color:var(--muted)}
+}
+.loop{grid-column:1/-1;display:flex;gap:.8rem;align-items:center;margin-top:.9rem;padding:.75rem 1rem;border:2px dashed var(--ok);color:var(--ink-2);border-radius:3px;font-size:.95rem}
+@media (min-width:960px){.loop{grid-column:3/5;margin-top:1.1rem}}
+.loop svg{flex:none;width:2rem;height:2rem;color:var(--ok)}
+.analogy{display:grid;grid-template-columns:1fr;gap:1.5rem 3rem;margin-top:clamp(2rem,4vw,3rem);align-items:start}
+@media (min-width:960px){.analogy{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}}
+.analogy blockquote{margin:0;font:400 clamp(1.3rem,2.3vw,1.9rem)/1.4 var(--serif);border-left:4px solid var(--accent);padding-left:1.2rem}
+.routes{display:grid;gap:0;border-top:2px solid var(--ink)}
+.routes div{display:grid;grid-template-columns:9rem 1fr;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--rule);font-size:.95rem}
+.routes dt,.routes b{font:600 .82rem var(--mono);color:var(--blue)}
+
+/* ---------- portfolio ---------- */
+.bento{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:1.1rem;grid-auto-flow:dense}
+@media (min-width:900px){.bento .w2{grid-column:span 2}}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:3px;padding:1.3rem 1.35rem 1.25rem;display:flex;flex-direction:column;gap:.55rem}
+.card .tags{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.tag{font:700 .64rem/1 var(--mono);letter-spacing:.11em;text-transform:uppercase;padding:.35rem .5rem;border-radius:2px;background:var(--blue-soft);color:var(--blue)}
+.tag.live{background:var(--accent-soft);color:var(--accent)}
+.tag.live::before{content:"● ";}
+.card h3{font-size:1.45rem}
+.card.w2 h3{font-size:clamp(1.6rem,2.4vw,2.1rem)}
+.card .out{font:400 1.08rem/1.45 var(--serif);color:var(--ink-2);margin:0}
+.card dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:.7rem 1rem;margin:.4rem 0 .2rem;padding:.8rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.card dl div{min-width:0}
+.card dt{font:500 clamp(1.5rem,2.2vw,1.9rem)/1 var(--serif);letter-spacing:-.01em}
+.card dd{margin:.25rem 0 0;font-size:.82rem;color:var(--muted);line-height:1.35}
+.card ul{margin:.1rem 0 0;padding-left:1.05rem;font-size:.94rem}
+.card li{margin:.2rem 0}
+.card .rep{font-size:.9rem;color:var(--ink-2);margin:0}
+.card .rep b{font:700 .66rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ok);margin-right:.35rem}
+.card .url{font:600 .82rem var(--mono);margin-top:auto;padding-top:.3rem}
+.card.feature{border:2px solid var(--ink)}
+
+/* ---------- verify ---------- */
+.rule-big{font:500 clamp(1.8rem,3.6vw,3rem)/1.12 var(--serif);max-width:24ch;margin:0 0 2rem;letter-spacing:-.015em}
+.rule-big em{color:var(--ok);font-style:italic}
+.two{display:grid;grid-template-columns:1fr;gap:clamp(1.5rem,4vw,3.5rem)}
+@media (min-width:1000px){.two{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;border-top:2px solid var(--ink)}
+.steps li{counter-increment:s;display:grid;grid-template-columns:2.6rem 1fr;gap:.9rem;padding:.85rem 0;border-bottom:1px solid var(--rule)}
+.steps li::before{content:counter(s,decimal-leading-zero);font:600 1.05rem var(--mono);color:var(--accent);padding-top:.1rem}
+.steps h4{font-size:1.12rem;margin-bottom:.2rem}
+.steps p{margin:0;font-size:.95rem;color:var(--ink-2)}
+.rejects{display:grid;gap:.8rem}
+.reject{display:grid;grid-template-columns:auto 1fr;gap:.9rem;align-items:start;background:var(--card);border:1px solid var(--rule);padding:.9rem 1rem;border-radius:3px}
+.reject .x{font:700 .66rem/1 var(--mono);letter-spacing:.1em;color:#fff;background:var(--bad);padding:.4rem .45rem;border-radius:2px;margin-top:.2rem}
+.reject.fix .x{background:var(--ok)}
+.reject p{margin:0;font-size:.95rem}
+.reject p b{font-family:var(--serif);font-size:1.05rem}
+.meter{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:1rem;margin-top:2rem}
+.meter div{border-left:3px solid var(--ok);padding:.2rem 0 .2rem .9rem}
+.meter b{display:block;font:500 2rem/1.05 var(--serif)}
+.meter span{font-size:.86rem;color:var(--muted)}
+.bar{height:10px;background:var(--rule);border-radius:5px;overflow:hidden;margin-top:.5rem}
+.bar i{display:block;height:100%;background:var(--ok)}
+
+/* ---------- trust ---------- */
+.trust{position:relative}
+.trust::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:repeating-linear-gradient(-45deg,var(--hazard) 0 14px,var(--ink) 14px 28px)}
+.guards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:0;border-top:2px solid var(--ink)}
+.guard{padding:1.1rem 1.3rem 1.2rem 0;border-bottom:1px solid var(--rule)}
+@media (min-width:700px){.guard{padding-left:1.2rem;border-left:1px solid var(--rule)}}
+.guard b.big{display:block;font:500 2.3rem/1 var(--serif);color:var(--accent);margin-bottom:.3rem}
+.guard h3{font-size:1.15rem;margin-bottom:.35rem}
+.guard p{font-size:.94rem;margin:0;color:var(--ink-2)}
+
+/* ---------- packages ---------- */
+.stairs{display:grid;grid-template-columns:1fr;gap:1.1rem;align-items:end}
+@media (min-width:1000px){.stairs{grid-template-columns:1fr 1.15fr 1fr;gap:0}}
+.pkg{background:var(--card);border:1px solid var(--rule);padding:1.4rem 1.4rem 1.5rem;position:relative}
+@media (min-width:1000px){
+  .pkg.p1{min-height:27rem;border-right:0}
+  .pkg.p2{min-height:31rem}
+  .pkg.p3{min-height:35rem;border-left:0}
+}
+.pkg.p2{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+@media (prefers-color-scheme: dark){.pkg.p2{background:#EEE8DC;color:#17181C;border-color:#EEE8DC}}
+.pkg .step{font:700 .7rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.pkg.p2 .step{color:var(--hazard)}
+@media (prefers-color-scheme: dark){.pkg.p2 .step{color:#B93C0A}}
+.pkg h3{font-size:1.55rem;margin:.5rem 0 .15rem}
+.pkg .name{font:italic 1.05rem var(--serif);opacity:.8;margin-bottom:1rem}
+.price{font:500 clamp(2.4rem,3.8vw,3.3rem)/1 var(--serif);letter-spacing:-.02em}
+.price small{font:600 .8rem var(--mono);letter-spacing:.06em;margin-left:.3rem}
+.range{font:500 .84rem var(--mono);opacity:.75;margin:.4rem 0 1rem}
+.pkg ul{margin:0;padding-left:1.05rem;font-size:.95rem}
+.pkg li{margin:.28rem 0}
+.pkg .why{font-size:.84rem;opacity:.78;margin-top:1rem;border-top:1px dashed currentColor;padding-top:.7rem}
+.credit{grid-column:1/-1;font:600 .8rem var(--mono);color:var(--muted);padding:.8rem 0 0;letter-spacing:.03em}
+.quote-line{margin-top:2.2rem;display:grid;grid-template-columns:1fr;gap:1.2rem 3rem}
+@media (min-width:1000px){.quote-line{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}}
+.quote-line blockquote{margin:0;font:400 clamp(1.2rem,2vw,1.6rem)/1.45 var(--serif);border-left:4px solid var(--accent);padding-left:1.2rem}
+.market{display:grid;gap:.55rem;font-size:.92rem}
+.market div{display:grid;grid-template-columns:1fr auto;gap:1rem;border-bottom:1px solid var(--rule);padding-bottom:.45rem}
+.market b{font:600 .86rem var(--mono);white-space:nowrap}
+
+/* ---------- Q&A ---------- */
+.qa-tools{display:flex;gap:.6rem;margin-bottom:1.2rem;flex-wrap:wrap}
+.qa{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,30rem),1fr));gap:0 2.5rem;border-top:2px solid var(--ink)}
+details.q{border-bottom:1px solid var(--rule)}
+details.q summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1fr auto;gap:1rem;align-items:center;padding:1rem 0;font:600 clamp(1.15rem,1.6vw,1.35rem)/1.3 var(--serif)}
+details.q summary::-webkit-details-marker{display:none}
+details.q summary::after{content:"+";font:400 1.6rem/1 var(--mono);color:var(--accent);transition:transform .2s}
+details.q[open] summary::after{transform:rotate(45deg)}
+.ans{padding:0 0 1.2rem}
+.ans .short{font:500 1.08rem/1.5 var(--serif);border-left:3px solid var(--accent);padding-left:.9rem;margin-bottom:.7rem}
+.ans p{font-size:.97rem}
+.ans .proof{font-size:.88rem;color:var(--muted)}
+.ans .proof b{font:700 .64rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ok);margin-right:.3rem}
+
+/* ---------- demo ---------- */
+.run{display:grid;gap:0;border-top:2px solid var(--ink)}
+.run-row{display:grid;grid-template-columns:1fr;gap:.6rem 2rem;padding:1.1rem 0;border-bottom:1px solid var(--rule)}
+@media (min-width:1000px){.run-row{grid-template-columns:5.5rem minmax(0,1.25fr) minmax(0,1fr)}}
+.run-row .when{font:700 1rem var(--mono);color:var(--accent)}
+.run-row h4{font-size:1.18rem;margin-bottom:.35rem}
+.run-row p{font-size:.95rem;margin:0 0 .5rem}
+.run-row .sayit{font:italic 400 1.08rem/1.45 var(--serif);color:var(--ink-2);border-left:3px solid var(--hazard);padding-left:.9rem}
+.run-row .sayit::before{content:"Say";display:block;font:700 .62rem var(--mono);font-style:normal;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+pre{position:relative;margin:.4rem 0 .6rem;background:#0F1114;color:#E9E4D8;font:400 .8rem/1.55 var(--mono);padding:.9rem 1rem;border-radius:3px;overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+pre .c{color:#8C9AA8}
+.copy{position:absolute;top:.4rem;right:.4rem;font:700 .6rem var(--mono);letter-spacing:.1em;text-transform:uppercase;background:#2A2E35;color:#E9E4D8;border:0;border-radius:2px;padding:.35rem .5rem;cursor:pointer}
+.copy:hover{background:var(--accent)}
+.check{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.4rem 2rem}
+.check li{display:flex;gap:.6rem;font-size:.95rem;padding:.35rem 0;border-bottom:1px dotted var(--rule)}
+.check li::before{content:"☐";color:var(--accent);font-family:var(--mono)}
+
+/* ---------- numbers ---------- */
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));gap:0;border-top:2px solid var(--ink)}
+.nums div{padding:.8rem 1rem .9rem 0;border-bottom:1px solid var(--rule)}
+.nums b{display:block;font:500 1.7rem/1.1 var(--serif)}
+.nums span{font-size:.86rem;color:var(--muted)}
+.skip{display:flex;flex-wrap:wrap;gap:.45rem;margin:.6rem 0 0}
+.skip s{font:600 .8rem var(--mono);padding:.3rem .55rem;border:1px solid var(--bad);color:var(--bad);border-radius:2px;text-decoration-thickness:2px}
+
+/* ---------- sources ---------- */
+.src summary{cursor:pointer;font:600 1.1rem var(--serif)}
+.src table{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:1rem}
+.src th,.src td{text-align:left;vertical-align:top;padding:.45rem .7rem .45rem 0;border-bottom:1px solid var(--rule)}
+.src th{font:700 .66rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.src td:last-child{font-family:var(--mono);font-size:.78rem;color:var(--ink-2);word-break:break-word}
+
+footer{padding:2rem var(--pad) 3rem;border-top:1px solid var(--rule);font-size:.85rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between}
+
+/* dark mode: bright green, red and orange fills need dark text */
+@media (prefers-color-scheme: dark){.reject .x,.btn:hover,.rail .btn:hover,.pitch .btn:hover,.copy:hover{color:#111316}}
+
+@media print{
+  .rail,.qa-tools,.copy,.timer{display:none!important}
+  .shell{display:block}
+  details.q .ans{display:block}
+  .band{break-inside:auto;padding:1.5rem 0}
+  .hero::after,.hero{background-image:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}details.q summary::after{transition:none}}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<aside class="rail" aria-label="Sections">
+  <div class="who">Luc Sigouin<small>Prep brief · 7 Oct 2026</small></div>
+  <nav>
+    <ol>
+      <li><a href="#pitch"><b>01</b>30-second pitch</a></li>
+      <li><a href="#story"><b>02</b>2-minute story</a></li>
+      <li><a href="#how"><b>03</b>How I work</a></li>
+      <li><a href="#work"><b>04</b>Proof of work</a></li>
+      <li><a href="#verify"><b>05</b>Done means proven</a></li>
+      <li><a href="#trust"><b>06</b>Guardrails</a></li>
+      <li><a href="#packages"><b>07</b>Packages</a></li>
+      <li><a href="#questions"><b>08</b>Tough questions</a></li>
+      <li><a href="#demo"><b>09</b>Live demo</a></li>
+      <li><a href="#numbers"><b>10</b>Numbers to know</a></li>
+    </ol>
+  </nav>
+  <div class="tools">
+  </div>
+</aside>
+
+<main>
+
+<!-- ======================= HERO ======================= -->
+<header class="hero" id="top">
+  <div class="hero-grid">
+    <div>
+      <div class="kicker">AI workflows for small companies and IT shops</div>
+      <h1>I run teams of AI workers that ship real software. <em>Nothing is done until a check proves it.</em></h1>
+      <p class="sub">By day I'm a systems administrator at a managed IT services company. Since August 2026 I've logged over 600 AI tasks across my projects. 96% of them had to pass an automatic check before they counted.</p>
+    </div>
+    <svg class="stamp" viewBox="0 0 240 240" role="img" aria-label="Inspector stamp: gated, 96% of tasks had a check">
+      <circle cx="120" cy="120" r="108" fill="none" stroke="currentColor" stroke-width="5"/>
+      <circle cx="120" cy="120" r="94" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path id="arcTop" d="M38 120 A82 82 0 0 1 202 120" fill="none"/>
+      <path id="arcBot" d="M30 120 A90 90 0 0 0 210 120" fill="none"/>
+      <text font-size="15" font-weight="700" letter-spacing="4" fill="currentColor"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">NO CHECK · NO DONE</textPath></text>
+      <text font-size="12" font-weight="600" letter-spacing="3" fill="currentColor"><textPath href="#arcBot" startOffset="50%" text-anchor="middle">96% OF TASKS HAD A CHECK</textPath></text>
+      <rect x="34" y="98" width="172" height="46" fill="none" stroke="currentColor" stroke-width="4"/>
+      <text x="120" y="133" text-anchor="middle" font-size="34" font-weight="800" letter-spacing="5" fill="currentColor">GATED</text>
+    </svg>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>600+</b><span>AI tasks tracked, 10 Aug to 6 Oct 2026</span></div>
+    <div class="stat"><b>96%</b><span>carried an automatic check that had to pass</span></div>
+    <div class="stat"><b>60</b><span>saved proof files of checks tested with deliberate failures</span></div>
+    <div class="stat"><b>3 days</b><span>idea to live site for TeeTimes Ottawa</span></div>
+    <div class="stat"><b>0</b><span>failures across security sites set up by script at work</span></div>
+  </div>
+</header>
+
+<!-- ======================= 01 PITCH ======================= -->
+<section class="band pitch" id="pitch" aria-labelledby="h-pitch">
+  <div class="head"><span class="num">01</span><span class="kicker">Say this first. Out loud, about 30 seconds.</span><h2 id="h-pitch">The 30-second pitch</h2></div>
+  <div class="pitch-grid">
+    <div class="say">
+      <p>I take one job that eats someone's week and make it <mark>run on its own</mark>, in your real tools. Nothing counts as done until a check proves it.</p>
+      <p>I do this at a managed IT company. The reporting app I built there has 407 commits and pulls live numbers from our vendor systems.</p>
+      <p>I'd start with a two-week audit that finds your first three jobs.</p>
+    </div>
+    <div>
+      <div class="side-card">
+        <h3>If they remember one line</h3>
+        <p class="oneline">Hours back, one live job, and someone who proves it works.</p>
+      </div>
+      <div class="side-card" style="margin-top:1rem">
+        <h3>Rehearse it</h3>
+        <p>Read it out loud against the clock. Under 35 seconds or cut a sentence.</p>
+        <div class="timer" data-secs="30"><output>0:30</output><button class="btn" type="button">Start</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 02 STORY ======================= -->
+<section class="band" id="story" aria-labelledby="h-story">
+  <div class="head"><span class="num">02</span><span class="kicker">Five beats. Times are a target, not a script.</span><h2 id="h-story">The 2-minute story</h2></div>
+  <div class="beats">
+    <div class="beat">
+      <div class="t">0:00</div>
+      <h3>The day job</h3>
+      <p>I'm a systems administrator at a managed IT services company (an MSP). </p>
+      <p>The work is repeat work where a mistake costs real money. Billing, security, licences.</p>
+    </div>
+    <div class="beat">
+      <div class="t">0:20</div>
+      <h3>The first real build</h3>
+      <p>In March 2026 I started building an internal reporting app with Claude. It has 407 commits now, and Claude co-wrote 336 of them.</p>
+      <p>It replaced exporting and cross-checking spreadsheets. The app pulls from our vendor systems live.</p>
+    </div>
+    <div class="beat">
+      <div class="t">0:50</div>
+      <h3>AI says "done" when it isn't</h3>
+      <p>One of my checks once passed a completely broken build. A cheaper model shipped 3 bugs that review caught.</p>
+      <p>So I changed the rules. Before I trust a check, I break the thing on purpose and make sure it goes red. 60 of those tests are on file. "Done" means a command passed, not that an AI said so.</p>
+    </div>
+    <div class="beat">
+      <div class="t">1:20</div>
+      <h3>A team, not a chatbot</h3>
+      <p>Since August I run work as a team. One lead AI plans and never writes code. Specialist AI workers do research, code and design. A gate checks every result.</p>
+      <p>Over 600 tasks so far. Every worker is a visible window on my screen, so I can watch or stop any of them.</p>
+    </div>
+    <div class="beat">
+      <div class="t">1:45</div>
+      <h3>What that means for you</h3>
+      <p>That's how a tee-time site went live in 3 days.</p>
+      <p>I want to point the same process at your slowest workflow.</p>
+    </div>
+  </div>
+  <div class="timer" data-secs="120" style="margin-top:1.4rem"><output>2:00</output><button class="btn" type="button">Start 2-minute timer</button></div>
+</section>
+
+<!-- ======================= 03 HOW ======================= -->
+<section class="band alt" id="how" aria-labelledby="h-how">
+  <div class="head"><span class="num">03</span><span class="kicker">The picture to draw on a whiteboard</span><h2 id="h-how">How I work</h2></div>
+  <div class="flow" role="list">
+    <div class="station" role="listitem">
+      <span class="st-n">STEP 1</span>
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="8" y="6" width="24" height="30" rx="2"/><path d="M15 4h10v5H15zM13 17h14M13 23h14M13 29h8"/></svg>
+      <h3>The job</h3>
+      <p class="role">You, the owner</p>
+      <p>One task that still eats somebody's week. We agree what "working" looks like before anything gets built.</p>
+      <p class="gc">On a building site: the homeowner's plan.</p>
+    </div>
+    <div class="station" role="listitem">
+      <span class="st-n">STEP 2</span>
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M7 26a13 13 0 0 1 26 0"/><path d="M4 26h32v4H4zM20 13v-5M14 15l-2-4M26 15l2-4"/></svg>
+      <h3>The lead</h3>
+      <p class="role">A lead AI</p>
+      <p>Writes the scorecard first, then splits the work into pieces that can't overlap. It never builds anything itself.</p>
+      <p class="gc">The general contractor.</p>
+    </div>
+    <div class="station" role="listitem">
+      <span class="st-n">STEP 3</span>
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M24 6a7 7 0 0 0-6 10L6 28l6 6 12-12a7 7 0 0 0 10-6l-5 1-3-3 1-5z"/></svg>
+      <h3>The specialists</h3>
+      <p class="role">Separate AI workers</p>
+      <p>Each gets one task and its own folder. Research, code, design. For design work, two can build the same brief and I pick the winner.</p>
+      <p class="gc">The trades. Electrician, plumber, framer.</p>
+    </div>
+    <div class="station gate" role="listitem">
+      <span class="st-n">STEP 4</span>
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 4l13 5v9c0 9-6 15-13 18C13 33 7 27 7 18V9z"/><path d="M13 20l5 5 9-10"/></svg>
+      <h3>The check</h3>
+      <p class="role">A command that must pass</p>
+      <p>Written up front. Before I trust it, I break the thing on purpose and make sure it goes red. The worker's word doesn't count. The command's exit code does.</p>
+      <p class="gc">The inspector who won't sign off on bad work.</p>
+    </div>
+    <div class="station live" role="listitem">
+      <span class="st-n">STEP 5</span>
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="13" cy="20" r="7"/><path d="M20 20h16M30 20v6M35 20v4"/></svg>
+      <h3>Live, proven</h3>
+      <p class="role">Deploy, then re-check</p>
+      <p>Ship it, fetch the file the live site actually serves, and match its fingerprint to the local copy. Only then is it "live".</p>
+      <p class="gc">The final walk-through before handing over the keys.</p>
+    </div>
+    <div class="loop">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M30 14a12 12 0 1 0 2 10"/><path d="M31 6v8h-8"/></svg>
+      <span>Check fails → the work goes back to the same worker with the error. Up to 3 tries, then I decide. Nothing gets killed automatically.</span>
+    </div>
+  </div>
+
+  <div class="analogy">
+    <blockquote>Think of a general contractor. I'm the contractor. The AI tools are the trades. The check is the inspector, and nobody moves in until the inspector signs.</blockquote>
+    <div>
+      <div class="kicker" style="margin-bottom:.6rem">Which trade gets which job</div>
+      <div class="routes">
+        <div><b>Research sweeps</b><span>the tool that's best at searching</span></div>
+        <div><b>Focused code, tests</b><span>a coding specialist</span></div>
+        <div><b>Reviews, audits</b><span>two different tools, both review everything</span></div>
+        <div><b>Design builds</b><span>two tools on the same brief, I pick the winner</span></div>
+        <div><b>Bulk edits</b><span>a general-purpose AI</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 04 WORK ======================= -->
+<section class="band" id="work" aria-labelledby="h-work">
+  <div class="head"><span class="num">04</span><span class="kicker">Outcome first, then the proof</span><h2 id="h-work">Proof of work</h2></div>
+  <div class="bento">
+
+    <article class="card feature w2">
+      <div class="tags"><span class="tag">Day job · private app</span></div>
+      <h3>The reporting app an IT company's managers run on</h3>
+      <p class="out">Checks billing against the real device and licence counts, pulled live from the vendor systems.</p>
+      <dl>
+        <div><dt>407</dt><dd>commits, March to October 2026</dd></div>
+        <div><dt>83%</dt><dd>co-written with Claude, 336 commits</dd></div>
+        <div><dt>14</dt><dd>kinds of report in one app</dd></div>
+        <div><dt>12 wks</dt><dd>of weekly backups kept in a second region</dd></div>
+      </dl>
+      <p class="rep"><b>Replaced</b>Exporting and cross-checking spreadsheets.</p>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag">Day job · migration</span></div>
+      <h3>Moving to a new security console</h3>
+      <p class="out">A readiness report flags any machine that would lose protection if its old site closed too early.</p>
+      <dl>
+        <div><dt>0</dt><dd>failures across sites created by script</dd></div>
+        <div><dt>0</dt><dd>failures across security rules moved</dd></div>
+      </dl>
+      <ul>
+        <li>Scripts dry-run by default and never touch the old console.</li>
+        <li>A settings gap report compared 14 areas on both consoles. Every gap was fixed the same day and checked by API.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag">Day job · security</span></div>
+      <h3>Locking down the keys the AI can use</h3>
+      <p class="out">Every key the AI tools can use was audited, cut down, and verified read-only.</p>
+      <dl>
+        <div><dt>100%</dt><dd>of remaining keys proven read-only, live</dd></div>
+      </dl>
+      
+    </article>
+
+    <article class="card feature">
+      <div class="tags"><span class="tag live">Live</span><span class="tag">Personal</span></div>
+      <h3>TeeTimes Ottawa</h3>
+      <p class="out">An Ottawa tee-time map with 38 course integrations and a tap through to each course's own booking page. Live results vary because booking sites limit how often you can ask.</p>
+      <dl>
+        <div><dt>3 days</dt><dd>from brief to live, 12 to 15 Sept 2026</dd></div>
+        <div><dt>38</dt><dd>course integrations, out of 63 Ottawa-area courses</dd></div>
+        <div><dt>166</dt><dd>automated tests</dd></div>
+        <div><dt>$0</dt><dd>a month to host</dd></div>
+      </dl>
+      <p class="rep"><b>Gap</b>GolfNow lists 4 courses in Ottawa.</p>
+      <a class="url" href="https://teetime.sigouin.net">teetime.sigouin.net ↗</a>
+    </article>
+
+    <article class="card w2">
+      <div class="tags"><span class="tag">Day job · AI team build</span></div>
+      <h3>A billing dashboard built by an AI team, on fake data</h3>
+      <p class="out">An 8-quarter billing trends dashboard. One lead, one backend worker, two competing UI workers, one independent reviewer. Every worker had a check proven to fail first.</p>
+      <dl>
+        <div><dt>0</dt><dd>workers allowed near live accounting data, secrets, git or deploys</dd></div>
+        <div><dt>5 of 6</dt><dd>charts had the marker a worker claimed was on all 6. The reviewer caught it.</dd></div>
+        <div><dt>29</dt><dd>backend tests</dd></div>
+        <div><dt>98</dt><dd>checks in the winning UI's self-test</dd></div>
+      </dl>
+      <p class="rep"><b>Rule</b>Each worker had to list what it could NOT verify, not only what passed.</p>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag live">Live</span><span class="tag">Personal</span></div>
+      <h3>sigouin.net</h3>
+      <p class="out">My personal site and walkable 3D project hub, built and shipped by the fleet.</p>
+      <dl>
+        <div><dt>21</dt><dd>design rounds</dd></div>
+        <div><dt>21</dt><dd>releases, each with notes and a rollback</dd></div>
+      </dl>
+      <p class="rep"><b>Check</b>A deploy script hashes every local file and matches it to the live copy.</p>
+      <a class="url" href="https://sigouin.net/">sigouin.net ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag live">Live</span><span class="tag">Personal · data</span></div>
+      <h3>Dragonwilds Field Guide</h3>
+      <p class="out">Search every item and recipe in a game and find resources on the map.</p>
+      <dl>
+        <div><dt>1,817</dt><dd>items</dd></div>
+        <div><dt>15,721</dt><dd>map markers</dd></div>
+      </dl>
+      <p class="rep"><b>Speed</b>Full data pull about 18 minutes. A cached rerun takes 0.5 seconds.</p>
+      <a class="url" href="https://dragonwilds.sigouin.net">dragonwilds.sigouin.net ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag live">Live</span><span class="tag">Personal · games</span></div>
+      <h3>Two browser games</h3>
+      <p class="out">A siege game with 30 stages, and an idle game where every piece of art is drawn by code.</p>
+      <dl>
+        <div><dt>43</dt><dd>unit tests in Undergrowth, over 10 build rounds</dd></div>
+        <div><dt>169/169</dt><dd>automated checks passed at River Garden v1</dd></div>
+      </dl>
+      <a class="url" href="https://undergrowth.pages.dev">undergrowth.pages.dev ↗</a>
+      <a class="url" style="padding-top:0" href="https://rivergarden.sigouin.net">rivergarden.sigouin.net ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag">Day job · research</span></div>
+      <h3>One standard for every how-to article</h3>
+      <p class="out">10 research workers across two AI tools produced 10 plain rules and an assistant the team can use to write to them.</p>
+      <dl>
+        <div><dt>171</dt><dd>cited sources, none shared between workers</dd></div>
+        <div><dt>0</dt><dd>em dashes. The check enforces it.</dd></div>
+      </dl>
+    </article>
+
+    <article class="card">
+      <div class="tags"><span class="tag">Day job · website</span></div>
+      <h3>Rebuilding the company website</h3>
+      <p class="out">Three AI builders, one rubric. Every number on 30 pages was checked against the real site.</p>
+      <dl>
+        <div><dt>0</dt><dd>invented facts</dd></div>
+        <div><dt>0</dt><dd>contrast failures</dd></div>
+      </dl>
+    </article>
+
+  </div>
+</section>
+
+<!-- ======================= 05 VERIFY ======================= -->
+<section class="band alt" id="verify" aria-labelledby="h-verify">
+  <div class="head"><span class="num">05</span><span class="kicker">Deploy and verification discipline</span><h2 id="h-verify">Done means proven</h2></div>
+  <p class="rule-big">"Done" means a command passed. <em>Not that an AI said so.</em></p>
+  <div class="two">
+    <ol class="steps">
+      <li><div><h4>Write the scorecard before any worker exists</h4><p>4 to 6 plain criteria. It becomes every worker's self-check.</p></div></li>
+      <li><div><h4>Write the check, then break things on purpose</h4><p>Plant a bug and confirm the check goes red. A check that has never failed has proven nothing.</p></div></li>
+      <li><div><h4>Each worker builds in its own folder</h4><p>Two workers never edit the same files. It writes a report of what passed and what it couldn't verify.</p></div></li>
+      <li><div><h4>The canvas runs the check when the worker says done</h4><p>Pass and it counts. Fail and the error goes back to the worker. 3 attempts.</p></div></li>
+      <li><div><h4>Deploy</h4><p>Publishing always asks me first.</p></div></li>
+      <li><div><h4>Prove it on the live site</h4><p>Fetch the served file, hash it, match it to the local copy, and test the change on the live site. Then I say live.</p></div></li>
+    </ol>
+    <div>
+      <div class="kicker" style="margin-bottom:.8rem">Times the inspector said no</div>
+      <div class="rejects">
+        <div class="reject"><span class="x">BLOCKED</span><p><b>A password left in the code.</b> The check refused "done" on four workers because a password placeholder was left in the code.</p></div>
+        <div class="reject"><span class="x">BLOCKED</span><p><b>A fix that broke its own page.</b> A security fix was sent back because the new login check locked out the console's own page.</p></div>
+        <div class="reject"><span class="x">CAUGHT</span><p><b>An overclaim.</b> A worker said a marker was on every chart. It was on 5 of 6.</p></div>
+        <div class="reject"><span class="x">BLOCKED</span><p><b>A CSS fix at work</b> bounced twice before it counted.</p></div>
+        <div class="reject fix"><span class="x">LEARNED</span><p><b>A check that cheated.</b> In one round a check rebuilt the very file it was judging. Now every output is frozen and hashed first, and checks are read-only.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="meter">
+    <div><b>96%</b><span>of tasks carried a check</span><div class="bar"><i style="width:96.3%"></i></div></div>
+    <div><b>529</b><span>tasks finished done, 27 blocked, at the 6 Oct snapshot</span></div>
+    <div><b>46 / 46</b><span>checks passed on one build. Two planted bugs turned it red: 1 failure, then 10.</span></div>
+    <div><b>3 of 3</b><span>deliberate breaks caught by a reviewer re-running the test suite at work</span></div>
+  </div>
+</section>
+
+<!-- ======================= 06 TRUST ======================= -->
+<section class="band trust" id="trust" aria-labelledby="h-trust">
+  <div class="head"><span class="num">06</span><span class="kicker">Guardrails and the trust story</span><h2 id="h-trust">Specific destructive commands are blocked</h2></div>
+  <p class="lede" style="margin-bottom:2rem">Even when I let agents run without asking me each step, some doors stay locked. I tested that the locks hold.</p>
+  <div class="guards">
+    <div class="guard"><b class="big">30</b><h3>Destructive commands blocked</h3><p>Wiping folders, force-pushing code, resetting history, formatting disks, piping a download straight into a shell. Blocked outright.</p></div>
+    <div class="guard"><b class="big">7</b><h3>Publish actions ask a human</h3><p>Pushing code, opening a pull request, a release, a package publish, two kinds of deploy. Each one needs my OK, every time.</p></div>
+    <div class="guard"><b class="big">Read-only</b><h3>Keys get cut to read-only</h3><p>I prove it by asking the API (the door other software uses) for the key's own role. Any key that can still write gets cut back and re-tested.</p></div>
+    <div class="guard"><b class="big">0</b><h3>Hidden agents</h3><p>Every AI worker is a visible window on my canvas. A rule blocks the invisible kind. I can watch, type into, or stop any of them.</p></div>
+    <div class="guard"><b class="big">0</b><h3>Secrets in chat or code</h3><p>Keys live in local files, never in code, chat or the service list. Each one has a dated test call on record.</p></div>
+    <div class="guard"><b class="big">6 of 8</b><h3>Add-on tools rejected</h3><p>Before installing anything, research workers vetted 8 tools. One rewrote command output silently. One pulled outside text live with no filter. Nothing got installed during the review.</p></div>
+  </div>
+</section>
+
+<!-- ======================= 07 PACKAGES ======================= -->
+<section class="band alt" id="packages" aria-labelledby="h-pkg">
+  <div class="head"><span class="num">07</span><span class="kicker">Fixed scope. You know the ceiling before we start.</span><h2 id="h-pkg">What I do for a client</h2></div>
+  <div class="stairs">
+    <div class="pkg p1">
+      <div class="step">Step 1 · Audit</div>
+      <h3>Workflow audit</h3>
+      <div class="name">"Where the hours go"</div>
+      <div class="price">$3,500<small>CAD</small></div>
+      <div class="range">Range $2,500 to $5,000 · 1 to 2 weeks</div>
+      <ul>
+        <li>List the AI tools already in use, including the unofficial ones.</li>
+        <li>Map 5 to 10 repeating jobs.</li>
+        <li>Rank the top 3 by hours saved and data risk.</li>
+        <li>A written plan with a fixed price for the first build.</li>
+      </ul>
+      <p class="why">Canadian assessments cluster at $1,500 to $5,000. Managed IT companies already sell readiness projects at $2,500 to $6,000 USD.</p>
+    </div>
+    <div class="pkg p2">
+      <div class="step">Step 2 · The proof</div>
+      <h3>One live workflow</h3>
+      <div class="name">"The first one that runs without you"</div>
+      <div class="price">$12,000<small>CAD</small></div>
+      <div class="range">Range $8,000 to $15,000 · 2 to 4 weeks</div>
+      <ul>
+        <li>One workflow running in your real tools.</li>
+        <li>Documented, and your team trained on it.</li>
+        <li>A check that proves it still works.</li>
+        <li>30 days of fix-it support.</li>
+        <li>Licences billed through.</li>
+      </ul>
+      <p class="why">Most first jobs for Canadian small businesses land at $5,000 to $15,000. A messy ticketing or device-management system pushes it to $15,000 to $25,000.</p>
+    </div>
+    <div class="pkg p3">
+      <div class="step">Step 3 · Ongoing</div>
+      <h3>Monthly automation partner</h3>
+      <div class="name">"Keep it running, add the next one"</div>
+      <div class="price">$4,000<small>CAD / mo</small></div>
+      <div class="range">Range $3,000 to $6,000 · 8 to 12 hours a month</div>
+      <ul>
+        <li>Only after step 2 is live.</li>
+        <li>Watch the live workflow, patch it when a tool changes.</li>
+        <li>Build the next job on the list.</li>
+        <li>One monthly review a non-technical owner can read.</li>
+        <li>Cancel with 30 days notice. No unlimited help desk.</li>
+      </ul>
+      <p class="why">Canadian retainers run $2,000 to $10,000 a month. $3,000 to $5,000 buys 8 to 12 hours.</p>
+    </div>
+    <div class="credit">→ The audit fee is credited toward step 2 if you start within 90 days.</div>
+  </div>
+
+  <div class="quote-line">
+    <div>
+      <div class="kicker" style="margin-bottom:.7rem">The rate line. Say it word for word.</div>
+      <blockquote>"I price the work, not the clock. A two-week audit that names the first three jobs and the hours they return is $3,500 Canadian. One of those jobs, live in your stack, documented, with a check that it actually runs, is $8,000 to $15,000. If you want me after that, $4,000 a month covers a slice of time and the next build. That's boutique Canadian money, not a Big Four quote."</blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 08 QUESTIONS ======================= -->
+<section class="band" id="questions" aria-labelledby="h-q">
+  <div class="head"><span class="num">08</span><span class="kicker">Short answer first. Proof if they lean in.</span><h2 id="h-q">Tough questions</h2></div>
+  <div class="qa-tools"><button class="btn" type="button" id="openAll">Open all</button><button class="btn" type="button" id="closeAll">Close all</button></div>
+  <div class="qa">
+    <div>
+      <details class="q" open>
+        <summary>Isn't this just prompting?</summary>
+        <div class="ans">
+          <p class="short">Prompting is asking one AI one question. I run a process around it: a scorecard written first, separate workers, a check that must pass, and a live re-check before I say done.</p>
+          <p>The prompt is the easy part. The hard part is knowing when the AI is wrong, and that's what the checks are for.</p>
+          <p class="proof"><b>Proof</b>96% of over 600 tasks carried an automatic check. 60 saved proof files document checks tested with deliberate failures.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>What if the AI is wrong?</summary>
+        <div class="ans">
+          <p class="short">It will be, sometimes. That's the whole design. Nothing counts until a check passes. Before I trust a check, I break the thing on purpose and make sure it goes red. 60 of those tests are on file.</p>
+          <p>A wrong answer gets bounced back to the worker with the error. After 3 tries a human decides.</p>
+          <p class="proof"><b>Proof</b>The gate refused four workers because a password placeholder was left in the code. A reviewer caught a claim that was true on 5 of 6 charts.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>What about security and our data?</summary>
+        <div class="ans">
+          <p class="short">Least access first. Keys get cut to read-only, and I prove it by asking the API for the key's own role. My work dashboard team built on fake data only.</p>
+          <p>30 destructive commands are blocked outright. Anything that publishes asks me first. Keys live in local files, never in chat or code.</p>
+          <p class="proof"><b>Proof</b>Every key the AI tools can use at work was audited and the ones that remain were verified read-only.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>Why you instead of a dev shop?</summary>
+        <div class="ans">
+          <p class="short">I'm an IT operator who builds. I already work inside the tools IT companies and small businesses run on: ticketing, device management, endpoint security, accounting.</p>
+          <p>Fixed scope, so you know the ceiling. And the speed is real: TeeTimes went from brief to live in 3 days.</p>
+          <p class="proof"><b>Proof</b>The security move at work: 108 new sites and 90 security rules set up by script, 0 failures.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>What does it cost?</summary>
+        <div class="ans">
+          <p class="short">$3,500 Canadian for a two-week audit. $8,000 to $15,000 for the first live workflow. $4,000 a month after that if you want me.</p>
+          <p>The audit fee is credited toward the build if you start within 90 days.</p>
+          <p class="proof"><b>Where it sits</b>Inside published 2026 Canadian boutique ranges. Not Big Four, not a freelance marketplace.</p>
+        </div>
+      </details>
+    </div>
+    <div>
+      <details class="q">
+        <summary>How many hours will it save us?</summary>
+        <div class="ans">
+          <p class="short">I won't guess. The audit counts your hours first, then I price the build against them.</p>
+          <p>Vendors in this market say first jobs often pay back in a few months if the hours are real. I'd rather measure yours.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>Did you build the canvas app?</summary>
+        <div class="ans">
+          <p class="short">No. CNVS is the canvas I run my agents on. What I built is the playbook: who gets which job, the scorecards, the checks and the guardrails.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>What if an AI vendor changes prices or cuts you off?</summary>
+        <div class="ans">
+          <p class="short">I use three AI tools on purpose, so no single vendor stops the work.</p>
+          <p class="proof"><b>Proof</b>When codex hit its usage cap, the work went to claude. In one test round two tools hit their limits mid-round, and the lead swapped in another and kept going.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>Can this handle our messy ticketing or device-management system?</summary>
+        <div class="ans">
+          <p class="short">Yes, read-only first. Write access widens only after it has earned trust, one change at a time.</p>
+          <p>Messy systems cost more to wire up, so I quote that as $15,000 to $25,000 instead of the standard build.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>Why should we trust code an AI wrote?</summary>
+        <div class="ans">
+          <p class="short">Don't trust it. Trust the checks. The builds I'd show you ship with tests, and before I trust a check I break the thing on purpose and make sure it goes red.</p>
+          <p class="proof"><b>Proof</b>TeeTimes has 166 API tests. River Garden passed 169 of 169 checks.</p>
+        </div>
+      </details>
+      <details class="q">
+        <summary>What do you say no to?</summary>
+        <div class="ans">
+          <p class="short">Bad business cases. I researched a game-server hosting side business and dropped it. It needed 300 to 650 customers and I found no proof anyone makes it work solo.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 09 DEMO ======================= -->
+<section class="band alt" id="demo" aria-labelledby="h-demo">
+  <div class="head"><span class="num">09</span><span class="kicker">About 90 seconds on stage. Same script as the talk track.</span><h2 id="h-demo">Live demo script</h2></div>
+
+  <div class="kicker" style="margin:1.4rem 0 .6rem">Before the call</div>
+  <ul class="check">
+    <li>CNVS open on a fresh canvas page with nothing else on it</li>
+    <li>Folder <code>~/demo-live</code> exists and is empty</li>
+    <li>Dry run done; the Liar's rejection message saved to <code>demo-live-dryrun/bounce.txt</code></li>
+    <li>Dry-run worker terminals closed</li>
+    <li>Any admin or client-data tabs closed</li>
+    <li>Backup on a second canvas page: <code>Fleet-Machine/how-the-fleet-works.html</code> in a CNVS browser node</li>
+  </ul>
+  <pre><button class="copy" type="button">Copy</button><span class="c"># tonight, once</span>
+mkdir -p ~/demo-live
+<span class="c"># after the dry run, so tomorrow starts empty</span>
+mv ~/demo-live ~/demo-live-dryrun
+mkdir -p ~/demo-live
+<span class="c"># only if "which cnvsctl" prints nothing in the shell node</span>
+alias cnvsctl=/Applications/CNVS.app/Contents/MacOS/cnvsctl</pre>
+
+  <div class="run" style="margin-top:1.6rem">
+    <div class="run-row">
+      <div class="when">0:00</div>
+      <div>
+        <h4>Show the inspector fails first</h4>
+        <p>In my terminal, run the check for a file that doesn't exist yet. It prints <code>exit 1</code>.</p>
+<pre><button class="copy" type="button">Copy</button>test -s ~/demo-live/d-checklist.md &amp;&amp; grep -q DONE-CHECK ~/demo-live/d-checklist.md; echo &quot;exit $?&quot;</pre>
+      </div>
+      <p class="sayit">This is the inspector's test. Nothing's built yet, so it fails. Before I trust a check, I make sure it can go red.</p>
+    </div>
+    <div class="run-row">
+      <div class="when">0:10</div>
+      <div>
+        <h4>Spawn three honest workers</h4>
+        <p>Paste the three commands one after the other. What each check looks at:</p>
+        <ul>
+          <li>Writer: the file exists and is 8 lines or fewer.</li>
+          <li>Coder: at least 3 test functions, and the unit tests pass.</li>
+          <li>Researcher: at least 3 lines with a web link. It doesn't check that the prices are right.</li>
+        </ul>
+<pre><button class="copy" type="button">Copy</button><span class="c"># Writer</span>
+cnvsctl spawn-agent --agent claude --name Writer --prompt &quot;Write a 5-line plain-English explanation of a quality gate for a small business owner into ~/demo-live/a-summary.md. Then report done to CNVS.&quot; --verify &quot;test -s ~/demo-live/a-summary.md &amp;&amp; [ \$(wc -l &lt; ~/demo-live/a-summary.md) -le 8 ]&quot;</pre>
+<pre><button class="copy" type="button">Copy</button><span class="c"># Coder: leave it as a visible terminal, do not add --headless</span>
+cnvsctl spawn-agent --agent codex --name Coder --prompt &quot;In ~/demo-live/b/ write invoice.py with a function total_with_tax(subtotal, rate) that rounds to cents, and test_invoice.py with at least 3 unittest cases. Run the tests. Then report done to CNVS.&quot; --verify &quot;[ \$(grep -c &#x27;def test&#x27; ~/demo-live/b/test_invoice.py) -ge 3 ] &amp;&amp; python3 -m unittest discover -s ~/demo-live/b&quot;</pre>
+<pre><button class="copy" type="button">Copy</button><span class="c"># Researcher</span>
+cnvsctl spawn-agent --agent grok --name Researcher --prompt &quot;Find 3 published 2026 price ranges for a small-business AI workflow audit. Write them with their source URLs to ~/demo-live/c-research.md. Then report done to CNVS.&quot; --verify &quot;[ \$(grep -c &#x27;https://&#x27; ~/demo-live/c-research.md) -ge 3 ]&quot;</pre>
+      </div>
+      <p class="sayit">Three different AI tools, three separate jobs, three separate files. A writer, a coder, a researcher. Each one gets its test attached when I hire it, not after.</p>
+    </div>
+    <div class="run-row">
+      <div class="when">0:30</div>
+      <div>
+        <h4>Spawn the one that lies</h4>
+        <p>Its check: the file exists and contains the line DONE-CHECK.</p>
+<pre><button class="copy" type="button">Copy</button>cnvsctl spawn-agent --agent claude --name Liar --prompt &quot;This is a live demo of a quality gate. Step 1: report done to CNVS right now with the note &#x27;all finished&#x27;, before creating any file. Step 2: when CNVS hands you the failure, create ~/demo-live/d-checklist.md with a 5-item pre-launch checklist for a small website, ending with a line that says DONE-CHECK. Then report done again.&quot; --verify &quot;test -s ~/demo-live/d-checklist.md &amp;&amp; grep -q DONE-CHECK ~/demo-live/d-checklist.md&quot;</pre>
+      </div>
+      <p class="sayit">This fourth one I told to cheat on purpose. It's going to say "done" without doing anything. I'm telling you up front so nobody thinks I staged a lucky failure.</p>
+    </div>
+    <div class="run-row">
+      <div class="when">0:45</div>
+      <div><h4>Point at the canvas</h4><p>Zoom out so all four terminals show: <code>cnvsctl zoom-to-fit</code></p></div>
+      <p class="sayit">Four AIs working at the same time, and I can see every one of them. Nothing runs hidden. In my full setup a status board flags any worker that goes quiet for 10 minutes, and I decide what happens. Nothing gets killed automatically.</p>
+    </div>
+    <div class="run-row">
+      <div class="when">1:05</div>
+      <div><h4>The gate rejects the lie</h4><p>Point at the Liar terminal. When it reports done, CNVS runs its check, gets exit 1, and hands back the failure with a note like "Fix the failure and run done again (2 attempts left)." The live wording may differ. Don't promise when it will retry.</p></div>
+      <p class="sayit">It said "all finished". The check ran, the check failed, and the job bounced straight back. Its word counts for nothing. Only the check counts. When it says done again, the same check runs again.</p>
+    </div>
+    <div class="run-row">
+      <div class="when">1:25</div>
+      <div><h4>Close the loop</h4><p>Once the workers finish, run <code>cnvsctl tasks</code> and point at the done states.</p></div>
+      <p class="sayit">That's the whole idea in one screen. Parallel work, a test on every job, and "done" means the test passed. I've run over 600 jobs this way since August.</p>
+    </div>
+  </div>
+
+  <div class="two" style="margin-top:1.8rem">
+  </div>
+</section>
+
+<!-- ======================= 10 NUMBERS ======================= -->
+<section class="band" id="numbers" aria-labelledby="h-num">
+  <div class="head"><span class="num">10</span><span class="kicker">Read twice tonight. Glance once tomorrow.</span><h2 id="h-num">Numbers to know cold</h2></div>
+  <div class="nums">
+    <div><b>627</b><span>AI tasks tracked, 10 Aug to the 6 Oct snapshot. Say "over 600".</span></div>
+    <div><b>529</b><span>finished done</span></div>
+    <div><b>604 · 96%</b><span>carried an automatic check</span></div>
+    <div><b>60</b><span>saved proof files of checks tested with deliberate failures</span></div>
+    <div><b>30 · 7</b><span>commands blocked · publish actions that ask me</span></div>
+    <div><b>407 · 336</b><span>commits on the reporting app · co-written with Claude</span></div>
+    <div><b>3 days · 38</b><span>TeeTimes, brief to live · course integrations</span></div>
+    <div><b>$3,500 · $12,000 · $4,000/mo</b><span>the three packages, CAD</span></div>
+    <div><b>1.4226</b><span>CAD per USD, Bank of Canada, 6 Oct</span></div>
+  </div>
+  <div class="kicker" style="margin-top:2rem">Words to skip in the room</div>
+  <div class="skip"><s>orchestrator</s><s>fleet</s><s>agentic</s><s>RAG</s><s>MCP</s><s>CNVS</s></div>
+  <p style="margin-top:.8rem">Say instead: hours back, one live job, a monthly person who keeps it honest.</p>
+</section>
+
+<!-- ======================= SOURCES ======================= -->
+
+<footer>
+  <span>Luc Sigouin · prep brief for 7 October 2026 · built offline, no outside requests</span>
+</footer>
+</main>
+</div>
+
+<script>
+(function(){
+
+  // nav highlight
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rail nav a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting && map[en.target.id]){
+          links.forEach(function(l){ l.classList.remove('on'); });
+          map[en.target.id].classList.add('on');
+        }
+      });
+    }, {rootMargin:'-35% 0px -60% 0px'});
+    Object.keys(map).forEach(function(id){ var s = document.getElementById(id); if (s) io.observe(s); });
+  }
+
+  // rehearsal timers
+  Array.prototype.forEach.call(document.querySelectorAll('.timer'), function(t){
+    var total = +t.dataset.secs, out = t.querySelector('output'), btn = t.querySelector('button'), label = btn.textContent, id = null, left = total;
+    function fmt(s){ var neg = s < 0; s = Math.abs(s); return (neg ? '-' : '') + Math.floor(s/60) + ':' + ('0' + (s % 60)).slice(-2); }
+    btn.addEventListener('click', function(){
+      if (id){ clearInterval(id); id = null; left = total; out.textContent = fmt(left); out.style.color = ''; btn.textContent = label; return; }
+      left = total; btn.textContent = 'Reset';
+      id = setInterval(function(){ left--; out.textContent = fmt(left); if (left < 0) out.style.color = 'var(--bad)'; }, 1000);
+    });
+  });
+
+  // Q&A open / close all
+  var qs = document.querySelectorAll('details.q');
+  document.getElementById('openAll').addEventListener('click', function(){ Array.prototype.forEach.call(qs, function(d){ d.open = true; }); });
+  document.getElementById('closeAll').addEventListener('click', function(){ Array.prototype.forEach.call(qs, function(d){ d.open = false; }); });
+
+  // copy buttons
+  Array.prototype.forEach.call(document.querySelectorAll('pre .copy'), function(b){
+    b.addEventListener('click', function(){
+      var clone = b.parentNode.cloneNode(true); clone.removeChild(clone.querySelector('.copy'));
+      var text = clone.textContent.replace(/^\s+/, '');
+      function done(){ b.textContent = 'Copied'; setTimeout(function(){ b.textContent = 'Copy'; }, 1500); }
+      if (navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(done, fallback); } else { fallback(); }
+      function fallback(){ var ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); done(); } catch(e){} document.body.removeChild(ta); }
+    });
+  });
+})();
+</script>
+</body>
+</html>

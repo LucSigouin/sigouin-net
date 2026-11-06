@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "live_css_sha256": "9f9b57f91d5f9b27a5def48cd69c45dd1fbda24714c0f99456525802dbe0595e",
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1045,
+      1014
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "horizontal_overflow": false,
+  "desktop_modes": [
+    "live",
+    "live"
+  ],
+  "mobile_mode": "still",
+  "deployment_url": "https://71312f4b.sigouin-net.pages.dev",
+  "live_html_matches": true
+}

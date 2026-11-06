@@ -1,0 +1,61 @@
+[
+	{
+		"x": 258708,
+		"y": 109917,
+		"name": "Moon Sprite Shaman - Anamcara",
+		"description": "The location of the Moon Sprite Shaman - Anamcara",
+		"icon": "Secondary quest marker icon.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 251248,
+		"y": 206912,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 297889,
+		"y": 185611,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 303539,
+		"y": 179281,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 319288,
+		"y": 190391,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 322000,
+		"y": 209048,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 372731,
+		"y": 185618,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 366889,
+		"y": 80435,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	},
+	{
+		"x": 303289,
+		"y": 64751,
+		"name": "Moon Sprite",
+		"description": "The location of one of the Moon Sprites"
+	}
+]

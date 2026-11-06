@@ -1,0 +1,13 @@
+.monitor-toolbar{position:absolute;z-index:3;pointer-events:none}
+.monitor-toolbar[hidden]{display:none}
+#signal-pluck{display:block;width:100%;height:100%;border:0;background:transparent;padding:0;pointer-events:none;border-radius:3px}
+#signal-pluck:focus-visible{outline:2px solid #ffbd76;outline-offset:5px;background:#ffbc5212}
+@media(prefers-reduced-motion:reduce),(max-width:759px),(pointer:coarse){.monitor-toolbar{display:none}}
+
+/* Keep the workstation clear beside the intro; place the copy above the desk. */
+.hero-shade{background:linear-gradient(0deg,#060809eb 0%,#06080955 17%,transparent 36%,transparent 83%,#03050633 100%)}
+.hero-copy{top:clamp(112px,12svh,150px)}
+@media(max-width:759px){
+  .hero-copy{top:140px}
+  .hero-shade{background:linear-gradient(0deg,#070b10 0%,#070b10cc 17%,transparent 42%)}
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"x": 203059.3,
+		"y": 42939.086,
+		"name": "[[Tower Climb]]",
+		"icon": "Agility Course.png"
+	},
+	{
+		"x": 80034.96,
+		"y": 133497.34,
+		"name": "[[Fractured Ruins (Agility Course)]]",
+		"icon": "Agility Course.png"
+	},
+	{
+		"x": 25252.34,
+		"y": 91618.76,
+		"name": "[[Thunder Assault]]",
+		"icon": "Agility Course.png"
+	},
+	{
+		"x": 279007.06,
+		"y": 193923.48,
+		"name": "[[Lava Fields]]",
+		"icon": "Agility Course.png"
+	},
+	{
+		"x": 111001.64,
+		"y": -53561.605,
+		"name": "[[Grave Run]]",
+		"icon": "Agility Course.png"
+	},
+	{
+		"x": 30067.697,
+		"y": 155052.44,
+		"name": "[[Chasm Dash]]",
+		"icon": "Agility Course.png"
+	}
+]

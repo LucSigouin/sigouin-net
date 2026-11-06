@@ -1,0 +1,42 @@
+[
+	{
+		"x": 83556.93,
+		"y": -14971.624,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	},
+	{
+		"x": 134795.05,
+		"y": -79772.32,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	},
+	{
+		"x": 202849.98,
+		"y": -47549.926,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	},
+	{
+		"x": 107850.38,
+		"y": -49049.156,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	}
+]

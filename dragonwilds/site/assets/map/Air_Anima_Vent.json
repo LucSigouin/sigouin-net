@@ -1,0 +1,308 @@
+[
+	{
+		"x": 72663.086,
+		"y": 95249.984,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 84078.76,
+		"y": 101922.71,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 18068.424,
+		"y": 107027.9,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 87831.72,
+		"y": 87307.57,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 119908.734,
+		"y": 87313.08,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 146100.03,
+		"y": 84293.96,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 51141.74,
+		"y": -50881.6,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 211005.5,
+		"y": -69371.414,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 228882.48,
+		"y": -46634.508,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 173992.34,
+		"y": -32031.854,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 139203.44,
+		"y": -31529.443,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 17791.139,
+		"y": 172846.61,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 30658.29,
+		"y": 195643.62,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 194975.39,
+		"y": 65833.21,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 216760.94,
+		"y": 11824.536,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 210927.47,
+		"y": 33806.26,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png"
+	},
+	{
+		"x": 205956.9,
+		"y": 165718.75,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 288680.5,
+		"y": 221941.86,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302568.03,
+		"y": 179639.23,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 194243.31,
+		"y": 212578.92,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 235401.78,
+		"y": 248318.64,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 258970.33,
+		"y": 248612.28,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 340336.44,
+		"y": 198968.23,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 239996.53,
+		"y": 179341.89,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284877.44,
+		"y": 197780.94,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298051.78,
+		"y": 198870.83,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214919.06,
+		"y": 135582.56,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 204959.08,
+		"y": 228861.94,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 225871.33,
+		"y": 246112.42,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313057.72,
+		"y": 206421.94,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 288758.72,
+		"y": 230930.92,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284135.22,
+		"y": 244379.97,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 285507.38,
+		"y": 244853.28,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 282843.78,
+		"y": 242079.42,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 353248.12,
+		"y": 158809.33,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314161,
+		"y": 126394.78,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 372873.25,
+		"y": 137846.61,
+		"name": "Air Anima Vent",
+		"icon": "Air_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

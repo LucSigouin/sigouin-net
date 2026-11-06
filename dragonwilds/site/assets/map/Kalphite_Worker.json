@@ -1,0 +1,2322 @@
+[
+	{
+		"x": -468700,
+		"y": 53100,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -468650,
+		"y": 49700,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -467750,
+		"y": 53300,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -467700,
+		"y": 49900,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -462900,
+		"y": 53240,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -462850,
+		"y": 55640,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -461950,
+		"y": 54040,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -461459,
+		"y": 54214.71,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -461002.56,
+		"y": 53168.3,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -460759.16,
+		"y": 66011.914,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -460650,
+		"y": 51560,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -460600,
+		"y": 55690,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -460009.16,
+		"y": 66861.914,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -459749.03,
+		"y": 52855.81,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -459580,
+		"y": 51560,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -459547.16,
+		"y": 59509.137,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -458596.44,
+		"y": 60576.883,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -458320.66,
+		"y": 63271.74,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -458106.4,
+		"y": 68474.8,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -457758.88,
+		"y": 68226.375,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -457050,
+		"y": 52560,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -457050,
+		"y": 55360,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -456487.5,
+		"y": 66186.61,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -456073.62,
+		"y": 68093.29,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -455657.84,
+		"y": 51979.24,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -455517.47,
+		"y": 70491.64,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -455282.03,
+		"y": 64797.555,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -455229.34,
+		"y": 62208.027,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -454730.12,
+		"y": 64557.754,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -454517.97,
+		"y": 61092.93,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -454210.16,
+		"y": 64060.69,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453981.88,
+		"y": 63663.523,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453643.62,
+		"y": 69324.914,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453628.28,
+		"y": 66775.6,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453186.97,
+		"y": 66332.734,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -453003.78,
+		"y": 66064.1,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -452607.38,
+		"y": 69225.08,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -451663.7,
+		"y": 61699.727,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -451051.3,
+		"y": 66898.05,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -450542.47,
+		"y": 63348.734,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -449577.78,
+		"y": 64622.652,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -449224.22,
+		"y": 64976.207,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": -449214.7,
+		"y": 66396.23,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 196696.1,
+		"y": 204824.22,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 199220.2,
+		"y": 206424.89,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 201028.98,
+		"y": 213387.64,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 201500,
+		"y": 204250,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 202899.25,
+		"y": 208950,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 203145.66,
+		"y": 211402.94,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 213097.66,
+		"y": 132693.81,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 215127.14,
+		"y": 142098.67,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 215358.81,
+		"y": 134199.53,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 217889.4,
+		"y": 135539.7,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218490,
+		"y": 110760,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 219280.55,
+		"y": 135243.92,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 219680,
+		"y": 110030,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220137.44,
+		"y": 129593.586,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220535.31,
+		"y": 140631.78,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221573.62,
+		"y": 230066.83,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221647.53,
+		"y": 129816.375,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 222389.52,
+		"y": 230125.45,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 222565.66,
+		"y": 138175.66,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 223186.31,
+		"y": 230042.77,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 223637.89,
+		"y": 227399.89,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 223721.58,
+		"y": 230548.8,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 224532.45,
+		"y": 227352.23,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 226253.36,
+		"y": 190806.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 227465.75,
+		"y": 191109.38,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 231045,
+		"y": 102597.31,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 233256.84,
+		"y": 115095.08,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 234300,
+		"y": 180650,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 234450,
+		"y": 182950,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 234550,
+		"y": 183800,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 235368.66,
+		"y": 125411.77,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 235793.08,
+		"y": 186454.22,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 236090.77,
+		"y": 186311.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 236518,
+		"y": 186541.14,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 236720.84,
+		"y": 179735.1,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 237000.75,
+		"y": 124725.17,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 238544.05,
+		"y": 100323.23,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 239152.31,
+		"y": 102628.13,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 241466.9,
+		"y": 102989.81,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 242526.86,
+		"y": 191302.7,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 242575.12,
+		"y": 190787.48,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 243245.5,
+		"y": 190514.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 244920.4,
+		"y": 200957.39,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245188.3,
+		"y": 200279.33,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245501.27,
+		"y": 201723.34,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 245760.06,
+		"y": 200563.86,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246538.67,
+		"y": 200081.22,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 246856.17,
+		"y": 202738.31,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248306.78,
+		"y": 199104.97,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248374.7,
+		"y": 200530.55,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248900.16,
+		"y": 202132.97,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 249517.11,
+		"y": 207573.73,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 250192.61,
+		"y": 208046.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 251223.9,
+		"y": 207504.4,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 253325.38,
+		"y": 199259.48,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 253899.16,
+		"y": 199844.1,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 253993.86,
+		"y": 199301.47,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 258486.69,
+		"y": 188044.38,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 258985.7,
+		"y": 188181.38,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 262949.5,
+		"y": 143984.31,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 263670.34,
+		"y": 155665.94,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 264472.97,
+		"y": 156475.75,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 265006.62,
+		"y": 143402.81,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 265240,
+		"y": 145440,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 265311.88,
+		"y": 150110.73,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 266815.9,
+		"y": 149167.06,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 267744.88,
+		"y": 150381.38,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 269957.2,
+		"y": 119941.266,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 270693.12,
+		"y": 153099.08,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271300,
+		"y": 111750,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 272500,
+		"y": 99850,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 273500,
+		"y": 105750,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 273750,
+		"y": 99550,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 275070.8,
+		"y": 155319.8,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 277084.2,
+		"y": 151632.48,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 277600,
+		"y": 107400,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 278100,
+		"y": 107150,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 280528.28,
+		"y": 240742.45,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 280924.2,
+		"y": 241047.25,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281780,
+		"y": 244925,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 281936.44,
+		"y": 242140,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 282777.53,
+		"y": 240204.77,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 283151.1,
+		"y": 240091.48,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284100,
+		"y": 110290,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284320,
+		"y": 110370,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 287091.12,
+		"y": 144390.89,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 288899.3,
+		"y": 220747.1,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289333.8,
+		"y": 221560.81,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289337.22,
+		"y": 144873.2,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289450.3,
+		"y": 220935.9,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289636.62,
+		"y": 221266.38,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 289947.9,
+		"y": 220135.47,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 290023.7,
+		"y": 219618.55,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 290912.62,
+		"y": 221658.4,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291000,
+		"y": 141269.95,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291059.5,
+		"y": 143471.84,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291065.44,
+		"y": 221913.97,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291217.94,
+		"y": 219158.4,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291311.97,
+		"y": 221612.95,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 292851.5,
+		"y": 216240.66,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 293290.75,
+		"y": 217126.86,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 297215.56,
+		"y": 202201.25,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 297458.6,
+		"y": 200146.4,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 297839.97,
+		"y": 202402.75,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298330.03,
+		"y": 217791.75,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 298571.62,
+		"y": 218243.66,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299383.7,
+		"y": 218564.34,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299893,
+		"y": 218957.12,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 299995.72,
+		"y": 219650.58,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300944.4,
+		"y": 219836.7,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301261.06,
+		"y": 219097.77,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301810.1,
+		"y": 203004.42,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302189.66,
+		"y": 201422.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302206.88,
+		"y": 199741.27,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302741.25,
+		"y": 219197.39,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311292.7,
+		"y": 190958.39,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311335.28,
+		"y": 44312.312,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311338.4,
+		"y": 43959.508,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311942.25,
+		"y": 190925.97,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 312791.06,
+		"y": 45223.29,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313088.6,
+		"y": 42571.367,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313951.75,
+		"y": 48192.547,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314103.62,
+		"y": 44531.375,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314263.44,
+		"y": 43192.066,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316110.2,
+		"y": 47452.65,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316891.97,
+		"y": 47830.35,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 322800,
+		"y": 45987.715,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 323072.78,
+		"y": 46703.56,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 325124.16,
+		"y": 35189.543,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326050,
+		"y": 35100,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326494.66,
+		"y": 35964.66,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326531.44,
+		"y": 41416.49,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326543.47,
+		"y": 41025.133,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 326982.84,
+		"y": 40686.895,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327137.7,
+		"y": 36033.387,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327191.6,
+		"y": 33815.75,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327241.94,
+		"y": 41056.953,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327289.4,
+		"y": 39788.953,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329074.44,
+		"y": 167657,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329252.53,
+		"y": 166307.75,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329365.66,
+		"y": 165035.11,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 329707.03,
+		"y": 35306.82,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330932.97,
+		"y": 165108.47,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330989.9,
+		"y": 166619.02,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331098.38,
+		"y": 218720.27,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331203.22,
+		"y": 166259.23,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331359,
+		"y": 219214.48,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331709.78,
+		"y": 216005.11,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331870.06,
+		"y": 216319.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332063.56,
+		"y": 218973.73,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332307.53,
+		"y": 167224.69,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332799.78,
+		"y": 37884.09,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333456.22,
+		"y": 165655.72,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333460.94,
+		"y": 37762.1,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333558.47,
+		"y": 166269.77,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 333855.5,
+		"y": 165884.53,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 334283.3,
+		"y": 166305.05,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338202.7,
+		"y": 46531.645,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338370.4,
+		"y": 45877.37,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338551.84,
+		"y": 92573.71,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338590.5,
+		"y": 47275.707,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338758.6,
+		"y": 46621.434,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 338790.28,
+		"y": 45963.625,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339186.34,
+		"y": 46493.383,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339415.4,
+		"y": 47303.91,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339441.25,
+		"y": 90502.945,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 339583.5,
+		"y": 46649.637,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 345177.5,
+		"y": 155922.83,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 346400,
+		"y": 157450,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 349498.53,
+		"y": 156892.27,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 350626.94,
+		"y": 156285.8,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 350661.6,
+		"y": 155933.05,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 350700,
+		"y": 155200,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 350858.84,
+		"y": 158292.25,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 351799.16,
+		"y": 155480.98,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352028.84,
+		"y": 158734.47,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352121.34,
+		"y": 154969.06,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352197.2,
+		"y": 154700,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352948.53,
+		"y": 159007.3,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 354180.75,
+		"y": 156742.2,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 354366.72,
+		"y": 158197.94,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 354875.44,
+		"y": 157645.9,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355764.56,
+		"y": 144567.03,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355801.2,
+		"y": 157308.67,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356603.2,
+		"y": 145165.95,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 357248.88,
+		"y": 145087.5,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 358087.25,
+		"y": 144139.64,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370742.62,
+		"y": 140555.22,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 370886.78,
+		"y": 143270.36,
+		"name": "Kalphite Worker",
+		"icon": "Kalphite_Worker.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

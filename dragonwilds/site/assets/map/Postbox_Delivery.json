@@ -1,0 +1,112 @@
+[
+	{
+		"x": 207481.5,
+		"y": -64938.203,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 73316.58,
+		"y": -29982.777,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 133577.92,
+		"y": -59325.824,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 51216.914,
+		"y": -61605.363,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 132680.4,
+		"y": 24449.658,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 95542.62,
+		"y": -59863.652,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 188623.53,
+		"y": -24332.963,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 232674.69,
+		"y": -23935.07,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 231705.4,
+		"y": -17583.143,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 138788.67,
+		"y": -15461.663,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	},
+	{
+		"x": 177459.38,
+		"y": -64575.86,
+		"name": "Postbox",
+		"icon": "Postbox.png",
+		"iconSize": [
+			60,
+			60
+		]
+	}
+]

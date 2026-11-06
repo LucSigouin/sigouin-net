@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Brynmoor",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Brynmoor",
+    "description": "Starting south. Temple Woods, Bramblemead Valley, Whispering Swamp. Ruled by Velgar.",
+    "danger": "Power 1–2",
+    "resources": [
+      "Stone",
+      "clay",
+      "ash",
+      "oak",
+      "flax",
+      "redberries",
+      "cabbage",
+      "potato",
+      "marrentil",
+      "harralander",
+      "bittercap",
+      "shrimp/sardine/trout",
+      "swamp tar"
+    ],
+    "approx": "south-west"
+  },
+  {
+    "name": "Ghornfell",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ghornfell",
+    "description": "North of Brynmoor. Garou land. Fractured Plains, Stormtouched Highlands, Bloodblight Swamp. Velgar's tower in the plains.",
+    "danger": "Power 3–4",
+    "resources": [
+      "Copper",
+      "tin",
+      "iron",
+      "silver",
+      "gold",
+      "blurite",
+      "granite",
+      "sandstone",
+      "dragon tooth",
+      "anima-infused bark",
+      "dwellberries",
+      "snapdragon",
+      "toadflax",
+      "anchovies/salmon/herring"
+    ],
+    "approx": "centre"
+  },
+  {
+    "name": "Fellhollow",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fellhollow",
+    "description": "Far north. Undead / Withering. Entry after Dragon Slayer via a necromantic door near Ashien's Watch. Soul-rifting to use spectral doors.",
+    "danger": "Power 5",
+    "resources": [
+      "Coal",
+      "iron",
+      "granite",
+      "soul stone",
+      "willow",
+      "dead trees",
+      "cadavaberries",
+      "corpse cotton",
+      "thorny irit",
+      "pumpkin",
+      "lobster",
+      "undead eel/bass"
+    ],
+    "approx": "north"
+  },
+  {
+    "name": "Dowdun Reach",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dowdun_Reach",
+    "description": "Mountain keep of the Black Knights. South of Silverthorn Keep. Needs Withering Heights. Mithril tier.",
+    "danger": "Power 6",
+    "resources": [
+      "Mithril",
+      "coal",
+      "gold",
+      "silver",
+      "limestone",
+      "granite",
+      "sandstone",
+      "maple",
+      "dead trees",
+      "thorny irit",
+      "pumpkin",
+      "giant krill",
+      "armoured catfish",
+      "infernal eel"
+    ],
+    "approx": "east-centre mountains"
+  },
+  {
+    "name": "Umbral Sands",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Umbral_Sands",
+    "description": "Desert, east of the Bastion. Scorch by day, Fuzan by night. Needs Black Knight's Fortress.",
+    "danger": "Power 7",
+    "resources": [
+      "Adamantite",
+      "coal",
+      "gypsum",
+      "sandstone",
+      "yew",
+      "barrel/bunny/pipe cactus",
+      "desert weed",
+      "anima vents"
+    ],
+    "approx": "east"
+  },
+  {
+    "name": "Scorned Wilderness",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Scorned_Wilderness",
+    "description": "1.0 raid, not a normal overworld region. Floating islands. Entrance in north-west Fractured Plains after Icthlarin's Little Helper / Regicide.",
+    "danger": "Raid (wiki stub; monsters listed as PL 9 in the walkthrough)",
+    "resources": [
+      "Runite",
+      "luminite",
+      "magic trees",
+      "salvage hotspots",
+      "sanguine urns"
+    ],
+    "approx": "north-west of fractured plains"
+  },
+  {
+    "name": "Temple Woods",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Temple_Woods",
+    "description": "Cliff sanctuary. Temple of Saradomin is the expedition base. Haunted windmill north-west.",
+    "danger": "1",
+    "resources": [
+      "Ash",
+      "oak",
+      "flax",
+      "cabbage",
+      "potato",
+      "redberry",
+      "stone",
+      "rune essence geysers"
+    ],
+    "approx": "far south-west"
+  },
+  {
+    "name": "Bramblemead Valley",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bramblemead_Valley",
+    "description": "Ruined human town, Keep of Blue Flames, two guilds. Goblins and rats.",
+    "danger": "1–2",
+    "resources": [
+      "Same starter set; clay in the valley"
+    ],
+    "approx": "south"
+  },
+  {
+    "name": "Whispering Swamp",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Whispering_Swamp",
+    "description": "Buffer to Ghornfell. Slow going. Herbs and cave ore. Goblins, garou watch, night horror.",
+    "danger": "2",
+    "resources": [
+      "Clay",
+      "swamp tar",
+      "herbs",
+      "Vertentis Kara"
+    ],
+    "approx": "north edge of brynmoor"
+  },
+  {
+    "name": "Fractured Plains",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fractured_Plains",
+    "description": "Garou hunting ground. Velgar's tower (Brakka's Folly). Anima-coloured plants.",
+    "danger": "3–4",
+    "resources": [
+      "Copper",
+      "tin",
+      "sandstone",
+      "blurite (inside Takla Kara)",
+      "ash",
+      "oak",
+      "flax",
+      "onion",
+      "dwellberry"
+    ],
+    "approx": "centre"
+  },
+  {
+    "name": "Stormtouched Highlands",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Stormtouched_Highlands",
+    "description": "Permanent lightning storm. Wyrm bones. Garou king monument.",
+    "danger": "3–4",
+    "resources": [
+      "Copper",
+      "tin",
+      "iron",
+      "granite",
+      "dragon tooth",
+      "ram",
+      "wild lapulis vine"
+    ],
+    "approx": "west ghornfell"
+  },
+  {
+    "name": "Bloodblight Swamp",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bloodblight_Swamp",
+    "description": "Velgar's poisoned blood. Toxic air and water.",
+    "danger": "4",
+    "resources": [
+      "Poison-side gathering; Kletterbuja Kara"
+    ],
+    "approx": "south-east ghornfell"
+  },
+  {
+    "name": "Forgotten Temple",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Forgotten_Temple",
+    "description": "Underground door from Fractured Plains. Death, Muncher, Postie Pete.",
+    "danger": "5",
+    "resources": [
+      "None listed as nodes; hub"
+    ],
+    "approx": "between ghornfell and fellhollow"
+  },
+  {
+    "name": "Bleakfields Valley",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bleakfields_Valley",
+    "description": "First undead valley. Withered village, graveyard, willow, Ravanna's stones.",
+    "danger": "5",
+    "resources": [
+      "Willow",
+      "undead",
+      "standing stones"
+    ],
+    "approx": "south fellhollow (entry)"
+  },
+  {
+    "name": "Lake of Lost Souls",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Lake_of_Lost_Souls",
+    "description": "Noumenon-poisoned water.",
+    "danger": "5",
+    "resources": [
+      "Wither water",
+      "two vaults on the shores"
+    ],
+    "approx": "north-east fellhollow"
+  },
+  {
+    "name": "Dragon's Run",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dragon%27s_Run",
+    "description": "North-west. Green dragon. Grave Run agility course.",
+    "danger": "5",
+    "resources": [
+      "Green dragon",
+      "withered ruins"
+    ],
+    "approx": "north-west fellhollow"
+  },
+  {
+    "name": "Emberwood",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Emberwood",
+    "description": "Sealed multi-faith village behind a prayer barrier.",
+    "danger": "5",
+    "resources": [
+      "Kalistrakthen Kara"
+    ],
+    "approx": "west fellhollow"
+  },
+  {
+    "name": "Witchwillow Range",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Witchwillow_Range",
+    "description": "Willow groves and corrupted nature spirits.",
+    "danger": "5",
+    "resources": [
+      "Willow",
+      "nature spirits"
+    ],
+    "approx": "south-west fellhollow"
+  },
+  {
+    "name": "Hope's Fall",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Hope%27s_Fall",
+    "description": "Imaru's Tower. Rotsworn. Sealed until three curse shards.",
+    "danger": "5",
+    "resources": [
+      "Imaru fight"
+    ],
+    "approx": "centre fellhollow"
+  },
+  {
+    "name": "Coalridge Pass",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Coalridge_Pass",
+    "description": "Coal on ridge walls and in caves. Skeletons, zogres, dragon wolves, green dragons.",
+    "danger": "5",
+    "resources": [
+      "Coal"
+    ],
+    "approx": "nw of silverthorn keep, ne of the lake"
+  },
+  {
+    "name": "Silverthorn Keep",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Silverthorn_Keep",
+    "description": "Fallen Wild Knights fortress. Gate into Dowdun Reach. One curse seal.",
+    "danger": "5",
+    "resources": [
+      "Undead",
+      "curse shard"
+    ],
+    "approx": "east fellhollow, south of coalridge"
+  },
+  {
+    "name": "The Approach … The Bastion",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dowdun_Reach",
+    "description": "Named keep districts: Approach, Courtyard, Nexus, Library, Grand Hall, Garrison, Pastures, Menagerie, Crypt, Lake, Demon Gate, Cathedral, Bastion. Bastion door opens Umbral Sands.",
+    "danger": "6",
+    "resources": [
+      "Mithril",
+      "maple",
+      "demons",
+      "Black Knights"
+    ],
+    "approx": "keep interior / mountain"
+  },
+  {
+    "name": "Alcarrid Oasis",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Alcarrid_Oasis",
+    "description": "First desert camp from the Bastion. Youngest Moon Garou clan. Icthlarin.",
+    "danger": "7",
+    "resources": [
+      "Oasis hub"
+    ],
+    "approx": "north of the desert"
+  },
+  {
+    "name": "Dunes of Uzzer",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dunes_of_Uzzer",
+    "description": "Weaving clan. Forbidden Scrolls. Vault (Mirrors) at a pyramid north of here.",
+    "danger": "7",
+    "resources": [
+      "Yew",
+      "cactus",
+      "adamantite"
+    ],
+    "approx": "north-east desert"
+  },
+  {
+    "name": "Manafem Plains",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Manafem_Plains",
+    "description": "Clan that avoids open dunes. Hunted by The Radiant (red dragon). Vault (Kalphite) south at a pyramid.",
+    "danger": "7",
+    "resources": [
+      "Kalphites",
+      "adamantite"
+    ],
+    "approx": "west desert"
+  },
+  {
+    "name": "The Burning Spire",
+    "wiki": "https://dragonwilds.runescape.wiki/w/The_Burning_Spire",
+    "description": "Fuzan's volcano. Corrupted Lens. Cave of Screams.",
+    "danger": "7",
+    "resources": [
+      "KotHaar",
+      "Fuzan"
+    ],
+    "approx": "south desert"
+  },
+  {
+    "name": "Rasthin's Rest",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rasthin%27s_Rest",
+    "description": "Only buildable / safe hub in the raid.",
+    "danger": "Raid hub",
+    "resources": [
+      "Base building"
+    ],
+    "approx": "raid interior"
+  },
+  {
+    "name": "Dragontail Vines",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dragontail_Vines",
+    "description": "First raid path. Runite and luminite on the way. Anima pylons.",
+    "danger": "Raid",
+    "resources": [
+      "Runite",
+      "luminite"
+    ],
+    "approx": "screenshot: https://dragonwilds"
+  },
+  {
+    "name": "Fragments of Ghornfell",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fragments_of_Ghornfell",
+    "description": "Garou/goblin fragment, black dragon, sanguine urn.",
+    "danger": "Raid",
+    "resources": [
+      "Residue",
+      "urns"
+    ],
+    "approx": "raid interior"
+  },
+  {
+    "name": "The Shattered Stronghold",
+    "wiki": "https://dragonwilds.runescape.wiki/w/The_Shattered_Stronghold",
+    "description": "Water/air/fire anima barriers, PL 9 Rat King.",
+    "danger": "Raid",
+    "resources": [
+      "Black dragon",
+      "garou"
+    ],
+    "approx": "raid interior"
+  },
+  {
+    "name": "Cataclysm Keep",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Cataclysm_Keep",
+    "description": "Vault guardians, anima-button puzzle (Air, Water, Earth, Fire).",
+    "danger": "Raid",
+    "resources": [
+      "Vault guardians"
+    ],
+    "approx": "raid interior"
+  },
+  {
+    "name": "Kuldra's Sanctum",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Kuldra%27s_Sanctum",
+    "description": "Dragon Gate into Kuldra. More runite/luminite on the approach.",
+    "danger": "Raid boss",
+    "resources": [
+      "Runite",
+      "luminite",
+      "Kuldra"
+    ],
+    "approx": "raid end"
+  }
+]

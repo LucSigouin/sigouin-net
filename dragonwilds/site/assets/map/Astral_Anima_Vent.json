@@ -1,0 +1,196 @@
+[
+	{
+		"x": 38241.75,
+		"y": -46944.633,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 209144.9,
+		"y": -15316.651,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 172930.77,
+		"y": -42937.055,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 173199.52,
+		"y": -64397.3,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 56789.406,
+		"y": 188706.42,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 36659.445,
+		"y": 158609.88,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 67562.86,
+		"y": 160086.94,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 43663.91,
+		"y": 129100.37,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 37259.727,
+		"y": 107468.234,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 49954.37,
+		"y": 93195,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 116025.16,
+		"y": 157608.53,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 136909.7,
+		"y": 71757.25,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 78798.94,
+		"y": 80393.37,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 79655.47,
+		"y": 111895.445,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 66187.07,
+		"y": 96677.59,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 58877.344,
+		"y": 87710.1,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 101975.17,
+		"y": -39250.41,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 151584.4,
+		"y": -63873.754,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 18413.766,
+		"y": 183367.03,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -166478.53,
+		"y": 100920.99,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -169824.6,
+		"y": 188623.92,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -162707.31,
+		"y": 20339.639,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -480868.72,
+		"y": -469583.66,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -330296.88,
+		"y": -465567.16,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -95654.7,
+		"y": -53672.227,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -83943.89,
+		"y": 182018.81,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -167255.53,
+		"y": -51106.543,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -91731.086,
+		"y": 188053.94,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": -92931.87,
+		"y": 43889.03,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png"
+	},
+	{
+		"x": 326042.25,
+		"y": 188188.4,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 358450,
+		"y": 45500,
+		"name": "Astral Anima Vent",
+		"icon": "Astral_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

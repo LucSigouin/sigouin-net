@@ -1,0 +1,8 @@
+{
+  "size": 6144,
+  "mult": 0.0009142857142857143,
+  "offset_x": 11075,
+  "offset_y": 117685,
+  "maxZoom": 4,
+  "tileUrl": "https://maps.runescape.wiki/dw/tiles/{z}/{x}_{y}.png"
+}

@@ -1,0 +1,63 @@
+[
+	{
+		"x": 300425.84,
+		"y": 126123.01,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306545.44,
+		"y": 211256.86,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 320422.3,
+		"y": 71825.18,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 383767.88,
+		"y": 120137.97,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 272411.328125,
+		"y": 216464.169922,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 353128.88,
+		"y": 60380.77,
+		"name": "Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		],
+		"description": "Spawns only at night."
+	}
+]

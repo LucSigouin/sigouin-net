@@ -1,0 +1,26 @@
+[
+	{
+		"x": 228062.33,
+		"y": 54539.5,
+		"name": "Doric",
+		"description": "Quest start. Found in The Nexus."
+	},
+	{
+		"x": 213548.22,
+		"y": 51010.81,
+		"name": "Cathedral Notes",
+		"description": "Scrawled notes on a table near the Cathedral nodestone."
+	},
+	{
+		"x": 231281.94,
+		"y": 22026.652,
+		"name": "Garrison Schematics",
+		"description": "Schematics atop a crate near the Garrison nodestone."
+	},
+	{
+		"x": 212842.6,
+		"y": 42610.21,
+		"name": "Dead Zamorak Mage",
+		"description": "Found at the far end of the Demon Gate, past the Shardbound Lesser Demons."
+	}
+]

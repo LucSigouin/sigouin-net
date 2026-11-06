@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hub Probe Notes</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #11141d;
+  --band: #171b28;
+  --panel: #1a1f2d;
+  --line: #2a3044;
+  --fg: #e8e5de;
+  --mute: #9aa2b6;
+  --lamp: #ffb870;
+  --ok: #74d69c;
+  --bad: #ff8080;
+  --open: #9fb2ea;
+  --code: #0c0f16;
+  --display: "Avenir Next", "Avenir", "Segoe UI", system-ui, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --pad: clamp(1rem, 4vw, 3rem);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+a { color: var(--lamp); }
+a:focus-visible, button:focus-visible, figure:focus-visible { outline: 2px solid var(--lamp); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+code, pre { font-family: var(--mono); font-size: 12.5px; }
+.label { font: 600 11px/1.2 var(--body); letter-spacing: .09em; text-transform: uppercase; color: var(--mute); }
+
+header.band { background: linear-gradient(180deg, #1c2340 0%, var(--band) 100%); border-bottom: 1px solid var(--line); padding: 1.6rem var(--pad) 1.3rem; display: grid; gap: .9rem; }
+header.band h1 { font-size: clamp(1.7rem, 3.2vw, 2.5rem); font-weight: 600; letter-spacing: -.01em; }
+header.band .sub { color: var(--mute); max-width: 75ch; }
+.phases { display: flex; flex-wrap: wrap; gap: .45rem; }
+.chip { display: inline-flex; align-items: center; gap: .45rem; border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: .25rem .7rem .25rem .55rem; font-size: 13px; white-space: nowrap; }
+.chip i { width: .55rem; height: .55rem; border-radius: 50%; background: var(--open); flex: none; }
+.chip.ok i { background: var(--ok); }
+.chip.bad i { background: var(--bad); }
+.chip.wip i { background: var(--lamp); }
+
+.layout { display: grid; grid-template-columns: minmax(16rem, 23rem) minmax(0, 1fr); gap: var(--pad); padding: 1.6rem var(--pad) 4rem; align-items: start; }
+@media (max-width: 900px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+aside.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1rem); display: grid; gap: 1.2rem; max-height: calc(100vh - 2rem); overflow: auto; padding-right: .3rem; }
+@media (max-width: 900px) { aside.rail { position: static; max-height: none; } }
+.rail details > :not(summary) { margin-top: .5rem; }
+.rail summary { cursor: pointer; list-style-position: outside; }
+.rail summary::marker { color: var(--mute); }
+.toc { margin: 0; padding-left: 0; list-style: none; display: grid; gap: .25rem; }
+.toc a { color: var(--fg); text-decoration: none; font-size: 13.5px; display: grid; grid-template-columns: 3.2rem 1fr; gap: .4rem; }
+.toc a:hover, .toc a:focus-visible { color: var(--lamp); }
+.toc b { font: 600 12px/1.6 var(--mono); color: var(--lamp); }
+.toc b.fix { color: var(--bad); }
+.rail p, .rail li { color: var(--mute); font-size: 13.5px; margin: 0; }
+.rail ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .3rem; }
+.rail .check { list-style: none; padding: 0; }
+.rail .check li { display: grid; grid-template-columns: 1.1rem 1fr; gap: .4rem; color: var(--fg); }
+.rail .check li span.s { font-family: var(--mono); font-size: 12px; }
+.s.ok { color: var(--ok); } .s.bad { color: var(--bad); } .s.open { color: var(--open); } .s.wip { color: var(--lamp); }
+
+main.feed { display: grid; gap: 2rem; min-width: 0; }
+article.entry { border-top: 1px solid var(--line); padding-top: 1.2rem; display: grid; gap: 1rem; min-width: 0; }
+.entry-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem 1rem; }
+.tag { font: 600 13px/1 var(--mono); color: #1a1206; background: var(--lamp); padding: .3rem .5rem; border-radius: 4px; }
+.tag.fix { background: var(--bad); }
+.when { color: var(--mute); font-size: 13px; font-variant-numeric: tabular-nums; }
+.entry h2 { font-size: 1.35rem; font-weight: 600; flex-basis: 100%; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: .8rem 1.6rem; }
+.cols > div { display: grid; gap: .35rem; align-content: start; }
+.cols p, .cols li { margin: 0; max-width: 70ch; }
+.cols ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .25rem; }
+.status { font-weight: 600; }
+.status.ok { color: var(--ok); } .status.bad { color: var(--bad); } .status.open { color: var(--open); }
+pre { background: var(--code); border: 1px solid var(--line); border-radius: 6px; padding: .8rem 1rem; margin: 0; overflow-x: auto; line-height: 1.5; color: #d9d6cf; }
+pre .cmd { color: var(--lamp); }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 13.5px; }
+.tablewrap { overflow-x: auto; }
+th, td { text-align: left; padding: .3rem .8rem .3rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--mute); font-weight: 600; }
+td.num, th.num { text-align: right; }
+.shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .6rem; }
+figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; cursor: zoom-in; }
+figure img { display: block; width: 100%; height: auto; max-width: 100%; }
+figcaption { padding: .35rem .55rem; font-size: 12.5px; color: var(--mute); }
+#lightbox { position: fixed; inset: 0; background: rgba(6, 8, 12, .94); display: none; align-items: center; justify-content: center; padding: 1rem; cursor: zoom-out; z-index: 10; flex-direction: column; gap: .6rem; }
+#lightbox.on { display: flex; }
+#lightbox img { max-width: 100%; max-height: calc(100% - 2.5rem); }
+#lightbox p { margin: 0; color: var(--mute); font-size: 13px; }
+@media (max-width: 600px) {
+  body { font-size: 14.5px; }
+  header.band { padding-block: 1.1rem 1rem; gap: .7rem; }
+  .chip { font-size: 12px; padding: .2rem .55rem .2rem .45rem; }
+  .layout { gap: 1.2rem; padding-block: 1rem 3rem; }
+  aside.rail { gap: .9rem; }
+  .entry h2 { font-size: 1.15rem; }
+  .cols { gap: .8rem; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 11.5px; padding: .6rem .7rem; }
+  table { font-size: 12.5px; }
+  .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
+  figcaption { font-size: 11.5px; padding: .3rem .4rem; }
+}
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="label">Sigouin Hub · probe layer · Sigouin-Hub/probe</div>
+  <h1>Hub Probe Notes</h1>
+  <p class="sub">Patch notes for the probe: the layer that lets an agent load the courtyard headless, read the scene as data, see it through see-through layers, play it with scripted input, and check every result. Newest entry first. Every number here comes from a real run on this Mac (Apple M5, Metal).</p>
+  <div class="phases" id="phases">
+    <span class="chip ok"><i></i>A · frozen mode</span>
+    <span class="chip ok"><i></i>B · scene as data</span>
+    <span class="chip ok"><i></i>C · cameras and shots</span>
+    <span class="chip ok"><i></i>D · see-through layers</span>
+    <span class="chip wip"><i></i>D · cost meter under GPU load</span>
+    <span class="chip ok"><i></i>E · scripted play</span>
+    <span class="chip ok"><i></i>F · tour and visual diffs</span>
+    <span class="chip ok"><i></i>fps question answered</span>
+    <span class="chip ok"><i></i>Live: 2 game bugs fixed, deploy fafc78f3</span>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="rail">
+  <details class="sec" open data-sec="Entries">
+    <summary class="label">Entries</summary>
+    <ol class="toc" id="toc"></ol>
+  </details>
+  <details class="sec" open data-sec="The plan, short">
+    <summary class="label">The plan, short</summary>
+    <p>Everything loads only with <code>?probe</code> in the URL, through a dynamic import, so normal visitors download nothing extra. <code>?probe&amp;freeze</code> stops time so two pictures of the same view match pixel for pixel.</p>
+    <ul>
+      <li><b>A</b> frozen mode: fixed time of day, no wind, fountain paused, fixed seed, pixel ratio 1.</li>
+      <li><b>B</b> <code>__probe.manifest()</code>: every object as JSON. <code>find()</code> looks things up.</li>
+      <li><b>C</b> <code>shot()</code> from any camera, named viewpoints, <code>orbit()</code>.</li>
+      <li><b>D</b> layers: beauty, id, depth, normals, wireframe, walkable, triggers, cost.</li>
+      <li><b>E</b> <code>run(steps)</code>: walk, press keys, expect states, take shots.</li>
+      <li><b>F</b> <code>tour.mjs</code> runs it all on desktop and phone; <code>diff.mjs</code> compares against a baseline.</li>
+    </ul>
+  </details>
+  <details class="sec" open data-sec="Self-check">
+    <summary class="label">Self-check</summary>
+    <ul class="check" id="selfcheck">
+      <li><span class="s ok">✓</span><span>Probe costs visitors 240 bytes; a normal visit loads no probe code (gate test, mutant proven)</span></li>
+      <li><span class="s ok">✓</span><span>Frozen shots identical across page loads: 0 px, all 11 views, both devices</span></li>
+      <li><span class="s ok">✓</span><span>5 of 5 harness mutants went red, then green; cost meter mutant clean on a calm GPU (v1.3), noisy under load (v1.1)</span></li>
+      <li><span class="s ok">✓</span><span>Existing desktop tests: 10 passed, 3 skipped (env-gated, as before)</span></li>
+      <li><span class="s ok">✓</span><span><code>npm run build</code> passes (tsc + vite)</span></li>
+      <li><span class="s ok">✓</span><span>Each phase has shots and real output below</span></li>
+    </ul>
+  </details>
+  <details class="sec" open data-sec="Open questions">
+    <summary class="label">Open questions</summary>
+    <ul id="questions">
+      <li>The fountain rim (v0.4) and windmill (v1.2) fixes are live since deploy <code>fafc78f3</code> (v1.4). Rollback is in the release folder.</li>
+      <li>The Mac's GPU sits at 83 to 99% busy with no hub running; CNVS is the top process. That is what drags headless fps to 30 to 47 and makes the cost meter noisy. What in CNVS draws that much is unknown.</li>
+      <li>Luc's player model costs about 2.6 ms per frame, the same from spawn and from the air, with only 19k triangles. A fixed cost, cause unknown.</li>
+      <li>The 2-pixel sign drift (v0.9) was seen once and never again. Mitigated, cause unproven.</li>
+      <li>Not tested: a real on-screen browser (headless only, by rule).</li>
+    </ul>
+  </details>
+  <details class="sec" open data-sec="Run it">
+    <summary class="label">Run it</summary>
+    <pre><span class="cmd">node probe/tour.mjs</span>          # full tour, ~8 min
+<span class="cmd">node probe/tour.mjs --quick</span>  # desktop, ~2 min
+<span class="cmd">node probe/diff.mjs latest</span>   # vs baseline
+<span class="cmd">node probe/mutants.mjs</span>       # break it, see red
+<span class="cmd">npx playwright test tests/probe.spec.ts --project=desktop</span></pre>
+    <p>In a page: open <code>/hub/?probe&amp;freeze</code>, then <code>__probe.shot({ view: 'aerial', layer: 'id' })</code>, <code>__probe.manifest()</code>, <code>__probe.run([{ walkTo: 'office' }, { press: 'KeyE' }])</code>.</p>
+  </details>
+</aside>
+
+<main class="feed">
+<!-- ENTRIES: newest first -->
+
+<article class="entry" id="v1-4">
+  <div class="entry-head"><span class="tag">v1.4</span><span class="when">2026-09-23 21:45</span><h2>Live on sigouin.net: probe, fountain rim and windmill</h2></div>
+  <div class="cols">
+    <div><div class="label">What shipped</div><p>Deployment <code>fafc78f3</code>. Only <code>/hub/</code> changed: <code>index.html</code> and 10 new asset files, including the 28 KB probe file that only <code>?probe</code> fetches. Release note and rollback: <code>sigouin-net/releases/hub-probe-20260923/</code>.</p></div>
+    <div><div class="label">Same bytes as tested</div><p>The deployed build is byte-identical to the build the final tours and gate ran against. After deploy, <code>/hub/?cb=</code> showed the new entry file on the first poll. Then all 14 hub files, with no query string, returned 200 with the right types and matching sha256.</p></div>
+    <div><div class="label">Checked on the live site</div><ul>
+      <li>Landing to hub and back, and walking out the gate: 2 of 2 tests passed.</li>
+      <li>Normal visit: 4 scripts, no probe code, 0 console errors.</li>
+      <li><code>?probe&amp;freeze</code>: 0 px different across two loads on 5 views.</li>
+      <li>Fountain rim: 0 flipped pixels. Office play: 11 of 11 steps.</li>
+    </ul></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">Fixed on the way</div><p>A crashed script left the GPU lock behind, and the next run waited 10 minutes for it. The lock now takes over when its owner process is gone, and did so on the next run.</p></div>
+    <div><div class="label">Not tested</div><p class="status open">A real phone or on-screen browser.</p></div>
+  </div>
+  <pre><span class="cmd">$ CONFIRM_DEPLOY=1 ../deploy/deploy.sh</span>
+✨ Success! Uploaded 11 files (3577 already uploaded) (1.74 sec)
+✨ Deployment complete! Take a peek over at https://fafc78f3.sigouin-net.pages.dev
+<span class="cmd">$ curl https://sigouin.net/hub/?cb=…</span>   # first poll
+21:30:44 assets/index-DacjnP62.js
+<span class="cmd">$ hash check, no query string</span>
+14 ok, 0 bad
+<span class="cmd">$ SITE_URL=https://sigouin.net LEAVE_URL=https://sigouin.net/hub/ npx playwright test tests/site.spec.ts tests/leave.spec.ts --project=desktop</span>
+  ✓  1 [desktop] › tests/leave.spec.ts:8:1 › walking out the entrance goes back to the landing page @desktop (9.5s)
+  ✓  2 [desktop] › tests/site.spec.ts:10:1 › landing to hub and back @desktop (12.9s)
+  2 passed (24.8s)
+<span class="cmd">$ node scratchpad/live.mjs</span>   # probe against https://sigouin.net/hub/
+normal visit: 4 scripts, probe code in any: false, __probe on window: false, console errors: 0
+live repeat, px different: spawn=0 fountain=0 aerial=0 corner-se=0 corner-nw=0
+live fountain rim flipped pixels: 0
+live scripted play: PASS 11/11 steps in 21980 ms
+live leave: PASS -&gt; https://sigouin.net/
+probe page errors: none</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/live-20260923/fountain.jpg" data-full="../shots/live-20260923/fountain.png" alt=""><figcaption>live · fountain</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/live-20260923/corner-se.jpg" data-full="../shots/live-20260923/corner-se.png" alt=""><figcaption>live · corner-se</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/live-20260923/rim-normals.jpg" data-full="../shots/live-20260923/rim-normals.png" alt=""><figcaption>live · rim normals · no magenta</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/live-20260923/aerial.jpg" data-full="../shots/live-20260923/aerial.png" alt=""><figcaption>live · aerial</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v1-3">
+  <div class="entry-head"><span class="tag">v1.3</span><span class="when">2026-09-23 21:12</span><h2>Final state: new baseline, a calm GPU, everything green</h2></div>
+  <div class="cols">
+    <div><div class="label">Final full tour</div><p><span class="status ok">All checks passed.</span> <code>probe/shots/20260923-205852/</code>: 337 shots in 283 s. All 11 views repeat at <b>0 pixels</b> between page loads on both devices, 34 of 34 canvas textures equal, play 87 of 87 and 67 of 67. It is the baseline now (250 images).</p></div>
+    <div><div class="label">Fresh run vs baseline</div><p>A new quick tour against it: <b>45 same, 0 drift, 0 failed</b>. (A first try said 36 failed: <code>latest</code> had picked an old run whose name was in UTC time. Fixed to pick by finish time.)</p></div>
+    <div><div class="label">Tests and build</div><p><span class="status ok">Desktop suite 10 passed, 3 skipped</span> (env-gated, as before). <code>npm run build</code> passes. Normal visitors now pay <b>+240 bytes</b> in total (app +58, entry +147, three +32, kit +5, furniture -2); the probe is its own 28 KB file.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">With a calm GPU</div><p>The Mac's GPU was 87 to 89% busy this time instead of 94 to 99%. Desktop perf: <b>60 fps, p95 16.7 ms, 4.5 ms per frame</b> (ceiling 221 fps). Phone: 60 fps, 2.4 ms. Cost base: 10.0 ms from spawn, 11.3 ms from aerial.</p></div>
+    <div><div class="label">Cost mutant, retried</div><p><span class="status ok">Clean catch.</span> Grass read <b>0.28 ± 0.11 ms</b>, then <b>0.97 ± 0.08 ms</b> with density doubled, then <b>0.40 ± 0.11 ms</b> after putting it back. So the meter works when the GPU is not saturated, and stays noisy when it is.</p></div>
+    <div><div class="label">Finding: the player costs the same from far away</div><p>Luc's model: <b>2.58 ms from spawn, 2.60 ms from aerial</b>, where it is a few pixels tall. So the cost does not come from screen area. It is a fixed per-frame cost, so look at skinning, the shadow pass, or the material setup rather than texture size. Not investigated further.</p></div>
+  </div>
+  <pre><span class="cmd">$ node probe/tour.mjs</span>
+[  32s] desktop cost from spawn: EXT_disjoint_timer_query_webgl2 base 9.979 ms, sum of parts 4.817 top player 2.577, bed-foliage 1.371, cypress-leaf 0.739
+[  56s] desktop cost from aerial: EXT_disjoint_timer_query_webgl2 base 11.27 ms, sum of parts 7.651 top player 2.595, grass 1.011, bed-foliage 0.942
+[  65s] desktop repeat load, pixels different: spawn=0 fountain=0 aerial=0 corner-nw=0 corner-ne=0 corner-sw=0 corner-se=0 door-computer-lab=0 door-music-studio=0 door-office=0 door-ai-workspace=0 | canvas textures: 34, differing: none
+[ 140s] desktop play PASS 87 steps
+[ 161s] desktop perf fps median 60, p95 frame 16.7 ms batch 4.52 ms/frame, ceiling 221.2 fps GPU busy before 89%
+[ 191s] phone repeat load, pixels different: spawn=0 fountain=0 aerial=0 corner-nw=0 ... door-ai-workspace=0 | canvas textures: 34, differing: none
+[ 264s] phone play PASS 67 steps
+[ 283s] phone perf fps median 60, p95 frame 16.7 ms batch 2.41 ms/frame, ceiling 414.9 fps GPU busy before 65%
+[ 283s] done: 337 shots in 283 s -> probe/shots/20260923-205852/contact.html
+all checks passed
+
+<span class="cmd">$ node probe/diff.mjs --approve probe/shots/20260923-205852</span>
+baseline &lt;- probe/shots/20260923-205852: 250 images
+<span class="cmd">$ node probe/tour.mjs --quick &amp;&amp; node probe/diff.mjs latest</span>
+compared 45 images (tol 6, max 0.05%): 45 same, 0 small drift, 0 failed
+
+<span class="cmd">$ npx playwright test --project=desktop</span>
+  3 skipped
+  10 passed (2.2m)</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-205852/desktop/cost/spawn.jpg" data-full="../shots/20260923-205852/desktop/cost/spawn.png" alt=""><figcaption>cost · spawn · calm GPU · the player is the hot spot</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-205852/desktop/cost/aerial.jpg" data-full="../shots/20260923-205852/desktop/cost/aerial.png" alt=""><figcaption>cost · aerial</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-205852/desktop/views/corner-se/beauty.jpg" data-full="../shots/20260923-205852/desktop/views/corner-se/beauty.png" alt=""><figcaption>corner-se · windmill fixed</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-205852/desktop/views/fountain/beauty.jpg" data-full="../shots/20260923-205852/desktop/views/fountain/beauty.png" alt=""><figcaption>fountain · rim fixed</figcaption></figure>
+  </div>
+  <p><a href="../shots/20260923-205852/contact.html">Open the final run's contact sheet</a> (every shot, click to enlarge).</p>
+</article>
+
+<article class="entry" id="v1-2">
+  <div class="entry-head"><span class="tag fix">v1.2</span><span class="when">2026-09-23 21:05</span><h2>Second bug found by the probe: the windmill ran on the wall clock</h2></div>
+  <div class="cols">
+    <div><div class="label">How it showed up</div><p>A clean quick tour drifted from the baseline on two fountain orbit shots (91 and 17 pixels, colour jumps up to 76). Below the fail line, but not the one-step drift of v0.9. A zoomed crop showed a windmill sail on the far hill at a different angle.</p></div>
+    <div><div class="label">Cause</div><p><code>src/world/backdrop.ts</code> set the sails from <code>performance.now()</code>, the page's wall clock. Everything else moves on the world clock, which frozen mode stops. So the sails kept turning, and their angle depended on when a shot was taken.</p></div>
+    <div><div class="label">What changed</div><p>One line: the sails now turn with the world time uniform, at the same 0.45 radians per second. In the live hub this also means they pause when the tab is hidden, like the fountain and the trees. Not deployed.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">How it was checked</div><p>The same orbit shot, on fresh pages and after other work, before and after the fix. Before: 68 to 101 pixels different between two fresh pages, and 9 to 78 after a cost pass. After: <b>0 in all four cases</b>.</p></div>
+    <div><div class="label">The harness got stronger too</div><p>The repeat check only compared 3 views, and the windmill is not in any of them. It now compares all 11 views between two page loads. The baseline was re-approved after the fix, since every old shot with the windmill in it has a random sail angle.</p></div>
+    <div><div class="label">Note on v0.9</div><p>This is a different bug from the 2-pixel sign drift. That one was one colour step on the Computer Lab sign; this one moved whole sail edges.</p></div>
+  </div>
+  <pre><span class="cmd">$ node scratchpad/dev7.mjs</span>   # same orbit shot (fountain, eye height, 90°)
+before the fix                          after the fix
+after cost(aerial): 41 px changed       after cost(aerial): 0 px changed
+after cost(spawn) too: 30 px changed    after cost(spawn) too: 0 px changed
+fresh page B vs fresh page A: 101       fresh page B vs fresh page A: 0
+after all views x layers: 24 px changed after all views x layers: 0 px changed</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/dev/drift-crop.jpg" data-full="../shots/dev/drift-crop.png" alt=""><figcaption>zoomed 4x · left: baseline · right: clean run · the sail moved</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-201647/desktop/views/corner-nw/beauty.jpg" data-full="../shots/20260923-201647/desktop/views/corner-nw/beauty.png" alt=""><figcaption>the windmill, top middle of corner-nw</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v1-1">
+  <div class="entry-head"><span class="tag">v1.1</span><span class="when">2026-09-23 20:52</span><h2>Every check was broken on purpose, and every one went red</h2></div>
+  <div class="cols">
+    <div><div class="label">What changed</div><p><code>probe/mutants.mjs</code> breaks one thing at a time (an exact text swap in the source, with a backup), runs the check that guards it, and requires a fail. Then it puts the code back and requires a pass. Results land in <code>probe/data/mutants-all-5.json</code>.</p></div>
+    <div><div class="label">A gap it found first</div><p>Planning the bundle mutant showed the first network check was too weak: a static <code>import</code> would put probe code inside the main file, and a check for a separate probe file would still pass. The gate now reads every script body a normal visit downloads and fails if any contains <code>__probe</code>. The mutant proves it.</p></div>
+    <div><div class="label">Final gate run</div><p><span class="status ok">4 passed (59.4 s)</span> on the finished code. Normal visit: 4 scripts, 886,504 bytes, no probe code.</p></div>
+  </div>
+  <div class="tablewrap"><table>
+    <tr><th>Mutant (what was broken)</th><th>Check that guards it</th><th>Broken</th><th>Restored</th><th>What the check said</th></tr>
+    <tr><td>World time not pinned in frozen mode</td><td>gate: pixel-identical across two loads</td><td class="status bad">red</td><td class="status ok">green</td><td><code>spawn: 23129 different pixels</code></td></tr>
+    <tr><td>Probe imported statically into the main file</td><td>gate: a normal visit downloads no probe code</td><td class="status bad">red</td><td class="status ok">green</td><td>a normal visit's script held <code>__probe</code></td></tr>
+    <tr><td>The E key no longer opens doors</td><td>gate: scripted play, expect step</td><td class="status bad">red</td><td class="status ok">green</td><td><code>wanted level=music-studio state=play, got level=courtyard state=play</code></td></tr>
+    <tr><td>A crate blocks the Music Studio doorstep</td><td>gate: scripted play, walkTo step</td><td class="status bad">red</td><td class="status ok">green</td><td><code>stuck at (-5.14, -15.50), heading for waypoint 6/6</code></td></tr>
+    <tr><td>Fountain moved 0.5 m</td><td><code>diff.mjs</code> vs baseline</td><td class="status bad">red</td><td class="status ok">green</td><td>44 of 45 images failed (aerial beauty 5,632 px); a clean quick tour: 0 failed</td></tr>
+    <tr><td>Fountain rim inside-out (the real bug, v0.4)</td><td>normals layer</td><td class="status bad">red</td><td class="status ok">green</td><td>124,067 flagged pixels, then 0</td></tr>
+    <tr><td>Heavier scene (Chase, <code>FINDINGS.md</code>)</td><td><code>measureGpu</code></td><td colspan="2">moves the right way</td><td>low, medium, high: 4.33, 6.93, 11.57 ms per frame</td></tr>
+    <tr><td>Grass density doubled</td><td>cost meter</td><td colspan="2" class="status open">not clean</td><td>grass read 1.2, then 10.5, then -1.4 ms. Right way, but the spread overlaps</td></tr>
+  </table></div>
+  <div class="cols">
+    <div><div class="label">Why the cost mutant is not a pass</div><p>During that test the Mac's GPU was 92 to 99% busy before each pass, and the frame took 46 to 58 ms instead of about 10. The meter's own noise was 2 to 9 ms, as big as the effect. In the calm run earlier (v0.5) the same meter repeated to within 0.1 ms. So it works when the GPU is free, and I could not prove it under this load. I tried a low-percentile variant; it was no better, so I put the tested median back.</p></div>
+    <div><div class="label">What is loading the GPU</div><p class="status open">With none of my browsers running the GPU sat at 83 to 90% busy. Pointing the notes node at a blank page for 10 s did not change it (88 to 89% before, 83 to 90% after). CNVS was the top process at 29% CPU. I did not dig further, because that is Luc's app and desktop.</p></div>
+  </div>
+  <pre><span class="cmd">$ node probe/mutants.mjs</span>
+=== freeze: world time not pinned            broken: exit 1 (RED, good)   restored: exit 0 (green)
+      | spawn: 23129 different pixels
+=== bundle: probe imported statically into the main chunk   broken: exit 1 (RED, good)   restored: exit 0 (green)
+      | &gt; 39 |   expect(normal.filter((s) =&gt; s.url.includes('probe') || s.text.includes('__probe')).map((s) =&gt; s.url)).toEqual([]);
+=== game: the E key no longer opens doors     broken: exit 1 (RED, good)   restored: exit 0 (green)
+      | FAIL {"expect":{"level":"music-studio","state":"play"},"timeout":20000} wanted level=music-studio state=play, got level=courtyard state=play (20016 ms)
+=== game: a crate blocks the Music Studio doorstep   broken: exit 1 (RED, good)   restored: exit 0 (green)
+      | FAIL {"walkTo":"music-studio"} stuck at (-5.14, -15.50), heading for waypoint 6/6 (-5.4, -17.3) (15133 ms)
+=== visual diff: fountain moved 0.5 m         broken: exit 1 (RED, good)   restored: exit 0 (green)
+      |   FAIL    desktop/views/aerial/beauty.png  5632 px (0.4346%), max delta 207
+5/5 mutants caught and cleanly restored
+
+<span class="cmd">$ npx playwright test tests/probe.spec.ts --project=desktop</span>
+normal visit: 4 scripts, 886504 bytes
+  ✓  1 [desktop] › tests/probe.spec.ts:31:1 › a normal visit downloads no probe code @desktop (10.8s)
+spawn: 0 different pixels
+fountain: 0 different pixels
+aerial: 0 different pixels
+  ✓  2 [desktop] › tests/probe.spec.ts:47:1 › frozen shots are pixel-identical across two page loads @desktop (12.5s)
+  ✓  3 [desktop] › tests/probe.spec.ts:61:1 › every layer renders and the scene reads as data @desktop (6.9s)
+  ✓  4 [desktop] › tests/probe.spec.ts:88:1 › scripted play: walk to a building, go in, open a card, come back out @desktop (26.9s)
+  4 passed (59.4s)</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/mutant-fountain-1790209766671/diff/desktop/views/aerial/beauty.jpg" data-full="../shots/mutant-fountain-1790209766671/diff/desktop/views/aerial/beauty.png" alt=""><figcaption>mutant · fountain moved 0.5 m · diff vs baseline</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/mutant-fountain-1790209766671/diff/desktop/orbits/fountain-stone/eye-000.jpg" data-full="../shots/mutant-fountain-1790209766671/diff/desktop/orbits/fountain-stone/eye-000.png" alt=""><figcaption>mutant · orbit eye 0° · diff</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v1-0">
+  <div class="entry-head"><span class="tag">v1.0</span><span class="when">2026-09-23 20:27</span><h2>Clean full tour, a baseline, and the test suite still green</h2></div>
+  <div class="cols">
+    <div><div class="label">Tour result</div><p><span class="status ok">All checks passed.</span> 321 shots in 459 s. Repeat loads: 0, 0, 0 pixels different on both devices. All 34 canvas textures equal between loads. Play: 87 of 87 on desktop, 67 of 67 on phone, ending on the landing page both times.</p></div>
+    <div><div class="label">Baseline</div><p>This run is now <code>probe/baseline/</code>: 250 images (views x layers and orbits, both devices; 271 MB). Play and cost shots are left out on purpose, since walked positions and timings vary.</p></div>
+    <div><div class="label">Diff</div><p>This run against the baseline: <b>250 same, 0 failed</b>, exit 0. The 19:49 run against it: 183 failed, because that run still used GPU-painted canvases. The diff images put the change on the paving grout lines and leaf specks, both canvas-painted textures. That is extra evidence for the theory in v0.9.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">Heads-up</div><p>Frozen shots paint canvases on the CPU, so thin lines like paving grout can sit a pixel off from what visitors see. For repeatable pictures that is the price. Beauty shots outside frozen mode are unchanged.</p></div>
+    <div><div class="label">Perf, again</div><p class="status open">Desktop perf was marked contended again: 36 fps, p95 50 ms, GPU 97% busy before the pass started. Sampled with nothing of mine running: the Mac's GPU sat at 88 to 96% busy, and CNVS was the top process at 29% CPU. Treat the desktop cost numbers from this run as inflated (base 24 ms). The phone pass had headroom: 60 fps, 4.7 ms.</p></div>
+    <div><div class="label">Existing tests</div><p><span class="status ok">10 passed, 3 skipped</span> (the 3 skips need <code>LEAVE_URL</code>, <code>PERF=1</code> or <code>SITE_URL</code>, as before). The 4 new gate tests are in there. <code>look.spec</code> printed 30.6 fps at spawn: it counts frames for 3 s with no GPU lock, so the same shared GPU explains it.</p></div>
+  </div>
+  <pre><span class="cmd">$ npx playwright test --project=desktop</span>
+Running 13 tests using 1 worker
+  ✓   1 [desktop] › tests/atlas.spec.ts:5:1 › atlas dump @desktop (862ms)
+  ✓   2 [desktop] › tests/hub.spec.ts:48:1 › boots cleanly and the canvas fills the viewport @desktop (8.1s)
+  ✓   3 [desktop] › tests/hub.spec.ts:60:1 › each door enters and exits by keyboard, and every project card opens @desktop (34.7s)
+  ✓   4 [desktop] › tests/hub.spec.ts:102:1 › static links version lists every project and link @desktop (141ms)
+  ✓   5 [desktop] › tests/hub.spec.ts:119:1 › skip to links opens the list and returns to the courtyard @desktop (6.2s)
+  -   6 [desktop] › tests/leave.spec.ts:8:1 › walking out the entrance goes back to the landing page @desktop
+  ✓   7 [desktop] › tests/look.spec.ts:23:1 › look views @desktop (29.5s)
+  -   8 [desktop] › tests/perf.spec.ts:7:1 › fps by part @desktop
+  ✓   9 [desktop] › tests/probe.spec.ts:31:1 › a normal visit downloads no probe code @desktop (12.5s)
+spawn: 0 different pixels
+fountain: 0 different pixels
+aerial: 0 different pixels
+  ✓  10 [desktop] › tests/probe.spec.ts:42:1 › frozen shots are pixel-identical across two page loads @desktop (15.1s)
+  ✓  11 [desktop] › tests/probe.spec.ts:56:1 › every layer renders and the scene reads as data @desktop (8.5s)
+  ✓  12 [desktop] › tests/probe.spec.ts:83:1 › scripted play: walk to a building, go in, open a card, come back out @desktop (28.5s)
+  -  13 [desktop] › tests/site.spec.ts:10:1 › landing to hub and back @desktop
+  3 skipped
+  10 passed (2.5m)
+
+<span class="cmd">$ node probe/diff.mjs --approve probe/shots/20260923-201647</span>
+baseline &lt;- probe/shots/20260923-201647: 250 images
+<span class="cmd">$ node probe/diff.mjs probe/shots/20260923-201647</span>
+compared 250 images (tol 6, max 0.05%): 250 same, 0 small drift, 0 failed
+<span class="cmd">$ node probe/diff.mjs probe/shots/20260923-194926</span>
+compared 250 images (tol 6, max 0.05%): 2 same, 65 small drift, 183 failed
+  FAIL    desktop/orbits/fountain-stone/eye-000.png  20532 px (1.5843%), max delta 210
+  ...</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/diff/desktop/orbits/fountain-stone/eye-180.jpg" data-full="../shots/20260923-194926/diff/desktop/orbits/fountain-stone/eye-180.png" alt=""><figcaption>diff · GPU vs CPU canvases · magenta = changed</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-201647/desktop/views/corner-nw/beauty.jpg" data-full="../shots/20260923-201647/desktop/views/corner-nw/beauty.png" alt=""><figcaption>corner-nw (moved outside the garden, 16 m up)</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-201647/desktop/views/corner-se/beauty.jpg" data-full="../shots/20260923-201647/desktop/views/corner-se/beauty.png" alt=""><figcaption>corner-se</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-201647/phone/views/fountain/beauty.jpg" data-full="../shots/20260923-201647/phone/views/fountain/beauty.png" alt=""><figcaption>phone · fountain · beauty</figcaption></figure>
+  </div>
+  <p><a href="../shots/20260923-201647/contact.html">Open this run's contact sheet</a> (every shot, click to enlarge).</p>
+</article>
+
+<article class="entry" id="v0-9">
+  <div class="entry-head"><span class="tag fix">v0.9</span><span class="when">2026-09-23 20:10</span><h2>Two pixels drifted on one run. Mitigated, cause not proven</h2></div>
+  <div class="cols">
+    <div><div class="label">What happened</div><p>In the full tour, the desktop aerial shot on the second page load differed from the first load by <b>2 pixels, 1 colour step each</b> (blue 175 vs 174). The other 5 repeat pairs in that run were 0. The Mac's GPU was 94% busy before that run, from outside load.</p></div>
+    <div><div class="label">How it was traced</div><p>The id layer names the object under any pixel. Both pixels sit on <code>computer-lab/sign-Computer Lab</code>. Signs are painted on 2D canvases (gradients plus text) and uploaded as textures. Chrome can paint a canvas on the GPU or the CPU and may switch with load, and the two upload paths can round differently.</p></div>
+    <div><div class="label">What changed</div><ul>
+      <li>Frozen mode now forces every 2D canvas onto the CPU (<code>willReadFrequently: true</code>) before the world is built. <code>&amp;gpucanvas</code> turns that off for testing.</li>
+      <li>New <code>__probe.textures()</code>: a fingerprint of all 34 canvas textures. The tour compares them between loads and names any that differ.</li>
+    </ul></div>
+    <div><div class="label">Still unverified</div><p class="status open">I could not make it happen again. 10 more fresh loads with a second hub rendering alongside, 6 of them with the fix off: all 0 pixels different, all 34 texture fingerprints equal. So the fix is a reasoned guess, not a proven one. The tour keeps checking every run and will flag it if it comes back.</p></div>
+  </div>
+  <pre><span class="cmd">$ node scratchpad/dev4.mjs</span>   # a 2nd hub renders the whole time, 2 fresh loads per rep
+&amp;gpucanvas rep 0 textures 34 differing [] aerial px diff 0
+&amp;gpucanvas rep 1 textures 34 differing [] aerial px diff 0
+&amp;gpucanvas rep 2 textures 34 differing [] aerial px diff 0
+&amp;gpucanvas rep 3 textures 34 differing [] aerial px diff 0</pre>
+</article>
+
+<article class="entry" id="v0-8">
+  <div class="entry-head"><span class="tag">v0.8</span><span class="when">2026-09-23 19:42</span><h2>The fps answer: 60, and the dips come from sharing the GPU</h2></div>
+  <div class="cols">
+    <div><div class="label">Answer</div><p><b>True fps is 60</b>, the display cap, at 1440x900 Medium. The real GPU cost is about <b>7 ms per frame</b>, so there is plenty of room. The 31, 38 and 47 readings happened when another GPU job ran at the same time: a second headless hub drops it to <b>35 to 52</b>.</p></div>
+    <div><div class="label">Why it lands near 30 or in the 40s</div><p>The frame has 16.7 ms. When a shared GPU pushes a frame past that, it waits for the next slot, so frames take 33 ms. A mix of on-time and late frames gives numbers in the 40s. The Mac is also never idle: its GPU was 80 to 88% busy before nearly every run, from the CNVS app and the desktop.</p></div>
+    <div><div class="label">Who and how</div><p>Worker <b>Chase</b> (Opus 5.5, medium effort) ran 27 fresh browsers: 9 conditions, 3 runs each, round robin, with a GPU lock so runs never overlapped. Full write-up: <code>probe/perf/FINDINGS.md</code>. Raw data: <code>probe/shots/perf-study/</code>.</p></div>
+    <div><div class="label">Ruled out</div><ul>
+      <li>Warm-up: first second was 59 to 60 in all 21 clean runs.</li>
+      <li>Headless pacing: empty pages hit 60; with vsync off the hub ran 80 to 99.</li>
+      <li>Browser build: headless shell, full Chromium, WebKit all gave 60.</li>
+      <li>Pixels: 1.96x the pixels raised cost 5.8 to 8.8 ms, still 60.</li>
+    </ul></div>
+  </div>
+  <div class="tablewrap"><table>
+    <tr><th>Condition (3 runs each)</th><th class="num">steady fps</th><th class="num">GPU ms per frame</th><th class="num">timer ms</th></tr>
+    <tr><td>headless 1440x900 medium</td><td class="num">60 [60-60]</td><td class="num">6.93</td><td class="num">11.36</td></tr>
+    <tr><td>headless 1440x900 low</td><td class="num">60 [60-60]</td><td class="num">4.33</td><td class="num">3.85</td></tr>
+    <tr><td>headless 1440x900 high</td><td class="num">60 [60-60]</td><td class="num">11.57</td><td class="num">17.6</td></tr>
+    <tr><td>headless 1280x720 medium, Retina scale 2</td><td class="num">60 [60-60]</td><td class="num">8.8</td><td class="num">14.6</td></tr>
+    <tr><td>headless 1440x900 medium, vsync off</td><td class="num">84 [80-99]</td><td class="num">8.11</td><td class="num">13.13</td></tr>
+    <tr><td><b>1440x900 medium + a 2nd hub at the same time</b></td><td class="num"><b>38 [35-52]</b></td><td class="num"><b>19.58</b></td><td class="num">29.44</td></tr>
+  </table></div>
+  <div class="cols">
+    <div><div class="label">What the tour does now</div><p>Holds <code>probe/.gpu-lock</code> for its whole browser session, logs whole-Mac GPU busy % first, reports median fps plus the 95th-percentile frame time, and GPU ms per frame with no pacing. A p95 over 25 ms marks the run <b>contended</b>.</p></div>
+    <div><div class="label">It already caught one</div><p>The first full tour's desktop perf pass read 47 fps, p95 33.4 ms, 16.7 ms per frame, with the GPU 94% busy before it started. The tour marked it CONTENDED. The phone pass 2 minutes later read 60 fps and 4.5 ms.</p></div>
+    <div><div class="label">Not tested</div><p class="status open">A real on-screen browser. Headless only, by rule; Retina was simulated with scale 2.</p></div>
+  </div>
+</article>
+
+<article class="entry" id="v0-7">
+  <div class="entry-head"><span class="tag">v0.7</span><span class="when">2026-09-23 19:56</span><h2>Phase F: one command tours everything on desktop and phone</h2></div>
+  <div class="cols">
+    <div><div class="label">What changed</div><ul>
+      <li><code>probe/tour.mjs</code>: builds the site under <code>/hub/</code> into <code>probe/.dist</code>, serves it with a stub landing page at <code>/</code>, then per device runs 3 page loads: frozen views, a fresh repeat load plus scripted play, and a live perf pass.</li>
+      <li><code>probe/lib.mjs</code>: the server, GPU lock, and a PNG reader and writer built only on Node's own zlib.</li>
+      <li><code>probe/diff.mjs</code>: compares a run with <code>probe/baseline/</code>, writes diff images, exits 1 past the threshold.</li>
+    </ul></div>
+    <div><div class="label">Numbers, first full run</div><p><b>321 shots in 383 s</b>. Desktop 1440x900 and phone 412x839 (Pixel 7). 11 views x 7 layers per device, 2 orbits of 24 shots, cost heatmaps, 87 play steps on desktop and 67 on phone. 269 MB on disk.</p></div>
+    <div><div class="label">Where</div><p>Run folder <code>probe/shots/20260923-194926/</code>. Open <a href="../shots/20260923-194926/contact.html">contact.html</a> for the grid of every shot. Also in the folder: <code>manifest-*.json</code>, <code>legends-*.json</code>, <code>steps-*.json</code>, <code>perf.json</code>, <code>run.json</code>.</p></div>
+  </div>
+  <pre><span class="cmd">$ node probe/tour.mjs</span>
+[   6s] desktop ready 5379 ms ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version) 1440x900 tier medium
+[  12s] desktop 11 views x 7 layers
+[ 122s] desktop orbits fountain-stone x24, music-studio x24
+[ 128s] desktop repeat load, pixels different: spawn=0 fountain=0 aerial=2
+[ 204s] desktop play PASS 87 steps
+[ 227s] desktop perf fps median 47, p95 frame 33.4 ms batch 16.74 ms/frame, ceiling 59.7 fps GPU busy before 94% CONTENDED
+[ 289s] phone repeat load, pixels different: spawn=0 fountain=0 aerial=0
+[ 363s] phone play PASS 67 steps
+[ 383s] phone perf fps median 60, p95 frame 16.7 ms batch 4.47 ms/frame, ceiling 223.7 fps GPU busy before 94%
+[ 383s] done: 321 shots in 383 s -> probe/shots/20260923-194926/contact.html
+PROBLEMS:
+  desktop: repeat aerial differs by 2 px</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/orbits/fountain-stone/eye-000.jpg" data-full="../shots/20260923-194926/desktop/orbits/fountain-stone/eye-000.png" alt=""><figcaption>orbit · fountain · eye 0°</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/orbits/fountain-stone/eye-135.jpg" data-full="../shots/20260923-194926/desktop/orbits/fountain-stone/eye-135.png" alt=""><figcaption>orbit · fountain · eye 135°</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/orbits/fountain-stone/high-270.jpg" data-full="../shots/20260923-194926/desktop/orbits/fountain-stone/high-270.png" alt=""><figcaption>orbit · fountain · high 270°</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/orbits/music-studio/low-045.jpg" data-full="../shots/20260923-194926/desktop/orbits/music-studio/low-045.png" alt=""><figcaption>orbit · music studio door · low 45°</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/phone/views/spawn/beauty.jpg" data-full="../shots/20260923-194926/phone/views/spawn/beauty.png" alt=""><figcaption>phone · spawn · beauty</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/phone/views/aerial/walkable.jpg" data-full="../shots/20260923-194926/phone/views/aerial/walkable.png" alt=""><figcaption>phone · aerial · walkable</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v0-6">
+  <div class="entry-head"><span class="tag">v0.6</span><span class="when">2026-09-23 19:47</span><h2>Phase E: the probe plays the hub start to finish</h2></div>
+  <div class="cols">
+    <div><div class="label">What changed</div><p><code>__probe.run(steps)</code> runs steps in order and returns pass or fail with a reason for each. Steps: <code>walkTo</code> (a building, an exhibit, an exit, or x,z), <code>press</code>, <code>hold</code>, <code>wait</code>, <code>expect</code> (level, state, cardOpen, nearest, leaving), <code>shot</code>, <code>teleport</code>, <code>leave</code>.</p></div>
+    <div><div class="label">How walking works</div><p>It builds a 25 cm walk grid from the game's own collision code, plans a path with A* (a shortest-route search), and steers with the same stick input a phone thumbstick uses. So it hits the same walls a player would. It fails with a reason if the player stalls for 2.5 s.</p></div>
+    <div><div class="label">What it covered</div><p>Every building: walk to the door, press E, check the level, take shots inside, walk to an exhibit, press E, check the card opened, Escape, walk to the exit, press E, check the courtyard. Then walk out the gate and check the browser lands on the landing page.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">Result</div><p><span class="status ok">Desktop 87 of 87 steps passed. Phone 67 of 67.</span> After leaving, the browser went to <code>/#from-hub</code> on the stub landing page, the same hash the real site uses.</p></div>
+    <div><div class="label">Level names</div><p>The plan's example said <code>musicStudio</code>. The game's real level id is <code>music-studio</code>, so steps use that.</p></div>
+    <div><div class="label">Note</div><p>The card is HTML on top of the 3D canvas, so a canvas shot cannot show it. The tour takes a page screenshot for the card instead, with CSS transitions jumped to the end.</p></div>
+  </div>
+  <pre><span class="cmd">$ __probe.run([...])</span>   # music studio, from the dev run
+ok   {"walkTo":"music-studio"} ok 11178ms {"level":"courtyard","x":-5.4,"z":-17.05}
+ok   {"press":"KeyE"} ok 236ms
+ok   {"expect":{"level":"music-studio","state":"play"}} ok 1921ms
+ok   {"walkTo":"music-studio:0"} ok 2632ms {"level":"music-studio","x":0,"z":-2.05}
+ok   {"press":"KeyE"} ok 32ms
+ok   {"expect":{"cardOpen":true}} ok 0ms
+ok   {"press":"Escape"} ok 36ms
+ok   {"expect":{"cardOpen":false}} ok 0ms
+ok   {"walkTo":"music-studio:exit"} ok 3199ms {"level":"music-studio","x":0,"z":4.75}
+ok   {"expect":{"level":"courtyard","state":"play"}} ok 1408ms {"level":"courtyard","x":-5.14,"z":-15.42}
+leave {"pass":true,"ms":11819,"at":{"x":0,"z":24.3}} left to http://127.0.0.1:60612/#from-hub</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/01-computer-lab-at-door.jpg" data-full="../shots/20260923-194926/desktop/play/01-computer-lab-at-door.png" alt=""><figcaption>play · at the Computer Lab door</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/05-computer-lab-overview-beauty.jpg" data-full="../shots/20260923-194926/desktop/play/05-computer-lab-overview-beauty.png" alt=""><figcaption>play · Computer Lab overview</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/10-computer-lab-overview-walkable.jpg" data-full="../shots/20260923-194926/desktop/play/10-computer-lab-overview-walkable.png" alt=""><figcaption>play · Computer Lab walkable</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/15-computer-lab-card.jpg" data-full="../shots/20260923-194926/desktop/play/15-computer-lab-card.png" alt=""><figcaption>play · Computer Lab card (page screenshot)</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/71-ai-workspace-overview-normals.jpg" data-full="../shots/20260923-194926/desktop/play/71-ai-workspace-overview-normals.png" alt=""><figcaption>play · AI Workspace normals</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/play/84-back-in-courtyard.jpg" data-full="../shots/20260923-194926/desktop/play/84-back-in-courtyard.png" alt=""><figcaption>play · back in the courtyard</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v0-5">
+  <div class="entry-head"><span class="tag">v0.5</span><span class="when">2026-09-23 19:50</span><h2>Cost layer: which parts of the scene eat GPU time</h2></div>
+  <div class="cols">
+    <div><div class="label">What changed</div><p><code>await __probe.cost({ view })</code> hides one part at a time and times the frame on the GPU. The <code>cost</code> layer paints each part by its share: dark blue cheap, red expensive.</p></div>
+    <div><div class="label">First version was too noisy</div><p>One shown, hidden, shown pass per part gave a sum of parts of <b>-6.72 ms</b> against a 14 ms frame. Rewritten: 40 warm-up frames (the GPU speeds up over the first frames), then 3 rounds of shown and hidden per part, median of the 3.</p></div>
+    <div><div class="label">Now it repeats</div><p>Two runs back to back on one page: player <b>2.66 and 2.56 ms</b>, bed foliage <b>1.39 and 1.41 ms</b>, cypress leaves 0.85 and 0.56 ms. Uses the WebGL GPU timer query, which this Chromium has.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">Finding: the player model</div><p>Luc's model costs about <b>2.6 ms of a 10 ms frame</b> from the spawn view. It is 19k triangles with one double-sided material and 3 textures, so the triangle count is not the reason. The tour now also measures from the aerial view, where the model is tiny, to split screen-area cost from fixed cost.</p></div>
+    <div><div class="label">Negative numbers are real</div><p>Buildings read -0.5 to -0.7 ms. Hiding a building uncovers the leaves and grass behind it, which cost more to draw than the wall did. The noise on those is only 0.04 to 0.12 ms.</p></div>
+    <div><div class="label">Unverified</div><p class="status open">Under outside GPU load the numbers inflate (the first full tour read a 20.6 ms base). Compare cost only between runs the tour did not mark contended.</p></div>
+  </div>
+  <pre><span class="cmd">$ __probe.cost({ view: 'spawn' })</span>   # twice, same page
+run 1: 20862 ms, base 10.904 gpu, sum of parts 3.25
+  player:2.655±0.166 (19k tri)   bed-foliage:1.391±0.108 (35k tri)   cypress-leaf:0.852±0.055 (35k tri)
+  lowest: ground:-0.376±0.676, props-batch:-0.397±0.099, computer-lab:-0.502±0.04, ai-workspace:-0.512±0.054
+run 2: 22360 ms, base 10.363 gpu, sum of parts 5.084
+  player:2.559±0.108 (19k tri)   bed-foliage:1.407±0.117 (35k tri)   grass:0.613±0.135 (924k tri)
+  lowest: props-batch:-0.301±0.05, ground:-0.422±0.07, ai-workspace:-0.708±0.092, computer-lab:-0.713±0.118</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/dev/spawn-cost.jpg" data-full="../shots/dev/spawn-cost.png" alt=""><figcaption>cost · spawn (first version)</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/phone/cost/spawn.jpg" data-full="../shots/20260923-194926/phone/cost/spawn.png" alt=""><figcaption>cost · phone spawn</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v0-4">
+  <div class="entry-head"><span class="tag fix">v0.4</span><span class="when">2026-09-23 19:44</span><h2>Bug found by the normals layer: the fountain rim was inside-out</h2></div>
+  <div class="cols">
+    <div><div class="label">What was wrong</div><p>The fountain's outer rim is a lathe (a 2D outline spun around the centre). Its outline was traced in the wrong direction, so every face pointed into the stone. The renderer skips faces that point away, so you saw the inner wall through the outer one: flat, grey, with no stone texture where it should be.</p></div>
+    <div><div class="label">How it showed up</div><p>The normals layer paints the back of any one-sided face magenta. From the spawn view the whole rim ring was magenta, and the legend named <code>fountain-stone</code> as the owner of 3,061 flagged pixels. A close-up had 124,067.</p></div>
+    <div><div class="label">What changed</div><p>One line in <code>src/world/fountain.ts</code>: the rim outline now runs outside-in. Same points, reversed. Not deployed.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">How it was checked</div><p>Same camera, before and after. Flagged pixels on the fountain went from <b>124,067 to 0</b>. What is left in that frame (2,201 px) is open tree trunks seen from above, which is expected.</p></div>
+    <div><div class="label">For Luc</div><p class="status open">The rim now looks like the rest of the fountain: textured stone with a lit top and a shadow. That changes the live look once deployed, so please eyeball the two shots below.</p></div>
+  </div>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/dev/rim-a-beauty.jpg" data-full="../shots/dev/rim-a-beauty.png" alt=""><figcaption>before · beauty · flat grey rim</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/dev/rim-a-normals.jpg" data-full="../shots/dev/rim-a-normals.png" alt=""><figcaption>before · normals · rim is magenta</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/dev/rim-b-beauty.jpg" data-full="../shots/dev/rim-b-beauty.png" alt=""><figcaption>after · beauty · stone rim with shadow</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v0-3">
+  <div class="entry-head"><span class="tag">v0.3</span><span class="when">2026-09-23 19:40</span><h2>Phases A to D: frozen pictures, the scene as data, any camera, eight layers</h2></div>
+  <div class="cols">
+    <div><div class="label">A · frozen mode</div><p><code>?probe&amp;freeze</code> fixes world time at 10 s and the day at golden hour (<code>&amp;phase=</code> to change), turns wind off, puts clouds back at their start angles, settles doors, and puts the player in the idle pose at frame 0. Pixel ratio 1, canvas fixed at the viewport size. <code>Math.random</code> is seeded.</p></div>
+    <div><div class="label">B · the scene as data</div><p><code>__probe.manifest()</code>: <b>504 objects</b>, 370 drawn, <b>2,529,469 triangles</b>, 174 casting shadows, 42 named parts, each with path, type, world position, bounding box, triangles, draw calls, materials, visibility and part. One full frame: 465 draw calls. <code>find('fountain')</code> or <code>find('/bark$/')</code> looks things up.</p></div>
+    <div><div class="label">C · cameras</div><p><code>shot({ view | from, lookAt, fov, layer, size })</code> returns a PNG. 11 named views in the courtyard: spawn, fountain, aerial, 4 corners, 4 doors. Inside, an overview plus one per exhibit and exit. <code>orbit(target)</code>: 8 angles x low, eye, high.</p></div>
+  </div>
+  <div class="cols">
+    <div><div class="label">D · layers</div><ul>
+      <li><b>id</b>: a unique flat colour per object; the legend maps each colour to its manifest id and path, with its share of the frame.</li>
+      <li><b>depth</b>: white near, black at 120 m (20 m indoors).</li>
+      <li><b>normals</b>: surface direction as colour. Magenta = back of a one-sided face, yellow = no normal, each counted per object.</li>
+      <li><b>wireframe</b>, one colour per part.</li>
+      <li><b>walkable</b>: 2,262 m² where the player can stand (green), 85 colliders (red), from the game's own collision code.</li>
+      <li><b>triggers</b>: door, exhibit and exit zones with their radius, plus the walk-out zone at the gate.</li>
+    </ul></div>
+    <div><div class="label">How it was checked</div><p>Two shots of one view on one page: <b>0 pixels different</b>. Two fresh page loads: <b>0 pixels different</b> for fountain (dev run), and spawn, fountain, aerial on phone in the full tour. The id legend had no colour that failed to map to an object.</p></div>
+    <div><div class="label">Speed</div><p>A shot takes 100 to 300 ms at 1440x900 (id layer about 0.5 s the first time, while its shaders compile). The walk grid takes 0.8 s once per level.</p></div>
+  </div>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/beauty.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/beauty.png" alt=""><figcaption>aerial · beauty</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/id.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/id.png" alt=""><figcaption>aerial · id</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/depth.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/depth.png" alt=""><figcaption>aerial · depth</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/normals.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/normals.png" alt=""><figcaption>aerial · normals</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/wireframe.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/wireframe.png" alt=""><figcaption>aerial · wireframe</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/walkable.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/walkable.png" alt=""><figcaption>aerial · walkable</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/aerial/triggers.jpg" data-full="../shots/20260923-194926/desktop/views/aerial/triggers.png" alt=""><figcaption>aerial · triggers</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/spawn/beauty.jpg" data-full="../shots/20260923-194926/desktop/views/spawn/beauty.png" alt=""><figcaption>spawn · beauty</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/spawn/normals.jpg" data-full="../shots/20260923-194926/desktop/views/spawn/normals.png" alt=""><figcaption>spawn · normals</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/door-office/beauty.jpg" data-full="../shots/20260923-194926/desktop/views/door-office/beauty.png" alt=""><figcaption>door-office · beauty</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/door-ai-workspace/triggers.jpg" data-full="../shots/20260923-194926/desktop/views/door-ai-workspace/triggers.png" alt=""><figcaption>door-ai-workspace · triggers</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/20260923-194926/desktop/views/fountain/depth.jpg" data-full="../shots/20260923-194926/desktop/views/fountain/depth.png" alt=""><figcaption>fountain · depth</figcaption></figure>
+  </div>
+</article>
+
+<article class="entry" id="v0-2">
+  <div class="entry-head"><span class="tag">v0.2</span><span class="when">2026-09-23 19:22</span><h2>Probe hooks in, and visitors pay 246 bytes for them</h2></div>
+  <div class="cols">
+    <div><div class="label">What changed</div><ul>
+      <li><code>src/main.ts</code>: with <code>?probe</code>, loads <code>src/probe/probe.ts</code> by dynamic import, seeds <code>Math.random</code> before the world is built, then hands the running app to the probe.</li>
+      <li><code>src/core/app.ts</code>: a <code>probeDt</code> hook (the probe can set each frame's time step, 0 freezes the world), <code>leaving</code> made readable, shared uniforms exposed.</li>
+      <li><code>src/world/sky.ts</code>: each cloud remembers its start angle, so frozen mode can put it back.</li>
+    </ul></div>
+    <div><div class="label">Why</div><p>The probe needs a few handles into the running app. Everything else lives in its own chunk that only <code>?probe</code> fetches.</p></div>
+    <div><div class="label">Bug caught on the way</div><p>The first build leaked: the probe imported two small app modules, so the bundler split them into a new shared chunk every visitor would fetch, and <code>three</code> grew 1.4 KB from probe-only classes. Fixed by reaching those values through the app object and dropping two probe-only three.js classes.</p></div>
+  </div>
+  <div class="tablewrap"><table>
+    <tr><th>file (hash removed)</th><th class="num">before</th><th class="num">after</th><th class="num">change</th></tr>
+    <tr><td>assets/index.js (entry)</td><td class="num">4,958</td><td class="num">5,105</td><td class="num">+147</td></tr>
+    <tr><td>assets/app.js</td><td class="num">117,676</td><td class="num">117,740</td><td class="num">+64</td></tr>
+    <tr><td>assets/three.js</td><td class="num">722,477</td><td class="num">722,509</td><td class="num">+32</td></tr>
+    <tr><td>assets/kit.js</td><td class="num">9,771</td><td class="num">9,776</td><td class="num">+5</td></tr>
+    <tr><td>assets/furniture.js</td><td class="num">41,160</td><td class="num">41,158</td><td class="num">-2</td></tr>
+    <tr><td>index.html, css, 4 interiors</td><td class="num">same</td><td class="num">same</td><td class="num">0</td></tr>
+    <tr><td><b>assets/probe.js</b> (only with ?probe)</td><td class="num">none</td><td class="num">27,030</td><td class="num">new</td></tr>
+  </table></div>
+  <div class="cols"><div><div class="label">How it was checked</div><p><code>npm run build</code> before touching any source (saved to <code>probe/data/bundle-before.txt</code>), then after (<code>bundle-after.txt</code>). Net change for a normal visitor: <b>+246 bytes</b>, no new files. Limit was 1 KB. A network check (no probe script fetched without <code>?probe</code>) runs in the gate test, see later entries.</p></div></div>
+</article>
+
+<article class="entry" id="v0-1">
+  <div class="entry-head"><span class="tag">v0.1</span><span class="when">2026-09-23 19:06</span><h2>Starting point: the smoke test works</h2></div>
+  <div class="cols">
+    <div><div class="label">What ran</div><p><code>node probe/smoke.mjs</code> against the live site: load, freeze the time of day, list the buildings, walk with W, move the camera up, save three PNGs.</p></div>
+    <div><div class="label">Snag</div><p>Inside Claude's command sandbox, Chromium dies at launch (<code>bootstrap_check_in ... Permission denied (1100)</code>). Every headless run is started outside that sandbox. That is a property of the agent's shell, not of the hub.</p></div>
+    <div><div class="label">Numbers</div><p>Ready in 5.8 s, Medium tier, 4 buildings, no errors, <b>38 fps</b> at 1440x900 (earlier runs: 31 and 47). The swing is the open question.</p></div>
+  </div>
+  <pre><span class="cmd">$ node probe/smoke.mjs</span>
+play at 5.8s tier medium level courtyard
+fps 38.0 gpu ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)
+interactables computer-lab, music-studio, office, ai-workspace
+errors none done at 12.7s</pre>
+  <div class="shots">
+    <figure tabindex="0"><img loading="lazy" src="thumbs/smoke/1-spawn.jpg" data-full="../shots/smoke/1-spawn.png" alt="Spawn view of the courtyard"><figcaption>1 · spawn</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/smoke/2-walked.jpg" data-full="../shots/smoke/2-walked.png" alt="After walking forward"><figcaption>2 · after 1.5 s of W</figcaption></figure>
+    <figure tabindex="0"><img loading="lazy" src="thumbs/smoke/3-aerial.jpg" data-full="../shots/smoke/3-aerial.png" alt="Aerial view"><figcaption>3 · aerial</figcaption></figure>
+  </div>
+</article>
+
+</main>
+</div>
+
+<div id="lightbox" role="dialog" aria-label="Enlarged screenshot"><img alt=""><p></p></div>
+<script>
+const lb = document.getElementById('lightbox');
+const open = (f) => { const img = f.querySelector('img'); lb.querySelector('img').src = img.dataset.full || img.src; lb.querySelector('p').textContent = f.querySelector('figcaption')?.textContent ?? ''; lb.classList.add('on'); };
+document.addEventListener('click', (e) => { const f = e.target.closest('figure'); if (f) open(f); else if (e.target.closest('#lightbox')) lb.classList.remove('on'); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') lb.classList.remove('on'); else if (e.key === 'Enter' && e.target.matches?.('figure')) open(e.target); });
+// Entries index, built from the feed.
+document.getElementById('toc').innerHTML = [...document.querySelectorAll('article.entry')].map((a) => {
+  const tag = a.querySelector('.tag');
+  return `<li><a href="#${a.id}"><b class="${tag.classList.contains('fix') ? 'fix' : ''}">${tag.textContent}</b><span>${a.querySelector('h2').textContent}</span></a></li>`;
+}).join('');
+// On a phone the rail sits above the feed: keep the checklist and questions open, fold the rest.
+if (matchMedia('(max-width: 900px)').matches) for (const d of document.querySelectorAll('.rail details')) if (!['Self-check', 'Open questions'].includes(d.dataset.sec)) d.open = false;
+</script>
+</body>
+</html>

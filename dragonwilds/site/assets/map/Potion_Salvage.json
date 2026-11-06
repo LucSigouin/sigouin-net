@@ -1,0 +1,101 @@
+[
+	{
+		"x": 195630,
+		"y": 59215,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 205175,
+		"y": 36410,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 205200,
+		"y": 38820,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 210890,
+		"y": 60410,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 214655,
+		"y": 50825,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 223945.11,
+		"y": 29039.814,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 236835,
+		"y": 36975,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 238460,
+		"y": 48860,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 242955,
+		"y": 45730,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 243815,
+		"y": 52400,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	},
+	{
+		"x": 244425,
+		"y": 27605,
+		"icon": "Salvage_Glint.png",
+		"iconSize": [
+			48,
+			48
+		]
+	}
+]

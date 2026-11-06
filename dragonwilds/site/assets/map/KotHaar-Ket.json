@@ -1,0 +1,882 @@
+[
+	{
+		"x": 242563.88,
+		"y": 220179.16,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 241436.98,
+		"y": 218105.81,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 227931.38,
+		"y": 205631.5,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 297694.2,
+		"y": 209728.58,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 291659.53,
+		"y": 208184.89,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 286811.53,
+		"y": 207769.69,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 308032.22,
+		"y": 198172.61,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 306314.5,
+		"y": 184939.78,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 243699.38,
+		"y": 230499.17,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 343101.72,
+		"y": 136828.3,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336417.94,
+		"y": 128280.67,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332360.88,
+		"y": 127429.72,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 332759.56,
+		"y": 128545.17,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336638.62,
+		"y": 133088.42,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 336520.28,
+		"y": 132818.17,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 328954.8,
+		"y": 79173.484,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 331315.4,
+		"y": 75829.76,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330410.4,
+		"y": 104413.69,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 330902.88,
+		"y": 103686.43,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302142.3,
+		"y": 59773.098,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 301543,
+		"y": 61466.875,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 294983.62,
+		"y": 61787.24,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 294482.22,
+		"y": 63215.336,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300763.2,
+		"y": 69924.4,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 340866.84,
+		"y": 198932.8,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 324445.22,
+		"y": 67651.52,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 325205.6,
+		"y": 68013.67,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 324975.22,
+		"y": 67613.3,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 284070.44,
+		"y": 193547.98,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 325394.72,
+		"y": 178710.28,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 300810.38,
+		"y": 93922.875,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 205765.47,
+		"y": 228469.52,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 218505.58,
+		"y": 243405.94,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 219820.36,
+		"y": 243779.45,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 222614.28,
+		"y": 244083.47,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 213625.98,
+		"y": 241422.67,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214087.92,
+		"y": 235217.58,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 214659.34,
+		"y": 235944.66,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 357072.28,
+		"y": 46033.043,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 357294.75,
+		"y": 47978.684,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 355403.53,
+		"y": 45905.97,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316249.44,
+		"y": 209621.55,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313886.28,
+		"y": 225660.55,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316262.9,
+		"y": 211807.27,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 314664.56,
+		"y": 225753.53,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 311528.84,
+		"y": 221715.86,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313734.06,
+		"y": 221191.19,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315371.34,
+		"y": 225680.48,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 315155.5,
+		"y": 201723.7,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 378441.53,
+		"y": 172540.4,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302597.94,
+		"y": 60103.156,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327081.22,
+		"y": 74597.734,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 321546.25,
+		"y": 66007.836,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 354046.66,
+		"y": 51523.16,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 367284.7,
+		"y": 53332.22,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 367817.16,
+		"y": 52599.55,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363211.34,
+		"y": 60838.99,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363875.97,
+		"y": 60364.094,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363758.38,
+		"y": 60836.047,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364893.44,
+		"y": 75313.945,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363896.28,
+		"y": 58571.094,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364279.03,
+		"y": 58856.43,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 364495.6,
+		"y": 181255.8,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371563.78,
+		"y": 188102.39,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371942.22,
+		"y": 186411.86,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 373817.72,
+		"y": 177176.28,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 327818.56,
+		"y": 109031.91,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 328553.53,
+		"y": 109582.664,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 356272.94,
+		"y": 88582.37,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 371510.4,
+		"y": 96229.445,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 361121.16,
+		"y": 95631.95,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 360420.16,
+		"y": 94949.58,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 363494.12,
+		"y": 78103.83,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 365282.28,
+		"y": 78390.086,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352121.2,
+		"y": 41526.74,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352270.06,
+		"y": 41984.996,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 352884.5,
+		"y": 41882.637,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316405.16,
+		"y": 123726.86,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316262.97,
+		"y": 117433.92,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 316672.22,
+		"y": 117660.42,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 302789.4,
+		"y": 98603.81,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310940.34,
+		"y": 80480.38,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 310282.88,
+		"y": 81086.41,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 204194.55,
+		"y": 222541.52,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 207522.75,
+		"y": 224820.39,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220253.72,
+		"y": 208817.92,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221884.89,
+		"y": 209913.73,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 220783.66,
+		"y": 211534.69,
+		"name": "KotHaar-Ket",
+		"icon": "KotHaar-Ket.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

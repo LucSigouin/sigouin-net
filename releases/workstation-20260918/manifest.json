@@ -1,0 +1,38 @@
+{
+  "source": "vybe-workstation/site/realism",
+  "previous_site": "releases/workstation-20260918/before-site",
+  "retained_routes": [
+    "/process/",
+    "/api/live/*"
+  ],
+  "production": "https://sigouin.net",
+  "new_files": [
+    "vybe/ASSET_CREDITS.md",
+    "vybe/app.js",
+    "vybe/assets/closed.webp",
+    "vybe/assets/inter-400.ttf",
+    "vybe/assets/open.webp",
+    "vybe/assets/player-background.webp",
+    "vybe/assets/poses.json",
+    "vybe/assets/process.jpg",
+    "vybe/assets/services-background.webp",
+    "vybe/assets/sigz-signal.glb",
+    "vybe/assets/studio.hdr",
+    "vybe/assets/workstation.glb",
+    "vybe/cables.js",
+    "vybe/signal.css",
+    "vybe/signal.js",
+    "vybe/style.css",
+    "vybe/vendor/HDRLoader.js",
+    "vybe/vendor/LICENSE",
+    "vybe/vendor/three/BufferGeometryUtils.js",
+    "vybe/vendor/three/GLTFLoader.js",
+    "vybe/vendor/three/LICENSE",
+    "vybe/vendor/three/SkeletonUtils.js",
+    "vybe/vendor/three/three.core.js",
+    "vybe/vendor/three/three.module.js",
+    "vybe/workspace.js",
+    "vybe/assets/Inter-OFL.txt"
+  ],
+  "importmap_sha256": "lmntmxEBcbaa5eKGrZTyFrEvZk9p6dRZ/Y/EAqyaIs8="
+}

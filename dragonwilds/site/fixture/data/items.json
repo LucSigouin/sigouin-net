@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "goblin_pack",
+    "name": "Goblin Pack",
+    "type": "Container",
+    "category": "other",
+    "description": "A cloth shoulder bag, grimy and poorly kept.",
+    "icon": "img/Goblin_Pack.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Goblin_Pack",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "dirty_water",
+    "name": "Dirty Water",
+    "type": "Drink",
+    "category": "food",
+    "description": "A source of hydration, tainted by the residue of a cataclysmic event.",
+    "icon": "img/Dirty_Water.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dirty_Water",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0026",
+      "fixture_0027"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": "10",
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "redberries",
+    "name": "Redberries",
+    "type": "Food",
+    "category": "food",
+    "description": "Gathered from bushes, eat them to gain a small amount of sustenance.",
+    "icon": "img/Redberries.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Redberries",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0019"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": "5",
+    "hydration": null,
+    "weight": "0.1",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "rat_roast",
+    "name": "Rat Roast",
+    "type": "Food",
+    "category": "food",
+    "description": "A survivalist's meal. Just pretend it's something else.",
+    "icon": "img/Rat_Roast.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rat_Roast",
+    "recipes": [
+      "fixture_0004",
+      "fixture_0005"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": "20",
+    "sustenance": "20",
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "coarse_thread",
+    "name": "Coarse Thread",
+    "type": "Processed Material",
+    "category": "material",
+    "description": "Spun from flax at a Spinning Wheel.",
+    "icon": "img/Coarse_Thread.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Coarse_Thread",
+    "recipes": [
+      "fixture_0007",
+      "fixture_0008"
+    ],
+    "usedIn": [
+      "fixture_0014",
+      "fixture_0015",
+      "fixture_0032"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.3",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "imbued_leather_wrappings",
+    "name": "Imbued Leather Wrappings",
+    "type": "Quest Item",
+    "category": "other",
+    "description": "Strips of imbued dire wolf leather for the grips of a granite maul. Infused with primal savagery.",
+    "icon": "img/Imbued_Leather_Wrappings.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Imbued_Leather_Wrappings",
+    "recipes": [
+      "fixture_0009"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "ornate_maul_handle",
+    "name": "Ornate Maul Handle",
+    "type": "Quest Item",
+    "category": "other",
+    "description": "A carved piece of wood decorated with metal ornaments; sturdy enough to swing a heavy granite head. Made of blightwood found in Bloodblight Swamp.",
+    "icon": "img/Ornate_Maul_Handle.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ornate_Maul_Handle",
+    "recipes": [
+      "fixture_0010"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "adventurer_s_tunic",
+    "name": "Adventurer's Tunic",
+    "type": "Basic Item",
+    "category": "other",
+    "description": "Basic and comfortable attire fit for a new adventurer.",
+    "icon": "img/Adventurer's_Tunic.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Adventurer%27s_Tunic",
+    "recipes": [
+      "fixture_0011"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "4.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "adventurer_s_leggings",
+    "name": "Adventurer's Leggings",
+    "type": "Basic Item",
+    "category": "other",
+    "description": "Basic and comfortable attire fit for a new adventurer.",
+    "icon": "img/Adventurer's_Leggings.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Adventurer%27s_Leggings",
+    "recipes": [
+      "fixture_0012"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "3.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "torch",
+    "name": "Torch",
+    "type": "Tool",
+    "category": "tool",
+    "description": "A trusty light source.",
+    "icon": "img/Torch.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Torch",
+    "recipes": [
+      "fixture_0013"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.5",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "type": "Raw Ingredient",
+    "category": "plant",
+    "description": "Yuck I don't like cabbage.",
+    "icon": "img/Cabbage.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Cabbage",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0018"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.2",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "ash_battlestaff",
+    "name": "Ash Battlestaff",
+    "type": "Magic Weapon",
+    "category": "weapon",
+    "description": "A magical weapon carved from ash wood.",
+    "icon": "img/Ash_Battlestaff.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ash_Battlestaff",
+    "recipes": [
+      "fixture_0015"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "15.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "flax",
+    "name": "Flax",
+    "type": "Resource",
+    "category": "plant",
+    "description": "Harvested from flax plants, essential for crafting linen and bowstrings.",
+    "icon": "img/Flax.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Flax",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0006",
+      "fixture_0007"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.4",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "coarse_animal_fur",
+    "name": "Coarse Animal Fur",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "It's not much, but it'll keep you warm. Required to craft a basic bed.",
+    "icon": "img/Coarse_Animal_Fur.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Coarse_Animal_Fur",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0008",
+      "fixture_0011",
+      "fixture_0012",
+      "fixture_0013"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.2",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "animal_hide",
+    "name": "Animal Hide",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "Gathered from big creatures, this hide is essential for crafting leather equipment.",
+    "icon": "img/Animal_Hide.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Animal_Hide",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0016"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "2.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "ash_logs",
+    "name": "Ash Logs",
+    "type": "Resource",
+    "category": "wood",
+    "description": "Pieces of wood collected from branches, saplings and Ash trees.",
+    "icon": "img/Ash_Logs.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ash_Logs",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0000",
+      "fixture_0003",
+      "fixture_0006",
+      "fixture_0013",
+      "fixture_0014",
+      "fixture_0015",
+      "fixture_0032",
+      "fixture_0033",
+      "fixture_0035"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "type": "Basic Item",
+    "category": "other",
+    "description": "A basic crafting material created from animal hide; commonly used for making equipment.",
+    "icon": "img/Leather.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Leather",
+    "recipes": [
+      "fixture_0016",
+      "fixture_0017"
+    ],
+    "usedIn": [
+      "fixture_0043"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.3",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "vault_core",
+    "name": "Vault Core",
+    "type": "Basic Item",
+    "category": "other",
+    "description": "A dragonkin energy source, found only within dragonkin vaults.",
+    "icon": "img/Vault_Core.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Vault_Core",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "50.0",
+    "stacklimit": "25",
+    "power": null
+  },
+  {
+    "id": "marrentil",
+    "name": "Marrentil",
+    "type": "Resource",
+    "category": "plant",
+    "description": "A bitter tasting herb used in resistance potions.",
+    "icon": "img/Marrentil.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Marrentil",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0018",
+      "fixture_0019",
+      "fixture_0020",
+      "fixture_0021"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.2",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "harralander",
+    "name": "Harralander",
+    "type": "Basic Item",
+    "category": "plant",
+    "description": "A fragrant herb used in restorative potions.",
+    "icon": "img/Harralander.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Harralander",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0022",
+      "fixture_0023"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.2",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "feathers",
+    "name": "Feathers",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "Gathered from avian creatures and nests. Feathers are used to fletch arrows.",
+    "icon": "img/Feathers.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Feathers",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0020",
+      "fixture_0024",
+      "fixture_0025"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.1",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "bittercap_mushroom",
+    "name": "Bittercap Mushroom",
+    "type": "Raw Ingredient",
+    "category": "food",
+    "description": "A tasty mushroom. Can be used in a variety of cooking recipes.",
+    "icon": "img/Bittercap_Mushroom.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bittercap_Mushroom",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0021"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.1",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "antler",
+    "name": "Antler",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "A cartilaginous extension of a deer skull.",
+    "icon": "img/Antler.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Antler",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0022"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.5",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "Essential for pottery and construction, dig it up from nearby water sources.",
+    "icon": "img/Clay.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clay",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0014",
+      "fixture_0023",
+      "fixture_0031",
+      "fixture_0033"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "weak_focused_cooking_potion",
+    "name": "Weak Focused Cooking Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
+    "icon": "img/Weak_Focused_Cooking_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Cooking_Potion",
+    "recipes": [
+      "fixture_0018"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_focused_artisan_potion",
+    "name": "Weak Focused Artisan Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
+    "icon": "img/Weak_Focused_Artisan_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Artisan_Potion",
+    "recipes": [
+      "fixture_0019"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_focused_woodcutting_potion",
+    "name": "Weak Focused Woodcutting Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
+    "icon": "img/Weak_Focused_Woodcutting_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Focused_Woodcutting_Potion",
+    "recipes": [
+      "fixture_0020"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_antipoison_potion",
+    "name": "Weak Antipoison Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Antipoison<br><br>Negates and grants RESISTANCE to POISON effects",
+    "icon": "img/Weak_Antipoison_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Antipoison_Potion",
+    "recipes": [
+      "fixture_0021"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_healing_potion",
+    "name": "Weak Healing Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "A potion that restores a small amount of health.",
+    "icon": "img/Weak_Healing_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Healing_Potion",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_lumberjack_potion",
+    "name": "Weak Lumberjack Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING by 33%",
+    "icon": "img/Weak_Lumberjack_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Lumberjack_Potion",
+    "recipes": [
+      "fixture_0022"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "weak_quarrymaster_potion",
+    "name": "Weak Quarrymaster Potion",
+    "type": "Potion",
+    "category": "potion",
+    "description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of Mining by 33%",
+    "icon": "img/Weak_Quarrymaster_Potion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Weak_Quarrymaster_Potion",
+    "recipes": [
+      "fixture_0023"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "fleet_footed_infusion",
+    "name": "Fleet-Footed Infusion",
+    "type": "Drink",
+    "category": "potion",
+    "description": "A thirst-quenching drink that puts a spring in your step.",
+    "icon": "img/Fleet-Footed_Infusion.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fleet-Footed_Infusion",
+    "recipes": [
+      "fixture_0024",
+      "fixture_0025"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": "40",
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "dwellberries",
+    "name": "Dwellberries",
+    "type": "Food",
+    "category": "food",
+    "description": "Some rather pretty blue berries.",
+    "icon": "img/Dwellberries.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dwellberries",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": "10",
+    "hydration": null,
+    "weight": "0.1",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "raw_rat_meat",
+    "name": "Raw Rat Meat",
+    "type": "Raw Ingredient",
+    "category": "food",
+    "description": "Tough, gamey meat that can be cooked and eaten.",
+    "icon": "img/Raw_Rat_Meat.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Raw_Rat_Meat",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0004",
+      "fixture_0005"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.5",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "clean_water",
+    "name": "Clean Water",
+    "type": "Drink",
+    "category": "food",
+    "description": "A source of hydration, free from the taint of natural water sources.",
+    "icon": "img/Clean_Water.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clean_Water",
+    "recipes": [
+      "fixture_0026",
+      "fixture_0027",
+      "fixture_0028",
+      "fixture_0029"
+    ],
+    "usedIn": [
+      "fixture_0024",
+      "fixture_0025"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": "25",
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "rune_essence",
+    "name": "Rune Essence",
+    "type": "Basic Item",
+    "category": "other",
+    "description": "A mysterious porous rock used as a base for powerful runes.",
+    "icon": "img/Rune_Essence.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rune_Essence",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0014",
+      "fixture_0015"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "animal_bone",
+    "name": "Animal Bone",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "A sturdy bone from a sizable creature.",
+    "icon": "img/Animal_Bone.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Animal_Bone",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "clay_vessel",
+    "name": "Clay Vessel",
+    "type": "Component",
+    "category": "other",
+    "description": "This bowl is empty.",
+    "icon": "img/Clay_Vessel.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clay_Vessel",
+    "recipes": [
+      "fixture_0030"
+    ],
+    "usedIn": [
+      "fixture_0018",
+      "fixture_0019",
+      "fixture_0020",
+      "fixture_0021",
+      "fixture_0022",
+      "fixture_0023"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "clay_vessel_unfired",
+    "name": "Clay Vessel (Unfired)",
+    "type": "Component",
+    "category": "other",
+    "description": "A formed clay bowl, ready to be fired in a kiln.",
+    "icon": "img/Clay_Vessel_(Unfired).png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Clay_Vessel_%28Unfired%29",
+    "recipes": [
+      "fixture_0031"
+    ],
+    "usedIn": [
+      "fixture_0030"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "50",
+    "power": null
+  },
+  {
+    "id": "garou_pack",
+    "name": "Garou Pack",
+    "type": "Container",
+    "category": "other",
+    "description": "A brutal bag sewn from hide and sinew.",
+    "icon": "img/Garou_Pack.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Garou_Pack",
+    "recipes": [],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "type": "Basic Material",
+    "category": "material",
+    "description": "A basic building and crafting material.",
+    "icon": "img/Stone.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Stone",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0006",
+      "fixture_0032",
+      "fixture_0033",
+      "fixture_0035"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "1.0",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "bronze_bar",
+    "name": "Bronze Bar",
+    "type": "Basic Item",
+    "category": "bar",
+    "description": "A versatile crafting material, smelted from bars of copper and tin.",
+    "icon": "img/Bronze_Bar.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Bar",
+    "recipes": [
+      "fixture_0040",
+      "fixture_0041",
+      "fixture_0042"
+    ],
+    "usedIn": [
+      "fixture_0010",
+      "fixture_0043"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "4.5",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "bronze_pickaxe",
+    "name": "Bronze Pickaxe",
+    "type": "Tool",
+    "category": "tool",
+    "description": "A trusty tool for mining, made from sturdy bronze.",
+    "icon": "img/Bronze_Pickaxe.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Pickaxe",
+    "recipes": [
+      "fixture_0043"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "5.0",
+    "stacklimit": null,
+    "power": null
+  },
+  {
+    "id": "tin_ore",
+    "name": "Tin Ore",
+    "type": "Basic Material",
+    "category": "ore",
+    "description": "Mined from tin deposits. It can be smelted at a Furnace.",
+    "icon": "img/Tin_Ore.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Tin_Ore",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0040"
+    ],
+    "sources": {
+      "mapLayers": [
+        "Tin_Ore_Node"
+      ],
+      "drops": [],
+      "regions": [
+        "Ghornfell"
+      ],
+      "notes": "Ore nodes are found in the Fractured Plains and Stormtouched Highlands."
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "2.2",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "copper_ore",
+    "name": "Copper Ore",
+    "type": "Basic Material",
+    "category": "ore",
+    "description": "Mined from copper deposits. It can be smelted at a Furnace.",
+    "icon": "img/Copper_Ore.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Copper_Ore",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0040"
+    ],
+    "sources": {
+      "mapLayers": [
+        "Copper_Ore_Node"
+      ],
+      "drops": [],
+      "regions": [
+        "Ghornfell"
+      ],
+      "notes": "Ore nodes are found in the Fractured Plains and Stormtouched Highlands."
+    },
+    "health": null,
+    "sustenance": null,
+    "hydration": null,
+    "weight": "2.3",
+    "stacklimit": "99",
+    "power": null
+  },
+  {
+    "id": "wall",
+    "name": "Wall",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wall",
+    "recipes": [
+      "fixture_0000",
+      "fixture_0001",
+      "fixture_0002"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "ash_plank",
+    "name": "Ash Plank",
+    "type": "",
+    "category": "wood",
+    "description": "",
+    "icon": "img/Ash_Plank.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ash_Plank",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0001"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "oak_logs",
+    "name": "Oak Logs",
+    "type": "",
+    "category": "wood",
+    "description": "",
+    "icon": "img/Oak_Logs.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Oak_Logs",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0001",
+      "fixture_0043"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "ground_stone",
+    "name": "Ground Stone",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Ground_Stone.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ground_Stone",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0001"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "ground_sandstone",
+    "name": "Ground Sandstone",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Ground_Sandstone.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Ground_Sandstone",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0001"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stone_block",
+    "name": "Stone Block",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Stone_Block.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Stone_Block",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0002"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "crafting_table",
+    "name": "Crafting Table",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Crafting_Table",
+    "recipes": [
+      "fixture_0003"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "spinning_wheel",
+    "name": "Spinning Wheel",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Spinning_Wheel",
+    "recipes": [
+      "fixture_0006"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "dire_wolf_leather",
+    "name": "Dire Wolf Leather",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Dire_Wolf_Leather.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Dire_Wolf_Leather",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0009"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "anima_infused_bark",
+    "name": "Anima-Infused Bark",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Anima-Infused_Bark.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Anima-Infused_Bark",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0009"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "vault_shard",
+    "name": "Vault Shard",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Vault_Shard.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Vault_Shard",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0009",
+      "fixture_0010"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "blightwood",
+    "name": "Blightwood",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Blightwood.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Blightwood",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0010"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "silver_bar",
+    "name": "Silver Bar",
+    "type": "",
+    "category": "bar",
+    "description": "",
+    "icon": "img/Silver_Bar.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Silver_Bar",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0010"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "brewing_cauldron",
+    "name": "Brewing Cauldron",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Brewing_Cauldron",
+    "recipes": [
+      "fixture_0014"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "animal_hide_scraps",
+    "name": "Animal Hide Scraps",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Animal_Hide_Scraps.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Animal_Hide_Scraps",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0017"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "wither_water",
+    "name": "Wither Water",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Wither_Water.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wither_Water",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0028",
+      "fixture_0029"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "pottery_wheel",
+    "name": "Pottery Wheel",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Pottery_Wheel",
+    "recipes": [
+      "fixture_0032"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "kiln",
+    "name": "Kiln",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Kiln",
+    "recipes": [
+      "fixture_0033"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "fire_rune",
+    "name": "Fire Rune",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Fire_Rune.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fire_Rune",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0033"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "padded_cloth",
+    "name": "Padded Cloth",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Padded_Cloth",
+    "recipes": [
+      "fixture_0034"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "rough_cloth",
+    "name": "Rough Cloth",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Rough_Cloth.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Rough_Cloth",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0034"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "wool_cloth",
+    "name": "Wool Cloth",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Wool_Cloth.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Wool_Cloth",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0034"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stone_club",
+    "name": "Stone Club",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Stone_Club",
+    "recipes": [
+      "fixture_0035"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "tattered_cape",
+    "name": "Tattered Cape",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Tattered_Cape",
+    "recipes": [
+      "fixture_0036",
+      "fixture_0037"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "meat_stew",
+    "name": "Meat Stew",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": null,
+    "wiki": "https://dragonwilds.runescape.wiki/w/Meat_Stew",
+    "recipes": [
+      "fixture_0038",
+      "fixture_0039"
+    ],
+    "usedIn": [],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "fillet",
+    "name": "Fillet",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Fillet.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Fillet",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0038",
+      "fixture_0039"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "haunch",
+    "name": "Haunch",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Haunch.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Haunch",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0038",
+      "fixture_0039"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "bronze_salvage_pile",
+    "name": "Bronze Salvage Pile",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Bronze_Salvage_Pile.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Salvage_Pile",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0041"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "bronze_leaf",
+    "name": "Bronze Leaf",
+    "type": "",
+    "category": "other",
+    "description": "",
+    "icon": "img/Bronze_Leaf.png",
+    "wiki": "https://dragonwilds.runescape.wiki/w/Bronze_Leaf",
+    "recipes": [],
+    "usedIn": [
+      "fixture_0042"
+    ],
+    "sources": {
+      "mapLayers": [],
+      "drops": [],
+      "regions": [],
+      "notes": ""
+    }
+  }
+]

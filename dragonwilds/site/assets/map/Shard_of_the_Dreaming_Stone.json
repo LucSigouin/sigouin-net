@@ -1,0 +1,43 @@
+[
+	{
+		"x": 200924.19,
+		"y": 41686.887,
+		"description": "Found under The Library, in the basement."
+	},
+	{
+		"x": 204444.53,
+		"y": 68939.37
+	},
+	{
+		"x": 211295,
+		"y": 60395
+	},
+	{
+		"x": 225250,
+		"y": 36215.59,
+		"description": "Found under The Courtyard, at The Demon Gate."
+	},
+	{
+		"x": 201044.84,
+		"y": 70047.38
+	},
+	{
+		"x": 260625,
+		"y": 37170
+	},
+	{
+		"x": 237102.7,
+		"y": 21661.516,
+		"description": "Found under The Garrison, guarded by Sergeant Blister."
+	},
+	{
+		"x": 251417.03,
+		"y": 16172.536,
+		"description": "Found inside a Granite Deposit."
+	},
+	{
+		"x": 231067.02,
+		"y": 22914.969,
+		"description": "Found on the roof of the tower."
+	}
+]

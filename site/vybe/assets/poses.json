@@ -1,0 +1,377 @@
+{
+  "coordinate_system": "glTF Y up",
+  "poses": {
+    "closed": {
+      "Rack.Door.Hinge": {
+        "position": [
+          0.34299999475479126,
+          0.15000000596046448,
+          0.4740000069141388
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "Rack.ServerTray.00": {
+        "position": [
+          0.0,
+          1.1699999570846558,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "Rack.ServerTray.01": {
+        "position": [
+          0.0,
+          0.9549999833106995,
+          0.0
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    },
+    "open": {
+      "Rack.Door.Hinge": {
+        "position": [
+          0.34299999475479126,
+          0.15000000596046448,
+          0.4740000069141388
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.7933533191680908,
+          -0.0,
+          0.6087614297866821
+        ]
+      },
+      "Rack.ServerTray.00": {
+        "position": [
+          0.0,
+          1.1699999570846558,
+          0.30000001192092896
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      "Rack.ServerTray.01": {
+        "position": [
+          0.0,
+          0.9549999833106995,
+          0.2160000056028366
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "nodes": {
+    "Desk.Frame": {
+      "extras": {
+        "interaction": "select",
+        "description": "Workspace focus"
+      }
+    },
+    "Monitor.Stand": {
+      "extras": {
+        "interaction": "select",
+        "description": "Monitor support"
+      },
+      "translation": [
+        -0.7099999785423279,
+        0.8429999947547913,
+        -0.28999999165534973
+      ]
+    },
+    "Monitor.Tilt": {
+      "extras": {
+        "interaction": "tilt",
+        "description": "Tilt about local X, limit -8 to +12 degrees",
+        "axis": "X",
+        "limits_degrees": [
+          -8,
+          12
+        ]
+      },
+      "scale": [
+        1.1799999475479126,
+        1.1799999475479126,
+        1
+      ],
+      "translation": [
+        -0.7099999785423279,
+        1.409999966621399,
+        -0.3499999940395355
+      ]
+    },
+    "Peripheral.Keyboard": {
+      "extras": {
+        "interaction": "press",
+        "description": "Music/key feedback; independent assembly"
+      },
+      "translation": [
+        -0.699999988079071,
+        0.8659999966621399,
+        0.2849999964237213
+      ]
+    },
+    "Peripheral.Mouse": {
+      "extras": {
+        "interaction": "select",
+        "description": "Pointer feedback / projects"
+      },
+      "translation": [
+        0.05999999865889549,
+        0.843999981880188,
+        0.30000001192092896
+      ]
+    },
+    "Peripheral.Controller": {
+      "extras": {
+        "interaction": "select",
+        "description": "Gaming section"
+      },
+      "translation": [
+        -1.5700000524520874,
+        0.878000020980835,
+        0.33500000834465027
+      ]
+    },
+    "Headphones.Stand": {
+      "extras": {
+        "interaction": "select",
+        "description": ""
+      },
+      "translation": [
+        -1.600000023841858,
+        0.8410000205039978,
+        -0.11999999731779099
+      ]
+    },
+    "Peripheral.Headphones": {
+      "extras": {
+        "interaction": "select",
+        "description": "Music listening"
+      },
+      "translation": [
+        -1.600000023841858,
+        1,
+        -0.09300000220537186
+      ]
+    },
+    "Peripheral.Mug": {
+      "extras": {
+        "interaction": "select",
+        "description": "About / personal detail"
+      },
+      "translation": [
+        0.46000000834465027,
+        0.8389999866485596,
+        0.1599999964237213
+      ]
+    },
+    "Peripheral.AudioInterface": {
+      "extras": {
+        "interaction": "select",
+        "description": "Audio controls"
+      },
+      "translation": [
+        0.27000001072883606,
+        0.8640000224113464,
+        -0.3100000023841858
+      ]
+    },
+    "Peripheral.MidiKeyboard": {
+      "extras": {
+        "interaction": "play",
+        "description": "Music notes; local keys and pads"
+      },
+      "rotation": [
+        0,
+        0.09485717862844467,
+        0,
+        0.9954909086227417
+      ],
+      "translation": [
+        -1.649999976158142,
+        0.8759999871253967,
+        0.28999999165534973
+      ]
+    },
+    "Rack.Chassis": {
+      "extras": {
+        "interaction": "select",
+        "description": "Homelab focus"
+      },
+      "translation": [
+        1.190000057220459,
+        0,
+        -0.23999999463558197
+      ]
+    },
+    "Rack.Header": {
+      "extras": {
+        "interaction": "select",
+        "description": "Rack identity"
+      },
+      "translation": [
+        0,
+        2.184999942779541,
+        0
+      ]
+    },
+    "Rack.StatusDisplay": {
+      "extras": {
+        "interaction": "select",
+        "description": "Storage health display"
+      },
+      "translation": [
+        0,
+        1.934999942779541,
+        0
+      ]
+    },
+    "Rack.Gateway": {
+      "extras": {
+        "interaction": "select",
+        "description": "Gateway service details",
+        "reference_revision": "network-reference-v1"
+      },
+      "translation": [
+        0,
+        1.7039999961853027,
+        0
+      ]
+    },
+    "Rack.Switch": {
+      "extras": {
+        "interaction": "select",
+        "description": "Switch service details",
+        "reference_revision": "network-reference-v1"
+      },
+      "translation": [
+        0,
+        1.5520000457763672,
+        0
+      ]
+    },
+    "Rack.PatchPanel": {
+      "extras": {
+        "interaction": "select",
+        "description": "Network connections"
+      },
+      "translation": [
+        0,
+        1.371999979019165,
+        0
+      ]
+    },
+    "Rack.ServerTray.00": {
+      "extras": {
+        "interaction": "slide",
+        "description": "Service drawer; travels forward 0.30 m on rails",
+        "axis": "Y",
+        "travel_m": -0.3
+      },
+      "translation": [
+        0,
+        1.1699999570846558,
+        0
+      ]
+    },
+    "Rack.ServerTray.01": {
+      "extras": {
+        "interaction": "slide",
+        "description": "Service drawer; travels forward 0.30 m on rails",
+        "axis": "Y",
+        "travel_m": -0.3
+      },
+      "translation": [
+        0,
+        0.9549999833106995,
+        0
+      ]
+    },
+    "Rack.CoolingPanel": {
+      "extras": {
+        "interaction": "select",
+        "description": "Fan speed / thermals"
+      },
+      "translation": [
+        0,
+        0.6800000071525574,
+        0
+      ]
+    },
+    "Rack.Fan.00.Rotor": {
+      "extras": {
+        "interaction": "spin",
+        "description": "Rotation about local Y; separate rigid rotor",
+        "axis": "Y"
+      },
+      "translation": [
+        -0.17200005054473877,
+        0,
+        0.4690000116825104
+      ]
+    },
+    "Rack.Fan.01.Rotor": {
+      "extras": {
+        "interaction": "spin",
+        "description": "Rotation about local Y; separate rigid rotor",
+        "axis": "Y"
+      },
+      "translation": [
+        0.09500002861022949,
+        0,
+        0.4690000116825104
+      ]
+    },
+    "Rack.UPS": {
+      "extras": {
+        "interaction": "select",
+        "description": "Power, temperature and uptime"
+      },
+      "translation": [
+        0,
+        0.3449999988079071,
+        0
+      ]
+    },
+    "Rack.Door.Hinge": {
+      "extras": {
+        "interaction": "hinge",
+        "description": "Right vertical hinge; open angle +105 degrees about local Z",
+        "axis": "Z",
+        "limits_degrees": [
+          0,
+          105
+        ]
+      },
+      "translation": [
+        0.3429999351501465,
+        0.15000000596046448,
+        0.4740000069141388
+      ]
+    }
+  }
+}

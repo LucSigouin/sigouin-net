@@ -1,0 +1,280 @@
+[
+	{
+		"x": 84156.62,
+		"y": 149771.8,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 72470.36,
+		"y": 131012.79,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 47184.336,
+		"y": 114845.016,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 27873.816,
+		"y": 73949.03,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 16139.584,
+		"y": 68030.06,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 113107.07,
+		"y": -28972.422,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 88672.234,
+		"y": -19198.807,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 74511.98,
+		"y": -56243.21,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 196016.55,
+		"y": -80703.11,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 223240.73,
+		"y": -22289.8,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 108890.25,
+		"y": -49824.473,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 51126.754,
+		"y": 69761.75,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 146407.08,
+		"y": 106097.29,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 192639.52,
+		"y": -54388.72,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 205676.58,
+		"y": -52516.4,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 224323.56,
+		"y": 44967.523,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 35013.715,
+		"y": 181972.97,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 64388.86,
+		"y": 187006.61,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 53888.727,
+		"y": 125655.19,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 98746.13,
+		"y": 132355.47,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 27402.45,
+		"y": 87782.16,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 17494.088,
+		"y": 144770.05,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 44969.12,
+		"y": 183851.16,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 57171.625,
+		"y": 156055.27,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 197553.19,
+		"y": 59808.895,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 259867.4,
+		"y": 33674.8,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 252029.78,
+		"y": 27360.205,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 185393.17,
+		"y": 63394.9,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png"
+	},
+	{
+		"x": 250436.9,
+		"y": 207521.72,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 199203.39,
+		"y": 209015.6,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221170.12,
+		"y": 109498.66,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 265645.47,
+		"y": 241322.89,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 342457.7,
+		"y": 139357.67,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 251519.19,
+		"y": 199468.83,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 313635.97,
+		"y": 30219.977,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 271328.66,
+		"y": 195843.86,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 216214.44,
+		"y": 228309.3,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 360683.28,
+		"y": 94294.98,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 221253.39,
+		"y": 211164.92,
+		"name": "Earth Anima Vent",
+		"icon": "Earth_Rune.png",
+		"iconSize": [
+			32,
+			32
+		]
+	}
+]

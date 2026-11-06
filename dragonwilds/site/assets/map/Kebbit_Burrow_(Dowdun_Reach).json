@@ -1,0 +1,22 @@
+[
+	{
+		"x": 185303.45,
+		"y": 65320.24,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	},
+	{
+		"x": 260294.9,
+		"y": 27920.498,
+		"name": "Kebbit Burrow",
+		"icon": "Kebbit Burrow icon.png",
+		"iconSize": [
+			50,
+			50
+		]
+	}
+]

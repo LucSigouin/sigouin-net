@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": [
+    "/api/live/*",
+    "/process",
+    "/process/*",
+    "/js/process.js",
+    "/assets/proc/*",
+    "/assets/still/05-ff-crest-cooking-the-lads.webp",
+    "/assets/still/06-ff-ref-james-cook.webp",
+    "/assets/still/07-ff-ref-ladd-mcconkey.webp"
+  ],
+  "exclude": []
+}

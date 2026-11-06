@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "base": "https://sigouin.net/",
+  "checks": [
+    "320–768px layouts, four touch cards, dedicated poster, no 3D asset requests before opt-in",
+    "accessible menu, Escape, section navigation",
+    "explicit 3D opt-in, rack tap opens/closes, waveform tap, fixed desk",
+    "pause, return to still and canvas disposal",
+    "reduced motion remains paused after explicit opt-in",
+    "failed 3D load returns to the still with retry",
+    "retry and graphics-failure teardown",
+    "no-JavaScript image and navigation"
+  ],
+  "errors": [],
+  "stats": {
+    "compact": true,
+    "cables": {
+      "count": 7,
+      "hovered": -1,
+      "clock": 0.7570000000000006,
+      "leads": [
+        {
+          "name": "Network.Lead.00",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            329.17480159831985,
+            323.6876561491446
+          ]
+        },
+        {
+          "name": "Network.Lead.01",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            332.17843292032387,
+            323.79654803835524
+          ]
+        },
+        {
+          "name": "Network.Lead.02",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            335.1870063873098,
+            323.90561908729205
+          ]
+        },
+        {
+          "name": "Network.Lead.03",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            338.20052324016217,
+            324.0148602749438
+          ]
+        },
+        {
+          "name": "Network.Lead.04",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            341.21901412066927,
+            324.1242915158578
+          ]
+        },
+        {
+          "name": "Network.Lead.05",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            344.24247878187504,
+            324.23389775466717
+          ]
+        },
+        {
+          "name": "Network.Lead.SFP",
+          "strength": 0,
+          "maxDisplacement": 0,
+          "pinnedDrift": 0,
+          "screenPoint": [
+            351.35823152090535,
+            308.3777974056097
+          ]
+        }
+      ]
+    },
+    "signal": {
+      "mode": "player",
+      "clock": 0.7570000000000006,
+      "maxDisplacement": 0,
+      "maxBarHeight": 1.675718188304642,
+      "activeBars": 0,
+      "tileHover": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": 45,
+      "instances": 96,
+      "drawCalls": 2,
+      "renderTarget": [
+        1536,
+        256
+      ],
+      "progress": 0.32167832167832167
+    },
+    "tileCenters": [
+      [
+        125.30340413531806,
+        282.19111519805324
+      ],
+      [
+        149.612266523942,
+        282.55851290867946
+      ],
+      [
+        174.11823416942704,
+        282.9288896159764
+      ],
+      [
+        198.8237141340536,
+        283.3022816996461
+      ],
+      [
+        223.7311528339019,
+        283.6787261341734
+      ]
+    ],
+    "rackCenter": [
+      316.11562851088013,
+      332.98009603289114
+    ],
+    "playerCenter": [
+      175.57982747511878,
+      328.54966060563515
+    ],
+    "screenCenter": [
+      167.3792019496683,
+      303.6738629337774
+    ],
+    "workstationRotation": [
+      0,
+      0,
+      0,
+      "XYZ"
+    ],
+    "deskMatrix": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "hasChair": false,
+    "openProgress": 0,
+    "clock": 0.7570000000000006,
+    "idleEmission": [
+      1.6859194045826684
+    ],
+    "visible": true,
+    "paused": false,
+    "drawCalls": 405,
+    "triangles": 734694,
+    "canvasCount": 1,
+    "averageFrameMs": 20.30952380952381,
+    "pixelRatio": 1,
+    "gpu": "Apple GPU",
+    "parts": [
+      {
+        "name": "Rack.Door.Hinge",
+        "position": [
+          0.34299999475479126,
+          0.15000000596046448,
+          0.4740000069141388
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Rack.ServerTray.00",
+        "position": [
+          0,
+          1.1699999570846558,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Rack.ServerTray.01",
+        "position": [
+          0,
+          0.9549999833106995,
+          0
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  }
+}

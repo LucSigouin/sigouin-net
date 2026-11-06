@@ -1,0 +1,102 @@
+[
+	{
+		"x": 216633,
+		"y": 32909,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 219835,
+		"y": 35203,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 211575,
+		"y": 38980,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 218770,
+		"y": 35740,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 241861,
+		"y": 55895,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 239807,
+		"y": 57108,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 257510,
+		"y": 29766,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 227495,
+		"y": 37734,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 227480,
+		"y": 39364,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	},
+	{
+		"x": 249110,
+		"y": 42530,
+		"icon": "Raw_Giant_Krill.png",
+		"iconSize": [
+			40,
+			40
+		],
+		"name": "Net Fishing Spot (Giant Krill)"
+	}
+]

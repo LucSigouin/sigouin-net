@@ -1,0 +1,135 @@
+{
+  "_readme": "Edit this file to change what each building shows. Each entry: title, blurb (one line), url (null = no button yet), image (path under /public or null), exhibit (which object in the room displays it; see README for the list per building).",
+  "buildings": {
+    "computer-lab": {
+      "name": "Computer Lab",
+      "theme": "Gaming projects",
+      "intro": "Games I build and the worlds I run for friends.",
+      "entries": [
+        {
+          "title": "Undergrowth",
+          "blurb": "A tower defence garden you play in the browser. Plant, grow, and hold the keep.",
+          "url": "https://undergrowth.pages.dev/",
+          "image": "/shots/undergrowth.jpg",
+          "exhibit": "monitor-2",
+          "tag": "Tower defence"
+        },
+        {
+          "title": "Dragonwilds Field Guide",
+          "blurb": "Search every item and recipe, and find resources on the Ashenfall world map.",
+          "url": "https://dragonwilds.sigouin.net/",
+          "image": "/shots/dragonwilds.jpg",
+          "exhibit": "monitor-1",
+          "tag": "Field guide"
+        },
+        {
+          "title": "River Garden",
+          "blurb": "A cozy idle game in the browser. Your campers gather and craft while you're away, then you fight your way up the river.",
+          "url": "https://rivergarden.sigouin.net/",
+          "image": "/shots/rivergarden.jpg",
+          "exhibit": "monitor-4",
+          "tag": "Idle game"
+        },
+        {
+          "title": "Ley Woods",
+          "blurb": "A cozy top-down idle game. Walk a wizard through the woods, harvest, build crafters and wire pylons so the base runs itself, even while you're away.",
+          "url": "https://leywoods.sigouin.net/",
+          "image": "/shots/leywoods.jpg",
+          "exhibit": "monitor-5",
+          "tag": "Idle game"
+        },
+        {
+          "title": "Game servers for friends",
+          "blurb": "Dedicated servers I host for the group, set up and backed up automatically.",
+          "url": null,
+          "image": null,
+          "exhibit": "monitor-3"
+        }
+      ]
+    },
+    "music-studio": {
+      "name": "Music Studio",
+      "theme": "Music",
+      "intro": "From the first sound to the final mix.",
+      "entries": [
+        {
+          "title": "SiGz",
+          "blurb": "My electronic music and DJ mixes, streamed from my own site.",
+          "url": "https://sigzmusic.com/",
+          "image": "/shots/sigz.jpg",
+          "exhibit": "mixing-desk"
+        },
+        {
+          "title": "Coming soon",
+          "blurb": "A slot saved for the next project.",
+          "url": null,
+          "image": null,
+          "exhibit": "piano"
+        },
+        {
+          "title": "Coming soon",
+          "blurb": "A slot saved for the next project.",
+          "url": null,
+          "image": null,
+          "exhibit": "guitar-wall"
+        }
+      ]
+    },
+    "office": {
+      "name": "Office",
+      "theme": "Work and infrastructure",
+      "intro": "The systems behind the scenes, built one useful improvement at a time.",
+      "entries": [
+        {
+          "title": "Gardens homelab",
+          "blurb": "Three servers on a private mesh, running media, backups and everything else at home.",
+          "url": null,
+          "image": null,
+          "exhibit": "server-rack"
+        },
+        {
+          "title": "TeeTimes Ottawa",
+          "blurb": "Every free tee time around Ottawa on one map, with a link to book at the course.",
+          "url": "https://teetime.sigouin.net/",
+          "image": "/shots/teetimes.jpg",
+          "exhibit": "whiteboard"
+        },
+        {
+          "title": "RsyncGui",
+          "blurb": "A web app for running and watching rsync backups on Unraid, shipped as a Docker container.",
+          "url": null,
+          "image": null,
+          "exhibit": "desk-1"
+        }
+      ]
+    },
+    "ai-workspace": {
+      "name": "AI Workspace",
+      "theme": "AI projects",
+      "intro": "Tools where models do the heavy lifting and I steer.",
+      "entries": [
+        {
+          "title": "The fleet",
+          "blurb": "How this site gets built: one brief, several AI coders, tests before anything ships.",
+          "url": null,
+          "image": null,
+          "exhibit": "brain"
+        },
+        {
+          "title": "Tripo 3D tool",
+          "blurb": "A small server that lets Claude turn a picture or a sentence into a 3D model.",
+          "url": null,
+          "image": null,
+          "exhibit": "terminal-1"
+        },
+        {
+          "title": "How I work with AI",
+          "blurb": "The full playbook: one lead agent, specialist workers, and a gate that rejects unproven work.",
+          "url": "/ai-prep/",
+          "image": null,
+          "exhibit": "terminal-2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "deployment": "https://3109fb57.sigouin-net.pages.dev",
+  "live_hashes": {
+    "index.html": "5e6123bee1261d0806fa3538083af40c9ae2e8356efdbf64d174993fdc26b530",
+    "vybe/signal.css": "d90ef93a0f4c0e640d52f295be0852067fc835b8b3df27a4ce278a045c22713b"
+  },
+  "checked_viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1045,
+      1014
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "horizontal_overflow": false
+}

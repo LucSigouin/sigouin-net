@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Luc Sigouin · sigouin.net</title>
+    <meta name="description" content="Luc Sigouin's hub: a small courtyard with four buildings for games, music, infrastructure and AI projects." />
+    <meta name="theme-color" content="#1c1a44" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style>
+      /* Boot screen CSS is inline so the gradient paints before any JS arrives. Every animated
+         layer moves by transform only, so it runs on the compositor and stays smooth while the
+         world is built on the main thread. */
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #1c1a44; overscroll-behavior: none; }
+      .boot { position: fixed; inset: 0; z-index: 50; overflow: hidden; background: linear-gradient(155deg, #12123a 0%, #231d57 38%, #4a3182 66%, #a0668f 86%, #f2a98a 100%); transition: opacity 1.1s cubic-bezier(.4,0,.2,1); }
+      .boot.is-done { opacity: 0; pointer-events: none; }
+      .boot-blob { position: absolute; width: 130vmax; height: 130vmax; border-radius: 50%; will-change: transform; }
+      .boot-blob.b1 { right: -62vmax; bottom: -66vmax; background: radial-gradient(closest-side, rgba(255,190,146,.95), rgba(255,176,138,.62) 34%, rgba(246,150,140,.28) 62%, rgba(246,150,140,0) 100%); animation: bootDrift1 23s ease-in-out infinite alternate; }
+      .boot-blob.b2 { left: -40vmax; top: -30vmax; background: radial-gradient(closest-side, rgba(92,64,170,.7), rgba(70,48,150,.36) 50%, rgba(70,48,150,0) 100%); animation: bootDrift2 29s ease-in-out infinite alternate; }
+      .boot-blob.b3 { left: 10vmax; top: 20vmax; width: 90vmax; height: 90vmax; background: radial-gradient(closest-side, rgba(214,120,170,.42), rgba(190,100,170,.18) 55%, rgba(190,100,170,0) 100%); animation: bootDrift3 19s ease-in-out infinite alternate; }
+      .boot-blob.b4 { left: -30vmax; bottom: -80vmax; background: radial-gradient(closest-side, rgba(18,16,58,.85), rgba(18,16,58,.4) 55%, rgba(18,16,58,0) 100%); animation: bootDrift2 34s ease-in-out infinite alternate-reverse; }
+      @keyframes bootDrift1 { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(-9vmax,-7vmax,0) scale(1.08); } }
+      @keyframes bootDrift2 { from { transform: translate3d(0,0,0) rotate(0deg); } to { transform: translate3d(12vmax,8vmax,0) rotate(18deg); } }
+      @keyframes bootDrift3 { from { transform: translate3d(0,0,0) scale(.92); } to { transform: translate3d(-14vmax,-6vmax,0) scale(1.12); } }
+      /* Film grain doubles as dither, so the long gradients never band. */
+      .boot-grain { position: absolute; inset: -60px; opacity: .085; mix-blend-mode: overlay; pointer-events: none; will-change: transform;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1.6 -.3'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)'/%3E%3C/svg%3E");
+        animation: bootGrain .9s steps(6) infinite; }
+      @keyframes bootGrain { 0% { transform: translate3d(0,0,0); } 20% { transform: translate3d(-31px,17px,0); } 40% { transform: translate3d(23px,-29px,0); } 60% { transform: translate3d(-13px,-41px,0); } 80% { transform: translate3d(37px,11px,0); } 100% { transform: translate3d(-7px,29px,0); } }
+      .boot-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(22px, 4.5vh, 40px); }
+      .boot-yard { width: min(88vw, 640px); height: auto; overflow: visible; opacity: 0; animation: bootIn .9s ease .35s forwards; }
+      .boot-yard use { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+      .yard-ghost use { opacity: .16; }
+      /* Ink is a dash the length of each path (pathLength=1); boot.ts walks its offset to 0. */
+      .yard-ink use { stroke-dasharray: 1 1; stroke-dashoffset: 1; filter: drop-shadow(0 0 3px rgba(255,255,255,.35)); }
+      .yard-glow path { opacity: 0; transition: opacity 1.2s ease; }
+      .yard-glow .warm { fill: #ffc690; filter: drop-shadow(0 0 10px rgba(255,170,110,.9)); }
+      .yard-glow .cool { fill: #b9d4ff; filter: drop-shadow(0 0 10px rgba(150,190,255,.85)); }
+      .yard-glow path.is-lit { opacity: .55; }
+      .boot-status { display: flex; gap: 14px; align-items: baseline; margin: 0; font: 500 13px/1 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.82); opacity: 0; animation: bootIn .8s ease .6s forwards; }
+      .boot-pct { min-width: 4ch; font-variant-numeric: tabular-nums; color: rgba(255,255,255,.55); }
+      @keyframes bootIn { to { opacity: 1; transform: none; } }
+      #flash { position: fixed; inset: 0; z-index: 60; background: #fff; opacity: 0; pointer-events: none; }
+      @media (prefers-reduced-motion: reduce) {
+        .boot-blob, .boot-grain { animation: none; }
+        .boot-yard, .boot-status { animation-duration: .01s; animation-delay: 0s; }
+        .yard-glow path { transition: none; }
+        .boot { transition-duration: .3s; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boot" class="boot">
+      <div class="boot-blob b4"></div>
+      <div class="boot-blob b2"></div>
+      <div class="boot-blob b3"></div>
+      <div class="boot-blob b1"></div>
+      <div class="boot-grain"></div>
+      <div class="boot-center">
+        <!-- The courtyard as seen from the gate, inked in as it loads: paths first, then one
+             building per stretch of real progress. Each building lights its windows when done. -->
+        <svg class="boot-yard" viewBox="0 0 600 192" role="progressbar" aria-label="Loading the courtyard" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <defs>
+            <g id="yard-path"><path pathLength="1" d="M0 172 H600" /><path pathLength="1" d="M292 172 L276 192 M308 172 L324 192" /></g>
+            <g id="yard-lab"><path pathLength="1" d="M14 92 H154 V99 H14 Z" /><path pathLength="1" d="M20 99 V172 M148 99 V172 M20 118 H148" /><path pathLength="1" d="M100 92 V86 H112 V92" /><path pathLength="1" d="M62 104 H106 V114 H62 Z" /><path pathLength="1" d="M28 122 H140 V166 H28 Z" /><path pathLength="1" d="M46 122 V166 M64 122 V166 M82 122 V166 M100 122 V166 M118 122 V166" /></g>
+            <g id="yard-studio"><path pathLength="1" d="M160 116 L227 74 L294 116 Z" /><path pathLength="1" d="M172 116 V172 M282 116 V172 M176 128 H278" /><path pathLength="1" d="M200 104 V116 M214 95 V116 M240 95 V116 M254 104 V116" /><path pathLength="1" d="M207 98 H247 V108 H207 Z" /><path pathLength="1" d="M182 136 H204 V160 H182 Z M250 136 H272 V160 H250 Z" /><path pathLength="1" d="M215 172 V140 H239 V172 M227 140 V172" /></g>
+            <g id="yard-office"><path pathLength="1" d="M302 98 H424 V105 H302 Z" /><path pathLength="1" d="M308 105 V172 M418 105 V172 M308 124 H418" /><path pathLength="1" d="M344 110 H382 V119 H344 Z" /><path pathLength="1" d="M319 166 V140 A11 11 0 0 1 341 140 V166 Z" /><path pathLength="1" d="M352 172 V140 A11 11 0 0 1 374 140 V172" /><path pathLength="1" d="M385 166 V140 A11 11 0 0 1 407 140 V166 Z" /></g>
+            <g id="yard-ai"><path pathLength="1" d="M432 92 H586 V98 H432 Z" /><path pathLength="1" d="M436 98 V172 M582 98 V172" /><path pathLength="1" d="M540 92 V84 H566 V92" /><path pathLength="1" d="M484 104 H534 V114 H484 Z" /><path pathLength="1" d="M444 172 V122 H574 V172" /><path pathLength="1" d="M470 122 V172 M496 122 V172 M522 122 V172 M548 122 V172" /></g>
+          </defs>
+          <g class="yard-glow">
+            <path class="warm" data-step="1" d="M28 122 H140 V166 H28 Z" />
+            <path class="warm" data-step="2" d="M182 136 H204 V160 H182 Z M250 136 H272 V160 H250 Z M215 172 V140 H239 V172 Z" />
+            <path class="warm" data-step="3" d="M319 166 V140 A11 11 0 0 1 341 140 V166 Z M352 172 V140 A11 11 0 0 1 374 140 V172 Z M385 166 V140 A11 11 0 0 1 407 140 V166 Z" />
+            <path class="cool" data-step="4" d="M444 122 H574 V172 H444 Z" />
+          </g>
+          <g class="yard-ghost"><use href="#yard-path" /><use href="#yard-lab" /><use href="#yard-studio" /><use href="#yard-office" /><use href="#yard-ai" /></g>
+          <g class="yard-ink"><use href="#yard-path" /><use href="#yard-lab" /><use href="#yard-studio" /><use href="#yard-office" /><use href="#yard-ai" /></g>
+        </svg>
+        <p class="boot-status"><span class="boot-step">Laying the paths</span><span class="boot-pct">0%</span></p>
+      </div>
+    </div>
+    <div id="flash"></div>
+
+    <canvas id="world" aria-label="A 3D courtyard with four buildings: Computer Lab, Music Studio, Office and AI Workspace. The same projects are listed as plain links on this page."></canvas>
+    <div id="ui"></div>
+
+    <main id="links" class="links is-hidden">
+      <!--STATIC_LINKS-->
+    </main>
+    <noscript><style>#links { position: fixed !important; inset: 0; clip: auto !important; width: auto !important; height: auto !important; overflow: auto !important; } .boot { display: none; }</style></noscript>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

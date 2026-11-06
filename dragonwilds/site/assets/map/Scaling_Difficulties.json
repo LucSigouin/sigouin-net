@@ -1,0 +1,27 @@
+[
+	{
+		"x": 270690.3,
+		"y": 213180.2,
+		"name": "The Radiant - Lesser Red Dragon",
+		"icon": "Red_Dragon.png",
+		"iconSize": [
+			32,
+			32
+		]
+	},
+	{
+		"x": 248867.2,
+		"y": 201643.2,
+		"name": "Dead Garou Scout"
+	},
+	{
+		"x": 251153,
+		"y": 206210.4,
+		"name": "Dead Garou Scout"
+	},
+	{
+		"x": 252845.4,
+		"y": 199549.8,
+		"name": "Scorch Marks"
+	}
+]
