@@ -1,7 +1,0 @@
-{
-  "command": "/Users/ls/Claude-Workspace/personal/sigouin-net/deploy/verify-live.sh https://sigouin.net /Users/ls/Claude-Workspace/personal/sigouin-net/site",
-  "started_utc": "2026-09-17T15:43:36.442414+00:00",
-  "completed_utc": "2026-09-17T15:43:46.643699+00:00",
-  "duration_seconds": 10.201,
-  "exit_code": 0
-}

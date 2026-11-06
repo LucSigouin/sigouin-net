@@ -1,9 +1,0 @@
-{
-  "command": [
-    "cnvsctl",
-    "done",
-    "Round 16 live: 83b9e0f7; verify-live exit 0; ten exhibits; all four deleted assets return 404."
-  ],
-  "completed_utc": "2026-09-17T15:49:03.135436+00:00",
-  "exit_code": 0
-}

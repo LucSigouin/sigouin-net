@@ -1,1 +1,0 @@
-red-proof: 2026-09-02T20:42:45Z check-r7.py with empty worker dir -> exit 1

@@ -1,1 +1,0 @@
-red-proof: 2026-09-02T23:47:36Z check-r11.py on untouched copy -> exit 1

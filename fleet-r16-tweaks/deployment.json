@@ -1,9 +1,0 @@
-{
-  "command": "CONFIRM_DEPLOY=1 /Users/ls/Claude-Workspace/personal/sigouin-net/deploy/deploy.sh",
-  "started_utc": "2026-09-17T15:43:09.810398+00:00",
-  "completed_utc": "2026-09-17T15:43:21.301335+00:00",
-  "duration_seconds": 11.491,
-  "exit_code": 0,
-  "deployment_id": "83b9e0f7",
-  "pages_url": "https://83b9e0f7.sigouin-net.pages.dev"
-}

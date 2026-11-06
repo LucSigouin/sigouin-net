@@ -1,1 +1,0 @@
-red-proof: 2026-09-02T20:14:21Z check-r7.py on current build (folio present, no worker report) -> exit 1

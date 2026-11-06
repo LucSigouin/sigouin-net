@@ -1,9 +1,0 @@
-// 94766d12ab05ad1adab19fa989bb11ec1411825c
-"use strict";
-
-module.exports = {
-  ...require('./review.config.cjs'),
-  testMatch: /deep\.spec\.cjs/,
-  outputDir: __dirname + '/deep-results'
-};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJtb2R1bGUiLCJleHBvcnRzIiwicmVxdWlyZSIsInRlc3RNYXRjaCIsIm91dHB1dERpciIsIl9fZGlybmFtZSJdLCJzb3VyY2VzIjpbImRlZXAuY29uZmlnLmNqcyJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cz17Li4ucmVxdWlyZSgnLi9yZXZpZXcuY29uZmlnLmNqcycpLHRlc3RNYXRjaDovZGVlcFxcLnNwZWNcXC5janMvLG91dHB1dERpcjpfX2Rpcm5hbWUrJy9kZWVwLXJlc3VsdHMnfTtcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQUEsTUFBTSxDQUFDQyxPQUFPLEdBQUM7RUFBQyxHQUFHQyxPQUFPLENBQUMscUJBQXFCLENBQUM7RUFBQ0MsU0FBUyxFQUFDLGlCQUFpQjtFQUFDQyxTQUFTLEVBQUNDLFNBQVMsR0FBQztBQUFlLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

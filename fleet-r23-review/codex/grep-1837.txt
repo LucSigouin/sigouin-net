@@ -1,2 +1,0 @@
-COMMAND: ['rg', '-n', '(^|[\\x22\\x27/])hub\\.js', 'site', '-g', '*.html', '-g', '*.js', '-g', '*.css', '-g', '!vendor/**']
-EXIT: 1

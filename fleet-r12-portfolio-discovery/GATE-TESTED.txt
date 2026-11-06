@@ -1,1 +1,0 @@
-red-proof: 2026-09-17T13:09:11Z check-lane.py: empty lane -> exit 1; em dash mutant -> exit 1; state=working mutant -> exit 1; passing fixture -> exit 0 (fixture left in /tmp/claude-501/r12-gate-fixture-1789650551)

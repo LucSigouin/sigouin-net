@@ -1,9 +1,0 @@
-// cdf311d5be3da972d6d2d171f68765a7f6555754
-"use strict";
-
-module.exports = {
-  ...require('./review.config.cjs'),
-  testMatch: /rooms\.spec\.cjs/,
-  outputDir: __dirname + '/rooms-results'
-};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJtb2R1bGUiLCJleHBvcnRzIiwicmVxdWlyZSIsInRlc3RNYXRjaCIsIm91dHB1dERpciIsIl9fZGlybmFtZSJdLCJzb3VyY2VzIjpbInJvb21zLmNvbmZpZy5janMiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHM9ey4uLnJlcXVpcmUoJy4vcmV2aWV3LmNvbmZpZy5janMnKSx0ZXN0TWF0Y2g6L3Jvb21zXFwuc3BlY1xcLmNqcy8sb3V0cHV0RGlyOl9fZGlybmFtZSsnL3Jvb21zLXJlc3VsdHMnfTtcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQUEsTUFBTSxDQUFDQyxPQUFPLEdBQUM7RUFBQyxHQUFHQyxPQUFPLENBQUMscUJBQXFCLENBQUM7RUFBQ0MsU0FBUyxFQUFDLGtCQUFrQjtFQUFDQyxTQUFTLEVBQUNDLFNBQVMsR0FBQztBQUFnQixDQUFDIiwiaWdub3JlTGlzdCI6W119
